@@ -2,13 +2,13 @@
 <konrad3d data_model_name="KONRAD3D" data_model_version="1.7">
 	<head>
 		<metadata>
-			<reference_time format="ISO 8601">2026-09-07T03:20:00Z</reference_time>
+			<reference_time format="ISO 8601">2026-09-07T04:20:00Z</reference_time>
 			<ensemble_member_id>0</ensemble_member_id>
 		</metadata>
 		<product>
 			<system>KONRAD3D</system>
 			<title>Detection and tracking of convective cells at DWD</title>
-			<creation-date>2026-09-07T03:24:51Z</creation-date>
+			<creation-date>2026-09-07T04:24:36Z</creation-date>
 			<run>
 				<name>konrad3d_1.8</name>
 				<description>KONRAD3D 1.8 Operational</description>
@@ -55,7 +55,7 @@
 			<radar>
 				<source>Zh</source>
 				<type>quality assured radar data</type>
-				<init_time>20260907_0320</init_time>
+				<init_time>20260907_0420</init_time>
 				<available_sweeps>
 					<elevations site="asb">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
 					<elevations site="boo">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
@@ -78,5 +78,5 @@
 			</radar>
 		</data>
 	</head>
-	<cells reference_time="2026-09-07T03:20:00Z" ensemble_member_id="0"/>
+	<cells reference_time="2026-09-07T04:20:00Z" ensemble_member_id="0"/>
 </konrad3d>
