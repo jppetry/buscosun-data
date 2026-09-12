@@ -7,6 +7,20 @@
   "startedAt": "2026-09-12T15:34:25.057Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "DE1200_RV2609122005.tar.bz2",
+      "slot": "2026-09-12T20:05:00.000Z",
+      "dwdAt": "2026-09-12T20:08:17.000Z",
+      "seenAt": "2026-09-12T20:08:23.171Z",
+      "bytes": 921049,
+      "downloadMs": 1131,
+      "deriveMs": 1543,
+      "imgBytes": 1125307,
+      "pushedAt": "2026-09-12T20:08:28.298Z",
+      "pushMs": 1755,
+      "attempt": 1
+    },
+    {
       "product": "inca",
       "stamp": "20260912T1945",
       "reftime": "2026-09-12T19:45+00:00",
@@ -297,21 +311,7 @@
       "pushedAt": "2026-09-12T19:35:01.705Z",
       "pushMs": 980,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "DE1200_RV2609121930.tar.bz2",
-      "slot": "2026-09-12T19:30:00.000Z",
-      "dwdAt": "2026-09-12T19:33:30.000Z",
-      "seenAt": "2026-09-12T19:33:34.877Z",
-      "bytes": 856455,
-      "downloadMs": 1418,
-      "deriveMs": 1634,
-      "imgBytes": 1043286,
-      "pushedAt": "2026-09-12T19:33:40.029Z",
-      "pushMs": 1398,
-      "attempt": 1
     }
   ],
-  "updatedAt": "2026-09-12T20:08:26.215Z"
+  "updatedAt": "2026-09-12T20:10:01.312Z"
 }
