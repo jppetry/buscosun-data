@@ -1,8 +1,8 @@
 {
   "schema": 4,
-  "commit": "18489cecef39a79f16015c6d5d4d93010a13a493",
+  "commit": null,
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
-  "publishedAt": "2026-09-12T16:21:29.144Z",
+  "publishedAt": "2026-09-12T19:52:08.156Z",
   "retentionHours": 24,
   "minRuns": 2,
   "retentionByTier": {
@@ -12,15 +12,15 @@
   },
   "latestByTier": {
     "t1": {
-      "run": "2026091212",
-      "runAt": "2026-09-12T12:00:00Z",
-      "path": "point/2026091212",
-      "manifest": "point/2026091212/run.json",
-      "sourceRun": "2026091212",
-      "sourceRunAt": "2026-09-12T12:00:00Z",
+      "run": "2026091218",
+      "runAt": "2026-09-12T18:00:00Z",
+      "path": "point/2026091218",
+      "manifest": "point/2026091218/run.json",
+      "sourceRun": "2026091218",
+      "sourceRunAt": "2026-09-12T18:00:00Z",
       "ageH": 0,
       "files": 208,
-      "bytes": 80265974
+      "bytes": 77016524
     },
     "t2": {
       "run": "2026091212",
@@ -767,6 +767,35 @@
   ],
   "runs": [
     {
+      "run": "2026091218",
+      "runAt": "2026-09-12T18:00:00Z",
+      "path": "point/2026091218",
+      "tiers": [
+        "t1"
+      ],
+      "sources": [
+        "icon_d2",
+        "icon_d2_eps",
+        "icon_ch1_eps",
+        "claef",
+        "claef_eps",
+        "icon_eu",
+        "ifs_hres",
+        "aifs_single"
+      ],
+      "bytes": 77071977,
+      "tierRuns": [
+        {
+          "id": "t1",
+          "run": "2026091218",
+          "runAt": "2026-09-12T18:00:00Z",
+          "ageH": 0,
+          "files": 208,
+          "bytes": 77016524
+        }
+      ]
+    },
+    {
       "run": "2026091212",
       "runAt": "2026-09-12T12:00:00Z",
       "path": "point/2026091212",
@@ -831,19 +860,10 @@
       "runAt": "2026-09-12T00:00:00Z",
       "path": "point/2026091200",
       "tiers": [
-        "t1",
         "t2",
         "t3"
       ],
       "sources": [
-        "icon_d2",
-        "icon_d2_eps",
-        "icon_ch1_eps",
-        "claef",
-        "claef_eps",
-        "icon_eu",
-        "ifs_hres",
-        "aifs_single",
         "icon_eu",
         "icon_eu_eps",
         "icon_ch2_eps",
@@ -858,16 +878,8 @@
         "ifs_ens",
         "aifs_single"
       ],
-      "bytes": 87910967,
+      "bytes": 8308209,
       "tierRuns": [
-        {
-          "id": "t1",
-          "run": "2026091200",
-          "runAt": "2026-09-12T00:00:00Z",
-          "ageH": 0,
-          "files": 208,
-          "bytes": 79560972
-        },
         {
           "id": "t2",
           "run": "2026091200",
@@ -883,34 +895,6 @@
           "ageH": 0,
           "files": 12,
           "bytes": 1421538
-        }
-      ]
-    },
-    {
-      "run": "2026091118",
-      "runAt": "2026-09-11T18:00:00Z",
-      "path": "point/2026091118",
-      "tiers": [
-        "t2"
-      ],
-      "sources": [
-        "icon_eu",
-        "icon_eu_eps",
-        "icon_ch2_eps",
-        "icon_global",
-        "aicon",
-        "ifs_hres",
-        "aifs_single"
-      ],
-      "bytes": 6853523,
-      "tierRuns": [
-        {
-          "id": "t2",
-          "run": "2026091118",
-          "runAt": "2026-09-11T18:00:00Z",
-          "ageH": 0,
-          "files": 56,
-          "bytes": 6823999
         }
       ]
     }
