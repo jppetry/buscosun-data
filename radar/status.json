@@ -7,6 +7,17 @@
   "startedAt": "2026-09-12T15:34:25.057Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20260912T1945",
+      "asset": "rzc262551945vl.001.h5",
+      "bytes": 31960,
+      "downloadMs": 393,
+      "deriveMs": 306,
+      "imgBytes": 1845,
+      "pushedAt": "2026-09-12T19:45:58.717Z",
+      "pushMs": 931
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20260912T194000.xml",
       "slot": "2026-09-12T19:40:00.000Z",
@@ -300,21 +311,7 @@
       "imgBytes": 1695,
       "pushedAt": "2026-09-12T19:11:31.368Z",
       "pushMs": 965
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20260912T190500.xml",
-      "slot": "2026-09-12T19:05:00.000Z",
-      "dwdAt": "2026-09-12T19:10:08.000Z",
-      "seenAt": "2026-09-12T19:10:18.288Z",
-      "bytes": 3891,
-      "downloadMs": 498,
-      "deriveMs": 207,
-      "imgBytes": 92,
-      "pushedAt": "2026-09-12T19:10:20.486Z",
-      "pushMs": 902,
-      "attempt": 1
     }
   ],
-  "updatedAt": "2026-09-12T19:45:57.558Z"
+  "updatedAt": "2026-09-12T19:48:18.456Z"
 }
