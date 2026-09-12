@@ -7,6 +7,20 @@
   "startedAt": "2026-09-12T15:34:25.057Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "DE1200_RV2609122030.tar.bz2",
+      "slot": "2026-09-12T20:30:00.000Z",
+      "dwdAt": "2026-09-12T20:33:24.000Z",
+      "seenAt": "2026-09-12T20:33:27.642Z",
+      "bytes": 934801,
+      "downloadMs": 1130,
+      "deriveMs": 1669,
+      "imgBytes": 1148080,
+      "pushedAt": "2026-09-12T20:33:32.547Z",
+      "pushMs": 1470,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20260912T2030",
       "asset": "rzc262552030vl.001.h5",
@@ -300,18 +314,7 @@
       "pushedAt": "2026-09-12T19:58:30.106Z",
       "pushMs": 1456,
       "attempt": 1
-    },
-    {
-      "product": "rzc",
-      "stamp": "20260912T1955",
-      "asset": "rzc262551955vl.001.h5",
-      "bytes": 31984,
-      "downloadMs": 401,
-      "deriveMs": 303,
-      "imgBytes": 1840,
-      "pushedAt": "2026-09-12T19:56:16.616Z",
-      "pushMs": 1025
     }
   ],
-  "updatedAt": "2026-09-12T20:33:30.809Z"
+  "updatedAt": "2026-09-12T20:34:56.271Z"
 }
