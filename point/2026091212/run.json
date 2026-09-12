@@ -1,0 +1,3376 @@
+{
+  "schema": 4,
+  "run": "2026091212",
+  "runAt": "2026-09-12T12:00:00Z",
+  "tiers": [
+    {
+      "id": "t1",
+      "deg": 0.05,
+      "lat0": 45.5,
+      "lon0": 5.5,
+      "ny": 201,
+      "nx": 241,
+      "chunk": {
+        "cells": 16,
+        "cy": 13,
+        "cx": 16
+      },
+      "run": "2026091212",
+      "runAt": "2026-09-12T12:00:00Z",
+      "ageH": 0,
+      "leadHours": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "files": [
+        {
+          "file": "point/2026091212/t1/00_00.bin",
+          "bytes": 506447,
+          "cy": 0,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/00_01.bin",
+          "bytes": 528011,
+          "cy": 0,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/00_02.bin",
+          "bytes": 540956,
+          "cy": 0,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/00_03.bin",
+          "bytes": 531598,
+          "cy": 0,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/00_04.bin",
+          "bytes": 517774,
+          "cy": 0,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/00_05.bin",
+          "bytes": 520817,
+          "cy": 0,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/00_06.bin",
+          "bytes": 537062,
+          "cy": 0,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/00_07.bin",
+          "bytes": 519586,
+          "cy": 0,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/00_08.bin",
+          "bytes": 501300,
+          "cy": 0,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/00_09.bin",
+          "bytes": 466362,
+          "cy": 0,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/00_10.bin",
+          "bytes": 513570,
+          "cy": 0,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/00_11.bin",
+          "bytes": 515289,
+          "cy": 0,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/00_12.bin",
+          "bytes": 506183,
+          "cy": 0,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/00_13.bin",
+          "bytes": 492035,
+          "cy": 0,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/00_14.bin",
+          "bytes": 490441,
+          "cy": 0,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/00_15.bin",
+          "bytes": 38177,
+          "cy": 0,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/01_00.bin",
+          "bytes": 507691,
+          "cy": 1,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/01_01.bin",
+          "bytes": 515721,
+          "cy": 1,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/01_02.bin",
+          "bytes": 524390,
+          "cy": 1,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/01_03.bin",
+          "bytes": 549994,
+          "cy": 1,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/01_04.bin",
+          "bytes": 548873,
+          "cy": 1,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/01_05.bin",
+          "bytes": 540805,
+          "cy": 1,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/01_06.bin",
+          "bytes": 547766,
+          "cy": 1,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/01_07.bin",
+          "bytes": 541611,
+          "cy": 1,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/01_08.bin",
+          "bytes": 542506,
+          "cy": 1,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/01_09.bin",
+          "bytes": 540169,
+          "cy": 1,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/01_10.bin",
+          "bytes": 534697,
+          "cy": 1,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/01_11.bin",
+          "bytes": 538562,
+          "cy": 1,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/01_12.bin",
+          "bytes": 517905,
+          "cy": 1,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/01_13.bin",
+          "bytes": 490505,
+          "cy": 1,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/01_14.bin",
+          "bytes": 499710,
+          "cy": 1,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/01_15.bin",
+          "bytes": 38333,
+          "cy": 1,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/02_00.bin",
+          "bytes": 485302,
+          "cy": 2,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/02_01.bin",
+          "bytes": 503028,
+          "cy": 2,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/02_02.bin",
+          "bytes": 513228,
+          "cy": 2,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/02_03.bin",
+          "bytes": 518235,
+          "cy": 2,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/02_04.bin",
+          "bytes": 518688,
+          "cy": 2,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/02_05.bin",
+          "bytes": 528966,
+          "cy": 2,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/02_06.bin",
+          "bytes": 537019,
+          "cy": 2,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/02_07.bin",
+          "bytes": 543864,
+          "cy": 2,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/02_08.bin",
+          "bytes": 545190,
+          "cy": 2,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/02_09.bin",
+          "bytes": 551452,
+          "cy": 2,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/02_10.bin",
+          "bytes": 551486,
+          "cy": 2,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/02_11.bin",
+          "bytes": 549753,
+          "cy": 2,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/02_12.bin",
+          "bytes": 540524,
+          "cy": 2,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/02_13.bin",
+          "bytes": 524527,
+          "cy": 2,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/02_14.bin",
+          "bytes": 485233,
+          "cy": 2,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/02_15.bin",
+          "bytes": 38030,
+          "cy": 2,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/03_00.bin",
+          "bytes": 497319,
+          "cy": 3,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/03_01.bin",
+          "bytes": 504023,
+          "cy": 3,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/03_02.bin",
+          "bytes": 529599,
+          "cy": 3,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/03_03.bin",
+          "bytes": 528006,
+          "cy": 3,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/03_04.bin",
+          "bytes": 513829,
+          "cy": 3,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/03_05.bin",
+          "bytes": 506852,
+          "cy": 3,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/03_06.bin",
+          "bytes": 501414,
+          "cy": 3,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/03_07.bin",
+          "bytes": 495274,
+          "cy": 3,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/03_08.bin",
+          "bytes": 496747,
+          "cy": 3,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/03_09.bin",
+          "bytes": 503823,
+          "cy": 3,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/03_10.bin",
+          "bytes": 519325,
+          "cy": 3,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/03_11.bin",
+          "bytes": 519693,
+          "cy": 3,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/03_12.bin",
+          "bytes": 527748,
+          "cy": 3,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/03_13.bin",
+          "bytes": 514646,
+          "cy": 3,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/03_14.bin",
+          "bytes": 504411,
+          "cy": 3,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/03_15.bin",
+          "bytes": 38457,
+          "cy": 3,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/04_00.bin",
+          "bytes": 503134,
+          "cy": 4,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/04_01.bin",
+          "bytes": 492918,
+          "cy": 4,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/04_02.bin",
+          "bytes": 493997,
+          "cy": 4,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/04_03.bin",
+          "bytes": 511671,
+          "cy": 4,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/04_04.bin",
+          "bytes": 509285,
+          "cy": 4,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/04_05.bin",
+          "bytes": 506090,
+          "cy": 4,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/04_06.bin",
+          "bytes": 501373,
+          "cy": 4,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/04_07.bin",
+          "bytes": 503742,
+          "cy": 4,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/04_08.bin",
+          "bytes": 509341,
+          "cy": 4,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/04_09.bin",
+          "bytes": 530705,
+          "cy": 4,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/04_10.bin",
+          "bytes": 528910,
+          "cy": 4,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/04_11.bin",
+          "bytes": 510461,
+          "cy": 4,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/04_12.bin",
+          "bytes": 507915,
+          "cy": 4,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/04_13.bin",
+          "bytes": 510443,
+          "cy": 4,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/04_14.bin",
+          "bytes": 506108,
+          "cy": 4,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/04_15.bin",
+          "bytes": 38280,
+          "cy": 4,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/05_00.bin",
+          "bytes": 497615,
+          "cy": 5,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/05_01.bin",
+          "bytes": 514181,
+          "cy": 5,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/05_02.bin",
+          "bytes": 518730,
+          "cy": 5,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/05_03.bin",
+          "bytes": 513205,
+          "cy": 5,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/05_04.bin",
+          "bytes": 511974,
+          "cy": 5,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/05_05.bin",
+          "bytes": 506408,
+          "cy": 5,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/05_06.bin",
+          "bytes": 503500,
+          "cy": 5,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/05_07.bin",
+          "bytes": 505303,
+          "cy": 5,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/05_08.bin",
+          "bytes": 512221,
+          "cy": 5,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/05_09.bin",
+          "bytes": 514977,
+          "cy": 5,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/05_10.bin",
+          "bytes": 514116,
+          "cy": 5,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/05_11.bin",
+          "bytes": 504534,
+          "cy": 5,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/05_12.bin",
+          "bytes": 495739,
+          "cy": 5,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/05_13.bin",
+          "bytes": 507602,
+          "cy": 5,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/05_14.bin",
+          "bytes": 527853,
+          "cy": 5,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/05_15.bin",
+          "bytes": 38514,
+          "cy": 5,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/06_00.bin",
+          "bytes": 496077,
+          "cy": 6,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/06_01.bin",
+          "bytes": 500851,
+          "cy": 6,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/06_02.bin",
+          "bytes": 502846,
+          "cy": 6,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/06_03.bin",
+          "bytes": 505760,
+          "cy": 6,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/06_04.bin",
+          "bytes": 506507,
+          "cy": 6,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/06_05.bin",
+          "bytes": 514514,
+          "cy": 6,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/06_06.bin",
+          "bytes": 507220,
+          "cy": 6,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/06_07.bin",
+          "bytes": 505263,
+          "cy": 6,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/06_08.bin",
+          "bytes": 492771,
+          "cy": 6,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/06_09.bin",
+          "bytes": 506402,
+          "cy": 6,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/06_10.bin",
+          "bytes": 510198,
+          "cy": 6,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/06_11.bin",
+          "bytes": 497825,
+          "cy": 6,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/06_12.bin",
+          "bytes": 510640,
+          "cy": 6,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/06_13.bin",
+          "bytes": 514871,
+          "cy": 6,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/06_14.bin",
+          "bytes": 501205,
+          "cy": 6,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/06_15.bin",
+          "bytes": 38343,
+          "cy": 6,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/07_00.bin",
+          "bytes": 380268,
+          "cy": 7,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/07_01.bin",
+          "bytes": 392528,
+          "cy": 7,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/07_02.bin",
+          "bytes": 401832,
+          "cy": 7,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/07_03.bin",
+          "bytes": 405840,
+          "cy": 7,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/07_04.bin",
+          "bytes": 414083,
+          "cy": 7,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/07_05.bin",
+          "bytes": 420746,
+          "cy": 7,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/07_06.bin",
+          "bytes": 418769,
+          "cy": 7,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/07_07.bin",
+          "bytes": 409703,
+          "cy": 7,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/07_08.bin",
+          "bytes": 387444,
+          "cy": 7,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/07_09.bin",
+          "bytes": 393291,
+          "cy": 7,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/07_10.bin",
+          "bytes": 396301,
+          "cy": 7,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/07_11.bin",
+          "bytes": 389829,
+          "cy": 7,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/07_12.bin",
+          "bytes": 391188,
+          "cy": 7,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/07_13.bin",
+          "bytes": 395620,
+          "cy": 7,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/07_14.bin",
+          "bytes": 392719,
+          "cy": 7,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/07_15.bin",
+          "bytes": 32234,
+          "cy": 7,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/08_00.bin",
+          "bytes": 294795,
+          "cy": 8,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/08_01.bin",
+          "bytes": 290774,
+          "cy": 8,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/08_02.bin",
+          "bytes": 297890,
+          "cy": 8,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/08_03.bin",
+          "bytes": 303169,
+          "cy": 8,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/08_04.bin",
+          "bytes": 309218,
+          "cy": 8,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/08_05.bin",
+          "bytes": 304699,
+          "cy": 8,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/08_06.bin",
+          "bytes": 301865,
+          "cy": 8,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/08_07.bin",
+          "bytes": 298204,
+          "cy": 8,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/08_08.bin",
+          "bytes": 293209,
+          "cy": 8,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/08_09.bin",
+          "bytes": 292636,
+          "cy": 8,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/08_10.bin",
+          "bytes": 293471,
+          "cy": 8,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/08_11.bin",
+          "bytes": 293402,
+          "cy": 8,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/08_12.bin",
+          "bytes": 294015,
+          "cy": 8,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/08_13.bin",
+          "bytes": 292875,
+          "cy": 8,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/08_14.bin",
+          "bytes": 292678,
+          "cy": 8,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/08_15.bin",
+          "bytes": 24055,
+          "cy": 8,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/09_00.bin",
+          "bytes": 295922,
+          "cy": 9,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/09_01.bin",
+          "bytes": 288766,
+          "cy": 9,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/09_02.bin",
+          "bytes": 285857,
+          "cy": 9,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/09_03.bin",
+          "bytes": 291356,
+          "cy": 9,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/09_04.bin",
+          "bytes": 293963,
+          "cy": 9,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/09_05.bin",
+          "bytes": 302087,
+          "cy": 9,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/09_06.bin",
+          "bytes": 299685,
+          "cy": 9,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/09_07.bin",
+          "bytes": 292789,
+          "cy": 9,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/09_08.bin",
+          "bytes": 292720,
+          "cy": 9,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/09_09.bin",
+          "bytes": 294092,
+          "cy": 9,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/09_10.bin",
+          "bytes": 298944,
+          "cy": 9,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/09_11.bin",
+          "bytes": 299161,
+          "cy": 9,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/09_12.bin",
+          "bytes": 293113,
+          "cy": 9,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/09_13.bin",
+          "bytes": 290550,
+          "cy": 9,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/09_14.bin",
+          "bytes": 289452,
+          "cy": 9,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/09_15.bin",
+          "bytes": 23853,
+          "cy": 9,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/10_00.bin",
+          "bytes": 264514,
+          "cy": 10,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/10_01.bin",
+          "bytes": 272429,
+          "cy": 10,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/10_02.bin",
+          "bytes": 281067,
+          "cy": 10,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/10_03.bin",
+          "bytes": 293762,
+          "cy": 10,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/10_04.bin",
+          "bytes": 300988,
+          "cy": 10,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/10_05.bin",
+          "bytes": 294475,
+          "cy": 10,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/10_06.bin",
+          "bytes": 298512,
+          "cy": 10,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/10_07.bin",
+          "bytes": 301277,
+          "cy": 10,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/10_08.bin",
+          "bytes": 296840,
+          "cy": 10,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/10_09.bin",
+          "bytes": 294133,
+          "cy": 10,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/10_10.bin",
+          "bytes": 299724,
+          "cy": 10,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/10_11.bin",
+          "bytes": 296414,
+          "cy": 10,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/10_12.bin",
+          "bytes": 293091,
+          "cy": 10,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/10_13.bin",
+          "bytes": 292870,
+          "cy": 10,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/10_14.bin",
+          "bytes": 289878,
+          "cy": 10,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/10_15.bin",
+          "bytes": 23691,
+          "cy": 10,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/11_00.bin",
+          "bytes": 254222,
+          "cy": 11,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/11_01.bin",
+          "bytes": 257088,
+          "cy": 11,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/11_02.bin",
+          "bytes": 260724,
+          "cy": 11,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/11_03.bin",
+          "bytes": 285213,
+          "cy": 11,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/11_04.bin",
+          "bytes": 293484,
+          "cy": 11,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/11_05.bin",
+          "bytes": 298279,
+          "cy": 11,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/11_06.bin",
+          "bytes": 297476,
+          "cy": 11,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/11_07.bin",
+          "bytes": 292975,
+          "cy": 11,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/11_08.bin",
+          "bytes": 293164,
+          "cy": 11,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/11_09.bin",
+          "bytes": 282526,
+          "cy": 11,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/11_10.bin",
+          "bytes": 277336,
+          "cy": 11,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/11_11.bin",
+          "bytes": 264388,
+          "cy": 11,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/11_12.bin",
+          "bytes": 261142,
+          "cy": 11,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/11_13.bin",
+          "bytes": 272144,
+          "cy": 11,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/11_14.bin",
+          "bytes": 286349,
+          "cy": 11,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/11_15.bin",
+          "bytes": 24452,
+          "cy": 11,
+          "cx": 15
+        },
+        {
+          "file": "point/2026091212/t1/12_00.bin",
+          "bytes": 148120,
+          "cy": 12,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t1/12_01.bin",
+          "bytes": 151923,
+          "cy": 12,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t1/12_02.bin",
+          "bytes": 152756,
+          "cy": 12,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t1/12_03.bin",
+          "bytes": 168574,
+          "cy": 12,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t1/12_04.bin",
+          "bytes": 168577,
+          "cy": 12,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t1/12_05.bin",
+          "bytes": 174772,
+          "cy": 12,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t1/12_06.bin",
+          "bytes": 175160,
+          "cy": 12,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t1/12_07.bin",
+          "bytes": 171459,
+          "cy": 12,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t1/12_08.bin",
+          "bytes": 171694,
+          "cy": 12,
+          "cx": 8
+        },
+        {
+          "file": "point/2026091212/t1/12_09.bin",
+          "bytes": 164085,
+          "cy": 12,
+          "cx": 9
+        },
+        {
+          "file": "point/2026091212/t1/12_10.bin",
+          "bytes": 161931,
+          "cy": 12,
+          "cx": 10
+        },
+        {
+          "file": "point/2026091212/t1/12_11.bin",
+          "bytes": 169064,
+          "cy": 12,
+          "cx": 11
+        },
+        {
+          "file": "point/2026091212/t1/12_12.bin",
+          "bytes": 154914,
+          "cy": 12,
+          "cx": 12
+        },
+        {
+          "file": "point/2026091212/t1/12_13.bin",
+          "bytes": 145322,
+          "cy": 12,
+          "cx": 13
+        },
+        {
+          "file": "point/2026091212/t1/12_14.bin",
+          "bytes": 145070,
+          "cy": 12,
+          "cx": 14
+        },
+        {
+          "file": "point/2026091212/t1/12_15.bin",
+          "bytes": 13591,
+          "cy": 12,
+          "cx": 15
+        }
+      ],
+      "quantiles": {
+        "source": "claef_eps",
+        "run": "2026091209",
+        "vars": [
+          "t2m",
+          "u10",
+          "v10",
+          "gust",
+          "precip",
+          "clct",
+          "snowlmt"
+        ],
+        "levels": [
+          "q10",
+          "q90"
+        ],
+        "steps": 49,
+        "missing": 0,
+        "cellsWritten": 19839120,
+        "provenance": "single-source",
+        "note": "Liefert nur P10/P50/P90, keine Member (⚠³). Der p50 ist derselbe Modelllauf wie claef, deshalb geht diese Quelle NICHT ins Mittel — sonst schrumpfte σ_div, genau wie bei den ECMWF-Kontrolllaeufen (V-PD-9). Die Quantile stehen als eigene Ebenen, weil (p90-p10)/2,563 Normalverteilung voraussetzt: an einer nassen Zelle gemessen p10 = 0,000 mm bei p90 = 0,619 mm — ein daraus gebildetes σ ergaebe negativen Niederschlag.",
+        "caveat": "Quantile beschreiben die Unsicherheit EINER Quelle, nicht die Uneinigkeit mehrerer. NICHT mit _sd oder _sd_ens verrechnen."
+      },
+      "ensemble": {
+        "sources": [
+          {
+            "id": "icon_d2_eps",
+            "run": "2026091212",
+            "hours": [
+              0,
+              6,
+              12,
+              18,
+              24,
+              30,
+              36,
+              42,
+              48
+            ],
+            "vars": [
+              "t2m",
+              "u10",
+              "v10",
+              "gust",
+              "precip"
+            ],
+            "stepH": 6,
+            "membersDeclared": 20,
+            "membersRead": 20,
+            "membersMin": 20,
+            "clampedNegativeRates": 47739,
+            "noRate": 1,
+            "errors": 0,
+            "note": "20 Member, gebündelt in EINER Datei je (Größe, Schritt) — eine Teilmenge ist nicht abrufbar (bz2). Traegt NICHTS zum Mittel bei: das Ensemble-Mittel ist derselbe Modelllauf wie der schon ingestierte deterministische, und als zweiter „unabhaengiger\" Wert liesse es sigma_div schrumpfen (V-PD-9, wie bei den ECMWF-Kontrolllaeufen und C-LAEF-EPS). Streuungen werden NUR mit dem Faktor skaliert, nie mit dem Versatz — eine 1,2-K-Streuung mit KELVIN_TO_C stuende sonst als -271,95 im Cube, im erlaubten Wertebereich und ohne Fehlermeldung."
+          }
+        ],
+        "byHour": {
+          "0": "icon_d2_eps",
+          "6": "icon_d2_eps",
+          "12": "icon_d2_eps",
+          "18": "icon_d2_eps",
+          "24": "icon_d2_eps",
+          "30": "icon_d2_eps",
+          "36": "icon_d2_eps",
+          "42": "icon_d2_eps",
+          "48": "icon_d2_eps"
+        },
+        "steps": 9,
+        "missing": 40,
+        "provenance": "single-source-per-hour",
+        "rule": "Je Stunde genau EINE Quelle: die erste in der Reihenfolge der Stufe, die mindestens eine Groesse liefert. Member zweier Ensembles werden nie gemischt — das waere eine Streuung ZWISCHEN Modellen (σ_div), nicht innerhalb eines (σ_ens).",
+        "precip": "precip_sd_ens ist die Streuung der RATE ueber den Stufenschritt: je Member (Summe[t] − Summe[t−Δ]) / Δ, Member ueber ihre Nummer gepaart, negative Differenzen auf 0 — dieselbe Groesse wie die precip-Ebene. Wo eine Quelle den Vorschritt nicht fuehrt, bleibt die Ebene MISSING (sources[].noRate). Bis PD-B10 stand hier die Streuung der Summe seit Laufbeginn.",
+        "caveat": "σ_ens ist die Streuung INNERHALB einer Quelle, σ_div die zwischen Quellen. PAP 6 verzweigt zwischen beiden — sie werden NICHT addiert."
+      },
+      "net": {
+        "icon_d2": {
+          "files": 1590,
+          "bytes": 1707946650,
+          "ms": 1577385,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 0
+        },
+        "icon_d2_eps": {
+          "files": 54,
+          "bytes": 983025116,
+          "ms": 224006,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 11,
+          "coalesced": 0
+        },
+        "icon_ch1_eps": {
+          "files": 293,
+          "bytes": 391476681,
+          "ms": 223605,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 0,
+          "coalesced": 0
+        },
+        "claef": {
+          "files": 33,
+          "bytes": 225829274,
+          "ms": 128171,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 0,
+          "coalesced": 0
+        },
+        "claef_eps": {
+          "files": 57,
+          "bytes": 355972828,
+          "ms": 254615,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 0,
+          "coalesced": 0
+        },
+        "icon_eu": {
+          "files": 589,
+          "bytes": 566708806,
+          "ms": 379047,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 0
+        },
+        "ifs_hres": {
+          "files": 34,
+          "bytes": 111514193,
+          "ms": 107737,
+          "cached": 136,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 0
+        },
+        "aifs_single": {
+          "files": 18,
+          "bytes": 47917430,
+          "ms": 46378,
+          "cached": 63,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 0
+        }
+      },
+      "timing": {
+        "phases": {
+          "discover": 124905,
+          "fields": 530467,
+          "encode": 8311
+        },
+        "bySource": {
+          "icon_d2": {
+            "msWall": 671265,
+            "calls": 639
+          },
+          "icon_d2_eps": {
+            "msWall": 428566,
+            "calls": 47
+          },
+          "icon_ch1_eps": {
+            "msWall": 221166,
+            "calls": 146
+          },
+          "claef": {
+            "msWall": 164664,
+            "calls": 394
+          },
+          "claef_eps": {
+            "msWall": 316872,
+            "calls": 345
+          },
+          "icon_eu": {
+            "msWall": 531888,
+            "calls": 590
+          },
+          "ifs_hres": {
+            "msWall": 132200,
+            "calls": 138
+          },
+          "aifs_single": {
+            "msWall": 60504,
+            "calls": 74
+          }
+        },
+        "totalMs": 663683,
+        "mode": "lanes",
+        "lanes": {
+          "ahead": 3,
+          "maxAhead": 3,
+          "consumeMs": 2023,
+          "laneMs": {
+            "icon_d2": 514780,
+            "icon_d2_eps": 13,
+            "icon_ch1_eps": 103462,
+            "claef": 164745,
+            "claef_eps": 10,
+            "icon_eu": 527956,
+            "ifs_hres": 130442,
+            "aifs_single": 58198
+          }
+        },
+        "blocks": {
+          "orography": 6820,
+          "profile": 151606,
+          "quantiles": 317334,
+          "ensemble": 422568,
+          "fields": 530402
+        },
+        "workers": {
+          "requested": 3,
+          "running": 3,
+          "mode": "workers",
+          "jobs": 2574,
+          "inlineJobs": 0,
+          "errors": 0,
+          "msWait": 266247,
+          "pending": 0,
+          "queued": 0
+        }
+      },
+      "dropped": [],
+      "profile": {
+        "source": "icon_d2",
+        "run": "2026091212",
+        "stepH": 1,
+        "levels": 20,
+        "steps": 49,
+        "missing": 0,
+        "inversionShare": 0.3672913272573537,
+        "params": {
+          "gammaDepthM": 500,
+          "dzMinM": 50,
+          "dTMinK": 0.2
+        },
+        "provenance": "single-source",
+        "why": "Profilfelder werden NICHT gemittelt — der Mittelwert zweier Inversionsobergrenzen ist keine Inversionsobergrenze.",
+        "calibrated": false,
+        "calibNote": "gammaDepthM/dzMinM/dTMinK sind Startwerte; gemessen werden sie erst aus buscosun-archiv (Felder 30–39, E-14)."
+      }
+    },
+    {
+      "id": "t2",
+      "deg": 0.1,
+      "lat0": 45.5,
+      "lon0": 5.5,
+      "ny": 101,
+      "nx": 121,
+      "chunk": {
+        "cells": 16,
+        "cy": 7,
+        "cx": 8
+      },
+      "run": "2026091212",
+      "runAt": "2026-09-12T12:00:00Z",
+      "ageH": 0,
+      "leadHours": [
+        51,
+        54,
+        57,
+        60,
+        63,
+        66,
+        69,
+        72,
+        75,
+        78,
+        81,
+        84,
+        87,
+        90,
+        93,
+        96,
+        99,
+        102,
+        105,
+        108,
+        111,
+        114,
+        117,
+        120
+      ],
+      "files": [
+        {
+          "file": "point/2026091212/t2/00_00.bin",
+          "bytes": 160115,
+          "cy": 0,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t2/00_01.bin",
+          "bytes": 166358,
+          "cy": 0,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t2/00_02.bin",
+          "bytes": 164307,
+          "cy": 0,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t2/00_03.bin",
+          "bytes": 167733,
+          "cy": 0,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t2/00_04.bin",
+          "bytes": 161756,
+          "cy": 0,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t2/00_05.bin",
+          "bytes": 160761,
+          "cy": 0,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t2/00_06.bin",
+          "bytes": 150982,
+          "cy": 0,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t2/00_07.bin",
+          "bytes": 82732,
+          "cy": 0,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t2/01_00.bin",
+          "bytes": 150052,
+          "cy": 1,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t2/01_01.bin",
+          "bytes": 157586,
+          "cy": 1,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t2/01_02.bin",
+          "bytes": 157324,
+          "cy": 1,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t2/01_03.bin",
+          "bytes": 154587,
+          "cy": 1,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t2/01_04.bin",
+          "bytes": 155857,
+          "cy": 1,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t2/01_05.bin",
+          "bytes": 158200,
+          "cy": 1,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t2/01_06.bin",
+          "bytes": 156355,
+          "cy": 1,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t2/01_07.bin",
+          "bytes": 86643,
+          "cy": 1,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t2/02_00.bin",
+          "bytes": 146149,
+          "cy": 2,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t2/02_01.bin",
+          "bytes": 149880,
+          "cy": 2,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t2/02_02.bin",
+          "bytes": 149376,
+          "cy": 2,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t2/02_03.bin",
+          "bytes": 147393,
+          "cy": 2,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t2/02_04.bin",
+          "bytes": 150698,
+          "cy": 2,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t2/02_05.bin",
+          "bytes": 150744,
+          "cy": 2,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t2/02_06.bin",
+          "bytes": 150254,
+          "cy": 2,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t2/02_07.bin",
+          "bytes": 90941,
+          "cy": 2,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t2/03_00.bin",
+          "bytes": 134124,
+          "cy": 3,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t2/03_01.bin",
+          "bytes": 137040,
+          "cy": 3,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t2/03_02.bin",
+          "bytes": 137576,
+          "cy": 3,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t2/03_03.bin",
+          "bytes": 135480,
+          "cy": 3,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t2/03_04.bin",
+          "bytes": 131213,
+          "cy": 3,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t2/03_05.bin",
+          "bytes": 131171,
+          "cy": 3,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t2/03_06.bin",
+          "bytes": 134823,
+          "cy": 3,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t2/03_07.bin",
+          "bytes": 77655,
+          "cy": 3,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t2/04_00.bin",
+          "bytes": 130722,
+          "cy": 4,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t2/04_01.bin",
+          "bytes": 128237,
+          "cy": 4,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t2/04_02.bin",
+          "bytes": 131180,
+          "cy": 4,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t2/04_03.bin",
+          "bytes": 130149,
+          "cy": 4,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t2/04_04.bin",
+          "bytes": 124990,
+          "cy": 4,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t2/04_05.bin",
+          "bytes": 124592,
+          "cy": 4,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t2/04_06.bin",
+          "bytes": 124555,
+          "cy": 4,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t2/04_07.bin",
+          "bytes": 73435,
+          "cy": 4,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t2/05_00.bin",
+          "bytes": 123042,
+          "cy": 5,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t2/05_01.bin",
+          "bytes": 129504,
+          "cy": 5,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t2/05_02.bin",
+          "bytes": 135766,
+          "cy": 5,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t2/05_03.bin",
+          "bytes": 134804,
+          "cy": 5,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t2/05_04.bin",
+          "bytes": 131324,
+          "cy": 5,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t2/05_05.bin",
+          "bytes": 128844,
+          "cy": 5,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t2/05_06.bin",
+          "bytes": 128141,
+          "cy": 5,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t2/05_07.bin",
+          "bytes": 76453,
+          "cy": 5,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091212/t2/06_00.bin",
+          "bytes": 39118,
+          "cy": 6,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t2/06_01.bin",
+          "bytes": 41699,
+          "cy": 6,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t2/06_02.bin",
+          "bytes": 45199,
+          "cy": 6,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t2/06_03.bin",
+          "bytes": 45981,
+          "cy": 6,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t2/06_04.bin",
+          "bytes": 44413,
+          "cy": 6,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091212/t2/06_05.bin",
+          "bytes": 43217,
+          "cy": 6,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091212/t2/06_06.bin",
+          "bytes": 40330,
+          "cy": 6,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091212/t2/06_07.bin",
+          "bytes": 24003,
+          "cy": 6,
+          "cx": 7
+        }
+      ],
+      "quantiles": null,
+      "ensemble": {
+        "sources": [
+          {
+            "id": "icon_eu_eps",
+            "run": "2026091212",
+            "hours": [
+              60,
+              72,
+              84,
+              96,
+              108,
+              120
+            ],
+            "vars": [
+              "t2m",
+              "u10",
+              "v10",
+              "gust",
+              "precip"
+            ],
+            "stepH": 12,
+            "membersDeclared": 40,
+            "membersRead": 40,
+            "membersMin": 40,
+            "clampedNegativeRates": 8146,
+            "noRate": 4,
+            "errors": 0,
+            "note": "40 Member, gebündelt in EINER Datei je (Größe, Schritt) — eine Teilmenge ist nicht abrufbar (bz2). Traegt NICHTS zum Mittel bei: das Ensemble-Mittel ist derselbe Modelllauf wie der schon ingestierte deterministische, und als zweiter „unabhaengiger\" Wert liesse es sigma_div schrumpfen (V-PD-9, wie bei den ECMWF-Kontrolllaeufen und C-LAEF-EPS). Streuungen werden NUR mit dem Faktor skaliert, nie mit dem Versatz — eine 1,2-K-Streuung mit KELVIN_TO_C stuende sonst als -271,95 im Cube, im erlaubten Wertebereich und ohne Fehlermeldung."
+          }
+        ],
+        "byHour": {
+          "60": "icon_eu_eps",
+          "72": "icon_eu_eps",
+          "84": "icon_eu_eps",
+          "96": "icon_eu_eps",
+          "108": "icon_eu_eps",
+          "120": "icon_eu_eps"
+        },
+        "steps": 6,
+        "missing": 18,
+        "provenance": "single-source-per-hour",
+        "rule": "Je Stunde genau EINE Quelle: die erste in der Reihenfolge der Stufe, die mindestens eine Groesse liefert. Member zweier Ensembles werden nie gemischt — das waere eine Streuung ZWISCHEN Modellen (σ_div), nicht innerhalb eines (σ_ens).",
+        "precip": "precip_sd_ens ist die Streuung der RATE ueber den Stufenschritt: je Member (Summe[t] − Summe[t−Δ]) / Δ, Member ueber ihre Nummer gepaart, negative Differenzen auf 0 — dieselbe Groesse wie die precip-Ebene. Wo eine Quelle den Vorschritt nicht fuehrt, bleibt die Ebene MISSING (sources[].noRate). Bis PD-B10 stand hier die Streuung der Summe seit Laufbeginn.",
+        "caveat": "σ_ens ist die Streuung INNERHALB einer Quelle, σ_div die zwischen Quellen. PAP 6 verzweigt zwischen beiden — sie werden NICHT addiert."
+      },
+      "net": {
+        "icon_eu": {
+          "files": 289,
+          "bytes": 292573702,
+          "ms": 140651,
+          "cached": 1,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 0
+        },
+        "ifs_hres": {
+          "files": 49,
+          "bytes": 145513705,
+          "ms": 115907,
+          "cached": 180,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 0
+        },
+        "aifs_single": {
+          "files": 24,
+          "bytes": 63772873,
+          "ms": 54486,
+          "cached": 84,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 0
+        },
+        "icon_eu_eps": {
+          "files": 30,
+          "bytes": 257036335,
+          "ms": 75903,
+          "cached": 0,
+          "absent": 4,
+          "throttled": 0,
+          "probes": 7,
+          "coalesced": 0
+        },
+        "icon_ch2_eps": {
+          "files": 491,
+          "bytes": 207211025,
+          "ms": 254955,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 0,
+          "coalesced": 0
+        },
+        "icon_global": {
+          "files": 268,
+          "bytes": 920081002,
+          "ms": 175393,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 3,
+          "coalesced": 0
+        },
+        "aicon": {
+          "files": 121,
+          "bytes": 388543740,
+          "ms": 131920,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 0
+        }
+      },
+      "timing": {
+        "phases": {
+          "discover": 154882,
+          "fields": 345094,
+          "encode": 1043
+        },
+        "bySource": {
+          "icon_eu": {
+            "msWall": 208927,
+            "calls": 291
+          },
+          "icon_eu_eps": {
+            "msWall": 125955,
+            "calls": 32
+          },
+          "icon_ch2_eps": {
+            "msWall": 261286,
+            "calls": 291
+          },
+          "icon_global": {
+            "msWall": 349240,
+            "calls": 267
+          },
+          "aicon": {
+            "msWall": 193075,
+            "calls": 123
+          },
+          "ifs_hres": {
+            "msWall": 146911,
+            "calls": 195
+          },
+          "aifs_single": {
+            "msWall": 70931,
+            "calls": 98
+          }
+        },
+        "totalMs": 501019,
+        "mode": "lanes",
+        "lanes": {
+          "ahead": 3,
+          "maxAhead": 3,
+          "consumeMs": 315,
+          "laneMs": {
+            "icon_eu": 207458,
+            "icon_eu_eps": 5,
+            "icon_ch2_eps": 106873,
+            "icon_global": 345069,
+            "aicon": 191205,
+            "ifs_hres": 144800,
+            "aifs_single": 67272
+          }
+        },
+        "blocks": {
+          "quantiles": 0,
+          "profile": 0,
+          "orography": 6162,
+          "ensemble": 121655,
+          "fields": 345087
+        },
+        "workers": {
+          "requested": 3,
+          "running": 3,
+          "mode": "workers",
+          "jobs": 3833,
+          "inlineJobs": 0,
+          "errors": 0,
+          "msWait": 538055,
+          "pending": 0,
+          "queued": 0
+        }
+      },
+      "dropped": [],
+      "profile": null
+    },
+    {
+      "id": "t3",
+      "deg": 0.25,
+      "lat0": 45.5,
+      "lon0": 5.5,
+      "ny": 41,
+      "nx": 49,
+      "chunk": {
+        "cells": 16,
+        "cy": 3,
+        "cx": 4
+      },
+      "run": "2026091212",
+      "runAt": "2026-09-12T12:00:00Z",
+      "ageH": 0,
+      "leadHours": [
+        126,
+        132,
+        138,
+        144,
+        150,
+        156,
+        162,
+        168,
+        174,
+        180,
+        186,
+        192,
+        198,
+        204,
+        210,
+        216,
+        222,
+        228,
+        234,
+        240,
+        246,
+        252,
+        258,
+        264,
+        270,
+        276,
+        282,
+        288,
+        294,
+        300,
+        306,
+        312,
+        318,
+        324,
+        330,
+        336
+      ],
+      "files": [
+        {
+          "file": "point/2026091212/t3/00_00.bin",
+          "bytes": 179606,
+          "cy": 0,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t3/00_01.bin",
+          "bytes": 179328,
+          "cy": 0,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t3/00_02.bin",
+          "bytes": 179607,
+          "cy": 0,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t3/00_03.bin",
+          "bytes": 14049,
+          "cy": 0,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t3/01_00.bin",
+          "bytes": 170965,
+          "cy": 1,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t3/01_01.bin",
+          "bytes": 170526,
+          "cy": 1,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t3/01_02.bin",
+          "bytes": 168647,
+          "cy": 1,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t3/01_03.bin",
+          "bytes": 13926,
+          "cy": 1,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091212/t3/02_00.bin",
+          "bytes": 94448,
+          "cy": 2,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091212/t3/02_01.bin",
+          "bytes": 99191,
+          "cy": 2,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091212/t3/02_02.bin",
+          "bytes": 95889,
+          "cy": 2,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091212/t3/02_03.bin",
+          "bytes": 8813,
+          "cy": 2,
+          "cx": 3
+        }
+      ],
+      "quantiles": null,
+      "ensemble": {
+        "sources": [
+          {
+            "id": "icon_eps_global",
+            "run": "2026091212",
+            "hours": [
+              144,
+              168
+            ],
+            "vars": [
+              "t2m"
+            ],
+            "stepH": 24,
+            "membersDeclared": 40,
+            "membersRead": 40,
+            "membersMin": 40,
+            "clampedNegativeRates": 0,
+            "noRate": 2,
+            "errors": 0,
+            "note": "40 Member, gebündelt in EINER Datei je (Größe, Schritt) — eine Teilmenge ist nicht abrufbar (bz2). Traegt NICHTS zum Mittel bei: das Ensemble-Mittel ist derselbe Modelllauf wie der schon ingestierte deterministische, und als zweiter „unabhaengiger\" Wert liesse es sigma_div schrumpfen (V-PD-9, wie bei den ECMWF-Kontrolllaeufen und C-LAEF-EPS). Streuungen werden NUR mit dem Faktor skaliert, nie mit dem Versatz — eine 1,2-K-Streuung mit KELVIN_TO_C stuende sonst als -271,95 im Cube, im erlaubten Wertebereich und ohne Fehlermeldung."
+          },
+          {
+            "id": "ifs_ens",
+            "run": "2026091200",
+            "hours": [
+              132,
+              180,
+              228,
+              276,
+              324
+            ],
+            "vars": [
+              "t2m",
+              "precip"
+            ],
+            "stepH": 48,
+            "membersDeclared": 50,
+            "membersRead": 50,
+            "membersMin": 50,
+            "clampedNegativeRates": 2926,
+            "noRate": 0,
+            "errors": 0,
+            "note": "50 von 50 Membern, je (Größe, Schritt) EINE Anfrage mit mehreren Byte-Bereichen (HTTP 206 multipart/byteranges). Raster 48 h, nur 00z/12z reichen bis 336 h. Traegt NICHTS zum Mittel bei: das Ensemble-Mittel ist derselbe Modellzyklus wie IFS HRES (V-PD-9). Niederschlag je Member entakkumuliert ueber den Stufenschritt; die Member-Nummer im GRIB wird gegen das .index geprueft."
+          }
+        ],
+        "byHour": {
+          "132": "ifs_ens",
+          "144": "icon_eps_global",
+          "168": "icon_eps_global",
+          "180": "ifs_ens",
+          "228": "ifs_ens",
+          "276": "ifs_ens",
+          "324": "ifs_ens"
+        },
+        "steps": 7,
+        "missing": 29,
+        "provenance": "single-source-per-hour",
+        "rule": "Je Stunde genau EINE Quelle: die erste in der Reihenfolge der Stufe, die mindestens eine Groesse liefert. Member zweier Ensembles werden nie gemischt — das waere eine Streuung ZWISCHEN Modellen (σ_div), nicht innerhalb eines (σ_ens).",
+        "precip": "precip_sd_ens ist die Streuung der RATE ueber den Stufenschritt: je Member (Summe[t] − Summe[t−Δ]) / Δ, Member ueber ihre Nummer gepaart, negative Differenzen auf 0 — dieselbe Groesse wie die precip-Ebene. Wo eine Quelle den Vorschritt nicht fuehrt, bleibt die Ebene MISSING (sources[].noRate). Bis PD-B10 stand hier die Streuung der Summe seit Laufbeginn.",
+        "caveat": "σ_ens ist die Streuung INNERHALB einer Quelle, σ_div die zwischen Quellen. PAP 6 verzweigt zwischen beiden — sie werden NICHT addiert."
+      },
+      "net": {
+        "ifs_hres": {
+          "files": 74,
+          "bytes": 239338831,
+          "ms": 143399,
+          "cached": 287,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 5,
+          "coalesced": 0
+        },
+        "aifs_single": {
+          "files": 73,
+          "bytes": 193358041,
+          "ms": 121955,
+          "cached": 252,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 0
+        },
+        "icon_global": {
+          "files": 111,
+          "bytes": 381696159,
+          "ms": 27535,
+          "cached": 1,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 8,
+          "coalesced": 0
+        },
+        "aicon": {
+          "files": 51,
+          "bytes": 164679015,
+          "ms": 25303,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 9,
+          "coalesced": 0
+        },
+        "icon_eps_global": {
+          "files": 4,
+          "bytes": 73329091,
+          "ms": 7665,
+          "cached": 0,
+          "absent": 2,
+          "throttled": 0,
+          "probes": 10,
+          "coalesced": 0
+        },
+        "ifs_ens": {
+          "files": 25,
+          "bytes": 718037538,
+          "ms": 280537,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 8,
+          "coalesced": 0
+        }
+      },
+      "timing": {
+        "phases": {
+          "discover": 12236,
+          "fields": 338898,
+          "encode": 215
+        },
+        "bySource": {
+          "icon_global": {
+            "msWall": 112649,
+            "calls": 113
+          },
+          "icon_eps_global": {
+            "msWall": 28522,
+            "calls": 6
+          },
+          "aicon": {
+            "msWall": 53186,
+            "calls": 53
+          },
+          "ifs_hres": {
+            "msWall": 185638,
+            "calls": 291
+          },
+          "ifs_ens": {
+            "msWall": 323168,
+            "calls": 12
+          },
+          "aifs_single": {
+            "msWall": 162236,
+            "calls": 291
+          }
+        },
+        "totalMs": 351349,
+        "mode": "lanes",
+        "lanes": {
+          "ahead": 3,
+          "maxAhead": 3,
+          "consumeMs": 67,
+          "laneMs": {
+            "icon_global": 107803,
+            "icon_eps_global": 20,
+            "aicon": 48275,
+            "ifs_hres": 183275,
+            "ifs_ens": 20,
+            "aifs_single": 158682
+          }
+        },
+        "blocks": {
+          "quantiles": 15,
+          "profile": 15,
+          "orography": 183,
+          "fields": 217359,
+          "ensemble": 338895
+        },
+        "workers": {
+          "requested": 3,
+          "running": 3,
+          "mode": "workers",
+          "jobs": 5288,
+          "inlineJobs": 0,
+          "errors": 0,
+          "msWait": 1623718,
+          "pending": 0,
+          "queued": 0
+        }
+      },
+      "dropped": [],
+      "profile": null
+    }
+  ],
+  "planes": [
+    {
+      "id": "t2m",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "t2m_sd",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "t2m_sd_ens",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "t2m_q10",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "t2m_q90",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "td2m",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "td2m_sd",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "td2m_sd_ens",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "u10",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "u10_sd",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "u10_sd_ens",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "u10_q10",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "u10_q90",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "v10",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "v10_sd",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "v10_sd_ens",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "v10_q10",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "v10_q90",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "gust",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "gust_sd",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "gust_sd_ens",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "gust_q10",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "gust_q90",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "precip",
+      "unit": "mm/h",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "precip_sd",
+      "unit": "mm/h",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "precip_sd_ens",
+      "unit": "mm/h",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "precip_q10",
+      "unit": "mm/h",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "precip_q90",
+      "unit": "mm/h",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "clct",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "clct_sd",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "clct_sd_ens",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "clct_q10",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "clct_q90",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "ps",
+      "unit": "hPa",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "ps_sd",
+      "unit": "hPa",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "ps_sd_ens",
+      "unit": "hPa",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "snowlmt",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "snowlmt_sd",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "snowlmt_sd_ens",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "snowlmt_q10",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "snowlmt_q90",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "clcl",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "clcm",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "clch",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target"
+    },
+    {
+      "id": "gammaEff",
+      "unit": "K/km",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "profile"
+    },
+    {
+      "id": "zBase",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "profile"
+    },
+    {
+      "id": "zInv",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "profile"
+    },
+    {
+      "id": "dTInv",
+      "unit": "K",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "profile"
+    },
+    {
+      "id": "hModEff",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "profile"
+    },
+    {
+      "id": "srcCount",
+      "unit": "count",
+      "scale": 1,
+      "offset": 0,
+      "group": "meta"
+    },
+    {
+      "id": "ensCount",
+      "unit": "count",
+      "scale": 1,
+      "offset": 0,
+      "group": "meta"
+    }
+  ],
+  "sources": [
+    {
+      "id": "icon_d2",
+      "name": "ICON-D2",
+      "tier": "t1",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 0,
+      "toH": 48,
+      "steps": 49,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "full",
+      "offsetH": 0,
+      "geometry": {
+        "cells": 48441,
+        "covered": 48441,
+        "domain": {
+          "latMin": 43.2,
+          "latMax": 58.1,
+          "lonMin": -3.9,
+          "lonMax": 20.3
+        },
+        "clip": null,
+        "edgeMarginKm": 0,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_d2_eps",
+      "name": "ICON-D2-EPS",
+      "tier": "t1",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 0,
+      "toH": 48,
+      "steps": 9,
+      "members": 20,
+      "role": "assigned",
+      "coverage": "partial",
+      "offsetH": 0,
+      "geometry": {
+        "cells": 48441,
+        "covered": 48441,
+        "domain": {
+          "latMin": 43.2,
+          "latMax": 58.1,
+          "lonMin": -3.9,
+          "lonMax": 20.3
+        },
+        "clip": null,
+        "edgeMarginKm": 0,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_ch1_eps",
+      "name": "ICON-CH1-EPS",
+      "tier": "t1",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 0,
+      "toH": 48,
+      "steps": 12,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "partial",
+      "offsetH": 0,
+      "geometry": {
+        "cells": 48441,
+        "covered": 23203,
+        "domain": {
+          "latMin": 42.028,
+          "latMax": 50.501,
+          "lonMin": -0.817,
+          "lonMax": 17.711
+        },
+        "clip": null,
+        "edgeMarginKm": 20,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Quelle: MeteoSchweiz",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "claef",
+      "name": "C-LAEF AlpeAdria (1 km)",
+      "tier": "t1",
+      "runAt": "2026-09-12T09:00:00Z",
+      "runCaveat": "Die API dieser Quelle kennt keine Referenzzeit: die Anfrage nennt nur die Gültigzeit, geantwortet wird aus dem zur Abrufzeit neuesten Lauf. `runAt` ist damit die Laufwahl des Producers, nicht die Herkunft der Werte; zeitlich liegen sie richtig. Bei einem nachgeholten Lauf sind es die frischeren Daten unter dem älteren Etikett (V-PD-47).",
+      "fromH": 0,
+      "toH": 48,
+      "steps": 49,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "full",
+      "offsetH": 3,
+      "geometry": {
+        "cells": 48441,
+        "covered": 28920,
+        "domain": {
+          "latMin": 43.002,
+          "latMax": 51.498,
+          "lonMin": 5.0317,
+          "lonMax": 22.568
+        },
+        "clip": null,
+        "edgeMarginKm": 0,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Quelle: GeoSphere Austria",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "claef_eps",
+      "name": "C-LAEF-EPS",
+      "tier": "t1",
+      "runAt": "2026-09-12T09:00:00Z",
+      "runCaveat": "Die API dieser Quelle kennt keine Referenzzeit: die Anfrage nennt nur die Gültigzeit, geantwortet wird aus dem zur Abrufzeit neuesten Lauf. `runAt` ist damit die Laufwahl des Producers, nicht die Herkunft der Werte; zeitlich liegen sie richtig. Bei einem nachgeholten Lauf sind es die frischeren Daten unter dem älteren Etikett (V-PD-47).",
+      "fromH": 0,
+      "toH": 48,
+      "steps": 49,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "full",
+      "offsetH": 3,
+      "geometry": {
+        "cells": 48441,
+        "covered": 28920,
+        "domain": {
+          "latMin": 43.002,
+          "latMax": 51.498,
+          "lonMin": 5.0317,
+          "lonMax": 22.568
+        },
+        "clip": null,
+        "edgeMarginKm": 0,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Quelle: GeoSphere Austria",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_eu",
+      "name": "ICON-EU",
+      "tier": "t1",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 0,
+      "toH": 48,
+      "steps": 49,
+      "members": 0,
+      "role": "diversity",
+      "coverage": "full",
+      "offsetH": 0,
+      "geometry": {
+        "cells": 48441,
+        "covered": 48441,
+        "domain": {
+          "latMin": 29.5,
+          "latMax": 70.5,
+          "lonMin": -23.5,
+          "lonMax": 62.5
+        },
+        "clip": null,
+        "edgeMarginKm": 0,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "ifs_hres",
+      "name": "IFS HRES",
+      "tier": "t1",
+      "runAt": "2026-09-12T06:00:00Z",
+      "fromH": 0,
+      "toH": 48,
+      "steps": 17,
+      "members": 0,
+      "role": "diversity",
+      "coverage": "partial",
+      "offsetH": 6,
+      "geometry": null,
+      "attribution": "ECMWF Open Data (ECMWF Terms of Use)",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "aifs_single",
+      "name": "AIFS Single",
+      "tier": "t1",
+      "runAt": "2026-09-12T06:00:00Z",
+      "fromH": 0,
+      "toH": 48,
+      "steps": 9,
+      "members": 0,
+      "role": "diversity",
+      "coverage": "partial",
+      "offsetH": 6,
+      "geometry": null,
+      "attribution": "ECMWF Open Data (ECMWF Terms of Use)",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_eu",
+      "name": "ICON-EU",
+      "tier": "t2",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 24,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "full",
+      "offsetH": 0,
+      "geometry": {
+        "cells": 12221,
+        "covered": 12221,
+        "domain": {
+          "latMin": 29.5,
+          "latMax": 70.5,
+          "lonMin": -23.5,
+          "lonMax": 62.5
+        },
+        "clip": null,
+        "edgeMarginKm": 0,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_eu_eps",
+      "name": "ICON-EU-EPS",
+      "tier": "t2",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 6,
+      "members": 40,
+      "role": "assigned",
+      "coverage": "partial",
+      "offsetH": 0,
+      "geometry": {
+        "cells": 12221,
+        "covered": 12221,
+        "domain": {
+          "latMin": 29.5,
+          "latMax": 70.5,
+          "lonMin": -23.5,
+          "lonMax": 62.5
+        },
+        "clip": null,
+        "edgeMarginKm": 0,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_ch2_eps",
+      "name": "ICON-CH2-EPS",
+      "tier": "t2",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 24,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "full",
+      "offsetH": 0,
+      "geometry": {
+        "cells": 12221,
+        "covered": 5755,
+        "domain": {
+          "latMin": 42.079,
+          "latMax": 50.479,
+          "lonMin": -0.769,
+          "lonMax": 17.678
+        },
+        "clip": null,
+        "edgeMarginKm": 20,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Quelle: MeteoSchweiz",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_global",
+      "name": "ICON global",
+      "tier": "t2",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 24,
+      "members": 0,
+      "role": "diversity",
+      "coverage": "full",
+      "offsetH": 0,
+      "geometry": null,
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "aicon",
+      "name": "AICON (KI, 13 km)",
+      "tier": "t2",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 24,
+      "members": 0,
+      "role": "diversity",
+      "coverage": "full",
+      "offsetH": 0,
+      "geometry": null,
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "ifs_hres",
+      "name": "IFS HRES",
+      "tier": "t2",
+      "runAt": "2026-09-12T06:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 24,
+      "members": 0,
+      "role": "diversity",
+      "coverage": "full",
+      "offsetH": 6,
+      "geometry": null,
+      "attribution": "ECMWF Open Data (ECMWF Terms of Use)",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "aifs_single",
+      "name": "AIFS Single",
+      "tier": "t2",
+      "runAt": "2026-09-12T06:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 12,
+      "members": 0,
+      "role": "diversity",
+      "coverage": "partial",
+      "offsetH": 6,
+      "geometry": null,
+      "attribution": "ECMWF Open Data (ECMWF Terms of Use)",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_global",
+      "name": "ICON global",
+      "tier": "t3",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 126,
+      "toH": 336,
+      "steps": 10,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "partial",
+      "offsetH": 0,
+      "geometry": null,
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_eps_global",
+      "name": "ICON-EPS global",
+      "tier": "t3",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 126,
+      "toH": 336,
+      "steps": 2,
+      "members": 40,
+      "role": "assigned",
+      "coverage": "partial",
+      "offsetH": 0,
+      "geometry": null,
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "aicon",
+      "name": "AICON (KI, 13 km)",
+      "tier": "t3",
+      "runAt": "2026-09-12T12:00:00Z",
+      "fromH": 126,
+      "toH": 336,
+      "steps": 10,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "partial",
+      "offsetH": 0,
+      "geometry": null,
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "ifs_hres",
+      "name": "IFS HRES",
+      "tier": "t3",
+      "runAt": "2026-09-12T00:00:00Z",
+      "fromH": 126,
+      "toH": 336,
+      "steps": 36,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "full",
+      "offsetH": 12,
+      "geometry": null,
+      "attribution": "ECMWF Open Data (ECMWF Terms of Use)",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "ifs_ens",
+      "name": "IFS ENS",
+      "tier": "t3",
+      "runAt": "2026-09-12T00:00:00Z",
+      "fromH": 126,
+      "toH": 336,
+      "steps": 5,
+      "members": 50,
+      "role": "assigned",
+      "coverage": "partial",
+      "offsetH": 12,
+      "geometry": null,
+      "attribution": "ECMWF Open Data (ECMWF Terms of Use)",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "aifs_single",
+      "name": "AIFS Single",
+      "tier": "t3",
+      "runAt": "2026-09-12T06:00:00Z",
+      "fromH": 126,
+      "toH": 336,
+      "steps": 36,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "full",
+      "offsetH": 6,
+      "geometry": null,
+      "attribution": "ECMWF Open Data (ECMWF Terms of Use)",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    }
+  ],
+  "fusion": {
+    "weights": "equal",
+    "provenance": "fallback",
+    "note": "PAP 2 verlangt w = Σ⁻¹1/(1ᵀΣ⁻¹1). Σ ist ungemessen, solange buscosun-archiv nicht läuft (§21 (4)); bis dahin gleiche Gewichte.",
+    "sigma": "σ_div aus der Quellenstreuung über ALLE gelesenen Quellen (assigned und diversity, gleiche Gewichte). Der Sockel σ_sys aus PAP 6 fehlt noch; srcCount sagt je Zelle, wie viele Quellen getragen haben, und sd-vorhanden je Größe, welcher PAP-6-Zweig galt.",
+    "resolutionCaveat": "Wo Quellen verschiedener Maschenweite in dieselbe Zelle fallen, enthält σ_div auch die Auflösungsdifferenz, nicht nur Vorhersageunsicherheit. `sources[].role` und `fromH/toH` sagen, wo das der Fall ist: `assigned` deckt das Band laut Quellenmatrix, `diversity` ist zusätzlich gelesen. Deckt die zugeordnete Quelle nur einen Teil des Bandes (Beispiel t2: ICON-EU trägt kurz nach dem Lauf nur die ersten Stunden), tragen den Rest die gröberen Globalmodelle — das ist im Manifest an `steps` je Quelle ablesbar.",
+    "memberBias": "Wo σ aus Ensemble-Membern käme, gilt E[s] = c4(n)·σ (0,973 bei n=10, 0,995 bei n=51). `sources[].members` nennt n je Quelle, die Ebene `ensCount` nennt n je Zelle. Die Korrektur ist NICHT angewandt — sie steht hier, damit ein Leser sie anwenden kann.",
+    "spread": {
+      "div": "`<var>_sd` — Streuung ZWISCHEN den Quellen an derselben Zelle und Stunde, gleiche Gewichte, Bessel-korrigiert. Braucht mindestens zwei Quellen; `srcCount` sagt je Zelle, wie viele es waren.",
+      "ens": "`<var>_sd_ens` — Streuung ZWISCHEN den Membern INNERHALB einer Quelle. `ensCount` sagt je Zelle, wie viele Member getragen haben. Seit PD-B8 aus echten Membern, seit PD-B10 mit je Member entakkumuliertem Niederschlag (vorher stand dort die Streuung der Summe seit Laufbeginn). Je Stunde genau EINE Quelle — welche, steht in `tiers[].ensemble.byHour`.",
+      "rule": "PAP 6 verzweigt ENTWEDER-ODER: liegt `<var>_sd_ens` vor, gilt σ = c(p,f)·σ_ens; sonst, wenn `<var>_sd` vorliegt, σ² = σ_div² + σ_sys²; sonst nur σ_sys. Der Zweig steht NICHT als Flag da — er ist an der Anwesenheit der Ebene ablesbar, je Größe und je Zelle (`sigmaKindOf`).",
+      "doNotAdd": "⚠ `_sd` und `_sd_ens` NICHT addieren. Die Member einer Quelle streuen bereits um deren eigenes Mittel, und dieses Mittel geht anschließend in σ_div ein — die Summe zählte dieselbe Unsicherheit zweimal.",
+      "noEns": "Welche `_sd_ens`-Ebenen in DIESEM Lauf leer blieben, steht GEZÄHLT unter `sdEnsEmpty` — nicht als Liste im Text: die Liste von PD-B2 („nur snowlmt“) war mit Schema 3 falsch, und bis PD-B10 hat es niemand gemerkt (BW-1).",
+      "sdEnsEmpty": [
+        "td2m_sd_ens",
+        "clct_sd_ens",
+        "ps_sd_ens",
+        "snowlmt_sd_ens"
+      ]
+    },
+    "geometry": "Eine Quelle trägt eine Zelle nur, wenn `coversPoint(domain ∩ clip, edgeMarginKm)` für den Zellmittelpunkt gilt (QUELLENMATRIX §2: geometrisch, nicht über das Land). `sources[].geometry` nennt je Quelle den Kasten und wie viele Zellen der Stufe er trägt; `srcCount` zählt je Zelle und Schritt die Quellen, die tatsächlich geliefert haben. Ohne diese Maske verschmiert `fillNearest` bis zu drei Ringe über den Domänenrand — bei Stufe 1 rund 15 km.",
+    "validTime": "Alle Quellen tragen zur selben GÜLTIGZEIT bei. Der Publikationslauf ist der jüngste beitragende Lauf; eine Quelle mit älterem Lauf wird bei `leadH + sources[].offsetH` gelesen, nicht bei `leadH`. Ohne diese Übersetzung lägen die Beiträge um die Laufdifferenz auseinander — bei IFS in Stufe 3 gemessen 12 h, was den Tagesgang verwischt und σ_div mit einem Zeitversatz aufbläht, der wie Modelluneinigkeit aussieht.",
+    "runChoice": "Je Quelle wird der neueste Lauf gewählt, der das GANZE Band der Stufe trägt (`coverage: \"full\"`); gibt es den nicht, der neueste, der wenigstens die erste Stunde trägt (`coverage: \"partial\"`). Vorher entschied allein die erste Stunde — damit gewann bei ECMWF der jüngere `scda`-Lauf (144 h) über den `oper`-Lauf (360 h), und jenseits 180 h blieb eine einzige Quelle übrig. Die Registry-Horizonte dienen nur als Vorfilter; geprüft wird am Objekt."
+  },
+  "skipped": {
+    "inca": "liegt unter radar/img/v1/inca, Leser seit PD-B3. Traegt Ostoesterreich allein (⚠¹). Nicht im Cube — s. radvor_rv.",
+    "radvor_rv": "liegt als UNVERAENDERTES tar.bz2 unter radar/rv und als Werte-PNG unter radar/img/v1/rv. Seit PD-B3 gibt es den Leser (scripts/point/nowcastReader.mjs); er gehoert NICHT in den Cube, weil dessen Achse am Modelllauf haengt (§36.4).",
+    "combiprecip": "liegt unter radar/img/v1/rzc, Leser seit PD-B3. Nicht im Cube — s. radvor_rv.",
+    "mosmix_l": "Stationsquelle — ausgeliefert als eigenes Produkt point/stations/ (PD-B9, §44), NICHT als Gitterquelle.",
+    "aifs_ens": "nur Kontrolllauf lesbar; als vierter „unabhängiger\" Wert würde er σ_div schrumpfen (V-PD-9)"
+  },
+  "pending": {
+    "mosmix_l": "Stationsquelle — ausgeliefert als eigenes Produkt point/stations/ (PD-B9, §44), NICHT als Gitterquelle.",
+    "mosmix_s": "Stationsquelle wie MOSMIX-L, aber stündlich und alle Stationen in EINER KMZ — passt aus demselben Grund nicht ohne Entscheidung in ein Gitter (§21 (9)).",
+    "kenda_ch1": "ANALYSE, keine Vorhersage (STAC ch.meteoschweiz.ogd-analysis-kenda-ch1). Gehört zu Stunde 0 wie das Radar, nicht in ein Vorhersageband.",
+    "radvor_rv": "liegt als UNVERAENDERTES tar.bz2 unter radar/rv und als Werte-PNG unter radar/img/v1/rv. Seit PD-B3 gibt es den Leser (scripts/point/nowcastReader.mjs); er gehoert NICHT in den Cube, weil dessen Achse am Modelllauf haengt (§36.4).",
+    "inca": "liegt unter radar/img/v1/inca, Leser seit PD-B3. Traegt Ostoesterreich allein (⚠¹). Nicht im Cube — s. radvor_rv.",
+    "combiprecip": "liegt unter radar/img/v1/rzc, Leser seit PD-B3. Nicht im Cube — s. radvor_rv.",
+    "gfs": "Rückfall, nicht in §1 als tragende Quelle geführt."
+  }
+}

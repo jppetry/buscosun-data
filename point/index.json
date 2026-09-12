@@ -1,0 +1,920 @@
+{
+  "schema": 4,
+  "commit": "18489cecef39a79f16015c6d5d4d93010a13a493",
+  "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
+  "publishedAt": "2026-09-12T16:21:29.144Z",
+  "retentionHours": 24,
+  "minRuns": 2,
+  "retentionByTier": {
+    "t1": 9,
+    "t2": 24,
+    "t3": 24
+  },
+  "latestByTier": {
+    "t1": {
+      "run": "2026091212",
+      "runAt": "2026-09-12T12:00:00Z",
+      "path": "point/2026091212",
+      "manifest": "point/2026091212/run.json",
+      "sourceRun": "2026091212",
+      "sourceRunAt": "2026-09-12T12:00:00Z",
+      "ageH": 0,
+      "files": 208,
+      "bytes": 80265974
+    },
+    "t2": {
+      "run": "2026091212",
+      "runAt": "2026-09-12T12:00:00Z",
+      "path": "point/2026091212",
+      "manifest": "point/2026091212/run.json",
+      "sourceRun": "2026091212",
+      "sourceRunAt": "2026-09-12T12:00:00Z",
+      "ageH": 0,
+      "files": 56,
+      "bytes": 6825563
+    },
+    "t3": {
+      "run": "2026091212",
+      "runAt": "2026-09-12T12:00:00Z",
+      "path": "point/2026091212",
+      "manifest": "point/2026091212/run.json",
+      "sourceRun": "2026091212",
+      "sourceRunAt": "2026-09-12T12:00:00Z",
+      "ageH": 0,
+      "files": 12,
+      "bytes": 1374995
+    }
+  },
+  "timeless": [
+    "point/stations/catalog.json",
+    "point/sources.json",
+    "point/calib.json",
+    "point/index.json",
+    "point/static/",
+    "hsurf-v1.png",
+    "index.json"
+  ],
+  "dir": "point",
+  "sources": "point/sources.json",
+  "calibration": "point/calib.json",
+  "stations": {
+    "dir": "point/stations",
+    "catalog": "point/stations/catalog.json",
+    "runs": [
+      {
+        "run": "2026091215",
+        "runAt": "2026-09-12T15:00:00.000Z",
+        "ageH": 1.35,
+        "path": "point/stations/2026091215",
+        "manifest": "point/stations/2026091215/stations.json",
+        "stationCount": 3071,
+        "leadHours": 247,
+        "bytes": 7161517
+      },
+      {
+        "run": "2026091209",
+        "runAt": "2026-09-12T09:00:00.000Z",
+        "ageH": 6.28,
+        "path": "point/stations/2026091209",
+        "manifest": "point/stations/2026091209/stations.json",
+        "stationCount": 3071,
+        "leadHours": 247,
+        "bytes": 7111534
+      },
+      {
+        "run": "2026091203",
+        "runAt": "2026-09-12T03:00:00.000Z",
+        "ageH": 2.21,
+        "path": "point/stations/2026091203",
+        "manifest": "point/stations/2026091203/stations.json",
+        "stationCount": 3071,
+        "leadHours": 247,
+        "bytes": 7140410
+      },
+      {
+        "run": "2026091121",
+        "runAt": "2026-09-11T21:00:00.000Z",
+        "ageH": 1.79,
+        "path": "point/stations/2026091121",
+        "manifest": "point/stations/2026091121/stations.json",
+        "stationCount": 3071,
+        "leadHours": 247,
+        "bytes": 7102428
+      }
+    ],
+    "source": "mosmix_l",
+    "axis": "eigene Achse, stuendlich bis 247 h — NICHT die Stufenachse des Cubes (die ist ab 51 h dreistuendlich).",
+    "note": "Stationsvorhersagen (MOSMIX) sind ein EIGENES Produkt, kein Gitter — s. cubeFormat.ts. Gebündelt nach dem Chunk-Raster der Stufe 1, gleicher Container, Zuordnung Spalte → Station im Lauf-Manifest."
+  },
+  "nowcast": {
+    "dir": "radar/img/v1",
+    "note": "Beobachtungsnahe Quellen für 0–3 h. Liegt NEBEN dem Cube, nicht darin: die Cube-Achse hängt am Modelllauf, und der ist beim Bau 3,4–3,8 h alt — ein 5-Minuten-Produkt passt nicht in ein 6-Stunden-Raster. Zur Abfragezeit lesen.",
+    "encoding": {
+      "kind": "u8-grayscale-png",
+      "vMax": 20,
+      "step": 0.0784313725490196,
+      "deadZone": 0.06,
+      "inverse": "raw === 0 ? 0 : (raw / 255) * vMax",
+      "zeroMeans": "ZWEIDEUTIG: „kein messbarer Niederschlag (< 0,06 mm/h)\" ODER „keine Radarabdeckung\". decodeRadolanRaw setzt ausserhalb der Abdeckung NaN, und precipToU8 bildet NaN auf 0 ab — beides wird dasselbe Byte. Am echten Slot belegt: Linz und Wien liefern roh NaN, im PNG 0,0000. Deshalb IMMER erst die Domaene pruefen (domain ∩ clip aus point/sources.json), sonst entsteht eine erfundene Trockenheit.",
+      "saturatedAt": 19.96078431372549,
+      "saturatedMeans": "raw === 255 heißt „≥ 19.96 mm/h\", ein offener Randbin. NICHT als 20 ausliefern — das machte aus 60 mm/h eine plausible falsche Zahl.",
+      "vMaxWarning": "vMax ist zugleich der Drift-Wächter des Clients (src/sources/radarImg.ts): ein abweichender Wert macht den Slot für jeden Leser ungültig. Nicht erhöhen."
+    },
+    "sources": [
+      {
+        "id": "radvor_rv",
+        "dir": "radar/img/v1/rv",
+        "grid": "radolan_rv",
+        "cornersFrom": "de1200",
+        "slotMinutes": 5,
+        "keptSlots": 12,
+        "lossless": "radar/rv",
+        "note": "DE1200-Komposit, 25 Frames 0–120 min. Der Spiegel legt zusätzlich das UNVERÄNDERTE tar.bz2 ab — dort gibt es keine Sättigung.",
+        "extrapolationH": 2,
+        "extrapolation": true,
+        "ambiguousZero": true,
+        "saturatedAt": 19.96078431372549,
+        "coverageFrom": "point/sources.json#radvor_rv (domain ∩ clip, edgeMarginKm) — hier steht keine zweite Fassung"
+      },
+      {
+        "id": "inca",
+        "dir": "radar/img/v1/inca",
+        "grid": "inca_grid",
+        "cornersFrom": "meta",
+        "slotMinutes": 15,
+        "keptSlots": 12,
+        "lossless": null,
+        "note": "Trägt Ostösterreich ALLEIN — RADVOR RV endet dort östlich 14,1 °E (⚠¹). Nur als PNG gespiegelt, also mit Sättigung.",
+        "extrapolationH": 3,
+        "extrapolation": true,
+        "ambiguousZero": true,
+        "saturatedAt": 19.96078431372549,
+        "coverageFrom": "point/sources.json#inca (domain ∩ clip, edgeMarginKm) — hier steht keine zweite Fassung"
+      },
+      {
+        "id": "combiprecip",
+        "dir": "radar/img/v1/rzc",
+        "grid": "meteoswiss_rzc",
+        "cornersFrom": "meta",
+        "slotMinutes": 5,
+        "keptSlots": 12,
+        "lossless": null,
+        "note": "CombiPrecip (RZC), ein Frame je Slot (Analyse, keine Extrapolation). Nur als PNG gespiegelt.",
+        "extrapolationH": 0,
+        "extrapolation": false,
+        "ambiguousZero": true,
+        "saturatedAt": 19.96078431372549,
+        "coverageFrom": "point/sources.json#combiprecip (domain ∩ clip, edgeMarginKm) — hier steht keine zweite Fassung"
+      }
+    ],
+    "geometry": "Welche Quelle einen Punkt trägt, entscheidet die Domäne aus point/sources.json (domain ∩ clip, edgeMarginKm) — geometrisch, nicht über das Land (QUELLENMATRIX §2). Für Ostösterreich trägt allein INCA.",
+    "fallback": "Jenseits `sources[].extrapolationH` trägt für 0–3 h das Modell: die Cube-Stunden 0–3 (ICON-D2 stündlich, ICON-CH1-EPS dreistündlich, C-LAEF). Ein Client, der dort einen Wert zeigt, nennt die Quelle — „Nowcast\" wäre für die Schweiz jenseits der Analyse unwahr. Kein CH-Nowcast im Repo, weil E1 blockiert ist.",
+    "horizonH": 3,
+    "retention": "Der Spiegel hält 12 Slots je Quelle (RV/RZC ≈ 1 h, INCA ≈ 3 h) — er ist ein LIVE-Spiegel, kein Archiv. Die 24-Stunden-Regel des Cubes gilt hier nicht."
+  },
+  "tiers": [
+    {
+      "id": "t1",
+      "label": "Kurzfrist (0–48 h, stündlich)",
+      "deg": 0.05,
+      "lat0": 45.5,
+      "lon0": 5.5,
+      "ny": 201,
+      "nx": 241,
+      "fromH": 0,
+      "toH": 48,
+      "stepH": 1,
+      "steps": 49,
+      "chunk": {
+        "cells": 16,
+        "cy": 13,
+        "cx": 16
+      },
+      "sources": [
+        "icon_d2",
+        "icon_d2_eps",
+        "icon_ch1_eps",
+        "claef",
+        "claef_eps",
+        "inca",
+        "radvor_rv",
+        "combiprecip"
+      ]
+    },
+    {
+      "id": "t2",
+      "label": "Mittelfrist (51–120 h, dreistündlich)",
+      "deg": 0.1,
+      "lat0": 45.5,
+      "lon0": 5.5,
+      "ny": 101,
+      "nx": 121,
+      "fromH": 51,
+      "toH": 120,
+      "stepH": 3,
+      "steps": 24,
+      "chunk": {
+        "cells": 16,
+        "cy": 7,
+        "cx": 8
+      },
+      "sources": [
+        "icon_eu",
+        "icon_eu_eps",
+        "icon_ch2_eps",
+        "mosmix_l"
+      ]
+    },
+    {
+      "id": "t3",
+      "label": "Langfrist (126–336 h, sechsstündlich)",
+      "deg": 0.25,
+      "lat0": 45.5,
+      "lon0": 5.5,
+      "ny": 41,
+      "nx": 49,
+      "fromH": 126,
+      "toH": 336,
+      "stepH": 6,
+      "steps": 36,
+      "chunk": {
+        "cells": 16,
+        "cy": 3,
+        "cx": 4
+      },
+      "sources": [
+        "icon_global",
+        "icon_eps_global",
+        "aicon",
+        "ifs_hres",
+        "ifs_ens",
+        "aifs_single",
+        "aifs_ens"
+      ]
+    }
+  ],
+  "planes": [
+    {
+      "id": "t2m",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "t2m",
+      "kind": "mean",
+      "quantStep": 0.01
+    },
+    {
+      "id": "t2m_sd",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "t2m",
+      "kind": "sd",
+      "quantStep": 0.01
+    },
+    {
+      "id": "t2m_sd_ens",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "t2m",
+      "kind": "sd_ens",
+      "quantStep": 0.01
+    },
+    {
+      "id": "t2m_q10",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "t2m",
+      "kind": "q10",
+      "quantStep": 0.01
+    },
+    {
+      "id": "t2m_q90",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "t2m",
+      "kind": "q90",
+      "quantStep": 0.01
+    },
+    {
+      "id": "td2m",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "td2m",
+      "kind": "mean",
+      "quantStep": 0.01
+    },
+    {
+      "id": "td2m_sd",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "td2m",
+      "kind": "sd",
+      "quantStep": 0.01
+    },
+    {
+      "id": "td2m_sd_ens",
+      "unit": "degC",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "td2m",
+      "kind": "sd_ens",
+      "quantStep": 0.01
+    },
+    {
+      "id": "u10",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "u10",
+      "kind": "mean",
+      "quantStep": 0.01
+    },
+    {
+      "id": "u10_sd",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "u10",
+      "kind": "sd",
+      "quantStep": 0.01
+    },
+    {
+      "id": "u10_sd_ens",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "u10",
+      "kind": "sd_ens",
+      "quantStep": 0.01
+    },
+    {
+      "id": "u10_q10",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "u10",
+      "kind": "q10",
+      "quantStep": 0.01
+    },
+    {
+      "id": "u10_q90",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "u10",
+      "kind": "q90",
+      "quantStep": 0.01
+    },
+    {
+      "id": "v10",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "v10",
+      "kind": "mean",
+      "quantStep": 0.01
+    },
+    {
+      "id": "v10_sd",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "v10",
+      "kind": "sd",
+      "quantStep": 0.01
+    },
+    {
+      "id": "v10_sd_ens",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "v10",
+      "kind": "sd_ens",
+      "quantStep": 0.01
+    },
+    {
+      "id": "v10_q10",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "v10",
+      "kind": "q10",
+      "quantStep": 0.01
+    },
+    {
+      "id": "v10_q90",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "v10",
+      "kind": "q90",
+      "quantStep": 0.01
+    },
+    {
+      "id": "gust",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "gust",
+      "kind": "mean",
+      "quantStep": 0.01
+    },
+    {
+      "id": "gust_sd",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "gust",
+      "kind": "sd",
+      "quantStep": 0.01
+    },
+    {
+      "id": "gust_sd_ens",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "gust",
+      "kind": "sd_ens",
+      "quantStep": 0.01
+    },
+    {
+      "id": "gust_q10",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "gust",
+      "kind": "q10",
+      "quantStep": 0.01
+    },
+    {
+      "id": "gust_q90",
+      "unit": "m/s",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "gust",
+      "kind": "q90",
+      "quantStep": 0.01
+    },
+    {
+      "id": "precip",
+      "unit": "mm/h",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "precip",
+      "kind": "mean",
+      "quantStep": 0.01
+    },
+    {
+      "id": "precip_sd",
+      "unit": "mm/h",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "precip",
+      "kind": "sd",
+      "quantStep": 0.01
+    },
+    {
+      "id": "precip_sd_ens",
+      "unit": "mm/h",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "precip",
+      "kind": "sd_ens",
+      "quantStep": 0.01
+    },
+    {
+      "id": "precip_q10",
+      "unit": "mm/h",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "precip",
+      "kind": "q10",
+      "quantStep": 0.01
+    },
+    {
+      "id": "precip_q90",
+      "unit": "mm/h",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "target",
+      "of": "precip",
+      "kind": "q90",
+      "quantStep": 0.01
+    },
+    {
+      "id": "clct",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target",
+      "of": "clct",
+      "kind": "mean",
+      "quantStep": 0.1
+    },
+    {
+      "id": "clct_sd",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target",
+      "of": "clct",
+      "kind": "sd",
+      "quantStep": 0.1
+    },
+    {
+      "id": "clct_sd_ens",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target",
+      "of": "clct",
+      "kind": "sd_ens",
+      "quantStep": 0.1
+    },
+    {
+      "id": "clct_q10",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target",
+      "of": "clct",
+      "kind": "q10",
+      "quantStep": 0.1
+    },
+    {
+      "id": "clct_q90",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target",
+      "of": "clct",
+      "kind": "q90",
+      "quantStep": 0.1
+    },
+    {
+      "id": "ps",
+      "unit": "hPa",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target",
+      "of": "ps",
+      "kind": "mean",
+      "quantStep": 0.1
+    },
+    {
+      "id": "ps_sd",
+      "unit": "hPa",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target",
+      "of": "ps",
+      "kind": "sd",
+      "quantStep": 0.1
+    },
+    {
+      "id": "ps_sd_ens",
+      "unit": "hPa",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target",
+      "of": "ps",
+      "kind": "sd_ens",
+      "quantStep": 0.1
+    },
+    {
+      "id": "snowlmt",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "target",
+      "of": "snowlmt",
+      "kind": "mean",
+      "quantStep": 1
+    },
+    {
+      "id": "snowlmt_sd",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "target",
+      "of": "snowlmt",
+      "kind": "sd",
+      "quantStep": 1
+    },
+    {
+      "id": "snowlmt_sd_ens",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "target",
+      "of": "snowlmt",
+      "kind": "sd_ens",
+      "quantStep": 1
+    },
+    {
+      "id": "snowlmt_q10",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "target",
+      "of": "snowlmt",
+      "kind": "q10",
+      "quantStep": 1
+    },
+    {
+      "id": "snowlmt_q90",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "target",
+      "of": "snowlmt",
+      "kind": "q90",
+      "quantStep": 1
+    },
+    {
+      "id": "clcl",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target",
+      "of": "clcl",
+      "kind": "mean",
+      "quantStep": 0.1
+    },
+    {
+      "id": "clcm",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target",
+      "of": "clcm",
+      "kind": "mean",
+      "quantStep": 0.1
+    },
+    {
+      "id": "clch",
+      "unit": "pct",
+      "scale": 0.1,
+      "offset": 0,
+      "group": "target",
+      "of": "clch",
+      "kind": "mean",
+      "quantStep": 0.1
+    },
+    {
+      "id": "gammaEff",
+      "unit": "K/km",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "profile",
+      "of": "gammaEff",
+      "kind": "mean",
+      "quantStep": 0.01
+    },
+    {
+      "id": "zBase",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "profile",
+      "of": "zBase",
+      "kind": "mean",
+      "quantStep": 1
+    },
+    {
+      "id": "zInv",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "profile",
+      "of": "zInv",
+      "kind": "mean",
+      "quantStep": 1
+    },
+    {
+      "id": "dTInv",
+      "unit": "K",
+      "scale": 0.01,
+      "offset": 0,
+      "group": "profile",
+      "of": "dTInv",
+      "kind": "mean",
+      "quantStep": 0.01
+    },
+    {
+      "id": "hModEff",
+      "unit": "m",
+      "scale": 1,
+      "offset": 0,
+      "group": "profile",
+      "of": "hModEff",
+      "kind": "mean",
+      "quantStep": 1
+    },
+    {
+      "id": "srcCount",
+      "unit": "count",
+      "scale": 1,
+      "offset": 0,
+      "group": "meta",
+      "of": "srcCount",
+      "kind": "mean",
+      "quantStep": 1
+    },
+    {
+      "id": "ensCount",
+      "unit": "count",
+      "scale": 1,
+      "offset": 0,
+      "group": "meta",
+      "of": "ensCount",
+      "kind": "mean",
+      "quantStep": 1
+    }
+  ],
+  "runs": [
+    {
+      "run": "2026091212",
+      "runAt": "2026-09-12T12:00:00Z",
+      "path": "point/2026091212",
+      "tiers": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "sources": [
+        "icon_d2",
+        "icon_d2_eps",
+        "icon_ch1_eps",
+        "claef",
+        "claef_eps",
+        "icon_eu",
+        "ifs_hres",
+        "aifs_single",
+        "icon_eu",
+        "icon_eu_eps",
+        "icon_ch2_eps",
+        "icon_global",
+        "aicon",
+        "ifs_hres",
+        "aifs_single",
+        "icon_global",
+        "icon_eps_global",
+        "aicon",
+        "ifs_hres",
+        "ifs_ens",
+        "aifs_single"
+      ],
+      "bytes": 88551753,
+      "tierRuns": [
+        {
+          "id": "t1",
+          "run": "2026091212",
+          "runAt": "2026-09-12T12:00:00Z",
+          "ageH": 0,
+          "files": 208,
+          "bytes": 80265974
+        },
+        {
+          "id": "t2",
+          "run": "2026091212",
+          "runAt": "2026-09-12T12:00:00Z",
+          "ageH": 0,
+          "files": 56,
+          "bytes": 6825563
+        },
+        {
+          "id": "t3",
+          "run": "2026091212",
+          "runAt": "2026-09-12T12:00:00Z",
+          "ageH": 0,
+          "files": 12,
+          "bytes": 1374995
+        }
+      ]
+    },
+    {
+      "run": "2026091200",
+      "runAt": "2026-09-12T00:00:00Z",
+      "path": "point/2026091200",
+      "tiers": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "sources": [
+        "icon_d2",
+        "icon_d2_eps",
+        "icon_ch1_eps",
+        "claef",
+        "claef_eps",
+        "icon_eu",
+        "ifs_hres",
+        "aifs_single",
+        "icon_eu",
+        "icon_eu_eps",
+        "icon_ch2_eps",
+        "icon_global",
+        "aicon",
+        "ifs_hres",
+        "aifs_single",
+        "icon_global",
+        "icon_eps_global",
+        "aicon",
+        "ifs_hres",
+        "ifs_ens",
+        "aifs_single"
+      ],
+      "bytes": 87910967,
+      "tierRuns": [
+        {
+          "id": "t1",
+          "run": "2026091200",
+          "runAt": "2026-09-12T00:00:00Z",
+          "ageH": 0,
+          "files": 208,
+          "bytes": 79560972
+        },
+        {
+          "id": "t2",
+          "run": "2026091200",
+          "runAt": "2026-09-12T00:00:00Z",
+          "ageH": 0,
+          "files": 56,
+          "bytes": 6846623
+        },
+        {
+          "id": "t3",
+          "run": "2026091200",
+          "runAt": "2026-09-12T00:00:00Z",
+          "ageH": 0,
+          "files": 12,
+          "bytes": 1421538
+        }
+      ]
+    },
+    {
+      "run": "2026091118",
+      "runAt": "2026-09-11T18:00:00Z",
+      "path": "point/2026091118",
+      "tiers": [
+        "t2"
+      ],
+      "sources": [
+        "icon_eu",
+        "icon_eu_eps",
+        "icon_ch2_eps",
+        "icon_global",
+        "aicon",
+        "ifs_hres",
+        "aifs_single"
+      ],
+      "bytes": 6853523,
+      "tierRuns": [
+        {
+          "id": "t2",
+          "run": "2026091118",
+          "runAt": "2026-09-11T18:00:00Z",
+          "ageH": 0,
+          "files": 56,
+          "bytes": 6823999
+        }
+      ]
+    }
+  ],
+  "producer": "buscosun-web/scripts/point/build-point-cube.mjs",
+  "note": "Punkt-Cube (Zeitreihe je Ort). Die Kartenlinie liegt unverändert in index.json / runs/."
+}
