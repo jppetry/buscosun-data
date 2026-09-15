@@ -7,6 +7,17 @@
   "startedAt": "2026-09-15T13:42:57.738Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20260915T1920",
+      "asset": "rzc262581920vl.001.h5",
+      "bytes": 29721,
+      "downloadMs": 634,
+      "deriveMs": 303,
+      "imgBytes": 1039,
+      "pushedAt": "2026-09-15T19:21:08.324Z",
+      "pushMs": 1291
+    },
+    {
       "product": "inca",
       "stamp": "20260915T1900",
       "reftime": "2026-09-15T19:00+00:00",
@@ -300,18 +311,7 @@
       "imgBytes": 5554,
       "pushedAt": "2026-09-15T18:46:27.919Z",
       "pushMs": 1323
-    },
-    {
-      "product": "rzc",
-      "stamp": "20260915T1845",
-      "asset": "rzc262581845vl.001.h5",
-      "bytes": 28755,
-      "downloadMs": 639,
-      "deriveMs": 313,
-      "imgBytes": 988,
-      "pushedAt": "2026-09-15T18:46:09.941Z",
-      "pushMs": 1402
     }
   ],
-  "updatedAt": "2026-09-15T19:21:06.895Z"
+  "updatedAt": "2026-09-15T19:23:32.490Z"
 }
