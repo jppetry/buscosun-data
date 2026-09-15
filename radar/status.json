@@ -7,6 +7,20 @@
   "startedAt": "2026-09-15T19:29:28.921Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "DE1200_RV2609151935.tar.bz2",
+      "slot": "2026-09-15T19:35:00.000Z",
+      "dwdAt": "2026-09-15T19:38:17.000Z",
+      "seenAt": "2026-09-15T19:38:22.303Z",
+      "bytes": 545583,
+      "downloadMs": 1015,
+      "deriveMs": 1397,
+      "imgBytes": 614127,
+      "pushedAt": "2026-09-15T19:38:26.784Z",
+      "pushMs": 1466,
+      "attempt": 1
+    },
+    {
       "product": "inca",
       "stamp": "20260915T1915",
       "reftime": "2026-09-15T19:15+00:00",
@@ -96,5 +110,5 @@
       "attempt": 1
     }
   ],
-  "updatedAt": "2026-09-15T19:38:25.132Z"
+  "updatedAt": "2026-09-15T19:40:13.330Z"
 }
