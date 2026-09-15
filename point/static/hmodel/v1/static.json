@@ -188,10 +188,10 @@
           "unit": "m",
           "scale": 1,
           "offset": 0,
-          "hash": "aa422ccf31a51386",
+          "hash": "50b25fcc6adcefb8",
           "covered": 48441,
-          "minM": -26,
-          "maxM": 3007
+          "minM": -25,
+          "maxM": 3006
         },
         {
           "id": "aifs_single",
@@ -200,27 +200,56 @@
           "unit": "m",
           "scale": 1,
           "offset": 0,
-          "hash": "c3d3bdbe6dcb4f7a",
+          "hash": "a481a1462bd6f275",
           "covered": 48441,
-          "minM": -9,
-          "maxM": 2803
+          "minM": -6,
+          "maxM": 2802
         }
       ],
       "chunks": 208,
-      "bytes": 191707,
+      "bytes": 191705,
       "cy": 13,
       "cx": 16,
       "ny": 201,
       "nx": 241,
       "deg": 0.05,
-      "builtFrom": "2026091512",
-      "builtAt": "2026-09-15T13:48:43.983Z",
+      "builtFrom": "2026091518",
+      "builtAt": "2026-09-15T19:45:55.097Z",
       "absent": {
         "icon_d2_eps": "Reine sigma_ens-Quelle — sie traegt keine Mittelwerte, fuer die PAP 4 eine Hoehenkorrektur rechnen wuerde.",
         "claef": "GeoSphere veroeffentlicht keine Modellorographie; die Ableitung aus Druckflaechen ist versperrt, weil C-LAEF nur msl fuehrt, nicht ps.",
         "claef_eps": "GeoSphere veroeffentlicht keine Modellorographie; die Ableitung aus Druckflaechen ist versperrt, weil C-LAEF nur msl fuehrt, nicht ps."
+      },
+      "diffFromPrev": {
+        "builtAtPrev": "2026-09-15T13:48:43.983Z",
+        "columns": [
+          {
+            "id": "ifs_hres",
+            "kind": "changed",
+            "prevHash": "aa422ccf31a51386",
+            "hash": "50b25fcc6adcefb8",
+            "prevCovered": 48441,
+            "covered": 48441,
+            "prevMinM": -26,
+            "minM": -25,
+            "prevMaxM": 3007,
+            "maxM": 3006
+          },
+          {
+            "id": "aifs_single",
+            "kind": "changed",
+            "prevHash": "c3d3bdbe6dcb4f7a",
+            "hash": "a481a1462bd6f275",
+            "prevCovered": 48441,
+            "covered": 48441,
+            "prevMinM": -9,
+            "minM": -6,
+            "prevMaxM": 2803,
+            "maxM": 2802
+          }
+        ]
       }
     }
   },
-  "updatedAt": "2026-09-15T15:58:18.208Z"
+  "updatedAt": "2026-09-15T19:45:55.097Z"
 }

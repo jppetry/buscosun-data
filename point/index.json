@@ -1,8 +1,8 @@
 {
   "schema": 5,
-  "commit": "49107b0e1ed7d6b8f6b14ba8d0957ce0bb72a4e4",
+  "commit": null,
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
-  "publishedAt": "2026-09-15T16:56:54.726Z",
+  "publishedAt": "2026-09-15T19:52:45.241Z",
   "retentionHours": 24,
   "minRuns": 2,
   "retentionByTier": {
@@ -12,15 +12,15 @@
   },
   "latestByTier": {
     "t1": {
-      "run": "2026091515",
-      "runAt": "2026-09-15T15:00:00Z",
-      "path": "point/2026091515",
-      "manifest": "point/2026091515/run.json",
-      "sourceRun": "2026091515",
-      "sourceRunAt": "2026-09-15T15:00:00Z",
+      "run": "2026091518",
+      "runAt": "2026-09-15T18:00:00Z",
+      "path": "point/2026091518",
+      "manifest": "point/2026091518/run.json",
+      "sourceRun": "2026091518",
+      "sourceRunAt": "2026-09-15T18:00:00Z",
       "ageH": 0,
       "files": 208,
-      "bytes": 94338373
+      "bytes": 90367425
     },
     "t2": {
       "run": "2026091512",
@@ -105,8 +105,8 @@
         "path": "point/static/hmodel/v1",
         "manifest": "point/static/hmodel/v1/static.json",
         "kind": "static",
-        "updatedAt": "2026-09-15T15:58:18.208Z",
-        "bytes": 268042,
+        "updatedAt": "2026-09-15T19:45:55.097Z",
+        "bytes": 268841,
         "tiers": [
           {
             "id": "t1",
@@ -118,7 +118,7 @@
               "aifs_single"
             ],
             "chunks": 208,
-            "bytes": 191707
+            "bytes": 191705
           },
           {
             "id": "t2",
@@ -141,6 +141,27 @@
             ],
             "chunks": 12,
             "bytes": 9848
+          }
+        ]
+      },
+      {
+        "product": "urban",
+        "version": "v1",
+        "path": "point/static/urban/v1",
+        "manifest": "point/static/urban/v1/static.json",
+        "kind": "static",
+        "updatedAt": "2026-09-14T20:43:39.156Z",
+        "bytes": 122780,
+        "tiers": [
+          {
+            "id": "t1",
+            "columns": [
+              "imperv",
+              "d0",
+              "bldgH"
+            ],
+            "chunks": 208,
+            "bytes": 110700
           }
         ]
       }
@@ -868,6 +889,35 @@
   ],
   "runs": [
     {
+      "run": "2026091518",
+      "runAt": "2026-09-15T18:00:00Z",
+      "path": "point/2026091518",
+      "tiers": [
+        "t1"
+      ],
+      "sources": [
+        "icon_d2",
+        "icon_d2_eps",
+        "icon_ch1_eps",
+        "claef",
+        "claef_eps",
+        "icon_eu",
+        "ifs_hres",
+        "aifs_single"
+      ],
+      "bytes": 90427397,
+      "tierRuns": [
+        {
+          "id": "t1",
+          "run": "2026091518",
+          "runAt": "2026-09-15T18:00:00Z",
+          "ageH": 0,
+          "files": 208,
+          "bytes": 90367425
+        }
+      ]
+    },
+    {
       "run": "2026091515",
       "runAt": "2026-09-15T15:00:00Z",
       "path": "point/2026091515",
@@ -1009,34 +1059,6 @@
           "ageH": 0,
           "files": 12,
           "bytes": 1488695
-        }
-      ]
-    },
-    {
-      "run": "2026091418",
-      "runAt": "2026-09-14T18:00:00Z",
-      "path": "point/2026091418",
-      "tiers": [
-        "t2"
-      ],
-      "sources": [
-        "icon_eu",
-        "icon_eu_eps",
-        "icon_ch2_eps",
-        "icon_global",
-        "aicon",
-        "ifs_hres",
-        "aifs_single"
-      ],
-      "bytes": 8743154,
-      "tierRuns": [
-        {
-          "id": "t2",
-          "run": "2026091418",
-          "runAt": "2026-09-14T18:00:00Z",
-          "ageH": 0,
-          "files": 56,
-          "bytes": 8710230
         }
       ]
     }
