@@ -7,6 +7,17 @@
   "startedAt": "2026-09-15T19:29:28.921Z",
   "recent": [
     {
+      "product": "inca",
+      "stamp": "20260915T1930",
+      "reftime": "2026-09-15T19:30+00:00",
+      "bytes": 732780,
+      "downloadMs": 1740,
+      "deriveMs": 800,
+      "imgBytes": 5876,
+      "pushedAt": "2026-09-15T19:46:53.618Z",
+      "pushMs": 1053
+    },
+    {
       "product": "rzc",
       "stamp": "20260915T1945",
       "asset": "rzc262581945vl.001.h5",
@@ -174,5 +185,5 @@
       "attempt": 1
     }
   ],
-  "updatedAt": "2026-09-15T19:46:52.423Z"
+  "updatedAt": "2026-09-15T19:48:26.314Z"
 }
