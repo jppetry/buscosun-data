@@ -5,6 +5,21 @@
   "derive": true,
   "job": "35013872292",
   "startedAt": "2026-09-15T19:29:28.921Z",
-  "recent": [],
-  "updatedAt": "2026-09-15T19:29:32.770Z"
+  "recent": [
+    {
+      "product": "rv",
+      "file": "DE1200_RV2609151925.tar.bz2",
+      "slot": "2026-09-15T19:25:00.000Z",
+      "dwdAt": "2026-09-15T19:28:30.000Z",
+      "seenAt": "2026-09-15T19:29:29.611Z",
+      "bytes": 511866,
+      "downloadMs": 1232,
+      "deriveMs": 1425,
+      "imgBytes": 577688,
+      "pushedAt": "2026-09-15T19:29:34.048Z",
+      "pushMs": 1145,
+      "attempt": 1
+    }
+  ],
+  "updatedAt": "2026-09-15T19:30:00.353Z"
 }
