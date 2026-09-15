@@ -7,6 +7,20 @@
   "startedAt": "2026-09-15T19:29:28.921Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "DE1200_RV2609152000.tar.bz2",
+      "slot": "2026-09-15T20:00:00.000Z",
+      "dwdAt": "2026-09-15T20:03:19.000Z",
+      "seenAt": "2026-09-15T20:03:25.133Z",
+      "bytes": 599687,
+      "downloadMs": 1451,
+      "deriveMs": 1508,
+      "imgBytes": 668363,
+      "pushedAt": "2026-09-15T20:03:30.232Z",
+      "pushMs": 1511,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20260915T2000",
       "asset": "rzc262582000vl.001.h5",
@@ -302,5 +316,5 @@
       "attempt": 1
     }
   ],
-  "updatedAt": "2026-09-15T20:03:28.514Z"
+  "updatedAt": "2026-09-15T20:05:03.351Z"
 }
