@@ -7,6 +7,20 @@
   "startedAt": "2026-09-15T19:29:28.921Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20260915T202500.xml",
+      "slot": "2026-09-15T20:25:00.000Z",
+      "dwdAt": "2026-09-15T20:30:01.000Z",
+      "seenAt": "2026-09-15T20:30:10.242Z",
+      "bytes": 236803,
+      "downloadMs": 761,
+      "deriveMs": 192,
+      "imgBytes": 39681,
+      "pushedAt": "2026-09-15T20:30:12.930Z",
+      "pushMs": 1150,
+      "attempt": 1
+    },
+    {
       "product": "rv",
       "file": "DE1200_RV2609152025.tar.bz2",
       "slot": "2026-09-15T20:25:00.000Z",
@@ -300,21 +314,7 @@
       "pushedAt": "2026-09-15T19:55:07.392Z",
       "pushMs": 1034,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "DE1200_RV2609151950.tar.bz2",
-      "slot": "2026-09-15T19:50:00.000Z",
-      "dwdAt": "2026-09-15T19:53:23.000Z",
-      "seenAt": "2026-09-15T19:53:25.523Z",
-      "bytes": 574930,
-      "downloadMs": 1230,
-      "deriveMs": 1447,
-      "imgBytes": 645320,
-      "pushedAt": "2026-09-15T19:53:32.285Z",
-      "pushMs": 1415,
-      "attempt": 1
     }
   ],
-  "updatedAt": "2026-09-15T20:30:11.600Z"
+  "updatedAt": "2026-09-15T20:31:13.633Z"
 }
