@@ -7,6 +7,17 @@
   "startedAt": "2026-09-15T13:42:57.738Z",
   "recent": [
     {
+      "product": "inca",
+      "stamp": "20260915T1900",
+      "reftime": "2026-09-15T19:00+00:00",
+      "bytes": 732998,
+      "downloadMs": 3416,
+      "deriveMs": 805,
+      "imgBytes": 6005,
+      "pushedAt": "2026-09-15T19:21:04.298Z",
+      "pushMs": 1265
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20260915T191500.xml",
       "slot": "2026-09-15T19:15:00.000Z",
@@ -300,21 +311,7 @@
       "imgBytes": 988,
       "pushedAt": "2026-09-15T18:46:09.941Z",
       "pushMs": 1402
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20260915T184000.xml",
-      "slot": "2026-09-15T18:40:00.000Z",
-      "dwdAt": "2026-09-15T18:44:44.000Z",
-      "seenAt": "2026-09-15T18:44:53.953Z",
-      "bytes": 20734,
-      "downloadMs": 750,
-      "deriveMs": 207,
-      "imgBytes": 3150,
-      "pushedAt": "2026-09-15T18:44:57.149Z",
-      "pushMs": 1285,
-      "attempt": 1
     }
   ],
-  "updatedAt": "2026-09-15T19:21:02.930Z"
+  "updatedAt": "2026-09-15T19:21:06.895Z"
 }
