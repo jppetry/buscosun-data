@@ -1699,6 +1699,730 @@
         "calibrated": false,
         "calibNote": "gammaDepthM/dzMinM/dTMinK sind Startwerte; gemessen werden sie erst aus buscosun-archiv (Felder 30–39, E-14)."
       }
+    },
+    {
+      "id": "t2",
+      "deg": 0.1,
+      "lat0": 45.5,
+      "lon0": 5.5,
+      "ny": 101,
+      "nx": 121,
+      "chunk": {
+        "cells": 16,
+        "cy": 7,
+        "cx": 8
+      },
+      "run": "2026091912",
+      "runAt": "2026-09-19T12:00:00Z",
+      "ageH": 0,
+      "leadHours": [
+        51,
+        54,
+        57,
+        60,
+        63,
+        66,
+        69,
+        72,
+        75,
+        78,
+        81,
+        84,
+        87,
+        90,
+        93,
+        96,
+        99,
+        102,
+        105,
+        108,
+        111,
+        114,
+        117,
+        120
+      ],
+      "files": [
+        {
+          "file": "point/2026091912/t2/00_00.bin",
+          "bytes": 208493,
+          "cy": 0,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091912/t2/00_01.bin",
+          "bytes": 217619,
+          "cy": 0,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091912/t2/00_02.bin",
+          "bytes": 216887,
+          "cy": 0,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091912/t2/00_03.bin",
+          "bytes": 224691,
+          "cy": 0,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091912/t2/00_04.bin",
+          "bytes": 219528,
+          "cy": 0,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091912/t2/00_05.bin",
+          "bytes": 219489,
+          "cy": 0,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091912/t2/00_06.bin",
+          "bytes": 207012,
+          "cy": 0,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091912/t2/00_07.bin",
+          "bytes": 115433,
+          "cy": 0,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091912/t2/01_00.bin",
+          "bytes": 192262,
+          "cy": 1,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091912/t2/01_01.bin",
+          "bytes": 205521,
+          "cy": 1,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091912/t2/01_02.bin",
+          "bytes": 207914,
+          "cy": 1,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091912/t2/01_03.bin",
+          "bytes": 209290,
+          "cy": 1,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091912/t2/01_04.bin",
+          "bytes": 212934,
+          "cy": 1,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091912/t2/01_05.bin",
+          "bytes": 216473,
+          "cy": 1,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091912/t2/01_06.bin",
+          "bytes": 213481,
+          "cy": 1,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091912/t2/01_07.bin",
+          "bytes": 119573,
+          "cy": 1,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091912/t2/02_00.bin",
+          "bytes": 194220,
+          "cy": 2,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091912/t2/02_01.bin",
+          "bytes": 200263,
+          "cy": 2,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091912/t2/02_02.bin",
+          "bytes": 198993,
+          "cy": 2,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091912/t2/02_03.bin",
+          "bytes": 197779,
+          "cy": 2,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091912/t2/02_04.bin",
+          "bytes": 204539,
+          "cy": 2,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091912/t2/02_05.bin",
+          "bytes": 204472,
+          "cy": 2,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091912/t2/02_06.bin",
+          "bytes": 203513,
+          "cy": 2,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091912/t2/02_07.bin",
+          "bytes": 122883,
+          "cy": 2,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091912/t2/03_00.bin",
+          "bytes": 183179,
+          "cy": 3,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091912/t2/03_01.bin",
+          "bytes": 187020,
+          "cy": 3,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091912/t2/03_02.bin",
+          "bytes": 192155,
+          "cy": 3,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091912/t2/03_03.bin",
+          "bytes": 192303,
+          "cy": 3,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091912/t2/03_04.bin",
+          "bytes": 188326,
+          "cy": 3,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091912/t2/03_05.bin",
+          "bytes": 187611,
+          "cy": 3,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091912/t2/03_06.bin",
+          "bytes": 188931,
+          "cy": 3,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091912/t2/03_07.bin",
+          "bytes": 108092,
+          "cy": 3,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091912/t2/04_00.bin",
+          "bytes": 180602,
+          "cy": 4,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091912/t2/04_01.bin",
+          "bytes": 177984,
+          "cy": 4,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091912/t2/04_02.bin",
+          "bytes": 185103,
+          "cy": 4,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091912/t2/04_03.bin",
+          "bytes": 183915,
+          "cy": 4,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091912/t2/04_04.bin",
+          "bytes": 175169,
+          "cy": 4,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091912/t2/04_05.bin",
+          "bytes": 175200,
+          "cy": 4,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091912/t2/04_06.bin",
+          "bytes": 171370,
+          "cy": 4,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091912/t2/04_07.bin",
+          "bytes": 101163,
+          "cy": 4,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091912/t2/05_00.bin",
+          "bytes": 175681,
+          "cy": 5,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091912/t2/05_01.bin",
+          "bytes": 181000,
+          "cy": 5,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091912/t2/05_02.bin",
+          "bytes": 187057,
+          "cy": 5,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091912/t2/05_03.bin",
+          "bytes": 182846,
+          "cy": 5,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091912/t2/05_04.bin",
+          "bytes": 179214,
+          "cy": 5,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091912/t2/05_05.bin",
+          "bytes": 178187,
+          "cy": 5,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091912/t2/05_06.bin",
+          "bytes": 176323,
+          "cy": 5,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091912/t2/05_07.bin",
+          "bytes": 107007,
+          "cy": 5,
+          "cx": 7
+        },
+        {
+          "file": "point/2026091912/t2/06_00.bin",
+          "bytes": 57384,
+          "cy": 6,
+          "cx": 0
+        },
+        {
+          "file": "point/2026091912/t2/06_01.bin",
+          "bytes": 59328,
+          "cy": 6,
+          "cx": 1
+        },
+        {
+          "file": "point/2026091912/t2/06_02.bin",
+          "bytes": 61590,
+          "cy": 6,
+          "cx": 2
+        },
+        {
+          "file": "point/2026091912/t2/06_03.bin",
+          "bytes": 62107,
+          "cy": 6,
+          "cx": 3
+        },
+        {
+          "file": "point/2026091912/t2/06_04.bin",
+          "bytes": 60153,
+          "cy": 6,
+          "cx": 4
+        },
+        {
+          "file": "point/2026091912/t2/06_05.bin",
+          "bytes": 59080,
+          "cy": 6,
+          "cx": 5
+        },
+        {
+          "file": "point/2026091912/t2/06_06.bin",
+          "bytes": 54385,
+          "cy": 6,
+          "cx": 6
+        },
+        {
+          "file": "point/2026091912/t2/06_07.bin",
+          "bytes": 34051,
+          "cy": 6,
+          "cx": 7
+        }
+      ],
+      "quantiles": {
+        "source": "icon_eu_eps",
+        "run": "2026091912",
+        "vars": [
+          "t2m",
+          "u10",
+          "v10",
+          "gust",
+          "precip"
+        ],
+        "levels": [
+          "q10",
+          "q90"
+        ],
+        "steps": 6,
+        "missing": 18,
+        "cellsWritten": 635492,
+        "provenance": "ensemble-members",
+        "byHour": {
+          "60": "icon_eu_eps",
+          "72": "icon_eu_eps",
+          "84": "icon_eu_eps",
+          "96": "icon_eu_eps",
+          "108": "icon_eu_eps",
+          "120": "icon_eu_eps"
+        },
+        "membersN": {
+          "icon_eu_eps": 40
+        },
+        "note": "E-U-9 (2026-09-15): Typ-7-Quantile ueber die Member der Quelle, die die Stunde traegt (byHour) — dieselben Member wie fuer σ_ens, null Bytes zusaetzlich. ROH und UNKALIBRIERT: c(p,f) fehlt, solange buscosun-archiv nicht misst. Niederschlag als Rate ueber den Stufenschritt (wie precip_sd_ens).",
+        "caveat": "Quantile beschreiben die Unsicherheit EINER Quelle, nicht die Uneinigkeit mehrerer. NICHT mit _sd oder _sd_ens verrechnen. Zwischen den Rasterstunden bleiben sie MISSING."
+      },
+      "ensemble": {
+        "sources": [
+          {
+            "id": "icon_eu_eps",
+            "run": "2026091912",
+            "hours": [
+              60,
+              72,
+              84,
+              96,
+              108,
+              120
+            ],
+            "vars": [
+              "t2m",
+              "u10",
+              "v10",
+              "gust",
+              "precip"
+            ],
+            "stepH": 12,
+            "windStepH": null,
+            "windVars": null,
+            "windMembers": null,
+            "membersDeclared": 40,
+            "membersRead": 40,
+            "membersMin": 40,
+            "clampedNegativeRates": 0,
+            "noRate": 4,
+            "errors": 0,
+            "note": "40 Member, gebündelt in EINER Datei je (Größe, Schritt) — eine Teilmenge ist nicht abrufbar (bz2). Traegt NICHTS zum Mittel bei: das Ensemble-Mittel ist derselbe Modelllauf wie der schon ingestierte deterministische, und als zweiter „unabhaengiger\" Wert liesse es sigma_div schrumpfen (V-PD-9, wie bei den ECMWF-Kontrolllaeufen und C-LAEF-EPS). Streuungen werden NUR mit dem Faktor skaliert, nie mit dem Versatz — eine 1,2-K-Streuung mit KELVIN_TO_C stuende sonst als -271,95 im Cube, im erlaubten Wertebereich und ohne Fehlermeldung."
+          }
+        ],
+        "byHour": {
+          "60": "icon_eu_eps",
+          "72": "icon_eu_eps",
+          "84": "icon_eu_eps",
+          "96": "icon_eu_eps",
+          "108": "icon_eu_eps",
+          "120": "icon_eu_eps"
+        },
+        "steps": 6,
+        "missing": 18,
+        "provenance": "single-source-per-hour",
+        "rule": "Je Stunde genau EINE Quelle: die erste in der Reihenfolge der Stufe, die mindestens eine Groesse liefert. Member zweier Ensembles werden nie gemischt — das waere eine Streuung ZWISCHEN Modellen (σ_div), nicht innerhalb eines (σ_ens).",
+        "precip": "precip_sd_ens ist die Streuung der RATE ueber den Stufenschritt: je Member (Summe[t] − Summe[t−Δ]) / Δ, Member ueber ihre Nummer gepaart, negative Differenzen auf 0 — dieselbe Groesse wie die precip-Ebene. Wo eine Quelle den Vorschritt nicht fuehrt, bleibt die Ebene MISSING (sources[].noRate). Bis PD-B10 stand hier die Streuung der Summe seit Laufbeginn.",
+        "caveat": "σ_ens ist die Streuung INNERHALB einer Quelle, σ_div die zwischen Quellen. PAP 6 verzweigt zwischen beiden — sie werden NICHT addiert."
+      },
+      "hmodel": {
+        "changed": true,
+        "planes": [
+          "icon_eu",
+          "icon_ch2_eps",
+          "icon_global",
+          "ifs_hres",
+          "aifs_single"
+        ],
+        "chunks": 56,
+        "bytes": 59326,
+        "reason": "Spalten geändert: ifs_hres(changed), aifs_single(changed) — Modell-Upgrade oder andere Quellenreihenfolge",
+        "diff": [
+          {
+            "id": "ifs_hres",
+            "kind": "changed",
+            "prevHash": "ddaf44fa9c2b4673",
+            "hash": "2505cf650de9e8d3",
+            "prevCovered": 12221,
+            "covered": 12221,
+            "prevMinM": -26,
+            "minM": -27,
+            "prevMaxM": 3005,
+            "maxM": 3008
+          },
+          {
+            "id": "aifs_single",
+            "kind": "changed",
+            "prevHash": "14988db2d30dbe4b",
+            "hash": "5516a66d4d2580a7",
+            "prevCovered": 12221,
+            "covered": 12221,
+            "prevMinM": -9,
+            "minM": -9,
+            "prevMaxM": 2801,
+            "maxM": 2803
+          }
+        ],
+        "absent": {
+          "icon_eu_eps": "Reine sigma_ens-Quelle — sie traegt keine Mittelwerte, fuer die PAP 4 eine Hoehenkorrektur rechnen wuerde.",
+          "aicon": "Der DWD legt fuer AICON keine time-invariant-Datei ab. AICON rechnet auf dem ikosaedrischen Gitter von ICON global; dessen HSURF zu unterstellen waere eine Annahme."
+        },
+        "hModEff": {
+          "provenance": "per-step-contributing",
+          "rule": "hModEff(it, k) = Mittel der Modellhoehen der Quellen mit gesetztem srcMask-Bit in (it, k); Rueckfall auf das Mittel aller Hoehen der Zelle, wenn keine tragende Quelle eine Hoehe hat (V-PD-57, E-E-5, 2026-09-15).",
+          "nativeIds": [
+            "icon_eu",
+            "icon_ch2_eps",
+            "icon_global"
+          ],
+          "derivedIncluded": [
+            "ifs_hres",
+            "aifs_single"
+          ],
+          "cellsFromContributing": 293304,
+          "cellsFallbackAllSources": 0,
+          "cellsWithoutHeight": 0,
+          "contributionsPerSource": {
+            "icon_eu": 293304,
+            "icon_ch2_eps": 138120,
+            "icon_global": 293304,
+            "ifs_hres": 293304,
+            "aifs_single": 146652
+          },
+          "caveat": "Vor dem 2026-09-15 stand hier ein statisches Mittel ueber alle nativen HSURF fuer alle Schritte; in t3 war das ICON globals Hoehe auch jenseits 180 h. Der Wert am PAP-4-Term hat sich damit geaendert."
+        }
+      },
+      "pressure": {
+        "levels": [
+          925,
+          850,
+          700
+        ],
+        "stepH": 3,
+        "sources": [
+          {
+            "id": "icon_eu",
+            "levels": [
+              925,
+              850,
+              700
+            ],
+            "rh": true
+          },
+          {
+            "id": "ifs_hres",
+            "levels": [
+              925,
+              850,
+              700
+            ],
+            "rh": true
+          },
+          {
+            "id": "aifs_single",
+            "levels": [
+              925,
+              850,
+              700
+            ],
+            "rh": false
+          }
+        ],
+        "steps": {
+          "t925": 24,
+          "rh925": 24,
+          "t850": 24,
+          "rh850": 24,
+          "t700": 24,
+          "rh700": 24
+        },
+        "provenance": "mean",
+        "why": "T und RH auf Druckflaechen sind gewoehnliche Skalarfelder — anders als die Profilfelder werden sie gemittelt.",
+        "levelCaveat": "ICON-D2 fuehrt kein 925 hPa (950/975 statt dessen), IFS und AIFS kein 950. Je Ebene wird nur ueber die Quellen gemittelt, die GENAU diese Flaeche fuehren.",
+        "rhCaveat": "AIFS Single fuehrt auf Druckflaechen keine relative Feuchte (nur q) — es traegt dort nur die Temperatur.",
+        "belowGroundRule": "Liegt die Flaeche unter der Modelloberflaeche (p_Flaeche > ps), extrapolieren alle Modelle. Der Wert steht unveraendert im Cube; der Leser markiert ihn anhand der Ebene ps.",
+        "rhRange": "Werte ueber 100 % sind normal (am echten Feld 101,00 gemessen) und stehen unveraendert im Cube — die Ebene deklariert deshalb [0,120]. Nicht auf 100 klemmen."
+      },
+      "net": {
+        "icon_eu": {
+          "files": 434,
+          "bytes": 452567174,
+          "ms": 93769,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 0
+        },
+        "icon_eu_eps": {
+          "files": 30,
+          "bytes": 254055117,
+          "ms": 20114,
+          "cached": 0,
+          "absent": 4,
+          "throttled": 0,
+          "probes": 7,
+          "coalesced": 0
+        },
+        "icon_ch2_eps": {
+          "files": 494,
+          "bytes": 207851472,
+          "ms": 202249,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 0,
+          "coalesced": 0
+        },
+        "icon_global": {
+          "files": 268,
+          "bytes": 918054712,
+          "ms": 65451,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 3,
+          "coalesced": 0
+        },
+        "aicon": {
+          "files": 121,
+          "bytes": 395647413,
+          "ms": 54554,
+          "cached": 0,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 0
+        },
+        "ifs_hres": {
+          "files": 76,
+          "bytes": 226351668,
+          "ms": 126884,
+          "cached": 354,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 1
+        },
+        "aifs_single": {
+          "files": 38,
+          "bytes": 81456241,
+          "ms": 71150,
+          "cached": 137,
+          "absent": 0,
+          "throttled": 0,
+          "probes": 4,
+          "coalesced": 1
+        }
+      },
+      "timing": {
+        "phases": {
+          "discover": 122546,
+          "fields": 208100,
+          "encode": 939
+        },
+        "bySource": {
+          "icon_eu": {
+            "msWall": 184807,
+            "calls": 435
+          },
+          "icon_eu_eps": {
+            "msWall": 68298,
+            "calls": 32
+          },
+          "icon_ch2_eps": {
+            "msWall": 210108,
+            "calls": 291
+          },
+          "icon_global": {
+            "msWall": 211260,
+            "calls": 267
+          },
+          "aicon": {
+            "msWall": 102205,
+            "calls": 123
+          },
+          "ifs_hres": {
+            "msWall": 170531,
+            "calls": 340
+          },
+          "aifs_single": {
+            "msWall": 88798,
+            "calls": 135
+          }
+        },
+        "totalMs": 331585,
+        "mode": "lanes",
+        "lanes": {
+          "ahead": 3,
+          "maxAhead": 3,
+          "consumeMs": 279,
+          "laneMs": {
+            "icon_eu": 112538,
+            "icon_eu_eps": 5,
+            "icon_ch2_eps": 91354,
+            "icon_global": 208071,
+            "aicon": 99834,
+            "ifs_hres": 96677,
+            "aifs_single": 40719
+          }
+        },
+        "blocks": {
+          "quantiles": 2,
+          "profile": 1,
+          "orography": 11562,
+          "ensemble": 62399,
+          "pressure": 68625,
+          "fields": 208087
+        },
+        "workers": {
+          "requested": 3,
+          "running": 3,
+          "mode": "workers",
+          "jobs": 1593,
+          "inlineJobs": 0,
+          "errors": 0,
+          "msWait": 253466,
+          "pending": 0,
+          "queued": 0
+        }
+      },
+      "dropped": [],
+      "profile": null
     }
   ],
   "planes": [
@@ -2104,6 +2828,175 @@
   ],
   "sources": [
     {
+      "id": "icon_eu",
+      "name": "ICON-EU",
+      "tier": "t2",
+      "runAt": "2026-09-19T12:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 24,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "full",
+      "offsetH": 0,
+      "geometry": {
+        "cells": 12221,
+        "covered": 12221,
+        "domain": {
+          "latMin": 29.5,
+          "latMax": 70.5,
+          "lonMin": -23.5,
+          "lonMax": 62.5
+        },
+        "clip": null,
+        "edgeMarginKm": 0,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_eu_eps",
+      "name": "ICON-EU-EPS",
+      "tier": "t2",
+      "runAt": "2026-09-19T12:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 6,
+      "members": 40,
+      "role": "assigned",
+      "coverage": "partial",
+      "offsetH": 0,
+      "geometry": {
+        "cells": 12221,
+        "covered": 12221,
+        "domain": {
+          "latMin": 29.5,
+          "latMax": 70.5,
+          "lonMin": -23.5,
+          "lonMax": 62.5
+        },
+        "clip": null,
+        "edgeMarginKm": 0,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_ch2_eps",
+      "name": "ICON-CH2-EPS",
+      "tier": "t2",
+      "runAt": "2026-09-19T12:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 24,
+      "members": 0,
+      "role": "assigned",
+      "coverage": "full",
+      "offsetH": 0,
+      "geometry": {
+        "cells": 12221,
+        "covered": 5755,
+        "domain": {
+          "latMin": 42.079,
+          "latMax": 50.479,
+          "lonMin": -0.769,
+          "lonMax": 17.678
+        },
+        "clip": null,
+        "edgeMarginKm": 20,
+        "from": "coversPoint(domain ∩ clip, edgeMarginKm) am Zellmittelpunkt"
+      },
+      "attribution": "Quelle: MeteoSchweiz",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "icon_global",
+      "name": "ICON global",
+      "tier": "t2",
+      "runAt": "2026-09-19T12:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 24,
+      "members": 0,
+      "role": "diversity",
+      "coverage": "full",
+      "offsetH": 0,
+      "geometry": null,
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "aicon",
+      "name": "AICON (KI, 13 km)",
+      "tier": "t2",
+      "runAt": "2026-09-19T12:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 24,
+      "members": 0,
+      "role": "diversity",
+      "coverage": "full",
+      "offsetH": 0,
+      "geometry": null,
+      "attribution": "Datenbasis: Deutscher Wetterdienst",
+      "licence": "CC BY 4.0 / GeoNutzV",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "ifs_hres",
+      "name": "IFS HRES",
+      "tier": "t2",
+      "runAt": "2026-09-19T06:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 24,
+      "members": 0,
+      "role": "diversity",
+      "coverage": "full",
+      "offsetH": 6,
+      "geometry": null,
+      "attribution": "ECMWF Open Data (ECMWF Terms of Use)",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
+      "id": "aifs_single",
+      "name": "AIFS Single",
+      "tier": "t2",
+      "runAt": "2026-09-19T06:00:00Z",
+      "fromH": 51,
+      "toH": 120,
+      "steps": 12,
+      "members": 0,
+      "role": "diversity",
+      "coverage": "partial",
+      "offsetH": 6,
+      "geometry": null,
+      "attribution": "ECMWF Open Data (ECMWF Terms of Use)",
+      "licence": "CC BY 4.0",
+      "errors": 0,
+      "firstError": null,
+      "dropped": null
+    },
+    {
       "id": "icon_d2",
       "name": "ICON-D2",
       "tier": "t1",
@@ -2355,9 +3248,7 @@
     "runChoice": "Je Quelle wird der neueste Lauf gewählt, der das GANZE Band der Stufe trägt (`coverage: \"full\"`); gibt es den nicht, der neueste, der wenigstens die erste Stunde trägt (`coverage: \"partial\"`). Vorher entschied allein die erste Stunde — damit gewann bei ECMWF der jüngere `scda`-Lauf (144 h) über den `oper`-Lauf (360 h), und jenseits 180 h blieb eine einzige Quelle übrig. Die Registry-Horizonte dienen nur als Vorfilter; geprüft wird am Objekt."
   },
   "skipped": {
-    "inca": "liegt unter radar/img/v1/inca, Leser seit PD-B3. Traegt Ostoesterreich allein (⚠¹). Nicht im Cube — s. radvor_rv.",
-    "radvor_rv": "liegt als UNVERAENDERTES tar.bz2 unter radar/rv und als Werte-PNG unter radar/img/v1/rv. Seit PD-B3 gibt es den Leser (scripts/point/nowcastReader.mjs); er gehoert NICHT in den Cube, weil dessen Achse am Modelllauf haengt (§36.4).",
-    "combiprecip": "liegt unter radar/img/v1/rzc, Leser seit PD-B3. Nicht im Cube — s. radvor_rv."
+    "mosmix_l": "Stationsquelle — ausgeliefert als eigenes Produkt point/stations/ (PD-B9, §44), NICHT als Gitterquelle."
   },
   "pending": {
     "mosmix_l": "Stationsquelle — ausgeliefert als eigenes Produkt point/stations/ (PD-B9, §44), NICHT als Gitterquelle.",

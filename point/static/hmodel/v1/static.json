@@ -57,10 +57,10 @@
           "unit": "m",
           "scale": 1,
           "offset": 0,
-          "hash": "ddaf44fa9c2b4673",
+          "hash": "2505cf650de9e8d3",
           "covered": 12221,
-          "minM": -26,
-          "maxM": 3005
+          "minM": -27,
+          "maxM": 3008
         },
         {
           "id": "aifs_single",
@@ -69,51 +69,51 @@
           "unit": "m",
           "scale": 1,
           "offset": 0,
-          "hash": "14988db2d30dbe4b",
+          "hash": "5516a66d4d2580a7",
           "covered": 12221,
           "minM": -9,
-          "maxM": 2801
+          "maxM": 2803
         }
       ],
       "chunks": 56,
-      "bytes": 59349,
+      "bytes": 59326,
       "cy": 7,
       "cx": 8,
       "ny": 101,
       "nx": 121,
       "deg": 0.1,
-      "builtFrom": "2026091906",
-      "builtAt": "2026-09-19T10:37:10.671Z",
+      "builtFrom": "2026091912",
+      "builtAt": "2026-09-19T16:38:20.608Z",
       "absent": {
         "icon_eu_eps": "Reine sigma_ens-Quelle — sie traegt keine Mittelwerte, fuer die PAP 4 eine Hoehenkorrektur rechnen wuerde.",
         "aicon": "Der DWD legt fuer AICON keine time-invariant-Datei ab. AICON rechnet auf dem ikosaedrischen Gitter von ICON global; dessen HSURF zu unterstellen waere eine Annahme."
       },
       "diffFromPrev": {
-        "builtAtPrev": "2026-09-19T04:41:41.469Z",
+        "builtAtPrev": "2026-09-19T10:37:10.671Z",
         "columns": [
           {
             "id": "ifs_hres",
             "kind": "changed",
-            "prevHash": "27c43d8ac37111e6",
-            "hash": "ddaf44fa9c2b4673",
+            "prevHash": "ddaf44fa9c2b4673",
+            "hash": "2505cf650de9e8d3",
             "prevCovered": 12221,
             "covered": 12221,
-            "prevMinM": -25,
-            "minM": -26,
+            "prevMinM": -26,
+            "minM": -27,
             "prevMaxM": 3005,
-            "maxM": 3005
+            "maxM": 3008
           },
           {
             "id": "aifs_single",
             "kind": "changed",
-            "prevHash": "638e289c7d93a504",
-            "hash": "14988db2d30dbe4b",
+            "prevHash": "14988db2d30dbe4b",
+            "hash": "5516a66d4d2580a7",
             "prevCovered": 12221,
             "covered": 12221,
-            "prevMinM": -8,
+            "prevMinM": -9,
             "minM": -9,
-            "prevMaxM": 2803,
-            "maxM": 2801
+            "prevMaxM": 2801,
+            "maxM": 2803
           }
         ]
       }
@@ -309,5 +309,5 @@
       }
     }
   },
-  "updatedAt": "2026-09-19T13:45:57.004Z"
+  "updatedAt": "2026-09-19T16:38:20.608Z"
 }

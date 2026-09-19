@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "updatedAt": "2026-09-19T10:42:37.373Z",
+  "updatedAt": "2026-09-19T16:42:15.308Z",
   "source": "MOSMIX-L <kml:coordinates> (echte Dezimalgrad)",
   "note": "NICHT aus mosmix_stationskatalog.cfg abgeleitet: der fuehrt Lat/Lon als Grad + Dezimalminuten (Wien/Hohe Warte steht dort als 48.15/16.22 statt 48.2489/16.3564).",
   "domain": {

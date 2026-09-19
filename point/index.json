@@ -1,8 +1,8 @@
 {
   "schema": 5,
-  "commit": "012f47b2a7cde93b5d72be33465a3005213949fd",
+  "commit": null,
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
-  "publishedAt": "2026-09-19T13:53:23.670Z",
+  "publishedAt": "2026-09-19T16:42:15.537Z",
   "retentionHours": 24,
   "minRuns": 2,
   "retentionByTier": {
@@ -23,15 +23,15 @@
       "bytes": 89006403
     },
     "t2": {
-      "run": "2026091906",
-      "runAt": "2026-09-19T06:00:00Z",
-      "path": "point/2026091906",
-      "manifest": "point/2026091906/run.json",
-      "sourceRun": "2026091906",
-      "sourceRunAt": "2026-09-19T06:00:00Z",
+      "run": "2026091912",
+      "runAt": "2026-09-19T12:00:00Z",
+      "path": "point/2026091912",
+      "manifest": "point/2026091912/run.json",
+      "sourceRun": "2026091912",
+      "sourceRunAt": "2026-09-19T12:00:00Z",
       "ageH": 0,
       "files": 56,
-      "bytes": 9287973
+      "bytes": 9326778
     },
     "t3": {
       "run": "2026091900",
@@ -86,6 +86,16 @@
     "catalog": "point/stations/catalog.json",
     "runs": [
       {
+        "run": "2026091915",
+        "runAt": "2026-09-19T15:00:00.000Z",
+        "ageH": 1.7,
+        "path": "point/stations/2026091915",
+        "manifest": "point/stations/2026091915/stations.json",
+        "stationCount": 3071,
+        "leadHours": 247,
+        "bytes": 7277929
+      },
+      {
         "run": "2026091909",
         "runAt": "2026-09-19T09:00:00.000Z",
         "ageH": 1.71,
@@ -104,16 +114,6 @@
         "stationCount": 3071,
         "leadHours": 247,
         "bytes": 7214915
-      },
-      {
-        "run": "2026091815",
-        "runAt": "2026-09-18T15:00:00.000Z",
-        "ageH": 1.74,
-        "path": "point/stations/2026091815",
-        "manifest": "point/stations/2026091815/stations.json",
-        "stationCount": 3071,
-        "leadHours": 247,
-        "bytes": 7236005
       }
     ],
     "source": "mosmix_l",
@@ -129,8 +129,8 @@
         "path": "point/static/hmodel/v1",
         "manifest": "point/static/hmodel/v1/static.json",
         "kind": "static",
-        "updatedAt": "2026-09-19T13:45:57.004Z",
-        "bytes": 270423,
+        "updatedAt": "2026-09-19T16:38:20.608Z",
+        "bytes": 270400,
         "tiers": [
           {
             "id": "t1",
@@ -154,7 +154,7 @@
               "aifs_single"
             ],
             "chunks": 56,
-            "bytes": 59349
+            "bytes": 59326
           },
           {
             "id": "t3",
@@ -917,9 +917,17 @@
       "runAt": "2026-09-19T12:00:00Z",
       "path": "point/2026091912",
       "tiers": [
-        "t1"
+        "t1",
+        "t2"
       ],
       "sources": [
+        "icon_eu",
+        "icon_eu_eps",
+        "icon_ch2_eps",
+        "icon_global",
+        "aicon",
+        "ifs_hres",
+        "aifs_single",
         "icon_d2",
         "icon_d2_eps",
         "icon_ch1_eps",
@@ -929,7 +937,7 @@
         "ifs_hres",
         "aifs_single"
       ],
-      "bytes": 89067541,
+      "bytes": 98417588,
       "tierRuns": [
         {
           "id": "t1",
@@ -938,6 +946,14 @@
           "ageH": 0,
           "files": 208,
           "bytes": 89006403
+        },
+        {
+          "id": "t2",
+          "run": "2026091912",
+          "runAt": "2026-09-19T12:00:00Z",
+          "ageH": 0,
+          "files": 56,
+          "bytes": 9326778
         }
       ]
     },
@@ -975,7 +991,6 @@
       "runAt": "2026-09-19T06:00:00Z",
       "path": "point/2026091906",
       "tiers": [
-        "t1",
         "t2"
       ],
       "sources": [
@@ -985,26 +1000,10 @@
         "icon_global",
         "aicon",
         "ifs_hres",
-        "aifs_single",
-        "icon_d2",
-        "icon_d2_eps",
-        "icon_ch1_eps",
-        "claef",
-        "claef_eps",
-        "icon_eu",
-        "ifs_hres",
         "aifs_single"
       ],
-      "bytes": 98261473,
+      "bytes": 9324350,
       "tierRuns": [
-        {
-          "id": "t1",
-          "run": "2026091906",
-          "runAt": "2026-09-19T06:00:00Z",
-          "ageH": 0,
-          "files": 208,
-          "bytes": 88889088
-        },
         {
           "id": "t2",
           "run": "2026091906",
