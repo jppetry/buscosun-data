@@ -7,6 +7,20 @@
   "startedAt": "2026-10-03T18:34:03.370Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261003T221500.xml",
+      "slot": "2026-10-03T22:15:00.000Z",
+      "dwdAt": "2026-10-03T22:20:29.000Z",
+      "seenAt": "2026-10-03T22:20:32.023Z",
+      "bytes": 3934,
+      "downloadMs": 557,
+      "deriveMs": 221,
+      "imgBytes": 92,
+      "pushedAt": "2026-10-03T22:20:34.572Z",
+      "pushMs": 1013,
+      "attempt": 1
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261003_2215.tar",
       "slot": "2026-10-03T22:15:00.000Z",
@@ -297,21 +311,7 @@
       "imgBytes": 3789,
       "pushedAt": "2026-10-03T21:45:41.936Z",
       "pushMs": 881
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20261003T214000.xml",
-      "slot": "2026-10-03T21:40:00.000Z",
-      "dwdAt": "2026-10-03T21:45:34.000Z",
-      "seenAt": "2026-10-03T21:45:36.507Z",
-      "bytes": 3934,
-      "downloadMs": 398,
-      "deriveMs": 211,
-      "imgBytes": 92,
-      "pushedAt": "2026-10-03T21:45:38.791Z",
-      "pushMs": 1001,
-      "attempt": 1
     }
   ],
-  "updatedAt": "2026-10-03T22:20:33.214Z"
+  "updatedAt": "2026-10-03T22:21:21.436Z"
 }
