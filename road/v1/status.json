@@ -3,10 +3,10 @@
  "product": "road-status",
  "job": "37144639359",
  "startedAt": "2026-10-03T18:34:03.402Z",
- "updatedAt": "2026-10-03T22:16:34.014Z",
+ "updatedAt": "2026-10-03T22:18:21.490Z",
  "killSwitch": false,
- "lastSlot": "2610032200",
- "lastPublishedSlot": "2610032200",
+ "lastSlot": "2610032215",
+ "lastPublishedSlot": "2610032215",
  "blocked": null,
  "catalog": {
   "etag": "a681a1ddc60c378a0583c3e078c9e423",
@@ -31,8 +31,8 @@
   },
   "FN-NB": {
    "state": "ok",
-   "ageMin": 1,
-   "stations": 348
+   "ageMin": 0,
+   "stations": 347
   },
   "HJ-HH": {
    "state": "ok",
@@ -41,7 +41,7 @@
   },
   "HL-ST": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 20
   },
   "HV-NI": {
@@ -51,7 +51,7 @@
   },
   "JA-SO": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 58
   },
   "JO-SO": {
@@ -61,7 +61,7 @@
   },
   "KA-NW": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 8
   },
   "KK-SH": {
@@ -71,7 +71,7 @@
   },
   "KM-NW": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 253
   },
   "KO-RP": {
@@ -81,17 +81,17 @@
   },
   "LH-LH": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 18
   },
   "MC-MV": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 43
   },
   "ND-BY": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 34
   },
   "NI-NI": {
@@ -101,12 +101,12 @@
   },
   "RB-SL": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 23
   },
   "RH-HE": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 74
   },
   "RP-RP": {
@@ -121,32 +121,33 @@
   },
   "SP-BB": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 34
   },
   "WW-SO": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 19
   }
  },
  "balance": {
-  "values": 10349,
-  "rejected": 141,
-  "share": 0.013624504783070828,
+  "values": 11498,
+  "rejected": 163,
+  "share": 0.0141763785006088,
   "byRule": {
-   "stateNoTemp": 87,
+   "stateNoTemp": 90,
+   "gustBelowWind": 1,
+   "limit": 7,
+   "stuck": 26,
+   "dewAboveAir": 2,
    "outsideDE": 1,
-   "dwdSuspect": 30,
-   "stuck": 19,
-   "placeholder": 2,
-   "dewAboveAir": 1,
-   "gustBelowWind": 2
+   "placeholder": 3,
+   "dwdSuspect": 28
   },
   "observe": {
    "catalog": 157,
    "roadAir": 5,
-   "neighbours": 6
+   "neighbours": 7
   },
   "flags": {
    "spread": 2,
@@ -154,6 +155,18 @@
   }
  },
  "recent": [
+  {
+   "slot": "2610032215",
+   "publish": true,
+   "points": 1552,
+   "values": 11498,
+   "rejected": 163,
+   "share": 0.0142,
+   "groups": 23,
+   "dwdLastAt": "2026-10-03T22:18:05.000Z",
+   "derivedAt": "2026-10-03T22:18:21.056Z",
+   "deriveMs": 523
+  },
   {
    "slot": "2610032200",
    "publish": true,
@@ -429,18 +442,6 @@
    "dwdLastAt": "2026-10-03T16:33:12.000Z",
    "derivedAt": "2026-10-03T16:33:18.760Z",
    "deriveMs": 511
-  },
-  {
-   "slot": "2610031615",
-   "publish": true,
-   "points": 1548,
-   "values": 11573,
-   "rejected": 165,
-   "share": 0.0143,
-   "groups": 23,
-   "dwdLastAt": "2026-10-03T16:18:06.000Z",
-   "derivedAt": "2026-10-03T16:18:26.675Z",
-   "deriveMs": 524
   }
  ]
 }
