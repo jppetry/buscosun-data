@@ -1,0 +1,307 @@
+{
+  "product": "hmodel",
+  "version": "v1",
+  "kind": "static",
+  "what": "Modellorographie (h_model) je Quelle und Stufe, auf dem Cube-Gitter abgetastet.",
+  "why": "PAP 4 korrigiert h_true − h_mod_eff. Der Cube trägt nur das MITTEL (hModEff); welche Quelle welche Höhe annimmt, war bis PD-E nicht lesbar.",
+  "container": "BSPC wie der Cube, eigene Ebenenliste (eine Ebene je Quelle), nt = 1, gleiches Chunk-Raster.",
+  "chunkCells": 16,
+  "provenanceKinds": {
+    "native": "Vom Modellbetreiber als HSURF veröffentlicht.",
+    "derived-gh-sp": "Abgeleitet: gh (geopotentielle Höhe der Druckflächen) interpoliert in ln p an der Stelle p = sp (Bodendruck). ECMWF veröffentlicht keine Orographie. Geht NICHT in hModEff ein (E-E-5) — sie steht hier, damit die Differenz sichtbar ist."
+  },
+  "timeless": "point/static/ ist von der Aufbewahrung ausgenommen (TIMELESS_PATHS).",
+  "tiers": {
+    "t2": {
+      "planes": [
+        {
+          "id": "icon_eu",
+          "provenance": "native",
+          "note": null,
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "aaf473308cc09cda",
+          "covered": 12221,
+          "minM": -3,
+          "maxM": 3071
+        },
+        {
+          "id": "icon_ch2_eps",
+          "provenance": "native",
+          "note": null,
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "3d0e64f17646a500",
+          "covered": 5755,
+          "minM": 0,
+          "maxM": 3713
+        },
+        {
+          "id": "icon_global",
+          "provenance": "native",
+          "note": null,
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "ddb976e32afc60c1",
+          "covered": 12221,
+          "minM": -3,
+          "maxM": 3020
+        },
+        {
+          "id": "ifs_hres",
+          "provenance": "derived-gh-sp",
+          "note": "aus gh + sp interpoliert; die Quelle veröffentlicht keine Orographie",
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "dc3efc212591f0e2",
+          "covered": 12221,
+          "minM": -26,
+          "maxM": 3006
+        },
+        {
+          "id": "aifs_single",
+          "provenance": "derived-gh-sp",
+          "note": "aus gh + sp interpoliert; die Quelle veröffentlicht keine Orographie",
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "2ad1d69bfcd5f56c",
+          "covered": 12221,
+          "minM": -6,
+          "maxM": 2801
+        }
+      ],
+      "chunks": 56,
+      "bytes": 59376,
+      "cy": 7,
+      "cx": 8,
+      "ny": 101,
+      "nx": 121,
+      "deg": 0.1,
+      "builtFrom": "2026100312",
+      "builtAt": "2026-10-03T17:50:14.087Z",
+      "absent": {
+        "icon_eu_eps": "Reine sigma_ens-Quelle — sie traegt keine Mittelwerte, fuer die PAP 4 eine Hoehenkorrektur rechnen wuerde.",
+        "aicon": "Der DWD legt fuer AICON keine time-invariant-Datei ab. AICON rechnet auf dem ikosaedrischen Gitter von ICON global; dessen HSURF zu unterstellen waere eine Annahme."
+      },
+      "diffFromPrev": {
+        "builtAtPrev": "2026-10-03T10:54:37.410Z",
+        "columns": [
+          {
+            "id": "icon_ch2_eps",
+            "kind": "added",
+            "hash": "3d0e64f17646a500",
+            "covered": 5755
+          },
+          {
+            "id": "ifs_hres",
+            "kind": "changed",
+            "prevHash": "ded627a08f7755bd",
+            "hash": "dc3efc212591f0e2",
+            "prevCovered": 12221,
+            "covered": 12221,
+            "prevMinM": -25,
+            "minM": -26,
+            "prevMaxM": 3004,
+            "maxM": 3006
+          },
+          {
+            "id": "aifs_single",
+            "kind": "changed",
+            "prevHash": "b4418f56e987521c",
+            "hash": "2ad1d69bfcd5f56c",
+            "prevCovered": 12221,
+            "covered": 12221,
+            "prevMinM": -8,
+            "minM": -6,
+            "prevMaxM": 2800,
+            "maxM": 2801
+          }
+        ]
+      }
+    },
+    "t3": {
+      "planes": [
+        {
+          "id": "icon_global",
+          "provenance": "native",
+          "note": null,
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "95180466e84fd173",
+          "covered": 2009,
+          "minM": -3,
+          "maxM": 3020
+        },
+        {
+          "id": "ifs_hres",
+          "provenance": "derived-gh-sp",
+          "note": "aus gh + sp interpoliert; die Quelle veröffentlicht keine Orographie",
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "5676e2241da32ee7",
+          "covered": 2009,
+          "minM": -25,
+          "maxM": 3004
+        },
+        {
+          "id": "aifs_single",
+          "provenance": "derived-gh-sp",
+          "note": "aus gh + sp interpoliert; die Quelle veröffentlicht keine Orographie",
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "eae0f5da7b4284b5",
+          "covered": 2009,
+          "minM": -8,
+          "maxM": 2800
+        }
+      ],
+      "chunks": 12,
+      "bytes": 9858,
+      "cy": 3,
+      "cx": 4,
+      "ny": 41,
+      "nx": 49,
+      "deg": 0.25,
+      "builtFrom": "2026100300",
+      "builtAt": "2026-10-03T09:59:01.605Z",
+      "absent": {
+        "icon_eps_global": "Reine sigma_ens-Quelle — sie traegt keine Mittelwerte, fuer die PAP 4 eine Hoehenkorrektur rechnen wuerde.",
+        "aicon": "Der DWD legt fuer AICON keine time-invariant-Datei ab. AICON rechnet auf dem ikosaedrischen Gitter von ICON global; dessen HSURF zu unterstellen waere eine Annahme.",
+        "ifs_ens": "Reine sigma_ens-Quelle — sie traegt keine Mittelwerte, fuer die PAP 4 eine Hoehenkorrektur rechnen wuerde."
+      },
+      "diffFromPrev": {
+        "builtAtPrev": "2026-10-02T21:59:24.394Z",
+        "columns": [
+          {
+            "id": "ifs_hres",
+            "kind": "changed",
+            "prevHash": "7569c08803d63c91",
+            "hash": "5676e2241da32ee7",
+            "prevCovered": 2009,
+            "covered": 2009,
+            "prevMinM": -23,
+            "minM": -25,
+            "prevMaxM": 3005,
+            "maxM": 3004
+          },
+          {
+            "id": "aifs_single",
+            "kind": "changed",
+            "prevHash": "bf24f0f0f046d6ca",
+            "hash": "eae0f5da7b4284b5",
+            "prevCovered": 2009,
+            "covered": 2009,
+            "prevMinM": -6,
+            "minM": -8,
+            "prevMaxM": 2800,
+            "maxM": 2800
+          }
+        ]
+      }
+    },
+    "t1": {
+      "planes": [
+        {
+          "id": "icon_d2",
+          "provenance": "native",
+          "note": null,
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "afb087aa339ee1e4",
+          "covered": 48441,
+          "minM": -17,
+          "maxM": 3671
+        },
+        {
+          "id": "icon_ch1_eps",
+          "provenance": "native",
+          "note": null,
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "bec8d6a1389ccf9b",
+          "covered": 23140,
+          "minM": 0,
+          "maxM": 3825
+        },
+        {
+          "id": "icon_eu",
+          "provenance": "native",
+          "note": null,
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "fa9ae81dbe505176",
+          "covered": 48441,
+          "minM": -3,
+          "maxM": 3213
+        },
+        {
+          "id": "ifs_hres",
+          "provenance": "derived-gh-sp",
+          "note": "aus gh + sp interpoliert; die Quelle veröffentlicht keine Orographie",
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "f99e339b2180c27f",
+          "covered": 48441,
+          "minM": -22,
+          "maxM": 3005
+        },
+        {
+          "id": "aifs_single",
+          "provenance": "derived-gh-sp",
+          "note": "aus gh + sp interpoliert; die Quelle veröffentlicht keine Orographie",
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "hash": "49c459e8e0d61e68",
+          "covered": 48441,
+          "minM": -6,
+          "maxM": 2801
+        }
+      ],
+      "chunks": 208,
+      "bytes": 191728,
+      "cy": 13,
+      "cx": 16,
+      "ny": 201,
+      "nx": 241,
+      "deg": 0.05,
+      "builtFrom": "2026100318",
+      "builtAt": "2026-10-03T20:34:25.567Z",
+      "absent": {
+        "icon_d2_eps": "Reine sigma_ens-Quelle — sie traegt keine Mittelwerte, fuer die PAP 4 eine Hoehenkorrektur rechnen wuerde.",
+        "claef": "GeoSphere veroeffentlicht keine Modellorographie; die Ableitung aus Druckflaechen ist versperrt, weil C-LAEF nur msl fuehrt, nicht ps.",
+        "claef_eps": "GeoSphere veroeffentlicht keine Modellorographie; die Ableitung aus Druckflaechen ist versperrt, weil C-LAEF nur msl fuehrt, nicht ps."
+      },
+      "diffFromPrev": {
+        "builtAtPrev": "2026-10-03T18:02:02.494Z",
+        "columns": [
+          {
+            "id": "ifs_hres",
+            "kind": "changed",
+            "prevHash": "96b54a9f94bea455",
+            "hash": "f99e339b2180c27f",
+            "prevCovered": 48441,
+            "covered": 48441,
+            "prevMinM": -26,
+            "minM": -22,
+            "prevMaxM": 3006,
+            "maxM": 3005
+          }
+        ]
+      }
+    }
+  },
+  "updatedAt": "2026-10-03T20:34:25.567Z"
+}
