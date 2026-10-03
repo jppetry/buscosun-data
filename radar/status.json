@@ -7,6 +7,20 @@
   "startedAt": "2026-10-03T18:34:03.370Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261003_2215.tar",
+      "slot": "2026-10-03T22:15:00.000Z",
+      "dwdAt": "2026-10-03T22:18:43.000Z",
+      "seenAt": "2026-10-03T22:18:44.643Z",
+      "bytes": 983040,
+      "downloadMs": 1352,
+      "deriveMs": 1772,
+      "imgBytes": 191490,
+      "pushedAt": "2026-10-03T22:18:49.785Z",
+      "pushMs": 1242,
+      "attempt": 1
+    },
+    {
       "product": "inca",
       "stamp": "20261003T2200",
       "reftime": "2026-10-03T22:00+00:00",
@@ -297,21 +311,7 @@
       "pushedAt": "2026-10-03T21:45:38.791Z",
       "pushMs": 1001,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261003_2140.tar",
-      "slot": "2026-10-03T21:40:00.000Z",
-      "dwdAt": "2026-10-03T21:43:45.000Z",
-      "seenAt": "2026-10-03T21:43:47.190Z",
-      "bytes": 972800,
-      "downloadMs": 1337,
-      "deriveMs": 1869,
-      "imgBytes": 177928,
-      "pushedAt": "2026-10-03T21:43:52.287Z",
-      "pushMs": 1255,
-      "attempt": 1
     }
   ],
-  "updatedAt": "2026-10-03T22:18:48.176Z"
+  "updatedAt": "2026-10-03T22:20:33.214Z"
 }
