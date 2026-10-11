@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "commit": "108a73f1ab86d4896ef2960f0b600eddab514e03",
+  "commit": "bd7463583335d6382ae4f7ff718aec6f389de33c",
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
-  "publishedAt": "2026-10-10T23:36:29.853Z",
+  "publishedAt": "2026-10-11T05:39:03.693Z",
   "runs": [
     {
       "run": "2026101021",
