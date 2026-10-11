@@ -25,6 +25,38 @@
   "startedAt": "2026-10-11T02:21:25.052Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261011_0535.tar",
+      "slot": "2026-10-11T05:35:00.000Z",
+      "dwdAt": "2026-10-11T05:38:28.000Z",
+      "seenAt": "2026-10-11T05:38:38.829Z",
+      "bytes": 4628480,
+      "downloadMs": 2352,
+      "deriveMs": 3397,
+      "imgBytes": 5057077,
+      "hd250": {
+        "ms": 3819,
+        "bytes": 756371,
+        "tiles": 14,
+        "sites": 17,
+        "missing": []
+      },
+      "pushedAt": "2026-10-11T05:38:52.800Z",
+      "pushMs": 2200,
+      "attempt": 1
+    },
+    {
+      "product": "inca",
+      "stamp": "20261011T0515",
+      "reftime": "2026-10-11T05:15+00:00",
+      "bytes": 856778,
+      "downloadMs": 2395,
+      "deriveMs": 1009,
+      "imgBytes": 237824,
+      "pushedAt": "2026-10-11T05:36:25.664Z",
+      "pushMs": 1588
+    },
+    {
       "product": "rzc",
       "stamp": "20261011T0535",
       "asset": "rzc262840535vl.001.h5",
@@ -353,61 +385,29 @@
       "pushedAt": "2026-10-11T05:05:10.472Z",
       "pushMs": 1205,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261011_0500.tar",
-      "slot": "2026-10-11T05:00:00.000Z",
-      "dwdAt": "2026-10-11T05:03:21.000Z",
-      "seenAt": "2026-10-11T05:03:23.360Z",
-      "bytes": 4567040,
-      "downloadMs": 2854,
-      "deriveMs": 3396,
-      "imgBytes": 4868355,
-      "hd250": {
-        "ms": 3339,
-        "bytes": 717735,
-        "tiles": 12,
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-10-11T05:03:39.545Z",
-      "pushMs": 4644,
-      "attempt": 1
-    },
-    {
-      "product": "rzc",
-      "stamp": "20261011T0500",
-      "asset": "rzc262840500vl.001.h5",
-      "bytes": 29463,
-      "downloadMs": 648,
-      "deriveMs": 399,
-      "imgBytes": 4210,
-      "pushedAt": "2026-10-11T05:01:02.208Z",
-      "pushMs": 1165
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 196,
-    "written": 78,
+    "runs": 200,
+    "written": 80,
     "rejected": 0,
     "failed": 7,
-    "lastRunAt": "2026-10-11T05:35:28.540Z",
-    "lastRunMs": 1594,
+    "lastRunAt": "2026-10-11T05:39:43.109Z",
+    "lastRunMs": 1666,
     "caps": {
       "de": {
-        "timeEnd": "2026-10-11T05:25:00.000Z",
-        "validAtMs": 1791696300000
+        "timeEnd": "2026-10-11T05:30:00.000Z",
+        "validAtMs": 1791696600000
       },
       "mtg": {
-        "timeEnd": "2026-10-11T05:20:00.000Z",
-        "validAtMs": 1791696300000
+        "timeEnd": "2026-10-11T05:25:00.000Z",
+        "validAtMs": 1791696600000
       }
     },
     "last": [],
     "errors": []
   },
-  "updatedAt": "2026-10-11T05:36:23.536Z"
+  "updatedAt": "2026-10-11T05:40:08.427Z"
 }
