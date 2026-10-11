@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "product": "sea-status",
- "updatedAt": "2026-10-11T05:21:13.705Z",
+ "updatedAt": "2026-10-11T05:45:16.391Z",
  "killSwitch": false,
  "field": {
   "model": "cwam",
@@ -99,11 +99,11 @@
    "delayMin": 6
   },
   "WODL45": {
-   "issue": "2610110300",
-   "issuedAt": "2026-10-11T03:00:00.000Z",
-   "dwdAt": "2026-10-11T02:45:16.000Z",
-   "fetchedAt": "2026-10-11T02:49:02.830Z",
-   "delayMin": 4
+   "issue": "2610110600",
+   "issuedAt": "2026-10-11T06:00:00.000Z",
+   "dwdAt": "2026-10-11T05:45:10.000Z",
+   "fetchedAt": "2026-10-11T05:45:16.391Z",
+   "delayMin": 0
   },
   "FXDL40": {
    "issue": "2610100000",
@@ -113,12 +113,12 @@
    "delayMin": 4
   }
  },
- "job": "38114455701",
+ "job": "38115778211",
  "textPass": {
-  "at": "2026-10-11T05:20:45.247Z",
-  "listed": 52,
-  "todo": 2,
-  "added": 2,
+  "at": "2026-10-11T05:45:16.391Z",
+  "listed": 53,
+  "todo": 1,
+  "added": 1,
   "rejected": 0,
   "absent": 0
  },
