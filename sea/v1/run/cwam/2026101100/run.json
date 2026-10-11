@@ -1,0 +1,241 @@
+{
+ "schema": 1,
+ "product": "sea-run",
+ "model": "cwam",
+ "run": "2026101100",
+ "runMs": 1791676800000,
+ "t0": "2026-10-11T00:00:00.000Z",
+ "steps": {
+  "f": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   51,
+   54,
+   57,
+   60,
+   63,
+   66,
+   69,
+   72,
+   75,
+   78
+  ],
+  "c": [
+   0,
+   3,
+   6,
+   9,
+   12,
+   15,
+   18,
+   21,
+   24,
+   27,
+   30,
+   33,
+   36,
+   39,
+   42,
+   45,
+   48,
+   51,
+   54,
+   57,
+   60,
+   63,
+   66,
+   69,
+   72,
+   75,
+   78
+  ],
+  "spots": 79
+ },
+ "grid": {
+  "ni": 630,
+  "nj": 387,
+  "lat1": 56.445835,
+  "lon1": 6.173611,
+  "lat2": 53.229168,
+  "lon2": 14.909722,
+  "di": 0.013889,
+  "dj": 0.008333
+ },
+ "seaPoints": 124011,
+ "maskHash": "55cf783db5fcdee67614c54039628d7a553d9925be3d155752d16ebf605049b7",
+ "coding": {
+  "r": "Hs 5 cm (254 = ≥ 12,70 m, 255 = kein Wert)",
+  "g": "Richtung kommt aus, 256 Stufen",
+  "b": "Periode 0,1 s (255 = kein Wert)",
+  "a": "255 Wasser, 0 Land",
+  "c": "links Windsee (shww, mdww, mpww), rechts Dünung (shts, mdts, mpts)",
+  "f": "swh, mwd, tm10"
+ },
+ "balance": {
+  "swh": {
+   "invalid": 0,
+   "placeholder": 0,
+   "ppwwArtefact": 0,
+   "clipped": 0
+  },
+  "mwd": {
+   "invalid": 0,
+   "placeholder": 0,
+   "ppwwArtefact": 0,
+   "clipped": 0
+  },
+  "tm10": {
+   "invalid": 0,
+   "placeholder": 299139,
+   "ppwwArtefact": 0,
+   "clipped": 0
+  },
+  "shww": {
+   "invalid": 0,
+   "placeholder": 0,
+   "ppwwArtefact": 0,
+   "clipped": 0
+  },
+  "mdww": {
+   "invalid": 0,
+   "placeholder": 0,
+   "ppwwArtefact": 0,
+   "clipped": 0
+  },
+  "mpww": {
+   "invalid": 0,
+   "placeholder": 614990,
+   "ppwwArtefact": 0,
+   "clipped": 0
+  },
+  "ppww": {
+   "invalid": 0,
+   "placeholder": 327330,
+   "ppwwArtefact": 7289,
+   "clipped": 0
+  },
+  "shts": {
+   "invalid": 0,
+   "placeholder": 0,
+   "ppwwArtefact": 0,
+   "clipped": 0
+  },
+  "mdts": {
+   "invalid": 0,
+   "placeholder": 0,
+   "ppwwArtefact": 0,
+   "clipped": 0
+  },
+  "mpts": {
+   "invalid": 0,
+   "placeholder": 299139,
+   "ppwwArtefact": 0,
+   "clipped": 0
+  },
+  "ppts": {
+   "invalid": 0,
+   "placeholder": 299171,
+   "ppwwArtefact": 0,
+   "clipped": 0
+  }
+ },
+ "clipped": 0,
+ "dwd": {
+  "files": 1027,
+  "completeAt": "2026-10-11T04:06:33.000Z",
+  "downloadMB": 79.8
+ },
+ "bytes": {
+  "f": 6319787,
+  "c": 6282299,
+  "spots": 212956
+ },
+ "wind": {
+  "engine": "buscosun Fusion 12",
+  "version": 12,
+  "computedAt": "2026-10-11T04:26:53.860Z",
+  "runs": {
+   "t1": "2026101100",
+   "t2": "2026101018",
+   "t3": null,
+   "stations": "2026101021"
+  },
+  "failed": 0
+ },
+ "spotProblems": [],
+ "check": {
+  "steps": [
+   {
+    "step": 0,
+    "points": 28983,
+    "medianAbsM": 0.095
+   },
+   {
+    "step": 24,
+    "points": 28983,
+    "medianAbsM": 0.025
+   },
+   {
+    "step": 48,
+    "points": 28983,
+    "medianAbsM": 0.015
+   },
+   {
+    "step": 72,
+    "points": 28983,
+    "medianAbsM": 0.045
+   }
+  ],
+  "observe": null
+ },
+ "builtAt": "2026-10-11T04:28:15.233Z",
+ "buildS": 80,
+ "job": "38111565997"
+}

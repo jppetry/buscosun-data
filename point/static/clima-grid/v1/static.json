@@ -1,0 +1,657 @@
+{
+  "product": "clima-grid",
+  "version": "v1",
+  "kind": "static",
+  "what": "Monatliche Klimanormale 1991-2020 (Temperatur Mittel/Max/Min, Niederschlagssumme, Sonnenscheindauer) aus den nationalen 1-km-Gittern DE/AT/CH auf dem Cube-Gitter der Stufe 1.",
+  "why": "Bericht 29.09. #13 / E-EX-4 (Phase AX, AX-9): Klimatologie-Prior aus Gittern, die Höhe und Relief schon enthalten, statt aus 178 Stationen; der Tagesgang bleibt Sache der Stationsklimatologie.",
+  "container": "BSPC wie der Cube, eigene Ebenenliste, nt = 1, gleiches Chunk-Raster wie Stufe 1.",
+  "aggregation": "Arithmetisches Mittel der 1-km-Quellzellen je Cube-Zelle (Zellzuordnung wie cellOf: Rundung auf das 0,05°-Raster); n_src = Zahl der Quellzellen (t_mean, Januar); elev_src = Mittel der DEM-Höhe (Terrarium z8, bilinear) an den Zentren dieser Quellzellen — Bezugshöhe der Temperaturnormale; src = Bitmaske der Länder (1 DE, 2 AT, 4 CH; Grenzzellen mischen).",
+  "heightRule": "Der Leser korrigiert t_* mit dem Lapse auf die Punkthöhe: T(h) = T + Γ·(h − elev_src), Γ aus der Stationsklimatologie (lapsePerM) oder −0,0065 K/m.",
+  "sources": {
+    "de": {
+      "name": "Deutscher Wetterdienst, CDC — Vieljährige Mittel 1991–2020, Rasterdaten 1 km (Gauß-Krüger Zone 3)",
+      "url": "https://opendata.dwd.de/climate_environment/CDC/grids_germany/multi_annual",
+      "licence": "CC BY 4.0 — Quelle: Deutscher Wetterdienst",
+      "retrievedAt": "2026-09-30T14:07:57.478Z",
+      "cells": 358303,
+      "units": "T 1/10 °C, RR mm, SD h (aus den Dateien; im Produkt °C, mm, h)"
+    },
+    "at": {
+      "name": "GeoSphere Austria, SPARTACUS v3 (spartacus-v3-1m-1km) — Normale 1991–2020 aus Wert und Anomalie des Jahres 2020",
+      "url": "https://dataset.api.hub.geosphere.at/v1/grid/historical/spartacus-v3-1m-1km",
+      "licence": "CC BY 4.0 — Datenquelle: GeoSphere Austria",
+      "retrievedAt": "2026-09-30T14:07:57.478Z",
+      "cells": 106610,
+      "derivation": "T: Wert − Anomalie (1/10 K); RR, SA: Wert ÷ (Anomalie/100). Gegenprobe 30.09.: aus 2019-01 und 2020-01 exakt dieselbe Normale (Wien 1,2 · Sonnblick −11,1 · Innsbruck −0,2 °C)."
+    },
+    "ch": {
+      "name": "MeteoSchweiz OGD, Räumliche Klimanormwerte 1991–2020 (TnormM9120, TmaxnormM9120, TminnormM9120, RnormM9120, SnormM9120), 1 km LV95",
+      "url": "https://data.geo.admin.ch/ch.meteoschweiz.ogd-climate-normals-grid/ch/ogd-climate-normals-grid",
+      "licence": "CC BY 4.0 — Quelle: MeteoSchweiz",
+      "retrievedAt": "2026-09-30T14:07:57.478Z",
+      "cells": 46718,
+      "sunDerivation": "SnormM9120 ist die RELATIVE Sonnenscheindauer (%); Stunden = % × astronomisch mögliche Dauer des Monats an der Breite (ohne Horizont) — abgeleitet, benannt."
+    },
+    "dem": {
+      "name": "Terrarium (AWS elevation-tiles-prod) z8",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+      "note": "dieselbe DEM-Quelle wie der Client (terrain.ts, far z8)"
+    }
+  },
+  "notCarried": {
+    "wind": "kein nationales 1-km-Normalgitter für Wind — Windklimatologie bleibt Stationssache (E-FX-9: nein).",
+    "sigma": "die Gitter tragen Mittel, keine Streuung — σ_c weiter aus der Stationsklimatologie.",
+    "wetDays": "Niederschlag als Monatssumme, keine Nasstag-Häufigkeit — die Nasstag-Wahrscheinlichkeit bleibt Stationssache.",
+    "diurnal": "Tagesgang aus der Stationsklimatologie (hourlyClimaTemp).",
+    "outside": "Zellen außerhalb DE/AT/CH (LI liegt im CH-Gitter) sind MISSING — Nachbarländer haben hier kein Gitter."
+  },
+  "chunkCells": 16,
+  "timeless": "point/static/ ist von der Aufbewahrung ausgenommen (TIMELESS_PATHS).",
+  "tiers": {
+    "t1": {
+      "planes": [
+        {
+          "id": "t_mean_01",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_mean_02",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_mean_03",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_mean_04",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_mean_05",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_mean_06",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_mean_07",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_mean_08",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_mean_09",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_mean_10",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_mean_11",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_mean_12",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_mean",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_01",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_02",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_03",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_04",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_05",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_06",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_07",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_08",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_09",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_10",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_11",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_max_12",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_max",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_01",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_02",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_03",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_04",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_05",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_06",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_07",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_08",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_09",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_10",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_11",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "t_min_12",
+          "unit": "degC",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "t_min",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_01",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_02",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_03",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_04",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_05",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_06",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_07",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_08",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_09",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_10",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_11",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "rr_12",
+          "unit": "mm",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "rr",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_01",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_02",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_03",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_04",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_05",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_06",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_07",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_08",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_09",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_10",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_11",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "sun_12",
+          "unit": "h",
+          "scale": 0.1,
+          "offset": 0,
+          "group": "sun",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "elev_src",
+          "unit": "m",
+          "scale": 1,
+          "offset": 0,
+          "group": "meta",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "n_src",
+          "unit": "1",
+          "scale": 1,
+          "offset": 0,
+          "group": "meta",
+          "provenance": "normal-1991-2020"
+        },
+        {
+          "id": "src",
+          "unit": "bitmask",
+          "scale": 1,
+          "offset": 0,
+          "group": "meta",
+          "provenance": "normal-1991-2020"
+        }
+      ],
+      "chunks": 208,
+      "bytes": 1962509,
+      "cy": 13,
+      "cx": 16,
+      "ny": 201,
+      "nx": 241,
+      "deg": 0.05,
+      "coveredCells": 25814,
+      "builtAt": "2026-09-30T14:07:57.478Z",
+      "absent": {
+        "t2": "nur Stufe 1 — der Client liest die Normale aus der Stufe-1-Kachel für jeden Vorlauf.",
+        "t3": "dito"
+      },
+      "stats": {
+        "de": {
+          "t_mean": {
+            "n": 4299636,
+            "min": -10.4,
+            "max": 21
+          },
+          "t_max": {
+            "n": 4299636,
+            "min": -7.4,
+            "max": 27
+          },
+          "t_min": {
+            "n": 4299636,
+            "min": -13.100000000000001,
+            "max": 16.1
+          },
+          "rr": {
+            "n": 4299636,
+            "min": 17,
+            "max": 415
+          },
+          "sun": {
+            "n": 4299636,
+            "min": 18,
+            "max": 278
+          }
+        },
+        "at": {
+          "t_mean": {
+            "n": 1279320,
+            "min": -16.7,
+            "max": 23.700000000000003
+          },
+          "t_max": {
+            "n": 1279320,
+            "min": -13.4,
+            "max": 30.3
+          },
+          "t_min": {
+            "n": 1279320,
+            "min": -20.1,
+            "max": 18.3
+          },
+          "rr": {
+            "n": 1279320,
+            "min": 9.166666666666668,
+            "max": 328.1746031746032
+          },
+          "sun": {
+            "n": 1272112,
+            "min": 5.066666666666667,
+            "max": 322.7551020408163
+          }
+        },
+        "ch": {
+          "t_mean": {
+            "n": 560616,
+            "min": -18.63060188293457,
+            "max": 23.154386520385742
+          },
+          "t_max": {
+            "n": 560616,
+            "min": -15.408648490905762,
+            "max": 28.518260955810547
+          },
+          "t_min": {
+            "n": 560616,
+            "min": -21.618392944335938,
+            "max": 18.47014808654785
+          },
+          "rr": {
+            "n": 560616,
+            "min": 20.17121124267578,
+            "max": 333.3518371582031
+          },
+          "sun": {
+            "n": 555624,
+            "min": 32.710738232109044,
+            "max": 311.08890846372753
+          }
+        }
+      }
+    }
+  },
+  "updatedAt": "2026-09-30T14:07:57.478Z"
+}

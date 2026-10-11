@@ -1,0 +1,500 @@
+{
+  "schema": 1,
+  "product": "point-field",
+  "version": "v1",
+  "label": "Modell · Cube",
+  "provenance": "cube",
+  "run": "2026101103",
+  "tier": "t1",
+  "runAtMs": 1791687600000,
+  "builtAtMs": 1791695318692,
+  "stepH": 1,
+  "rate": "mittlere Rate in mm/h über (t − 1 h, t] — eine t1-Rate ist ein 1-h-Mittel",
+  "grid": {
+    "tier": "t1",
+    "width": 241,
+    "height": 201,
+    "deg": 0.05,
+    "lat0": 45.5,
+    "lon0": 5.5,
+    "rowOrder": "north-first",
+    "corners": [
+      [
+        5.475,
+        55.525
+      ],
+      [
+        17.525,
+        55.525
+      ],
+      [
+        17.525,
+        45.475
+      ],
+      [
+        5.475,
+        45.475
+      ]
+    ]
+  },
+  "leads": [
+    {
+      "leadH": 0,
+      "validAtMs": 1791687600000,
+      "precip": "precip-000.png",
+      "snowlmt": "snowlmt-000.png",
+      "precipcum": "precipcum-000.png",
+      "pexc": "pexc-000.png"
+    },
+    {
+      "leadH": 1,
+      "validAtMs": 1791691200000,
+      "precip": "precip-001.png",
+      "snowlmt": "snowlmt-001.png",
+      "precipcum": "precipcum-001.png",
+      "pexc": "pexc-001.png"
+    },
+    {
+      "leadH": 2,
+      "validAtMs": 1791694800000,
+      "precip": "precip-002.png",
+      "snowlmt": "snowlmt-002.png",
+      "precipcum": "precipcum-002.png",
+      "pexc": "pexc-002.png"
+    },
+    {
+      "leadH": 3,
+      "validAtMs": 1791698400000,
+      "precip": "precip-003.png",
+      "snowlmt": "snowlmt-003.png",
+      "precipcum": "precipcum-003.png",
+      "pexc": "pexc-003.png"
+    },
+    {
+      "leadH": 4,
+      "validAtMs": 1791702000000,
+      "precip": "precip-004.png",
+      "snowlmt": "snowlmt-004.png",
+      "precipcum": "precipcum-004.png",
+      "pexc": "pexc-004.png"
+    },
+    {
+      "leadH": 5,
+      "validAtMs": 1791705600000,
+      "precip": "precip-005.png",
+      "snowlmt": "snowlmt-005.png",
+      "precipcum": "precipcum-005.png",
+      "pexc": "pexc-005.png"
+    },
+    {
+      "leadH": 6,
+      "validAtMs": 1791709200000,
+      "precip": "precip-006.png",
+      "snowlmt": "snowlmt-006.png",
+      "precipcum": "precipcum-006.png",
+      "pexc": "pexc-006.png"
+    },
+    {
+      "leadH": 7,
+      "validAtMs": 1791712800000,
+      "precip": "precip-007.png",
+      "snowlmt": "snowlmt-007.png",
+      "precipcum": "precipcum-007.png",
+      "pexc": "pexc-007.png"
+    },
+    {
+      "leadH": 8,
+      "validAtMs": 1791716400000,
+      "precip": "precip-008.png",
+      "snowlmt": "snowlmt-008.png",
+      "precipcum": "precipcum-008.png",
+      "pexc": "pexc-008.png"
+    },
+    {
+      "leadH": 9,
+      "validAtMs": 1791720000000,
+      "precip": "precip-009.png",
+      "snowlmt": "snowlmt-009.png",
+      "precipcum": "precipcum-009.png",
+      "pexc": "pexc-009.png"
+    },
+    {
+      "leadH": 10,
+      "validAtMs": 1791723600000,
+      "precip": "precip-010.png",
+      "snowlmt": "snowlmt-010.png",
+      "precipcum": "precipcum-010.png",
+      "pexc": "pexc-010.png"
+    },
+    {
+      "leadH": 11,
+      "validAtMs": 1791727200000,
+      "precip": "precip-011.png",
+      "snowlmt": "snowlmt-011.png",
+      "precipcum": "precipcum-011.png",
+      "pexc": "pexc-011.png"
+    },
+    {
+      "leadH": 12,
+      "validAtMs": 1791730800000,
+      "precip": "precip-012.png",
+      "snowlmt": "snowlmt-012.png",
+      "precipcum": "precipcum-012.png",
+      "pexc": "pexc-012.png"
+    },
+    {
+      "leadH": 13,
+      "validAtMs": 1791734400000,
+      "precip": "precip-013.png",
+      "snowlmt": "snowlmt-013.png",
+      "precipcum": "precipcum-013.png",
+      "pexc": "pexc-013.png"
+    },
+    {
+      "leadH": 14,
+      "validAtMs": 1791738000000,
+      "precip": "precip-014.png",
+      "snowlmt": "snowlmt-014.png",
+      "precipcum": "precipcum-014.png",
+      "pexc": "pexc-014.png"
+    },
+    {
+      "leadH": 15,
+      "validAtMs": 1791741600000,
+      "precip": "precip-015.png",
+      "snowlmt": "snowlmt-015.png",
+      "precipcum": "precipcum-015.png",
+      "pexc": "pexc-015.png"
+    },
+    {
+      "leadH": 16,
+      "validAtMs": 1791745200000,
+      "precip": "precip-016.png",
+      "snowlmt": "snowlmt-016.png",
+      "precipcum": "precipcum-016.png",
+      "pexc": "pexc-016.png"
+    },
+    {
+      "leadH": 17,
+      "validAtMs": 1791748800000,
+      "precip": "precip-017.png",
+      "snowlmt": "snowlmt-017.png",
+      "precipcum": "precipcum-017.png",
+      "pexc": "pexc-017.png"
+    },
+    {
+      "leadH": 18,
+      "validAtMs": 1791752400000,
+      "precip": "precip-018.png",
+      "snowlmt": "snowlmt-018.png",
+      "precipcum": "precipcum-018.png",
+      "pexc": "pexc-018.png"
+    },
+    {
+      "leadH": 19,
+      "validAtMs": 1791756000000,
+      "precip": "precip-019.png",
+      "snowlmt": "snowlmt-019.png",
+      "precipcum": "precipcum-019.png",
+      "pexc": "pexc-019.png"
+    },
+    {
+      "leadH": 20,
+      "validAtMs": 1791759600000,
+      "precip": "precip-020.png",
+      "snowlmt": "snowlmt-020.png",
+      "precipcum": "precipcum-020.png",
+      "pexc": "pexc-020.png"
+    },
+    {
+      "leadH": 21,
+      "validAtMs": 1791763200000,
+      "precip": "precip-021.png",
+      "snowlmt": "snowlmt-021.png",
+      "precipcum": "precipcum-021.png",
+      "pexc": "pexc-021.png"
+    },
+    {
+      "leadH": 22,
+      "validAtMs": 1791766800000,
+      "precip": "precip-022.png",
+      "snowlmt": "snowlmt-022.png",
+      "precipcum": "precipcum-022.png",
+      "pexc": "pexc-022.png"
+    },
+    {
+      "leadH": 23,
+      "validAtMs": 1791770400000,
+      "precip": "precip-023.png",
+      "snowlmt": "snowlmt-023.png",
+      "precipcum": "precipcum-023.png",
+      "pexc": "pexc-023.png"
+    },
+    {
+      "leadH": 24,
+      "validAtMs": 1791774000000,
+      "precip": "precip-024.png",
+      "snowlmt": "snowlmt-024.png",
+      "precipcum": "precipcum-024.png",
+      "pexc": "pexc-024.png"
+    },
+    {
+      "leadH": 25,
+      "validAtMs": 1791777600000,
+      "precip": "precip-025.png",
+      "snowlmt": "snowlmt-025.png",
+      "precipcum": "precipcum-025.png",
+      "pexc": "pexc-025.png"
+    },
+    {
+      "leadH": 26,
+      "validAtMs": 1791781200000,
+      "precip": "precip-026.png",
+      "snowlmt": "snowlmt-026.png",
+      "precipcum": "precipcum-026.png",
+      "pexc": "pexc-026.png"
+    },
+    {
+      "leadH": 27,
+      "validAtMs": 1791784800000,
+      "precip": "precip-027.png",
+      "snowlmt": "snowlmt-027.png",
+      "precipcum": "precipcum-027.png",
+      "pexc": "pexc-027.png"
+    },
+    {
+      "leadH": 28,
+      "validAtMs": 1791788400000,
+      "precip": "precip-028.png",
+      "snowlmt": "snowlmt-028.png",
+      "precipcum": "precipcum-028.png",
+      "pexc": "pexc-028.png"
+    },
+    {
+      "leadH": 29,
+      "validAtMs": 1791792000000,
+      "precip": "precip-029.png",
+      "snowlmt": "snowlmt-029.png",
+      "precipcum": "precipcum-029.png",
+      "pexc": "pexc-029.png"
+    },
+    {
+      "leadH": 30,
+      "validAtMs": 1791795600000,
+      "precip": "precip-030.png",
+      "snowlmt": "snowlmt-030.png",
+      "precipcum": "precipcum-030.png",
+      "pexc": "pexc-030.png"
+    },
+    {
+      "leadH": 31,
+      "validAtMs": 1791799200000,
+      "precip": "precip-031.png",
+      "snowlmt": "snowlmt-031.png",
+      "precipcum": "precipcum-031.png",
+      "pexc": "pexc-031.png"
+    },
+    {
+      "leadH": 32,
+      "validAtMs": 1791802800000,
+      "precip": "precip-032.png",
+      "snowlmt": "snowlmt-032.png",
+      "precipcum": "precipcum-032.png",
+      "pexc": "pexc-032.png"
+    },
+    {
+      "leadH": 33,
+      "validAtMs": 1791806400000,
+      "precip": "precip-033.png",
+      "snowlmt": "snowlmt-033.png",
+      "precipcum": "precipcum-033.png",
+      "pexc": "pexc-033.png"
+    },
+    {
+      "leadH": 34,
+      "validAtMs": 1791810000000,
+      "precip": "precip-034.png",
+      "snowlmt": "snowlmt-034.png",
+      "precipcum": "precipcum-034.png",
+      "pexc": "pexc-034.png"
+    },
+    {
+      "leadH": 35,
+      "validAtMs": 1791813600000,
+      "precip": "precip-035.png",
+      "snowlmt": "snowlmt-035.png",
+      "precipcum": "precipcum-035.png",
+      "pexc": "pexc-035.png"
+    },
+    {
+      "leadH": 36,
+      "validAtMs": 1791817200000,
+      "precip": "precip-036.png",
+      "snowlmt": "snowlmt-036.png",
+      "precipcum": "precipcum-036.png",
+      "pexc": "pexc-036.png"
+    },
+    {
+      "leadH": 37,
+      "validAtMs": 1791820800000,
+      "precip": "precip-037.png",
+      "snowlmt": "snowlmt-037.png",
+      "precipcum": "precipcum-037.png",
+      "pexc": "pexc-037.png"
+    },
+    {
+      "leadH": 38,
+      "validAtMs": 1791824400000,
+      "precip": "precip-038.png",
+      "snowlmt": "snowlmt-038.png",
+      "precipcum": "precipcum-038.png",
+      "pexc": "pexc-038.png"
+    },
+    {
+      "leadH": 39,
+      "validAtMs": 1791828000000,
+      "precip": "precip-039.png",
+      "snowlmt": "snowlmt-039.png",
+      "precipcum": "precipcum-039.png",
+      "pexc": "pexc-039.png"
+    },
+    {
+      "leadH": 40,
+      "validAtMs": 1791831600000,
+      "precip": "precip-040.png",
+      "snowlmt": "snowlmt-040.png",
+      "precipcum": "precipcum-040.png",
+      "pexc": "pexc-040.png"
+    },
+    {
+      "leadH": 41,
+      "validAtMs": 1791835200000,
+      "precip": "precip-041.png",
+      "snowlmt": "snowlmt-041.png",
+      "precipcum": "precipcum-041.png",
+      "pexc": "pexc-041.png"
+    },
+    {
+      "leadH": 42,
+      "validAtMs": 1791838800000,
+      "precip": "precip-042.png",
+      "snowlmt": "snowlmt-042.png",
+      "precipcum": "precipcum-042.png",
+      "pexc": "pexc-042.png"
+    },
+    {
+      "leadH": 43,
+      "validAtMs": 1791842400000,
+      "precip": "precip-043.png",
+      "snowlmt": "snowlmt-043.png",
+      "precipcum": "precipcum-043.png",
+      "pexc": "pexc-043.png"
+    },
+    {
+      "leadH": 44,
+      "validAtMs": 1791846000000,
+      "precip": "precip-044.png",
+      "snowlmt": "snowlmt-044.png",
+      "precipcum": "precipcum-044.png",
+      "pexc": "pexc-044.png"
+    },
+    {
+      "leadH": 45,
+      "validAtMs": 1791849600000,
+      "precip": "precip-045.png",
+      "snowlmt": "snowlmt-045.png",
+      "precipcum": "precipcum-045.png",
+      "pexc": "pexc-045.png"
+    },
+    {
+      "leadH": 46,
+      "validAtMs": 1791853200000,
+      "precip": "precip-046.png",
+      "snowlmt": "snowlmt-046.png",
+      "precipcum": "precipcum-046.png",
+      "pexc": "pexc-046.png"
+    },
+    {
+      "leadH": 47,
+      "validAtMs": 1791856800000,
+      "precip": "precip-047.png",
+      "snowlmt": "snowlmt-047.png",
+      "precipcum": "precipcum-047.png",
+      "pexc": "pexc-047.png"
+    },
+    {
+      "leadH": 48,
+      "validAtMs": 1791860400000,
+      "precip": "precip-048.png",
+      "snowlmt": "snowlmt-048.png",
+      "precipcum": "precipcum-048.png",
+      "pexc": "pexc-048.png"
+    }
+  ],
+  "encoding": {
+    "precip": "R = round(254·Chance); G = Median | nass (0 = kein nasser Teil); B = q90 unbedingt (0 = 0 mm/h); Log-Code 1 + round(254·ln(1 + x/x0)/ln(1 + xMax/x0)); A = 255 gerechnet, 0 fehlt",
+    "snowlmt": "R = Mitte / 25 m; G = halbe Bandbreite / 25 m (p10…p90 symmetrisch); B = Herkunft 0 kein Band · 2 σ_div · 3 σ_ens; A = 255 gerechnet, 0 fehlt",
+    "x0": 0.1,
+    "xMax": 100,
+    "snowStepM": 25,
+    "precipcum": "R·65536 + G·256 + B = kumulierte Erwartung C(L) = Σ meanOf(Hürde) · stepH ab dem ersten Intervall der Stufe, in 0,01 mm; A = 255 gerechnet, 0 fehlt (ab einer fehlenden Stufe für alle späteren Vorläufe); Fenstersumme = C(Ende) − C(Anfang); keine Quantile",
+    "cumUnitMm": 0.01,
+    "pexc": "R = round(254·P(≥ 1 mm)), G = round(254·P(≥ 5 mm)) im Intervall (t − 1 h, t] = exceedance(dist, x/1 mm/h) derselben Verteilung; B = 0; A = 255 gerechnet, 0 fehlt",
+    "pexcMm": [
+      1,
+      5
+    ]
+  },
+  "chance": {
+    "id": "F1",
+    "text": "Chance = 1 − pDry der Niederschlags-Hürde von buscosun Fusion (Stufe fs, K-2 → gelernte Hürde) mit dem Cube als EINZIGER Quelle — ohne Station, Radar und Gelände am Ort, am Zellmittelpunkt. Am Ort ohne Station rechnet Fusion 8 dieselbe Kette (gemessen: mittlerer Abstand |Δp| 0,004–0,007).",
+    "measured": "Brier 3–6 h 0,0268 · 7–24 h 0,0256 · 25–48 h 0,0281 (Skill gegen die Orts-Klimatologie 0,18 / 0,30 / 0,17); Spread-Verteilung der Quellen 19–25 % schlechter; Archiv 16.09.–01.10., 389 Stationspunkte, 15 Ausgabetage, nach Benjamini-Hochberg kein Paar signifikant (audit/np0-datenprodukte.md §8.1).",
+    "caveat": "Im Mittel etwas zu nass (p̄ 5,6–6,9 % bei 3,3–3,7 % Regenstunden, V-NP0-17); jenseits 6 h ist Niederschlag laut Lernphase ohne Skill gegen den Cube — Chance und Spanne, keine exakte Menge."
+  },
+  "snowline": "Mitte = Zellwert `snowlmt` (m ü. NN) wie bei buscosun Fusion am Punkt; Band Mitte ∓ 1,2816·σ (p10…p90) mit σ = σ_ens, sonst σ_div (Spanne der Modelle, unkalibriert — V-NP0-15).",
+  "chain": {
+    "options": {
+      "hourly": false,
+      "tail": false,
+      "learned": true,
+      "learnedSpeed": true,
+      "learnedPrecip": true,
+      "learnedAtPoint": true,
+      "learnedClouds": true,
+      "priorShrink": false,
+      "anchorWindKm": 10,
+      "nowcastHourMean": true,
+      "anchorAtObsTime": true,
+      "longRange": 1,
+      "longRangeFix": 1,
+      "obsDense": 1,
+      "anchorSigma": 1,
+      "anchorBeforeAxis": true,
+      "fusion": 12,
+      "fusionName": "buscosun Fusion 12",
+      "nowMs": 1791694800000,
+      "terrain": "flach in Modellhöhe (terrainScales, konstante Höhe)",
+      "elevation": "hModEff der Zelle",
+      "station": null,
+      "radar": null
+    },
+    "tables": {
+      "path": "point/fusion.client.json",
+      "sha256": "0714300fe2a56d839b5d84f2d2c7286a925ee8c0c8c011b7cac6c6fc7c2d62d1"
+    },
+    "codeCommit": "6511575ded2f8d7c8cf3c13df92af583f5f63429",
+    "notes": []
+  },
+  "stats": {
+    "cells": 48441,
+    "precipMissing": 0,
+    "snowMissing": 0,
+    "saturated": 0,
+    "errors": 0,
+    "cumBroken": 0
+  },
+  "timing": {
+    "ms": 65022,
+    "workers": 4
+  }
+}

@@ -1,0 +1,411 @@
+<?xml version="1.0" ?>
+<konrad3d data_model_name="KONRAD3D" data_model_version="1.7">
+	<head>
+		<metadata>
+			<reference_time format="ISO 8601">2026-10-11T04:55:00Z</reference_time>
+			<ensemble_member_id>0</ensemble_member_id>
+		</metadata>
+		<product>
+			<system>KONRAD3D</system>
+			<title>Detection and tracking of convective cells at DWD</title>
+			<creation-date>2026-10-11T04:59:51Z</creation-date>
+			<run>
+				<name>konrad3d_1.8</name>
+				<description>KONRAD3D 1.8 Operational</description>
+				<ensemble_member_id>0</ensemble_member_id>
+			</run>
+			<source>
+				<server>k3d_op1</server>
+				<software-version>POLARA_konrad3d_1.8.005</software-version>
+			</source>
+			<associated_grid_projection>
+				<polara_grid_id>DE4800_WGS84</polara_grid_id>
+				<projection_type>polar_stereographic</projection_type>
+				<earth_axes unit="m">
+					<major_axis>6378137</major_axis>
+					<minor_axis>6356752</minor_axis>
+				</earth_axes>
+				<grid_resolution unit="m">
+					<vertical>250</vertical>
+					<horizontal>250</horizontal>
+				</grid_resolution>
+				<grid_size unit="pixel_in_projection">
+					<row>4800.000</row>
+					<column>4400.000</column>
+				</grid_size>
+				<projection_origin unit="degrees">
+					<latitude>90.00000</latitude>
+					<longitude>10.00000</longitude>
+				</projection_origin>
+				<latitude_of_true_scale unit="degrees">60.00000</latitude_of_true_scale>
+				<distance_upper_left_corner_to_projection_origin unit="m">
+					<x0_offset>-543697</x0_offset>
+					<y0_offset>-3622089</y0_offset>
+				</distance_upper_left_corner_to_projection_origin>
+				<proj4_init_string>+proj=stere +lat_0=90 +lat_ts=60 +lon_0=10 +a=6378137 +b=6356752.3142451802 +no_defs +x_0=543571.83521776402 +y_0=3622213.8619310022</proj4_init_string>
+				<projected_area unit="degrees">
+					<upper_left_corner>55.86209 1.46330</upper_left_corner>
+					<upper_right_corner>55.84544 18.73162</upper_right_corner>
+					<lower_left_corner>45.69643 3.56699</lower_left_corner>
+					<lower_right_corner>45.68461 16.58087</lower_right_corner>
+				</projected_area>
+			</associated_grid_projection>
+		</product>
+		<data>
+			<radar>
+				<source>Zh</source>
+				<type>quality assured radar data</type>
+				<init_time>20261011_0455</init_time>
+				<available_sweeps>
+					<elevations site="asb">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="boo">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="drs">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="eis">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="ess">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="fbg">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="fld">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="hnr">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="isn">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="mem">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="neu">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="nhb">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="oft">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="pro">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="ros">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="tur">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+					<elevations site="umd">0.8 0.5 1.5 2.5 3.5 4.5 5.5 8.0 12.0 17.0 25.0</elevations>
+				</available_sweeps>
+			</radar>
+		</data>
+	</head>
+	<cells reference_time="2026-10-11T04:55:00Z" ensemble_member_id="0">
+		<feature identifier="15" type="3D_reflectivity_feature">
+			<metadata>
+				<identifier>15</identifier>
+				<code>2026101104550000000000</code>
+				<reference_time format="ISO 8601">2026-10-11T04:55:00Z</reference_time>
+				<dimension>3</dimension>
+				<number_2D_features>5</number_2D_features>
+				<contributing_sweeps>
+					<elevations site="asb">0.8 3.5 2.5 1.5 0.5</elevations>
+				</contributing_sweeps>
+			</metadata>
+			<geometry>
+				<covered_area unit="km^2">11.812500</covered_area>
+				<area_growth_rate>-1000000000.00</area_growth_rate>
+				<centroid_3d>
+					<geodetic_coordinate>
+						<latitude unit="degrees">53.49450</latitude>
+						<longitude unit="degrees">5.99723</longitude>
+						<height_msl unit="m">1273</height_msl>
+					</geodetic_coordinate>
+					<uncertainty_ellipse>
+						<major_axis unit="km">0.517</major_axis>
+						<minor_axis unit="km">0.406</minor_axis>
+						<angle unit="degrees">56.33</angle>
+					</uncertainty_ellipse>
+				</centroid_3d>
+				<echo_top_msl unit="m">3733</echo_top_msl>
+				<echo_bottom_msl unit="m">219</echo_bottom_msl>
+				<vertical_extent unit="m">3514</vertical_extent>
+				<volume unit="km^3">19.859375000</volume>
+				<polygons_projected>
+					<geodetic_coordinates>
+						<polygon no="0" unit="degrees">
+							<latitudes>53.51558 53.51327 53.51110 53.50646 53.50585 53.50353 53.50137 53.49905 53.49688 53.49456 53.49240 53.49038 53.49084 53.48681 53.48248 53.48047 53.47830 53.47629 53.47659 53.47891 53.48107 53.48803 53.49019 53.49714 53.50148 53.50379 53.50596 53.50798 53.50783 53.50984 53.50954</latitudes>
+							<longitudes>5.99482 5.99144 5.99169 5.98493 5.97040 5.96702 5.96728 5.96390 5.96416 5.96078 5.96104 5.96493 5.97582 5.98360 5.98411 5.98799 5.98825 5.99213 5.99939 6.00277 6.00252 6.01265 6.01240 6.02254 6.02203 6.02541 6.02516 6.02127 6.01764 6.01375 6.00648</longitudes>
+						</polygon>
+					</geodetic_coordinates>
+				</polygons_projected>
+				<ground_elevation_of_cell_position unit="m">0</ground_elevation_of_cell_position>
+				<accumulated_elevation_change unit="m">0</accumulated_elevation_change>
+				<number_adjacent_cells_depending_on_range>
+					<number_adjacent_cells range="4.000 km">0</number_adjacent_cells>
+					<number_adjacent_cells range="8.000 km">0</number_adjacent_cells>
+					<number_adjacent_cells range="12.000 km">0</number_adjacent_cells>
+					<number_adjacent_cells range="16.000 km">0</number_adjacent_cells>
+					<number_adjacent_cells range="20.000 km">0</number_adjacent_cells>
+					<number_adjacent_cells range="2000.000 km">0</number_adjacent_cells>
+				</number_adjacent_cells_depending_on_range>
+			</geometry>
+			<intensity>
+				<severity unit="severity_points">0</severity>
+				<severity_decimal unit="severity_points">0.28</severity_decimal>
+				<severity_unconsolidated unit="severity_points">0</severity_unconsolidated>
+				<severity_decimal_unconsolidated unit="severity_points">0.28</severity_decimal_unconsolidated>
+				<area_of_projected_polygon_above_threshold unit="km^2">
+					<area_of_projected_polygon threshold="30 dBZ">11.812500</area_of_projected_polygon>
+					<area_of_projected_polygon threshold="35 dBZ">11.812500</area_of_projected_polygon>
+					<area_of_projected_polygon threshold="40 dBZ">11.812500</area_of_projected_polygon>
+					<area_of_projected_polygon threshold="45 dBZ">11.687500</area_of_projected_polygon>
+					<area_of_projected_polygon threshold="50 dBZ">8.312500</area_of_projected_polygon>
+					<area_of_projected_polygon threshold="55 dBZ">2.812500</area_of_projected_polygon>
+					<area_of_projected_polygon threshold="60 dBZ">0.000000</area_of_projected_polygon>
+					<area_of_projected_polygon threshold="65 dBZ">0.000000</area_of_projected_polygon>
+				</area_of_projected_polygon_above_threshold>
+				<area_above_50_dBZ_ratio>0.70</area_above_50_dBZ_ratio>
+				<area_above_55_dBZ_ratio>0.24</area_above_55_dBZ_ratio>
+				<echo_top_threshold unit="m">
+					<echo_top threshold="30 dBZ">3733</echo_top>
+					<echo_top threshold="35 dBZ">3733</echo_top>
+					<echo_top threshold="40 dBZ">3733</echo_top>
+					<echo_top threshold="45 dBZ">3714</echo_top>
+					<echo_top threshold="50 dBZ">2808</echo_top>
+					<echo_top threshold="55 dBZ">1909</echo_top>
+					<echo_top threshold="60 dBZ">0</echo_top>
+					<echo_top threshold="65 dBZ">0</echo_top>
+				</echo_top_threshold>
+				<volume_above_threshold unit="km^3">
+					<volume threshold="30 dBZ">19.859375000</volume>
+					<volume threshold="35 dBZ">19.859375000</volume>
+					<volume threshold="40 dBZ">19.859375000</volume>
+					<volume threshold="45 dBZ">18.531250000</volume>
+					<volume threshold="50 dBZ">10.890625000</volume>
+					<volume threshold="55 dBZ">3.125000000</volume>
+					<volume threshold="60 dBZ">0.000000000</volume>
+					<volume threshold="65 dBZ">0.000000000</volume>
+				</volume_above_threshold>
+				<volume_above_50_dBZ_ratio>0.55</volume_above_50_dBZ_ratio>
+				<volume_above_55_dBZ_ratio>0.16</volume_above_55_dBZ_ratio>
+				<blue_chimney_mean_vertical_extent unit="m">1111</blue_chimney_mean_vertical_extent>
+				<hail_flag>0</hail_flag>
+				<heavy_rain_flag>0</heavy_rain_flag>
+				<gust_flag>0</gust_flag>
+				<gust_flag_without_mesocyclones>0</gust_flag_without_mesocyclones>
+				<maximum_estimated_wind_gust unit="km/h">43.753</maximum_estimated_wind_gust>
+				<cell_based_VIL unit="kg/m^2">8.615</cell_based_VIL>
+				<cell_based_VIL_density unit="g/m^3">2.308</cell_based_VIL_density>
+				<cell_based_VII unit="kg/m^2">0.571</cell_based_VII>
+				<cell_based_VII_density unit="g/m^3">0.153</cell_based_VII_density>
+				<mass unit="db(km^3.z)">155.004</mass>
+				<min_value unit="dBZ">41.60</min_value>
+				<max_value unit="dBZ">57.34</max_value>
+				<average_value unit="dBZ">52.02</average_value>
+				<heavy_rain_potential unit="mm">1.42</heavy_rain_potential>
+				<heavy_rain_potential_accumulation_time unit="min">60</heavy_rain_potential_accumulation_time>
+				<heavy_rain_potential_quality>2</heavy_rain_potential_quality>
+				<number_pixels>84</number_pixels>
+				<trends>
+					<severity_trend unit="severity_points/5min">-1000000000.000</severity_trend>
+					<severity_trend_category unit="severity_trend_category">-1000000000</severity_trend_category>
+					<cell_based_VIL_trend unit="(kg/m^2)/5min">-1000000000.00</cell_based_VIL_trend>
+					<max_value_trend unit="dBZ/5min">-1000000000.00</max_value_trend>
+					<area_of_projected_polygon_above_45_dBZ_trend unit="km^2/5min">-1000000000.000</area_of_projected_polygon_above_45_dBZ_trend>
+					<echo_top_45_dBZ_trend unit="m/5min">-1000000000</echo_top_45_dBZ_trend>
+					<mass_trend unit="db(km^3.z)/5min">-1000000000.000</mass_trend>
+				</trends>
+			</intensity>
+			<hymec>
+				<maximum_near_ground_class>3</maximum_near_ground_class>
+				<echo_top_rain_hail unit="m">-1000000000</echo_top_rain_hail>
+				<echo_top_hail unit="m">-1000000000</echo_top_hail>
+				<echo_top_large_hail unit="m">-1000000000</echo_top_large_hail>
+				<echo_top_hail_total unit="m">-1000000000</echo_top_hail_total>
+				<echo_bottom_rain_hail unit="m">-1000000000</echo_bottom_rain_hail>
+				<echo_bottom_hail unit="m">-1000000000</echo_bottom_hail>
+				<echo_bottom_large_hail unit="m">-1000000000</echo_bottom_large_hail>
+				<echo_bottom_hail_total unit="m">-1000000000</echo_bottom_hail_total>
+				<area_rain_hail unit="km^2">0.000000</area_rain_hail>
+				<area_hail unit="km^2">0.000000</area_hail>
+				<area_large_hail unit="km^2">0.000000</area_large_hail>
+				<area_hail_total unit="km^2">0.000000</area_hail_total>
+				<volume_rain_hail unit="km^3">0.000000000</volume_rain_hail>
+				<volume_hail unit="km^3">0.000000000</volume_hail>
+				<volume_large_hail unit="km^3">0.000000000</volume_large_hail>
+				<volume_hail_total unit="km^3">0.000000000</volume_hail_total>
+			</hymec>
+			<nwp_model>
+				<nwp_model_name>ICON-EU</nwp_model_name>
+				<nwp_init_time format="ISO 8601">2026-10-11T00:00:00Z</nwp_init_time>
+				<nwp_dcape unit="J/kg">80</nwp_dcape>
+				<nwp_mu_cape unit="J/kg">181</nwp_mu_cape>
+				<nwp_mu_cin unit="J/kg">0</nwp_mu_cin>
+				<nwp_mu_lcl_hgt unit="m">465</nwp_mu_lcl_hgt>
+				<nwp_mu_lfc_hgt unit="m">465</nwp_mu_lfc_hgt>
+				<nwp_mu_el_hgt unit="m">6017</nwp_mu_el_hgt>
+				<nwp_lr_500800hPa unit="K/km">-7.194</nwp_lr_500800hPa>
+				<nwp_prcp_water unit="kg/m^2">17</nwp_prcp_water>
+				<nwp_bs_01km unit="m/s">3.367</nwp_bs_01km>
+				<nwp_bs_06km unit="m/s">7.973</nwp_bs_06km>
+				<nwp_bs_eff_mu unit="m/s">6.305</nwp_bs_eff_mu>
+				<nwp_srh_1km_lm unit="m^2 s^-2">-19.851</nwp_srh_1km_lm>
+				<nwp_srh_3km_lm unit="m^2 s^-2">-38.974</nwp_srh_3km_lm>
+				<nwp_srh_1km_rm unit="m^2 s^-2">29.204</nwp_srh_1km_rm>
+				<nwp_srh_3km_rm unit="m^2 s^-2">50.623</nwp_srh_3km_rm>
+			</nwp_model>
+			<lightning>
+				<lightning_rate unit="strokes/5min">0</lightning_rate>
+				<lightning_density unit="strokes/(5min*km^2)">0.000</lightning_density>
+				<lightning_rate_history unit="strokes/5min">-1000000000 -1000000000 -1000000000</lightning_rate_history>
+				<reference_time_last_lightning_jump format="ISO 8601">not-a-date-time</reference_time_last_lightning_jump>
+				<seconds_since_last_lightning_jump>-1000000000</seconds_since_last_lightning_jump>
+				<number_detected_lightning_jumps>0</number_detected_lightning_jumps>
+			</lightning>
+			<mesocyclone>
+				<mesocyclone_severity_index unit="severity_points">0</mesocyclone_severity_index>
+				<mesocyclone_severity_index_history unit="severity_points">-1000000000 -1000000000 -1000000000</mesocyclone_severity_index_history>
+				<mesocyclone_diameter_equivalent unit="km">-1000000000.000</mesocyclone_diameter_equivalent>
+				<mesocyclone_height_top unit="m">-1000000000</mesocyclone_height_top>
+				<mesocyclone_height_base unit="m">-1000000000</mesocyclone_height_base>
+				<mesocyclone_velocity_rotational_max unit="m/s">-1000000000.000</mesocyclone_velocity_rotational_max>
+				<reference_time_last_mesocyclone format="ISO 8601">not-a-date-time</reference_time_last_mesocyclone>
+				<seconds_since_last_mesocyclone>-1000000000</seconds_since_last_mesocyclone>
+				<number_assigned_mesocyclones>0</number_assigned_mesocyclones>
+			</mesocyclone>
+			<satellite>
+				<cloud_top_height unit="m">-1000000000</cloud_top_height>
+			</satellite>
+			<tracking>
+				<reference_time_first_detection format="ISO 8601">2026-10-11T04:55:00Z</reference_time_first_detection>
+				<number_detections>1</number_detections>
+				<mergers>
+					<merge_event>false</merge_event>
+					<reference_time_last_merge format="ISO 8601">not-a-date-time</reference_time_last_merge>
+					<number_merge_events_along_track>0</number_merge_events_along_track>
+				</mergers>
+				<splits>
+					<split_event>false</split_event>
+					<reference_time_last_split format="ISO 8601">not-a-date-time</reference_time_last_split>
+					<number_split_events_along_track>0</number_split_events_along_track>
+				</splits>
+				<cell_speed unit="km/h">43.549</cell_speed>
+			</tracking>
+			<forecast>
+				<centroid_forecasts>
+					<centroid_forecast forecast_time="2026-10-11T05:00:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.48302</latitude>
+							<longitude unit="degrees">6.04646</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">0.669</major_axis>
+							<minor_axis unit="km">0.600</minor_axis>
+							<angle unit="degrees">56.84</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+					<centroid_forecast forecast_time="2026-10-11T05:05:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.47153</latitude>
+							<longitude unit="degrees">6.09566</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">1.722</major_axis>
+							<minor_axis unit="km">1.709</minor_axis>
+							<angle unit="degrees">60.51</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+					<centroid_forecast forecast_time="2026-10-11T05:10:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.46001</latitude>
+							<longitude unit="degrees">6.14482</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">3.554</major_axis>
+							<minor_axis unit="km">3.549</minor_axis>
+							<angle unit="degrees">134.30</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+					<centroid_forecast forecast_time="2026-10-11T05:15:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.44846</latitude>
+							<longitude unit="degrees">6.19395</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">5.885</major_axis>
+							<minor_axis unit="km">5.874</minor_axis>
+							<angle unit="degrees">321.09</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+					<centroid_forecast forecast_time="2026-10-11T05:20:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.43689</latitude>
+							<longitude unit="degrees">6.24305</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">8.629</major_axis>
+							<minor_axis unit="km">8.614</minor_axis>
+							<angle unit="degrees">322.19</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+					<centroid_forecast forecast_time="2026-10-11T05:25:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.42530</latitude>
+							<longitude unit="degrees">6.29211</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">11.748</major_axis>
+							<minor_axis unit="km">11.730</minor_axis>
+							<angle unit="degrees">322.61</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+					<centroid_forecast forecast_time="2026-10-11T05:30:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.41368</latitude>
+							<longitude unit="degrees">6.34114</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">15.218</major_axis>
+							<minor_axis unit="km">15.197</minor_axis>
+							<angle unit="degrees">322.83</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+					<centroid_forecast forecast_time="2026-10-11T05:35:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.40204</latitude>
+							<longitude unit="degrees">6.39013</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">19.021</major_axis>
+							<minor_axis unit="km">18.998</minor_axis>
+							<angle unit="degrees">322.96</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+					<centroid_forecast forecast_time="2026-10-11T05:40:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.39037</latitude>
+							<longitude unit="degrees">6.43910</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">23.145</major_axis>
+							<minor_axis unit="km">23.121</minor_axis>
+							<angle unit="degrees">323.04</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+					<centroid_forecast forecast_time="2026-10-11T05:45:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.37868</latitude>
+							<longitude unit="degrees">6.48803</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">27.580</major_axis>
+							<minor_axis unit="km">27.555</minor_axis>
+							<angle unit="degrees">323.10</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+					<centroid_forecast forecast_time="2026-10-11T05:50:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.36697</latitude>
+							<longitude unit="degrees">6.53692</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">32.319</major_axis>
+							<minor_axis unit="km">32.293</minor_axis>
+							<angle unit="degrees">323.14</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+					<centroid_forecast forecast_time="2026-10-11T05:55:00Z">
+						<geodetic_coordinate>
+							<latitude unit="degrees">53.35523</latitude>
+							<longitude unit="degrees">6.58579</longitude>
+						</geodetic_coordinate>
+						<uncertainty_ellipse>
+							<major_axis unit="km">37.355</major_axis>
+							<minor_axis unit="km">37.327</minor_axis>
+							<angle unit="degrees">323.17</angle>
+						</uncertainty_ellipse>
+					</centroid_forecast>
+				</centroid_forecasts>
+			</forecast>
+		</feature>
+	</cells>
+</konrad3d>

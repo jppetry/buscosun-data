@@ -1,0 +1,300 @@
+{
+  "schema": 1,
+  "product": "point-field",
+  "version": "v1",
+  "label": "Modell · Cube",
+  "provenance": "cube",
+  "run": "2026101100",
+  "tier": "t2",
+  "runAtMs": 1791676800000,
+  "builtAtMs": 1791694479696,
+  "stepH": 3,
+  "rate": "mittlere Rate in mm/h über (t − 3 h, t] — eine t2-Rate ist ein 3-h-Mittel",
+  "grid": {
+    "tier": "t2",
+    "width": 121,
+    "height": 101,
+    "deg": 0.1,
+    "lat0": 45.5,
+    "lon0": 5.5,
+    "rowOrder": "north-first",
+    "corners": [
+      [
+        5.45,
+        55.55
+      ],
+      [
+        17.55,
+        55.55
+      ],
+      [
+        17.55,
+        45.45
+      ],
+      [
+        5.45,
+        45.45
+      ]
+    ]
+  },
+  "leads": [
+    {
+      "leadH": 51,
+      "validAtMs": 1791860400000,
+      "precip": "precip-051.png",
+      "snowlmt": "snowlmt-051.png",
+      "precipcum": "precipcum-051.png",
+      "pexc": "pexc-051.png"
+    },
+    {
+      "leadH": 54,
+      "validAtMs": 1791871200000,
+      "precip": "precip-054.png",
+      "snowlmt": "snowlmt-054.png",
+      "precipcum": "precipcum-054.png",
+      "pexc": "pexc-054.png"
+    },
+    {
+      "leadH": 57,
+      "validAtMs": 1791882000000,
+      "precip": "precip-057.png",
+      "snowlmt": "snowlmt-057.png",
+      "precipcum": "precipcum-057.png",
+      "pexc": "pexc-057.png"
+    },
+    {
+      "leadH": 60,
+      "validAtMs": 1791892800000,
+      "precip": "precip-060.png",
+      "snowlmt": "snowlmt-060.png",
+      "precipcum": "precipcum-060.png",
+      "pexc": "pexc-060.png"
+    },
+    {
+      "leadH": 63,
+      "validAtMs": 1791903600000,
+      "precip": "precip-063.png",
+      "snowlmt": "snowlmt-063.png",
+      "precipcum": "precipcum-063.png",
+      "pexc": "pexc-063.png"
+    },
+    {
+      "leadH": 66,
+      "validAtMs": 1791914400000,
+      "precip": "precip-066.png",
+      "snowlmt": "snowlmt-066.png",
+      "precipcum": "precipcum-066.png",
+      "pexc": "pexc-066.png"
+    },
+    {
+      "leadH": 69,
+      "validAtMs": 1791925200000,
+      "precip": "precip-069.png",
+      "snowlmt": "snowlmt-069.png",
+      "precipcum": "precipcum-069.png",
+      "pexc": "pexc-069.png"
+    },
+    {
+      "leadH": 72,
+      "validAtMs": 1791936000000,
+      "precip": "precip-072.png",
+      "snowlmt": "snowlmt-072.png",
+      "precipcum": "precipcum-072.png",
+      "pexc": "pexc-072.png"
+    },
+    {
+      "leadH": 75,
+      "validAtMs": 1791946800000,
+      "precip": "precip-075.png",
+      "snowlmt": "snowlmt-075.png",
+      "precipcum": "precipcum-075.png",
+      "pexc": "pexc-075.png"
+    },
+    {
+      "leadH": 78,
+      "validAtMs": 1791957600000,
+      "precip": "precip-078.png",
+      "snowlmt": "snowlmt-078.png",
+      "precipcum": "precipcum-078.png",
+      "pexc": "pexc-078.png"
+    },
+    {
+      "leadH": 81,
+      "validAtMs": 1791968400000,
+      "precip": "precip-081.png",
+      "snowlmt": "snowlmt-081.png",
+      "precipcum": "precipcum-081.png",
+      "pexc": "pexc-081.png"
+    },
+    {
+      "leadH": 84,
+      "validAtMs": 1791979200000,
+      "precip": "precip-084.png",
+      "snowlmt": "snowlmt-084.png",
+      "precipcum": "precipcum-084.png",
+      "pexc": "pexc-084.png"
+    },
+    {
+      "leadH": 87,
+      "validAtMs": 1791990000000,
+      "precip": "precip-087.png",
+      "snowlmt": "snowlmt-087.png",
+      "precipcum": "precipcum-087.png",
+      "pexc": "pexc-087.png"
+    },
+    {
+      "leadH": 90,
+      "validAtMs": 1792000800000,
+      "precip": "precip-090.png",
+      "snowlmt": "snowlmt-090.png",
+      "precipcum": "precipcum-090.png",
+      "pexc": "pexc-090.png"
+    },
+    {
+      "leadH": 93,
+      "validAtMs": 1792011600000,
+      "precip": "precip-093.png",
+      "snowlmt": "snowlmt-093.png",
+      "precipcum": "precipcum-093.png",
+      "pexc": "pexc-093.png"
+    },
+    {
+      "leadH": 96,
+      "validAtMs": 1792022400000,
+      "precip": "precip-096.png",
+      "snowlmt": "snowlmt-096.png",
+      "precipcum": "precipcum-096.png",
+      "pexc": "pexc-096.png"
+    },
+    {
+      "leadH": 99,
+      "validAtMs": 1792033200000,
+      "precip": "precip-099.png",
+      "snowlmt": "snowlmt-099.png",
+      "precipcum": "precipcum-099.png",
+      "pexc": "pexc-099.png"
+    },
+    {
+      "leadH": 102,
+      "validAtMs": 1792044000000,
+      "precip": "precip-102.png",
+      "snowlmt": "snowlmt-102.png",
+      "precipcum": "precipcum-102.png",
+      "pexc": "pexc-102.png"
+    },
+    {
+      "leadH": 105,
+      "validAtMs": 1792054800000,
+      "precip": "precip-105.png",
+      "snowlmt": "snowlmt-105.png",
+      "precipcum": "precipcum-105.png",
+      "pexc": "pexc-105.png"
+    },
+    {
+      "leadH": 108,
+      "validAtMs": 1792065600000,
+      "precip": "precip-108.png",
+      "snowlmt": "snowlmt-108.png",
+      "precipcum": "precipcum-108.png",
+      "pexc": "pexc-108.png"
+    },
+    {
+      "leadH": 111,
+      "validAtMs": 1792076400000,
+      "precip": "precip-111.png",
+      "snowlmt": "snowlmt-111.png",
+      "precipcum": "precipcum-111.png",
+      "pexc": "pexc-111.png"
+    },
+    {
+      "leadH": 114,
+      "validAtMs": 1792087200000,
+      "precip": "precip-114.png",
+      "snowlmt": "snowlmt-114.png",
+      "precipcum": "precipcum-114.png",
+      "pexc": "pexc-114.png"
+    },
+    {
+      "leadH": 117,
+      "validAtMs": 1792098000000,
+      "precip": "precip-117.png",
+      "snowlmt": "snowlmt-117.png",
+      "precipcum": "precipcum-117.png",
+      "pexc": "pexc-117.png"
+    },
+    {
+      "leadH": 120,
+      "validAtMs": 1792108800000,
+      "precip": "precip-120.png",
+      "snowlmt": "snowlmt-120.png",
+      "precipcum": "precipcum-120.png",
+      "pexc": "pexc-120.png"
+    }
+  ],
+  "encoding": {
+    "precip": "R = round(254·Chance); G = Median | nass (0 = kein nasser Teil); B = q90 unbedingt (0 = 0 mm/h); Log-Code 1 + round(254·ln(1 + x/x0)/ln(1 + xMax/x0)); A = 255 gerechnet, 0 fehlt",
+    "snowlmt": "R = Mitte / 25 m; G = halbe Bandbreite / 25 m (p10…p90 symmetrisch); B = Herkunft 0 kein Band · 2 σ_div · 3 σ_ens; A = 255 gerechnet, 0 fehlt",
+    "x0": 0.1,
+    "xMax": 100,
+    "snowStepM": 25,
+    "precipcum": "R·65536 + G·256 + B = kumulierte Erwartung C(L) = Σ meanOf(Hürde) · stepH ab dem ersten Intervall der Stufe, in 0,01 mm; A = 255 gerechnet, 0 fehlt (ab einer fehlenden Stufe für alle späteren Vorläufe); Fenstersumme = C(Ende) − C(Anfang); keine Quantile",
+    "cumUnitMm": 0.01,
+    "pexc": "R = round(254·P(≥ 1 mm)), G = round(254·P(≥ 5 mm)) im Intervall (t − 3 h, t] = exceedance(dist, x/3 mm/h) derselben Verteilung; B = 0; A = 255 gerechnet, 0 fehlt",
+    "pexcMm": [
+      1,
+      5
+    ]
+  },
+  "chance": {
+    "id": "F1",
+    "text": "Chance = 1 − pDry der Niederschlags-Hürde von buscosun Fusion (Stufe fs, K-2 → gelernte Hürde) mit dem Cube als EINZIGER Quelle — ohne Station, Radar und Gelände am Ort, am Zellmittelpunkt. Am Ort ohne Station rechnet Fusion 8 dieselbe Kette (gemessen: mittlerer Abstand |Δp| 0,004–0,007).",
+    "measured": "Brier 3–6 h 0,0268 · 7–24 h 0,0256 · 25–48 h 0,0281 (Skill gegen die Orts-Klimatologie 0,18 / 0,30 / 0,17); Spread-Verteilung der Quellen 19–25 % schlechter; Archiv 16.09.–01.10., 389 Stationspunkte, 15 Ausgabetage, nach Benjamini-Hochberg kein Paar signifikant (audit/np0-datenprodukte.md §8.1).",
+    "caveat": "Im Mittel etwas zu nass (p̄ 5,6–6,9 % bei 3,3–3,7 % Regenstunden, V-NP0-17); jenseits 6 h ist Niederschlag laut Lernphase ohne Skill gegen den Cube — Chance und Spanne, keine exakte Menge."
+  },
+  "snowline": "Mitte = Zellwert `snowlmt` (m ü. NN) wie bei buscosun Fusion am Punkt; Band Mitte ∓ 1,2816·σ (p10…p90) mit σ = σ_ens, sonst σ_div (Spanne der Modelle, unkalibriert — V-NP0-15).",
+  "chain": {
+    "options": {
+      "hourly": false,
+      "tail": false,
+      "learned": true,
+      "learnedSpeed": true,
+      "learnedPrecip": true,
+      "learnedAtPoint": true,
+      "learnedClouds": true,
+      "priorShrink": false,
+      "anchorWindKm": 10,
+      "nowcastHourMean": true,
+      "anchorAtObsTime": true,
+      "longRange": 1,
+      "longRangeFix": 1,
+      "obsDense": 1,
+      "anchorSigma": 1,
+      "anchorBeforeAxis": true,
+      "fusion": 12,
+      "fusionName": "buscosun Fusion 12",
+      "nowMs": 1791691200000,
+      "terrain": "flach in Modellhöhe (terrainScales, konstante Höhe)",
+      "elevation": "hModEff der Zelle",
+      "station": null,
+      "radar": null
+    },
+    "tables": {
+      "path": "point/fusion.client.json",
+      "sha256": "0714300fe2a56d839b5d84f2d2c7286a925ee8c0c8c011b7cac6c6fc7c2d62d1"
+    },
+    "codeCommit": "6511575ded2f8d7c8cf3c13df92af583f5f63429",
+    "notes": []
+  },
+  "stats": {
+    "cells": 12221,
+    "precipMissing": 0,
+    "snowMissing": 22,
+    "saturated": 0,
+    "errors": 0,
+    "cumBroken": 0
+  },
+  "timing": {
+    "ms": 10304,
+    "workers": 4
+  }
+}

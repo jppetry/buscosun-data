@@ -1,0 +1,203 @@
+{
+ "schema": 1,
+ "product": "road-fc-index",
+ "updatedAt": "2026-10-11T05:12:34.032Z",
+ "killed": false,
+ "runs": [
+  {
+   "run": "2610110511",
+   "issuedAt": "2026-10-11T05:11:20.007Z",
+   "t0Ms": 1791694800000,
+   "publishedAt": "2026-10-11T05:12:34.032Z",
+   "points": 4569,
+   "failed": 0,
+   "corridors": 141,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 12",
+    "version": 12,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2610110500",
+    "anchored": 1156,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026101103",
+     "t2": "2026101100",
+     "t3": null,
+     "stations": "2026101103",
+     "nowcast": "radvor_rv:2610110505"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    }
+   },
+   "ms": 72426
+  },
+  {
+   "run": "2610110456",
+   "issuedAt": "2026-10-11T04:56:48.186Z",
+   "t0Ms": 1791691200000,
+   "publishedAt": "2026-10-11T04:58:01.767Z",
+   "points": 4569,
+   "failed": 0,
+   "corridors": 141,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 12",
+    "version": 12,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2610110400",
+    "anchored": 1161,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026101100",
+     "t2": "2026101100",
+     "t3": null,
+     "stations": "2026101103",
+     "nowcast": "radvor_rv:2610110450"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    }
+   },
+   "ms": 73057
+  },
+  {
+   "run": "2610110432",
+   "issuedAt": "2026-10-11T04:32:26.249Z",
+   "t0Ms": 1791691200000,
+   "publishedAt": "2026-10-11T04:33:29.559Z",
+   "points": 4569,
+   "failed": 0,
+   "corridors": 141,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 12",
+    "version": 12,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2610110400",
+    "anchored": 1161,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026101100",
+     "t2": "2026101018",
+     "t3": null,
+     "stations": "2026101021",
+     "nowcast": "radvor_rv:2610110425"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    }
+   },
+   "ms": 61817
+  },
+  {
+   "run": "2610110404",
+   "issuedAt": "2026-10-11T04:04:10.187Z",
+   "t0Ms": 1791691200000,
+   "publishedAt": "2026-10-11T04:04:53.533Z",
+   "points": 4569,
+   "failed": 0,
+   "corridors": 141,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 12",
+    "version": 12,
+    "stage": "fs",
+    "anchor": "none",
+    "hourMean": true,
+    "runs": {
+     "t1": "2026101100",
+     "t2": "2026101018",
+     "t3": null,
+     "stations": "2026101021",
+     "nowcast": "radvor_rv:2610110400"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    }
+   },
+   "ms": 42309
+  },
+  {
+   "run": "2610110307",
+   "issuedAt": "2026-10-11T03:07:52.734Z",
+   "t0Ms": 1791687600000,
+   "publishedAt": "2026-10-11T03:08:46.026Z",
+   "points": 4569,
+   "failed": 0,
+   "corridors": 141,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 12",
+    "version": 12,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2610110300",
+    "anchored": 1153,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026101100",
+     "t2": "2026101018",
+     "t3": null,
+     "stations": "2026101021",
+     "nowcast": "radvor_rv:2610110300"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    }
+   },
+   "ms": 51990
+  },
+  {
+   "run": "2610110220",
+   "issuedAt": "2026-10-11T02:20:26.196Z",
+   "t0Ms": 1791684000000,
+   "publishedAt": "2026-10-11T02:21:10.855Z",
+   "points": 4569,
+   "failed": 0,
+   "corridors": 141,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 12",
+    "version": 12,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2610110200",
+    "anchored": 1157,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026101100",
+     "t2": "2026101018",
+     "t3": null,
+     "stations": "2026101021",
+     "nowcast": "radvor_rv:2610110215"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    }
+   },
+   "ms": 43617
+  }
+ ]
+}

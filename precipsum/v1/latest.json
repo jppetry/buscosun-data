@@ -1,0 +1,121 @@
+{
+ "schema": 1,
+ "kind": "precipsum/past",
+ "end": "2026-10-11T04:00:00.000Z",
+ "dir": "2026101104-de-at-ch-3941558c",
+ "grid": {
+  "w": 600,
+  "h": 512,
+  "lonMin": 5.5,
+  "lonMax": 17.4,
+  "latMin": 45.3,
+  "latMax": 55.5
+ },
+ "unitMm": 0.01,
+ "countries": {
+  "DE": {
+   "hours": 48,
+   "hasEnd": true,
+   "maxWindowH": 48
+  },
+  "AT": {
+   "hours": 48,
+   "hasEnd": true,
+   "maxWindowH": 48
+  },
+  "CH": {
+   "hours": 48,
+   "hasEnd": true,
+   "maxWindowH": 48
+  }
+ },
+ "windows": {
+  "1": {
+   "file": "sum-001h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-11T04:00:00.000Z"
+   },
+   "valid": 161873,
+   "gap": 363,
+   "wet": 14811,
+   "maxMm": 15.2
+  },
+  "3": {
+   "file": "sum-003h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-11T04:00:00.000Z"
+   },
+   "valid": 161873,
+   "gap": 363,
+   "wet": 28773,
+   "maxMm": 31.8
+  },
+  "6": {
+   "file": "sum-006h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-11T04:00:00.000Z"
+   },
+   "valid": 136450,
+   "gap": 25786,
+   "wet": 46425,
+   "maxMm": 49.6
+  },
+  "12": {
+   "file": "sum-012h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-11T04:00:00.000Z"
+   },
+   "valid": 136450,
+   "gap": 25786,
+   "wet": 88216,
+   "maxMm": 72.9
+  },
+  "24": {
+   "file": "sum-024h.png",
+   "de": {
+    "product": "SF",
+    "end": "2026-10-11T03:50:00.000Z"
+   },
+   "valid": 136614,
+   "gap": 25622,
+   "wet": 124604,
+   "maxMm": 88.4
+  },
+  "48": {
+   "file": "sum-048h.png",
+   "de": {
+    "product": "SF",
+    "end": "2026-10-11T03:50:00.000Z"
+   },
+   "valid": 136614,
+   "gap": 25622,
+   "wet": 136445,
+   "maxMm": 113.5
+  }
+ },
+ "sources": {
+  "DE": {
+   "id": "rw",
+   "label": "RADOLAN RW",
+   "provider": "DWD",
+   "latencyMin": 26
+  },
+  "AT": {
+   "id": "inca",
+   "label": "INCA-Analyse",
+   "provider": "GeoSphere Austria",
+   "latencyMin": 35
+  },
+  "CH": {
+   "id": "cpc",
+   "label": "CombiPrecip",
+   "provider": "MeteoSchweiz",
+   "latencyMin": 5
+  }
+ },
+ "builtAt": "2026-10-11T04:53:07.571Z"
+}
