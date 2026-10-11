@@ -25,6 +25,17 @@
   "startedAt": "2026-10-11T02:21:25.052Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261011T0545",
+      "asset": "rzc262840545vl.001.h5",
+      "bytes": 31214,
+      "downloadMs": 639,
+      "deriveMs": 399,
+      "imgBytes": 4721,
+      "pushedAt": "2026-10-11T05:46:03.371Z",
+      "pushMs": 1250
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261011T054000.xml",
       "slot": "2026-10-11T05:40:00.000Z",
@@ -374,44 +385,50 @@
       "imgBytes": 4257,
       "pushedAt": "2026-10-11T05:11:19.318Z",
       "pushMs": 1139
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20261011T050500.xml",
-      "slot": "2026-10-11T05:05:00.000Z",
-      "dwdAt": "2026-10-11T05:09:48.000Z",
-      "seenAt": "2026-10-11T05:09:54.579Z",
-      "bytes": 3891,
-      "downloadMs": 610,
-      "deriveMs": 222,
-      "imgBytes": 92,
-      "hd250": null,
-      "pushedAt": "2026-10-11T05:10:00.866Z",
-      "pushMs": 1119,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 206,
-    "written": 82,
+    "runs": 208,
+    "written": 84,
     "rejected": 0,
     "failed": 7,
-    "lastRunAt": "2026-10-11T05:45:19.090Z",
-    "lastRunMs": 1354,
+    "lastRunAt": "2026-10-11T05:47:05.970Z",
+    "lastRunMs": 1494,
     "caps": {
       "de": {
-        "timeEnd": "2026-10-11T05:35:00.000Z",
-        "validAtMs": 1791696900000
+        "timeEnd": "2026-10-11T05:40:00.000Z",
+        "validAtMs": 1791697200000
       },
       "mtg": {
-        "timeEnd": "2026-10-11T05:30:00.000Z",
-        "validAtMs": 1791696900000
+        "timeEnd": "2026-10-11T05:35:00.000Z",
+        "validAtMs": 1791697200000
       }
     },
-    "last": [],
+    "last": [
+      {
+        "id": "de",
+        "stamp": "20261011T0540",
+        "bytes": 3864,
+        "ms": 650,
+        "active": 0,
+        "max": 0,
+        "fractionalPx": 0,
+        "ok": true
+      },
+      {
+        "id": "mtg",
+        "stamp": "20261011T0540",
+        "bytes": 3822,
+        "ms": 616,
+        "active": 0,
+        "max": 0,
+        "fractionalPx": 0,
+        "ok": true
+      }
+    ],
     "errors": []
   },
-  "updatedAt": "2026-10-11T05:46:01.584Z"
+  "updatedAt": "2026-10-11T05:47:24.170Z"
 }
