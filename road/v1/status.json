@@ -3,10 +3,10 @@
  "product": "road-status",
  "job": "38104818632",
  "startedAt": "2026-10-11T02:21:25.301Z",
- "updatedAt": "2026-10-11T05:48:36.507Z",
+ "updatedAt": "2026-10-11T05:48:43.763Z",
  "killSwitch": false,
- "lastSlot": "2610110530",
- "lastPublishedSlot": "2610110530",
+ "lastSlot": "2610110545",
+ "lastPublishedSlot": "2610110545",
  "blocked": null,
  "catalog": {
   "etag": "a681a1ddc60c378a0583c3e078c9e423",
@@ -21,7 +21,7 @@
   },
   "ER-TH": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 51
   },
   "FN-BY": {
@@ -31,8 +31,8 @@
   },
   "FN-NB": {
    "state": "ok",
-   "ageMin": 0,
-   "stations": 348
+   "ageMin": 1,
+   "stations": 350
   },
   "HJ-HH": {
    "state": "ok",
@@ -67,7 +67,7 @@
   "KK-SH": {
    "state": "ok",
    "ageMin": 0,
-   "stations": 32
+   "stations": 31
   },
   "KM-NW": {
    "state": "ok",
@@ -76,12 +76,12 @@
   },
   "KO-RP": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 13
   },
   "LH-LH": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 18
   },
   "MC-MV": {
@@ -101,7 +101,7 @@
   },
   "RB-SL": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 23
   },
   "RH-HE": {
@@ -111,7 +111,7 @@
   },
   "RP-RP": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 16
   },
   "SH-SH": {
@@ -121,32 +121,32 @@
   },
   "SP-BB": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 34
   },
   "WW-SO": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 19
   }
  },
  "balance": {
-  "values": 11046,
-  "rejected": 230,
-  "share": 0.020822017019735652,
+  "values": 11076,
+  "rejected": 243,
+  "share": 0.021939328277356448,
   "byRule": {
-   "stateNoTemp": 87,
-   "stuck": 28,
-   "limit": 44,
+   "stateNoTemp": 90,
+   "stuck": 31,
+   "limit": 42,
    "dewAboveAir": 1,
    "outsideDE": 1,
    "placeholder": 3,
-   "dewSpread": 8,
-   "dwdSuspect": 18,
-   "gustNoWind": 1,
+   "dewSpread": 6,
+   "dwdSuspect": 24,
+   "gustBelowWind": 1,
+   "fillValue": 6,
    "roadAir": 3,
-   "precipFill": 28,
-   "fillValue": 3
+   "precipFill": 30
   },
   "observe": {
    "catalog": 156,
@@ -163,6 +163,18 @@
   }
  },
  "recent": [
+  {
+   "slot": "2610110545",
+   "publish": true,
+   "points": 1505,
+   "values": 11076,
+   "rejected": 243,
+   "share": 0.0219,
+   "groups": 23,
+   "dwdLastAt": "2026-10-11T05:48:17.000Z",
+   "derivedAt": "2026-10-11T05:48:42.932Z",
+   "deriveMs": 625
+  },
   {
    "slot": "2610110530",
    "publish": true,
@@ -438,18 +450,6 @@
    "dwdLastAt": "2026-10-11T00:03:04.000Z",
    "derivedAt": "2026-10-11T00:03:39.147Z",
    "deriveMs": 599
-  },
-  {
-   "slot": "2610102345",
-   "publish": true,
-   "points": 1502,
-   "values": 11010,
-   "rejected": 224,
-   "share": 0.0203,
-   "groups": 23,
-   "dwdLastAt": "2026-10-10T23:48:20.000Z",
-   "derivedAt": "2026-10-10T23:48:43.144Z",
-   "deriveMs": 617
   }
  ]
 }
