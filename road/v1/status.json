@@ -3,10 +3,10 @@
  "product": "road-status",
  "job": "39040645631",
  "startedAt": "2026-10-17T14:26:01.335Z",
- "updatedAt": "2026-10-17T19:25:11.029Z",
+ "updatedAt": "2026-10-17T19:27:05.106Z",
  "killSwitch": false,
- "lastSlot": "2610171900",
- "lastPublishedSlot": "2610171900",
+ "lastSlot": "2610171915",
+ "lastPublishedSlot": "2610171915",
  "blocked": null,
  "catalog": {
   "etag": "a681a1ddc60c378a0583c3e078c9e423",
@@ -21,7 +21,7 @@
   },
   "ER-TH": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 51
   },
   "FN-BY": {
@@ -32,7 +32,7 @@
   "FN-NB": {
    "state": "ok",
    "ageMin": 0,
-   "stations": 346
+   "stations": 344
   },
   "HJ-HH": {
    "state": "ok",
@@ -61,13 +61,13 @@
   },
   "KA-NW": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 7
   },
   "KK-SH": {
    "state": "ok",
    "ageMin": 0,
-   "stations": 32
+   "stations": 31
   },
   "KM-NW": {
    "state": "ok",
@@ -86,22 +86,22 @@
   },
   "MC-MV": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 43
   },
   "ND-BY": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 34
   },
   "NI-NI": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 63
   },
   "RB-SL": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 23
   },
   "RH-HE": {
@@ -136,26 +136,25 @@
   }
  },
  "balance": {
-  "values": 11756,
-  "rejected": 372,
-  "share": 0.03164341612793467,
+  "values": 11748,
+  "rejected": 378,
+  "share": 0.032175689479060264,
   "byRule": {
-   "stateNoTemp": 106,
+   "stateNoTemp": 107,
    "dewAboveAir": 5,
    "roadAir": 6,
-   "limit": 62,
+   "limit": 69,
    "stuck": 30,
    "outsideDE": 1,
    "placeholder": 2,
    "dewSpread": 5,
-   "dwdSuspect": 49,
-   "gustNoWind": 1,
-   "precipFill": 100
+   "dwdSuspect": 45,
+   "precipFill": 103
   },
   "observe": {
    "catalog": 146,
    "jump": 1,
-   "neighbours": 5,
+   "neighbours": 6,
    "cube": 1
   },
   "flags": {
@@ -163,12 +162,34 @@
    "spread": 1
   },
   "cubeRef": {
-   "run": "2610171825",
-   "step": 1,
+   "run": "2610171918",
+   "step": 0,
    "stations": 1814
   }
  },
  "recent": [
+  {
+   "slot": "2610171915",
+   "publish": true,
+   "points": 1491,
+   "values": 11748,
+   "rejected": 378,
+   "share": 0.0322,
+   "groups": 22,
+   "dwdLastAt": "2026-10-17T19:18:06.000Z",
+   "derivedAt": "2026-10-17T19:27:03.211Z",
+   "deriveMs": 1648,
+   "hz": {
+    "ok": true,
+    "publish": true,
+    "reasons": [],
+    "withLevel": 1149,
+    "unknown": 3,
+    "missing": [],
+    "bytes": 229542,
+    "ms": 1209
+   }
+  },
   {
    "slot": "2610171900",
    "publish": true,
@@ -674,49 +695,27 @@
     "bytes": 109809,
     "ms": 1848
    }
-  },
-  {
-   "slot": "2610171315",
-   "publish": true,
-   "points": 1529,
-   "values": 11977,
-   "rejected": 298,
-   "share": 0.0249,
-   "groups": 24,
-   "dwdLastAt": "2026-10-17T13:18:06.000Z",
-   "derivedAt": "2026-10-17T13:18:47.655Z",
-   "deriveMs": 2512,
-   "hz": {
-    "ok": true,
-    "publish": true,
-    "reasons": [],
-    "withLevel": 563,
-    "unknown": 4,
-    "missing": [],
-    "bytes": 98853,
-    "ms": 1865
-   }
   }
  ],
  "hz": {
-  "lastSlot": "2610171900",
-  "lastPublishedSlot": "2610171900",
+  "lastSlot": "2610171915",
+  "lastPublishedSlot": "2610171915",
   "blocked": null,
   "missing": [],
   "balance": {
    "segments": 1731,
-   "withLevel": 1157,
+   "withLevel": 1149,
    "unknown": 3,
    "byHazard": {
     "reif": 0,
     "nass": 0,
     "glatteis": 0,
     "schnee": 0,
-    "aqua": 73,
-    "nebel": 947,
-    "gischt": 244,
+    "aqua": 52,
+    "nebel": 951,
+    "gischt": 223,
     "sonne": 0,
-    "quer": 45,
+    "quer": 44,
     "baum": 0,
     "staub": 0,
     "gewitter": 0,
@@ -726,23 +725,23 @@
     "sturz": 1
    },
    "dropped": 0,
-   "bytes": 231209,
-   "ms": 1007,
-   "derivedAt": "2026-10-17T19:12:09.320Z"
+   "bytes": 229542,
+   "ms": 1059,
+   "derivedAt": "2026-10-17T19:27:03.211Z"
   },
   "inputs": {
-   "obs": "2610171900",
+   "obs": "2610171915",
    "fc": {
-    "run": "2610171825",
+    "run": "2610171918",
     "fusion": "buscosun Fusion 12"
    },
-   "rv": "2610171905",
-   "konrad": "20261017T190500",
+   "rv": "2610171920",
+   "konrad": "20261017T192000",
    "runs": "2026101718",
    "segments": "2026-10-14T08:51:20.507Z"
   },
   "observe": {
-   "shareWithLevel": 0.668,
+   "shareWithLevel": 0.664,
    "jump": {}
   }
  }
