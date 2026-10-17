@@ -25,6 +25,17 @@
   "startedAt": "2026-10-17T14:26:00.086Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261017T1940",
+      "asset": "rzc262901940rl.001.h5",
+      "bytes": 55974,
+      "downloadMs": 482,
+      "deriveMs": 268,
+      "imgBytes": 48703,
+      "pushedAt": "2026-10-17T19:44:30.372Z",
+      "pushMs": 1287
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261017_1940.tar",
       "slot": "2026-10-17T19:40:00.000Z",
@@ -374,38 +385,17 @@
       "pushedAt": "2026-10-17T19:10:00.402Z",
       "pushMs": 1241,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261017_1905.tar",
-      "slot": "2026-10-17T19:05:00.000Z",
-      "dwdAt": "2026-10-17T19:08:18.000Z",
-      "seenAt": "2026-10-17T19:08:26.449Z",
-      "bytes": 7608320,
-      "downloadMs": 2082,
-      "deriveMs": 5274,
-      "imgBytes": 8027083,
-      "hd250": {
-        "ms": 1318,
-        "bytes": 1451184,
-        "tiles": 16,
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-10-17T19:08:41.430Z",
-      "pushMs": 2478,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 318,
+    "runs": 319,
     "written": 64,
     "rejected": 0,
-    "failed": 948,
-    "lastRunAt": "2026-10-17T19:43:52.043Z",
-    "lastRunMs": 1886,
+    "failed": 951,
+    "lastRunAt": "2026-10-17T19:44:41.940Z",
+    "lastRunMs": 2920,
     "caps": {
       "de": {
         "timeEnd": "2026-10-17T19:35:00.000Z",
@@ -435,5 +425,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T19:44:28.522Z"
+  "updatedAt": "2026-10-17T19:45:06.537Z"
 }
