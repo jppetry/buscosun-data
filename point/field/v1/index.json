@@ -3,13 +3,13 @@
   "product": "point-field-index",
   "version": "v1",
   "label": "Modell · Cube",
-  "updatedAtMs": 1792263349590,
+  "updatedAtMs": 1792266855302,
   "latestByTier": {
     "t1": {
-      "run": "2026101715",
-      "runAtMs": 1792249200000,
-      "builtAtMs": 1792256282053,
-      "durationMs": 36290,
+      "run": "2026101718",
+      "runAtMs": 1792260000000,
+      "builtAtMs": 1792266855018,
+      "durationMs": 60816,
       "leads": 49
     },
     "t2": {
@@ -29,6 +29,7 @@
   },
   "runsByTier": {
     "t1": [
+      "2026101718",
       "2026101715",
       "2026101712"
     ],

@@ -246,10 +246,10 @@
           "unit": "m",
           "scale": 1,
           "offset": 0,
-          "hash": "36b2db6a583ee9dd",
+          "hash": "48ef42455a3d3bc1",
           "covered": 48441,
-          "minM": -28,
-          "maxM": 3007
+          "minM": -25,
+          "maxM": 3006
         },
         {
           "id": "aifs_single",
@@ -258,56 +258,56 @@
           "unit": "m",
           "scale": 1,
           "offset": 0,
-          "hash": "84136b6ec21d22d3",
+          "hash": "4b53b2853d845eb5",
           "covered": 48441,
-          "minM": -10,
-          "maxM": 2803
+          "minM": -8,
+          "maxM": 2802
         }
       ],
       "chunks": 208,
-      "bytes": 191637,
+      "bytes": 191594,
       "cy": 13,
       "cx": 16,
       "ny": 201,
       "nx": 241,
       "deg": 0.05,
-      "builtFrom": "2026101712",
-      "builtAt": "2026-10-17T13:45:16.459Z",
+      "builtFrom": "2026101718",
+      "builtAt": "2026-10-17T19:45:39.622Z",
       "absent": {
         "icon_d2_eps": "Reine sigma_ens-Quelle — sie traegt keine Mittelwerte, fuer die PAP 4 eine Hoehenkorrektur rechnen wuerde.",
         "claef": "GeoSphere veroeffentlicht keine Modellorographie; die Ableitung aus Druckflaechen ist versperrt, weil C-LAEF nur msl fuehrt, nicht ps.",
         "claef_eps": "GeoSphere veroeffentlicht keine Modellorographie; die Ableitung aus Druckflaechen ist versperrt, weil C-LAEF nur msl fuehrt, nicht ps."
       },
       "diffFromPrev": {
-        "builtAtPrev": "2026-10-17T07:47:11.243Z",
+        "builtAtPrev": "2026-10-17T13:45:16.459Z",
         "columns": [
           {
             "id": "ifs_hres",
             "kind": "changed",
-            "prevHash": "b81ccda318bac727",
-            "hash": "36b2db6a583ee9dd",
+            "prevHash": "36b2db6a583ee9dd",
+            "hash": "48ef42455a3d3bc1",
             "prevCovered": 48441,
             "covered": 48441,
-            "prevMinM": -26,
-            "minM": -28,
-            "prevMaxM": 3006,
-            "maxM": 3007
+            "prevMinM": -28,
+            "minM": -25,
+            "prevMaxM": 3007,
+            "maxM": 3006
           },
           {
             "id": "aifs_single",
             "kind": "changed",
-            "prevHash": "a4233b6438466bb4",
-            "hash": "84136b6ec21d22d3",
+            "prevHash": "84136b6ec21d22d3",
+            "hash": "4b53b2853d845eb5",
             "prevCovered": 48441,
             "covered": 48441,
             "prevMinM": -10,
-            "minM": -10,
+            "minM": -8,
             "prevMaxM": 2803,
-            "maxM": 2803
+            "maxM": 2802
           }
         ]
       }
     }
   },
-  "updatedAt": "2026-10-17T16:39:49.858Z"
+  "updatedAt": "2026-10-17T19:45:39.622Z"
 }

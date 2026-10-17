@@ -1,8 +1,8 @@
 {
   "schema": 6,
-  "commit": "783e884ce10b278638ac5e497017dac70ce16e6c",
+  "commit": null,
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
-  "publishedAt": "2026-10-17T18:55:49.615Z",
+  "publishedAt": "2026-10-17T19:54:15.331Z",
   "retentionHours": 24,
   "minRuns": 2,
   "retentionByTier": {
@@ -12,15 +12,15 @@
   },
   "latestByTier": {
     "t1": {
-      "run": "2026101715",
-      "runAt": "2026-10-17T15:00:00Z",
-      "path": "point/2026101715",
-      "manifest": "point/2026101715/run.json",
-      "sourceRun": "2026101715",
-      "sourceRunAt": "2026-10-17T15:00:00Z",
+      "run": "2026101718",
+      "runAt": "2026-10-17T18:00:00Z",
+      "path": "point/2026101718",
+      "manifest": "point/2026101718/run.json",
+      "sourceRun": "2026101718",
+      "sourceRunAt": "2026-10-17T18:00:00Z",
       "ageH": 0,
       "files": 208,
-      "bytes": 91169995
+      "bytes": 87338409
     },
     "t2": {
       "run": "2026101712",
@@ -64,9 +64,9 @@
         ]
       }
     ],
-    "usableToH": 321,
+    "usableToH": 318,
     "usableToMs": 1793404800000,
-    "usableToNote": "Stunden ab dem t1-Lauf (2026-10-17T15:00:00Z), an denen die letzte Stufe (t3, Lauf 2026-10-17T00:00:00Z) noch traegt: 336 h ab ihrem Lauf. Die Naht ist beweglich (V-PD-55).",
+    "usableToNote": "Stunden ab dem t1-Lauf (2026-10-17T18:00:00Z), an denen die letzte Stufe (t3, Lauf 2026-10-17T00:00:00Z) noch traegt: 336 h ab ihrem Lauf. Die Naht ist beweglich (V-PD-55).",
     "note": "Luecken sind Vorhersagestunden, die KEINE Stufe traegt; ein Leser nennt sie, statt zu interpolieren (E-D-3)."
   },
   "timeless": [
@@ -183,16 +183,6 @@
         "stationCount": 3071,
         "leadHours": 240,
         "bytes": 9031962
-      },
-      {
-        "run": "2026101713",
-        "runAt": "2026-10-17T13:00:00.000Z",
-        "ageH": 0.96,
-        "path": "point/stations-s/2026101713",
-        "manifest": "point/stations-s/2026101713/stations.json",
-        "stationCount": 3071,
-        "leadHours": 240,
-        "bytes": 9031838
       }
     ],
     "source": "mosmix_s",
@@ -293,8 +283,8 @@
         "path": "point/static/hmodel/v1",
         "manifest": "point/static/hmodel/v1/static.json",
         "kind": "static",
-        "updatedAt": "2026-10-17T16:39:49.858Z",
-        "bytes": 270393,
+        "updatedAt": "2026-10-17T19:45:39.622Z",
+        "bytes": 270348,
         "tiers": [
           {
             "id": "t1",
@@ -306,7 +296,7 @@
               "aifs_single"
             ],
             "chunks": 208,
-            "bytes": 191637
+            "bytes": 191594
           },
           {
             "id": "t2",
@@ -1163,6 +1153,35 @@
     }
   ],
   "runs": [
+    {
+      "run": "2026101718",
+      "runAt": "2026-10-17T18:00:00Z",
+      "path": "point/2026101718",
+      "tiers": [
+        "t1"
+      ],
+      "sources": [
+        "icon_d2",
+        "icon_d2_eps",
+        "icon_ch1_eps",
+        "claef",
+        "claef_eps",
+        "icon_eu",
+        "ifs_hres",
+        "aifs_single"
+      ],
+      "bytes": 87401648,
+      "tierRuns": [
+        {
+          "id": "t1",
+          "run": "2026101718",
+          "runAt": "2026-10-17T18:00:00Z",
+          "ageH": 0,
+          "files": 208,
+          "bytes": 87338409
+        }
+      ]
+    },
     {
       "run": "2026101715",
       "runAt": "2026-10-17T15:00:00Z",
