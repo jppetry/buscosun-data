@@ -25,6 +25,17 @@
   "startedAt": "2026-10-17T20:13:22.919Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261017T2010",
+      "asset": "rzc262902010rl.001.h5",
+      "bytes": 55900,
+      "downloadMs": 478,
+      "deriveMs": 411,
+      "imgBytes": 48146,
+      "pushedAt": "2026-10-17T20:14:26.922Z",
+      "pushMs": 1246
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261017_2010.tar",
       "slot": "2026-10-17T20:10:00.000Z",
@@ -84,5 +95,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:14:24.803Z"
+  "updatedAt": "2026-10-17T20:14:52.514Z"
 }
