@@ -25,6 +25,21 @@
   "startedAt": "2026-10-17T20:13:22.919Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261017T202500.xml",
+      "slot": "2026-10-17T20:25:00.000Z",
+      "dwdAt": "2026-10-17T20:29:46.000Z",
+      "seenAt": "2026-10-17T20:29:48.048Z",
+      "bytes": 53218,
+      "downloadMs": 957,
+      "deriveMs": 234,
+      "imgBytes": 8259,
+      "hd250": null,
+      "pushedAt": "2026-10-17T20:29:53.262Z",
+      "pushMs": 1205,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20261017T2025",
       "asset": "rzc262902025rl.001.h5",
@@ -212,26 +227,40 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 18,
-    "written": 3,
+    "runs": 21,
+    "written": 4,
     "rejected": 0,
-    "failed": 50,
-    "lastRunAt": "2026-10-17T20:29:24.938Z",
-    "lastRunMs": 11141,
+    "failed": 59,
+    "lastRunAt": "2026-10-17T20:32:02.682Z",
+    "lastRunMs": 2631,
     "caps": {
       "de": {
-        "timeEnd": "2026-10-17T20:20:00.000Z",
+        "timeEnd": "2026-10-17T20:25:00.000Z",
+        "validAtMs": 1792268700000
+      },
+      "mtg": {
+        "timeEnd": "2026-10-17T20:15:00.000Z",
         "validAtMs": 1792268400000
       }
     },
     "last": [
       {
         "id": "mtg",
-        "timeIso": null,
-        "error": "Capabilities: This operation was aborted"
+        "timeIso": "2026-10-17T20:15:00.000Z",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "mtg",
+        "timeIso": "2026-10-17T20:10:00.000Z",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "mtg",
+        "timeIso": "2026-10-17T20:05:00.000Z",
+        "error": "HTTP 404"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:29:51.056Z"
+  "updatedAt": "2026-10-17T20:33:43.299Z"
 }
