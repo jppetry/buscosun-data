@@ -23,19 +23,66 @@
   "hd250": true,
   "job": "39065705865",
   "startedAt": "2026-10-17T20:13:22.919Z",
-  "recent": [],
+  "recent": [
+    {
+      "product": "rv",
+      "file": "composite_rv_20261017_2010.tar",
+      "slot": "2026-10-17T20:10:00.000Z",
+      "dwdAt": "2026-10-17T20:13:12.000Z",
+      "seenAt": "2026-10-17T20:13:25.789Z",
+      "bytes": 7106560,
+      "downloadMs": 2066,
+      "deriveMs": 9218,
+      "imgBytes": 7412171,
+      "hd250": {
+        "ms": 2220,
+        "bytes": 1342850,
+        "tiles": 16,
+        "sites": 17,
+        "missing": []
+      },
+      "pushedAt": "2026-10-17T20:13:45.734Z",
+      "pushMs": 2659,
+      "attempt": 1
+    }
+  ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 0,
+    "runs": 1,
     "written": 0,
     "rejected": 0,
-    "failed": 0,
-    "lastRunAt": null,
-    "lastRunMs": null,
-    "caps": {},
-    "last": [],
+    "failed": 3,
+    "lastRunAt": "2026-10-17T20:13:48.253Z",
+    "lastRunMs": 2082,
+    "caps": {
+      "de": {
+        "timeEnd": "2026-10-17T20:05:00.000Z",
+        "validAtMs": 1792267500000
+      },
+      "mtg": {
+        "timeEnd": "2026-10-17T20:00:00.000Z",
+        "validAtMs": 1792267500000
+      }
+    },
+    "last": [
+      {
+        "id": "mtg",
+        "timeIso": "2026-10-17T20:00:00.000Z",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "mtg",
+        "timeIso": "2026-10-17T19:55:00.000Z",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "mtg",
+        "timeIso": "2026-10-17T19:50:00.000Z",
+        "error": "HTTP 404"
+      }
+    ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:13:41.495Z"
+  "updatedAt": "2026-10-17T20:14:24.803Z"
 }
