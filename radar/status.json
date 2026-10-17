@@ -25,6 +25,17 @@
   "startedAt": "2026-10-17T20:13:22.919Z",
   "recent": [
     {
+      "product": "inca",
+      "stamp": "20261017T2000",
+      "reftime": "2026-10-17T20:00+00:00",
+      "bytes": 1200037,
+      "downloadMs": 11229,
+      "deriveMs": 986,
+      "imgBytes": 822320,
+      "pushedAt": "2026-10-17T20:18:31.464Z",
+      "pushMs": 1438
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261017T201000.xml",
       "slot": "2026-10-17T20:10:00.000Z",
@@ -110,5 +121,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:18:29.056Z"
+  "updatedAt": "2026-10-17T20:18:58.147Z"
 }
