@@ -25,6 +25,17 @@
   "startedAt": "2026-10-17T20:13:22.919Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261017T2025",
+      "asset": "rzc262902025rl.001.h5",
+      "bytes": 56863,
+      "downloadMs": 453,
+      "deriveMs": 395,
+      "imgBytes": 49632,
+      "pushedAt": "2026-10-17T20:29:13.747Z",
+      "pushMs": 1117
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261017_2025.tar",
       "slot": "2026-10-17T20:25:00.000Z",
@@ -201,40 +212,26 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 17,
+    "runs": 18,
     "written": 3,
     "rejected": 0,
-    "failed": 49,
-    "lastRunAt": "2026-10-17T20:28:34.378Z",
-    "lastRunMs": 2110,
+    "failed": 50,
+    "lastRunAt": "2026-10-17T20:29:24.938Z",
+    "lastRunMs": 11141,
     "caps": {
       "de": {
         "timeEnd": "2026-10-17T20:20:00.000Z",
-        "validAtMs": 1792268400000
-      },
-      "mtg": {
-        "timeEnd": "2026-10-17T20:15:00.000Z",
         "validAtMs": 1792268400000
       }
     },
     "last": [
       {
         "id": "mtg",
-        "timeIso": "2026-10-17T20:15:00.000Z",
-        "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-10-17T20:10:00.000Z",
-        "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-10-17T20:05:00.000Z",
-        "error": "HTTP 404"
+        "timeIso": null,
+        "error": "Capabilities: This operation was aborted"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:29:11.788Z"
+  "updatedAt": "2026-10-17T20:29:51.056Z"
 }
