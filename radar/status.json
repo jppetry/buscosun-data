@@ -25,6 +25,27 @@
   "startedAt": "2026-10-17T14:26:00.086Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261017_1905.tar",
+      "slot": "2026-10-17T19:05:00.000Z",
+      "dwdAt": "2026-10-17T19:08:18.000Z",
+      "seenAt": "2026-10-17T19:08:26.449Z",
+      "bytes": 7608320,
+      "downloadMs": 2082,
+      "deriveMs": 5274,
+      "imgBytes": 8027083,
+      "hd250": {
+        "ms": 1318,
+        "bytes": 1451184,
+        "tiles": 16,
+        "sites": 17,
+        "missing": []
+      },
+      "pushedAt": "2026-10-17T19:08:41.430Z",
+      "pushMs": 2478,
+      "attempt": 1
+    },
+    {
       "product": "inca",
       "stamp": "20261017T1845",
       "reftime": "2026-10-17T18:45+00:00",
@@ -364,49 +385,33 @@
       "imgBytes": 54733,
       "pushedAt": "2026-10-17T18:34:24.818Z",
       "pushMs": 1629
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261017_1830.tar",
-      "slot": "2026-10-17T18:30:00.000Z",
-      "dwdAt": "2026-10-17T18:33:17.000Z",
-      "seenAt": "2026-10-17T18:33:27.217Z",
-      "bytes": 7751680,
-      "downloadMs": 2109,
-      "deriveMs": 5501,
-      "imgBytes": 8452713,
-      "hd250": {
-        "ms": 1348,
-        "bytes": 1500664,
-        "tiles": 16,
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-10-17T18:33:42.602Z",
-      "pushMs": 2628,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 280,
+    "runs": 282,
     "written": 57,
     "rejected": 0,
-    "failed": 834,
-    "lastRunAt": "2026-10-17T19:07:04.977Z",
-    "lastRunMs": 1919,
+    "failed": 840,
+    "lastRunAt": "2026-10-17T19:09:32.602Z",
+    "lastRunMs": 1921,
     "caps": {
       "de": {
         "timeEnd": "2026-10-17T19:00:00.000Z",
         "validAtMs": 1792263600000
       },
       "mtg": {
-        "timeEnd": "2026-10-17T18:50:00.000Z",
-        "validAtMs": 1792263300000
+        "timeEnd": "2026-10-17T18:55:00.000Z",
+        "validAtMs": 1792263600000
       }
     },
     "last": [
+      {
+        "id": "mtg",
+        "timeIso": "2026-10-17T18:55:00.000Z",
+        "error": "HTTP 404"
+      },
       {
         "id": "mtg",
         "timeIso": "2026-10-17T18:50:00.000Z",
@@ -416,14 +421,9 @@
         "id": "mtg",
         "timeIso": "2026-10-17T18:45:00.000Z",
         "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-10-17T18:40:00.000Z",
-        "error": "HTTP 404"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T19:08:37.809Z"
+  "updatedAt": "2026-10-17T19:09:58.390Z"
 }
