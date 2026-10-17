@@ -25,6 +25,21 @@
   "startedAt": "2026-10-17T20:13:22.919Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261017T204500.xml",
+      "slot": "2026-10-17T20:45:00.000Z",
+      "dwdAt": "2026-10-17T20:50:12.000Z",
+      "seenAt": "2026-10-17T20:50:17.965Z",
+      "bytes": 37998,
+      "downloadMs": 240,
+      "deriveMs": 254,
+      "imgBytes": 2805,
+      "hd250": null,
+      "pushedAt": "2026-10-17T20:50:22.126Z",
+      "pushMs": 1043,
+      "attempt": 1
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261017_2045.tar",
       "slot": "2026-10-17T20:45:00.000Z",
@@ -370,43 +385,43 @@
       "imgBytes": 822320,
       "pushedAt": "2026-10-17T20:18:31.464Z",
       "pushMs": 1438
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20261017T201000.xml",
-      "slot": "2026-10-17T20:10:00.000Z",
-      "dwdAt": "2026-10-17T20:14:49.000Z",
-      "seenAt": "2026-10-17T20:14:49.702Z",
-      "bytes": 52931,
-      "downloadMs": 732,
-      "deriveMs": 253,
-      "imgBytes": 8075,
-      "hd250": null,
-      "pushedAt": "2026-10-17T20:14:54.436Z",
-      "pushMs": 1140,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 34,
-    "written": 6,
+    "runs": 37,
+    "written": 8,
     "rejected": 0,
-    "failed": 96,
-    "lastRunAt": "2026-10-17T20:47:26.124Z",
-    "lastRunMs": 1972,
+    "failed": 106,
+    "lastRunAt": "2026-10-17T20:52:09.400Z",
+    "lastRunMs": 2853,
     "caps": {
       "de": {
-        "timeEnd": "2026-10-17T20:35:00.000Z",
-        "validAtMs": 1792269300000
+        "timeEnd": "2026-10-17T20:45:00.000Z",
+        "validAtMs": 1792269900000
       },
       "mtg": {
-        "timeEnd": "2026-10-17T20:30:00.000Z",
-        "validAtMs": 1792269300000
+        "timeEnd": "2026-10-17T20:35:00.000Z",
+        "validAtMs": 1792269600000
       }
     },
     "last": [
+      {
+        "id": "de",
+        "stamp": "20261017T2045",
+        "bytes": 4341,
+        "ms": 614,
+        "active": 851,
+        "max": 8,
+        "fractionalPx": 0,
+        "ok": true
+      },
+      {
+        "id": "mtg",
+        "timeIso": "2026-10-17T20:35:00.000Z",
+        "error": "HTTP 404"
+      },
       {
         "id": "mtg",
         "timeIso": "2026-10-17T20:30:00.000Z",
@@ -416,14 +431,9 @@
         "id": "mtg",
         "timeIso": "2026-10-17T20:25:00.000Z",
         "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-10-17T20:20:00.000Z",
-        "error": "HTTP 404"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:50:20.143Z"
+  "updatedAt": "2026-10-17T20:54:26.483Z"
 }
