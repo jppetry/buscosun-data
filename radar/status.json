@@ -25,6 +25,17 @@
   "startedAt": "2026-10-17T14:26:00.086Z",
   "recent": [
     {
+      "product": "inca",
+      "stamp": "20261017T1915",
+      "reftime": "2026-10-17T19:15+00:00",
+      "bytes": 1226390,
+      "downloadMs": 3948,
+      "deriveMs": 644,
+      "imgBytes": 862848,
+      "pushedAt": "2026-10-17T19:36:19.493Z",
+      "pushMs": 1449
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261017T193000.xml",
       "slot": "2026-10-17T19:30:00.000Z",
@@ -374,43 +385,33 @@
       "pushedAt": "2026-10-17T19:03:36.020Z",
       "pushMs": 2507,
       "attempt": 1
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20261017T185500.xml",
-      "slot": "2026-10-17T18:55:00.000Z",
-      "dwdAt": "2026-10-17T18:59:49.000Z",
-      "seenAt": "2026-10-17T18:59:53.322Z",
-      "bytes": 53127,
-      "downloadMs": 815,
-      "deriveMs": 162,
-      "imgBytes": 8097,
-      "hd250": null,
-      "pushedAt": "2026-10-17T18:59:58.365Z",
-      "pushMs": 1288,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 310,
-    "written": 62,
+    "runs": 312,
+    "written": 63,
     "rejected": 0,
-    "failed": 924,
-    "lastRunAt": "2026-10-17T19:35:25.015Z",
-    "lastRunMs": 3383,
+    "failed": 930,
+    "lastRunAt": "2026-10-17T19:37:07.750Z",
+    "lastRunMs": 3524,
     "caps": {
       "de": {
-        "timeEnd": "2026-10-17T19:25:00.000Z",
-        "validAtMs": 1792265100000
+        "timeEnd": "2026-10-17T19:30:00.000Z",
+        "validAtMs": 1792265400000
       },
       "mtg": {
-        "timeEnd": "2026-10-17T19:20:00.000Z",
-        "validAtMs": 1792265100000
+        "timeEnd": "2026-10-17T19:25:00.000Z",
+        "validAtMs": 1792265400000
       }
     },
     "last": [
+      {
+        "id": "mtg",
+        "timeIso": "2026-10-17T19:25:00.000Z",
+        "error": "HTTP 404"
+      },
       {
         "id": "mtg",
         "timeIso": "2026-10-17T19:20:00.000Z",
@@ -420,14 +421,9 @@
         "id": "mtg",
         "timeIso": "2026-10-17T19:15:00.000Z",
         "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-10-17T19:10:00.000Z",
-        "error": "HTTP 404"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T19:36:17.204Z"
+  "updatedAt": "2026-10-17T19:38:30.369Z"
 }
