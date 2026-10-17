@@ -3,10 +3,10 @@
  "product": "road-status",
  "job": "39065705865",
  "startedAt": "2026-10-17T20:13:24.894Z",
- "updatedAt": "2026-10-17T20:25:07.030Z",
+ "updatedAt": "2026-10-17T20:27:04.802Z",
  "killSwitch": false,
- "lastSlot": "2610172000",
- "lastPublishedSlot": "2610172000",
+ "lastSlot": "2610172015",
+ "lastPublishedSlot": "2610172015",
  "blocked": null,
  "catalog": {
   "etag": "a681a1ddc60c378a0583c3e078c9e423",
@@ -32,11 +32,11 @@
   "FN-NB": {
    "state": "ok",
    "ageMin": 0,
-   "stations": 348
+   "stations": 346
   },
   "HJ-HH": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 8
   },
   "HL-ST": {
@@ -67,11 +67,11 @@
   "KK-SH": {
    "state": "ok",
    "ageMin": 0,
-   "stations": 32
+   "stations": 31
   },
   "KM-NW": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 191
   },
   "KO-RP": {
@@ -106,7 +106,7 @@
   },
   "RH-HE": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 74
   },
   "RP-RP": {
@@ -136,37 +136,59 @@
   }
  },
  "balance": {
-  "values": 11770,
-  "rejected": 387,
-  "share": 0.03288020390824129,
+  "values": 11738,
+  "rejected": 380,
+  "share": 0.03237348781734537,
   "byRule": {
    "stateNoTemp": 102,
-   "dewAboveAir": 5,
-   "roadAir": 7,
-   "limit": 73,
+   "dewAboveAir": 6,
+   "roadAir": 6,
+   "limit": 75,
    "stuck": 30,
    "outsideDE": 1,
    "placeholder": 2,
    "dewSpread": 7,
-   "dwdSuspect": 51,
-   "precipFill": 104
+   "dwdSuspect": 41,
+   "precipFill": 105
   },
   "observe": {
    "catalog": 146,
-   "neighbours": 5,
-   "cube": 2
+   "neighbours": 6,
+   "cube": 3
   },
   "flags": {
    "duplicate": 1,
    "spread": 1
   },
   "cubeRef": {
-   "run": "2610171956",
-   "step": 1,
+   "run": "2610172023",
+   "step": 0,
    "stations": 1814
   }
  },
  "recent": [
+  {
+   "slot": "2610172015",
+   "publish": true,
+   "points": 1493,
+   "values": 11738,
+   "rejected": 380,
+   "share": 0.0324,
+   "groups": 22,
+   "dwdLastAt": "2026-10-17T20:18:04.000Z",
+   "derivedAt": "2026-10-17T20:27:03.110Z",
+   "deriveMs": 2463,
+   "hz": {
+    "ok": true,
+    "publish": true,
+    "reasons": [],
+    "withLevel": 1213,
+    "unknown": 3,
+    "missing": [],
+    "bytes": 249353,
+    "ms": 1801
+   }
+  },
   {
    "slot": "2610172000",
    "publish": true,
@@ -672,49 +694,27 @@
     "bytes": 132215,
     "ms": 998
    }
-  },
-  {
-   "slot": "2610171415",
-   "publish": true,
-   "points": 1526,
-   "values": 11961,
-   "rejected": 296,
-   "share": 0.0247,
-   "groups": 24,
-   "dwdLastAt": "2026-10-17T14:18:04.000Z",
-   "derivedAt": "2026-10-17T14:18:43.772Z",
-   "deriveMs": 2607,
-   "hz": {
-    "ok": true,
-    "publish": true,
-    "reasons": [],
-    "withLevel": 628,
-    "unknown": 3,
-    "missing": [],
-    "bytes": 110539,
-    "ms": 1934
-   }
   }
  ],
  "hz": {
-  "lastSlot": "2610172000",
-  "lastPublishedSlot": "2610172000",
+  "lastSlot": "2610172015",
+  "lastPublishedSlot": "2610172015",
   "blocked": null,
   "missing": [],
   "balance": {
    "segments": 1731,
-   "withLevel": 1220,
+   "withLevel": 1213,
    "unknown": 3,
    "byHazard": {
     "reif": 0,
     "nass": 0,
     "glatteis": 0,
     "schnee": 0,
-    "aqua": 47,
-    "nebel": 1038,
-    "gischt": 185,
+    "aqua": 46,
+    "nebel": 1022,
+    "gischt": 204,
     "sonne": 0,
-    "quer": 49,
+    "quer": 46,
     "baum": 0,
     "staub": 0,
     "gewitter": 0,
@@ -724,23 +724,23 @@
     "sturz": 0
    },
    "dropped": 0,
-   "bytes": 249344,
-   "ms": 933,
-   "derivedAt": "2026-10-17T20:12:01.698Z"
+   "bytes": 249353,
+   "ms": 1605,
+   "derivedAt": "2026-10-17T20:27:03.110Z"
   },
   "inputs": {
-   "obs": "2610172000",
+   "obs": "2610172015",
    "fc": {
-    "run": "2610171956",
+    "run": "2610172023",
     "fusion": "buscosun Fusion 12"
    },
-   "rv": "2610172005",
-   "konrad": "20261017T200500",
+   "rv": "2610172020",
+   "konrad": "20261017T202000",
    "runs": "2026101718",
    "segments": "2026-10-14T08:51:20.507Z"
   },
   "observe": {
-   "shareWithLevel": 0.705,
+   "shareWithLevel": 0.701,
    "jump": {}
   }
  }
