@@ -25,6 +25,21 @@
   "startedAt": "2026-10-17T14:26:00.086Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261017T193500.xml",
+      "slot": "2026-10-17T19:35:00.000Z",
+      "dwdAt": "2026-10-17T19:40:08.000Z",
+      "seenAt": "2026-10-17T19:40:16.177Z",
+      "bytes": 53874,
+      "downloadMs": 1049,
+      "deriveMs": 170,
+      "imgBytes": 8707,
+      "hd250": null,
+      "pushedAt": "2026-10-17T19:40:20.720Z",
+      "pushMs": 1185,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20261017T1935",
       "asset": "rzc262901935rl.001.h5",
@@ -370,36 +385,21 @@
       "imgBytes": 838046,
       "pushedAt": "2026-10-17T19:06:41.967Z",
       "pushMs": 1860
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20261017T190000.xml",
-      "slot": "2026-10-17T19:00:00.000Z",
-      "dwdAt": "2026-10-17T19:04:56.000Z",
-      "seenAt": "2026-10-17T19:05:04.290Z",
-      "bytes": 53382,
-      "downloadMs": 971,
-      "deriveMs": 169,
-      "imgBytes": 8210,
-      "hd250": null,
-      "pushedAt": "2026-10-17T19:05:09.366Z",
-      "pushMs": 1251,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 314,
-    "written": 63,
+    "runs": 316,
+    "written": 64,
     "rejected": 0,
-    "failed": 936,
-    "lastRunAt": "2026-10-17T19:39:22.462Z",
-    "lastRunMs": 5318,
+    "failed": 942,
+    "lastRunAt": "2026-10-17T19:41:19.323Z",
+    "lastRunMs": 10274,
     "caps": {
       "de": {
-        "timeEnd": "2026-10-17T19:30:00.000Z",
-        "validAtMs": 1792265400000
+        "timeEnd": "2026-10-17T19:35:00.000Z",
+        "validAtMs": 1792265700000
       },
       "mtg": {
         "timeEnd": "2026-10-17T19:25:00.000Z",
@@ -407,6 +407,16 @@
       }
     },
     "last": [
+      {
+        "id": "de",
+        "stamp": "20261017T1935",
+        "bytes": 4118,
+        "ms": 4494,
+        "active": 469,
+        "max": 5,
+        "fractionalPx": 0,
+        "ok": true
+      },
       {
         "id": "mtg",
         "timeIso": "2026-10-17T19:25:00.000Z",
@@ -425,5 +435,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T19:40:18.968Z"
+  "updatedAt": "2026-10-17T19:42:18.422Z"
 }
