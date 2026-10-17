@@ -25,6 +25,17 @@
   "startedAt": "2026-10-17T20:13:22.919Z",
   "recent": [
     {
+      "product": "inca",
+      "stamp": "20261017T2030",
+      "reftime": "2026-10-17T20:30+00:00",
+      "bytes": 1161081,
+      "downloadMs": 29660,
+      "deriveMs": 979,
+      "imgBytes": 751039,
+      "pushedAt": "2026-10-17T20:46:31.002Z",
+      "pushMs": 1405
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261017_2040.tar",
       "slot": "2026-10-17T20:40:00.000Z",
@@ -364,12 +375,12 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 32,
+    "runs": 33,
     "written": 6,
     "rejected": 0,
     "failed": 90,
-    "lastRunAt": "2026-10-17T20:45:08.207Z",
-    "lastRunMs": 14443,
+    "lastRunAt": "2026-10-17T20:46:34.971Z",
+    "lastRunMs": 1804,
     "caps": {
       "de": {
         "timeEnd": "2026-10-17T20:35:00.000Z",
@@ -399,5 +410,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:46:28.742Z"
+  "updatedAt": "2026-10-17T20:46:48.773Z"
 }
