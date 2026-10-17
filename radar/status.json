@@ -25,6 +25,21 @@
   "startedAt": "2026-10-17T14:26:00.086Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261017T190500.xml",
+      "slot": "2026-10-17T19:05:00.000Z",
+      "dwdAt": "2026-10-17T19:09:50.000Z",
+      "seenAt": "2026-10-17T19:09:55.680Z",
+      "bytes": 37216,
+      "downloadMs": 692,
+      "deriveMs": 156,
+      "imgBytes": 5894,
+      "hd250": null,
+      "pushedAt": "2026-10-17T19:10:00.402Z",
+      "pushMs": 1241,
+      "attempt": 1
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261017_1905.tar",
       "slot": "2026-10-17T19:05:00.000Z",
@@ -374,17 +389,6 @@
       "pushedAt": "2026-10-17T18:35:16.207Z",
       "pushMs": 1146,
       "attempt": 1
-    },
-    {
-      "product": "rzc",
-      "stamp": "20261017T1830",
-      "asset": "rzc262901830rl.001.h5",
-      "bytes": 61139,
-      "downloadMs": 483,
-      "deriveMs": 261,
-      "imgBytes": 54733,
-      "pushedAt": "2026-10-17T18:34:24.818Z",
-      "pushMs": 1629
     }
   ],
   "lightning": {
@@ -425,5 +429,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T19:09:58.390Z"
+  "updatedAt": "2026-10-17T19:10:06.391Z"
 }
