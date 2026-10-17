@@ -25,6 +25,17 @@
   "startedAt": "2026-10-17T20:13:22.919Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261017T2045",
+      "asset": "rzc262902045rl.001.h5",
+      "bytes": 55418,
+      "downloadMs": 488,
+      "deriveMs": 403,
+      "imgBytes": 46894,
+      "pushedAt": "2026-10-17T20:49:45.324Z",
+      "pushMs": 1178
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261017T204000.xml",
       "slot": "2026-10-17T20:40:00.000Z",
@@ -364,27 +375,6 @@
       "imgBytes": 48146,
       "pushedAt": "2026-10-17T20:14:26.922Z",
       "pushMs": 1246
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261017_2010.tar",
-      "slot": "2026-10-17T20:10:00.000Z",
-      "dwdAt": "2026-10-17T20:13:12.000Z",
-      "seenAt": "2026-10-17T20:13:25.789Z",
-      "bytes": 7106560,
-      "downloadMs": 2066,
-      "deriveMs": 9218,
-      "imgBytes": 7412171,
-      "hd250": {
-        "ms": 2220,
-        "bytes": 1342850,
-        "tiles": 16,
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-10-17T20:13:45.734Z",
-      "pushMs": 2659,
-      "attempt": 1
     }
   ],
   "lightning": {
@@ -425,5 +415,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:49:43.291Z"
+  "updatedAt": "2026-10-17T20:50:12.453Z"
 }
