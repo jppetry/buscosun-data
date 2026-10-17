@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "product": "sea-status",
- "updatedAt": "2026-10-17T19:50:55.756Z",
+ "updatedAt": "2026-10-17T20:18:41.778Z",
  "killSwitch": false,
  "field": {
   "model": "cwam",
@@ -125,18 +125,18 @@
  },
  "text": {
   "FQDL50": {
-   "issue": "2610171700",
-   "issuedAt": "2026-10-17T17:00:00.000Z",
-   "dwdAt": "2026-10-17T17:15:08.000Z",
-   "fetchedAt": "2026-10-17T17:15:09.425Z",
-   "delayMin": 0
+   "issue": "2610172000",
+   "issuedAt": "2026-10-17T20:00:00.000Z",
+   "dwdAt": "2026-10-17T20:15:08.000Z",
+   "fetchedAt": "2026-10-17T20:18:05.106Z",
+   "delayMin": 3
   },
   "FQDL51": {
-   "issue": "2610171700",
-   "issuedAt": "2026-10-17T17:00:00.000Z",
-   "dwdAt": "2026-10-17T17:15:08.000Z",
-   "fetchedAt": "2026-10-17T17:15:09.425Z",
-   "delayMin": 0
+   "issue": "2610172000",
+   "issuedAt": "2026-10-17T20:00:00.000Z",
+   "dwdAt": "2026-10-17T20:15:08.000Z",
+   "fetchedAt": "2026-10-17T20:18:05.106Z",
+   "delayMin": 3
   },
   "WODL45": {
    "issue": "2610171800",
@@ -153,30 +153,30 @@
    "delayMin": 10
   }
  },
- "job": "39064171582",
+ "job": "39066088861",
  "textPass": {
-  "at": "2026-10-17T19:50:51.366Z",
+  "at": "2026-10-17T20:18:05.106Z",
   "listed": 52,
-  "todo": 0,
-  "added": 0,
+  "todo": 2,
+  "added": 2,
   "rejected": 0,
   "absent": 0
  },
  "wind": {
   "run": "2026101712",
-  "t1": "2026101715",
-  "path": "spots/2026101712-w2026101715.json",
-  "from": 5,
+  "t1": "2026101718",
+  "path": "spots/2026101712-w2026101718.json",
+  "from": 8,
   "engine": "buscosun Fusion 12",
   "version": 12,
-  "computedAt": "2026-10-17T17:15:38.329Z",
+  "computedAt": "2026-10-17T20:18:39.355Z",
   "spots": 56,
   "rejected": 0,
-  "buildS": 3,
-  "bytes": 48507
+  "buildS": 2,
+  "bytes": 49349
  },
  "gauges": {
-  "at": "2026-10-17T19:50:55.756Z",
+  "at": "2026-10-17T20:18:41.778Z",
   "count": 136,
   "changed": false,
   "source": "https://gdi.bsh.de/ldproxy/rest/services/WaterLevelForecast"
