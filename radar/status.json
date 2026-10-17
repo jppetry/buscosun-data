@@ -25,6 +25,27 @@
   "startedAt": "2026-10-17T20:13:22.919Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261017_2030.tar",
+      "slot": "2026-10-17T20:30:00.000Z",
+      "dwdAt": "2026-10-17T20:33:20.000Z",
+      "seenAt": "2026-10-17T20:33:27.254Z",
+      "bytes": 6973440,
+      "downloadMs": 2061,
+      "deriveMs": 10090,
+      "imgBytes": 7404998,
+      "hd250": {
+        "ms": 2050,
+        "bytes": 1314412,
+        "tiles": 16,
+        "sites": 17,
+        "missing": []
+      },
+      "pushedAt": "2026-10-17T20:33:47.380Z",
+      "pushMs": 2541,
+      "attempt": 1
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261017T202500.xml",
       "slot": "2026-10-17T20:25:00.000Z",
@@ -227,40 +248,26 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 21,
+    "runs": 22,
     "written": 4,
     "rejected": 0,
-    "failed": 59,
-    "lastRunAt": "2026-10-17T20:32:02.682Z",
-    "lastRunMs": 2631,
+    "failed": 60,
+    "lastRunAt": "2026-10-17T20:33:49.300Z",
+    "lastRunMs": 11144,
     "caps": {
       "de": {
         "timeEnd": "2026-10-17T20:25:00.000Z",
         "validAtMs": 1792268700000
-      },
-      "mtg": {
-        "timeEnd": "2026-10-17T20:15:00.000Z",
-        "validAtMs": 1792268400000
       }
     },
     "last": [
       {
         "id": "mtg",
-        "timeIso": "2026-10-17T20:15:00.000Z",
-        "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-10-17T20:10:00.000Z",
-        "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-10-17T20:05:00.000Z",
-        "error": "HTTP 404"
+        "timeIso": null,
+        "error": "Capabilities: This operation was aborted"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:33:43.299Z"
+  "updatedAt": "2026-10-17T20:34:28.708Z"
 }
