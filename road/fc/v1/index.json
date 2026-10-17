@@ -1,9 +1,43 @@
 {
  "schema": 1,
  "product": "road-fc-index",
- "updatedAt": "2026-10-17T19:19:09.508Z",
+ "updatedAt": "2026-10-17T19:57:41.663Z",
  "killed": false,
  "runs": [
+  {
+   "run": "2610171956",
+   "issuedAt": "2026-10-17T19:56:38.199Z",
+   "t0Ms": 1792263600000,
+   "publishedAt": "2026-10-17T19:57:41.663Z",
+   "points": 4772,
+   "failed": 0,
+   "corridors": 212,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 12",
+    "version": 12,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2610171900",
+    "anchored": 1201,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026101718",
+     "t2": "2026101712",
+     "t3": null,
+     "stations": "2026101715",
+     "nowcast": "radvor_rv:2610171950"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    },
+    "points": "62b24997ebd9"
+   },
+   "ms": 61003
+  },
   {
    "run": "2610171918",
    "issuedAt": "2026-10-17T19:18:19.824Z",
@@ -136,74 +170,6 @@
     "points": "62b24997ebd9"
    },
    "ms": 62137
-  },
-  {
-   "run": "2610171647",
-   "issuedAt": "2026-10-17T16:47:48.369Z",
-   "t0Ms": 1792252800000,
-   "publishedAt": "2026-10-17T16:49:00.106Z",
-   "points": 4772,
-   "failed": 0,
-   "corridors": 212,
-   "states": 16,
-   "engine": {
-    "name": "buscosun Fusion 12",
-    "version": 12,
-    "stage": "fs",
-    "anchor": "swis",
-    "anchorMode": "stations",
-    "anchorSlot": "2610171600",
-    "anchored": 1212,
-    "hourMean": true,
-    "runs": {
-     "t1": "2026101712",
-     "t2": "2026101712",
-     "t3": null,
-     "stations": "2026101715",
-     "nowcast": "radvor_rv:2610171640"
-    },
-    "tables": {
-     "learned": "0714300fe2a5",
-     "stack": "9d22ff35986f",
-     "clima": "85d73cead2cb"
-    },
-    "points": "62b24997ebd9"
-   },
-   "ms": 70718
-  },
-  {
-   "run": "2610171623",
-   "issuedAt": "2026-10-17T16:23:34.535Z",
-   "t0Ms": 1792252800000,
-   "publishedAt": "2026-10-17T16:24:45.161Z",
-   "points": 4772,
-   "failed": 0,
-   "corridors": 212,
-   "states": 16,
-   "engine": {
-    "name": "buscosun Fusion 12",
-    "version": 12,
-    "stage": "fs",
-    "anchor": "swis",
-    "anchorMode": "stations",
-    "anchorSlot": "2610171600",
-    "anchored": 1212,
-    "hourMean": true,
-    "runs": {
-     "t1": "2026101712",
-     "t2": "2026101706",
-     "t3": null,
-     "stations": "2026101709",
-     "nowcast": "radvor_rv:2610171615"
-    },
-    "tables": {
-     "learned": "0714300fe2a5",
-     "stack": "9d22ff35986f",
-     "clima": "85d73cead2cb"
-    },
-    "points": "62b24997ebd9"
-   },
-   "ms": 69440
   }
  ]
 }
