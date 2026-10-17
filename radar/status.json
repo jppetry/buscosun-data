@@ -25,6 +25,17 @@
   "startedAt": "2026-10-17T20:13:22.919Z",
   "recent": [
     {
+      "product": "inca",
+      "stamp": "20261017T2015",
+      "reftime": "2026-10-17T20:15+00:00",
+      "bytes": 1195350,
+      "downloadMs": 2865,
+      "deriveMs": 1001,
+      "imgBytes": 816567,
+      "pushedAt": "2026-10-17T20:37:30.181Z",
+      "pushMs": 1277
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261017T203000.xml",
       "slot": "2026-10-17T20:30:00.000Z",
@@ -277,7 +288,7 @@
     "runs": 26,
     "written": 5,
     "rejected": 0,
-    "failed": 69,
+    "failed": 72,
     "lastRunAt": "2026-10-17T20:37:08.564Z",
     "lastRunMs": 6839,
     "caps": {
@@ -291,16 +302,6 @@
       }
     },
     "last": [
-      {
-        "id": "de",
-        "stamp": "20261017T2030",
-        "bytes": 4270,
-        "ms": 701,
-        "active": 586,
-        "max": 5,
-        "fractionalPx": 0,
-        "ok": true
-      },
       {
         "id": "mtg",
         "timeIso": "2026-10-17T20:20:00.000Z",
@@ -319,5 +320,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:37:27.899Z"
+  "updatedAt": "2026-10-17T20:38:56.109Z"
 }
