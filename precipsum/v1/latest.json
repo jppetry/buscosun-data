@@ -1,0 +1,121 @@
+{
+ "schema": 1,
+ "kind": "precipsum/past",
+ "end": "2026-10-17T18:00:00.000Z",
+ "dir": "2026101718-de-at-ch-2c3f3fba",
+ "grid": {
+  "w": 600,
+  "h": 512,
+  "lonMin": 5.5,
+  "lonMax": 17.4,
+  "latMin": 45.3,
+  "latMax": 55.5
+ },
+ "unitMm": 0.01,
+ "countries": {
+  "DE": {
+   "hours": 48,
+   "hasEnd": true,
+   "maxWindowH": 48
+  },
+  "AT": {
+   "hours": 48,
+   "hasEnd": true,
+   "maxWindowH": 48
+  },
+  "CH": {
+   "hours": 48,
+   "hasEnd": true,
+   "maxWindowH": 48
+  }
+ },
+ "windows": {
+  "1": {
+   "file": "sum-001h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-17T18:00:00.000Z"
+   },
+   "valid": 162025,
+   "gap": 211,
+   "wet": 45892,
+   "maxMm": 8
+  },
+  "3": {
+   "file": "sum-003h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-17T18:00:00.000Z"
+   },
+   "valid": 162025,
+   "gap": 211,
+   "wet": 63050,
+   "maxMm": 23.8
+  },
+  "6": {
+   "file": "sum-006h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-17T18:00:00.000Z"
+   },
+   "valid": 162025,
+   "gap": 211,
+   "wet": 76720,
+   "maxMm": 30.8
+  },
+  "12": {
+   "file": "sum-012h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-17T18:00:00.000Z"
+   },
+   "valid": 162025,
+   "gap": 211,
+   "wet": 99553,
+   "maxMm": 39.9
+  },
+  "24": {
+   "file": "sum-024h.png",
+   "de": {
+    "product": "SF",
+    "end": "2026-10-17T17:50:00.000Z"
+   },
+   "valid": 162037,
+   "gap": 199,
+   "wet": 119066,
+   "maxMm": 34.2
+  },
+  "48": {
+   "file": "sum-048h.png",
+   "de": {
+    "product": "SF",
+    "end": "2026-10-17T17:50:00.000Z"
+   },
+   "valid": 162037,
+   "gap": 199,
+   "wet": 122317,
+   "maxMm": 34.2
+  }
+ },
+ "sources": {
+  "DE": {
+   "id": "rw",
+   "label": "RADOLAN RW",
+   "provider": "DWD",
+   "latencyMin": 26
+  },
+  "AT": {
+   "id": "inca",
+   "label": "INCA-Analyse",
+   "provider": "GeoSphere Austria",
+   "latencyMin": 35
+  },
+  "CH": {
+   "id": "cpc",
+   "label": "CombiPrecip",
+   "provider": "MeteoSchweiz",
+   "latencyMin": 5
+  }
+ },
+ "builtAt": "2026-10-17T18:45:25.214Z"
+}
