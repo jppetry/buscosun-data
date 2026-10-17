@@ -25,6 +25,27 @@
   "startedAt": "2026-10-17T20:13:22.919Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261017_2040.tar",
+      "slot": "2026-10-17T20:40:00.000Z",
+      "dwdAt": "2026-10-17T20:44:38.000Z",
+      "seenAt": "2026-10-17T20:44:45.724Z",
+      "bytes": 6891520,
+      "downloadMs": 1930,
+      "deriveMs": 7336,
+      "imgBytes": 7072278,
+      "hd250": {
+        "ms": 2025,
+        "bytes": 1297125,
+        "tiles": 16,
+        "sites": 17,
+        "missing": []
+      },
+      "pushedAt": "2026-10-17T20:45:02.776Z",
+      "pushMs": 2492,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20261017T2040",
       "asset": "rzc262902040rl.001.h5",
@@ -343,23 +364,28 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 31,
+    "runs": 32,
     "written": 6,
     "rejected": 0,
-    "failed": 87,
-    "lastRunAt": "2026-10-17T20:42:35.049Z",
-    "lastRunMs": 1858,
+    "failed": 90,
+    "lastRunAt": "2026-10-17T20:45:08.207Z",
+    "lastRunMs": 14443,
     "caps": {
       "de": {
         "timeEnd": "2026-10-17T20:35:00.000Z",
         "validAtMs": 1792269300000
       },
       "mtg": {
-        "timeEnd": "2026-10-17T20:25:00.000Z",
-        "validAtMs": 1792269000000
+        "timeEnd": "2026-10-17T20:30:00.000Z",
+        "validAtMs": 1792269300000
       }
     },
     "last": [
+      {
+        "id": "mtg",
+        "timeIso": "2026-10-17T20:30:00.000Z",
+        "error": "HTTP 404"
+      },
       {
         "id": "mtg",
         "timeIso": "2026-10-17T20:25:00.000Z",
@@ -369,14 +395,9 @@
         "id": "mtg",
         "timeIso": "2026-10-17T20:20:00.000Z",
         "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-10-17T20:15:00.000Z",
-        "error": "HTTP 404"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:44:58.794Z"
+  "updatedAt": "2026-10-17T20:46:28.742Z"
 }
