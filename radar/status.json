@@ -25,6 +25,17 @@
   "startedAt": "2026-10-17T14:26:00.086Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261017T2005",
+      "asset": "rzc262902005rl.001.h5",
+      "bytes": 55191,
+      "downloadMs": 456,
+      "deriveMs": 254,
+      "imgBytes": 47282,
+      "pushedAt": "2026-10-17T20:09:56.402Z",
+      "pushMs": 1130
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261017_2005.tar",
       "slot": "2026-10-17T20:05:00.000Z",
@@ -374,17 +385,6 @@
       "pushedAt": "2026-10-17T19:35:13.248Z",
       "pushMs": 1177,
       "attempt": 1
-    },
-    {
-      "product": "rzc",
-      "stamp": "20261017T1930",
-      "asset": "rzc262901930rl.001.h5",
-      "bytes": 58009,
-      "downloadMs": 460,
-      "deriveMs": 265,
-      "imgBytes": 51397,
-      "pushedAt": "2026-10-17T19:34:21.654Z",
-      "pushMs": 1262
     }
   ],
   "lightning": {
@@ -425,5 +425,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-17T20:09:54.469Z"
+  "updatedAt": "2026-10-17T20:10:10.696Z"
 }
