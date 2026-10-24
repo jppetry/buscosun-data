@@ -1,0 +1,213 @@
+{
+ "schema": 1,
+ "model": "icon-d2",
+ "attribution": "Datenbasis: Deutscher Wetterdienst (ICON-D2, CC BY 4.0)",
+ "updatedAt": "2026-10-24T19:32:32.226Z",
+ "grid": {
+  "latMin": 45.5,
+  "latMax": 55.5,
+  "lonMin": 5.5,
+  "lonMax": 17.5,
+  "step": 0.1,
+  "ny": 101,
+  "nx": 121,
+  "tileCells": 5,
+  "tilesY": 21,
+  "tilesX": 25
+ },
+ "levels": [
+  65,
+  64,
+  63,
+  62,
+  61,
+  60,
+  59,
+  58,
+  57,
+  56,
+  55,
+  54,
+  53,
+  52,
+  51,
+  50,
+  49,
+  48,
+  47,
+  46,
+  45,
+  44,
+  43,
+  42,
+  41,
+  40,
+  39,
+  38,
+  37,
+  36,
+  35,
+  34,
+  33,
+  32,
+  30,
+  28,
+  26,
+  24,
+  22,
+  20,
+  18,
+  16,
+  14
+ ],
+ "steps": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48
+ ],
+ "vars": [
+  {
+   "id": "p",
+   "unit": "hPa",
+   "scale": 10
+  },
+  {
+   "id": "t",
+   "unit": "°C",
+   "scale": 10
+  },
+  {
+   "id": "rh",
+   "unit": "%",
+   "scale": 1
+  },
+  {
+   "id": "u",
+   "unit": "m/s",
+   "scale": 5
+  },
+  {
+   "id": "v",
+   "unit": "m/s",
+   "scale": 5
+  }
+ ],
+ "sfc": {
+  "step": 0.02,
+  "ny": 501,
+  "nx": 601,
+  "tileCells": 25,
+  "tilesY": 21,
+  "tilesX": 25,
+  "vars": [
+   {
+    "id": "htop_dc",
+    "unit": "m",
+    "scale": 1
+   },
+   {
+    "id": "hbas_sc",
+    "unit": "m",
+    "scale": 1
+   },
+   {
+    "id": "htop_sc",
+    "unit": "m",
+    "scale": 1
+   },
+   {
+    "id": "ceiling",
+    "unit": "m",
+    "scale": 1
+   },
+   {
+    "id": "hzerocl",
+    "unit": "m",
+    "scale": 1
+   },
+   {
+    "id": "snowlmt",
+    "unit": "m",
+    "scale": 1
+   },
+   {
+    "id": "cape_ml",
+    "unit": "J/kg",
+    "scale": 1
+   },
+   {
+    "id": "cin_ml",
+    "unit": "J/kg",
+    "scale": 1
+   }
+  ]
+ },
+ "runs": [
+  {
+   "run": "2026102418",
+   "runAt": "2026-10-24T18:00:00.000Z",
+   "tiles": 525,
+   "bytes": 67409476,
+   "builtAt": "2026-10-24T19:32:32.226Z",
+   "sfcTiles": 525,
+   "sfcBytes": 54605740,
+   "foehn": true
+  },
+  {
+   "run": "2026102412",
+   "runAt": "2026-10-24T12:00:00.000Z",
+   "tiles": 525,
+   "bytes": 67547909,
+   "builtAt": "2026-10-24T13:34:06.767Z",
+   "sfcTiles": 525,
+   "sfcBytes": 55316052,
+   "foehn": true
+  }
+ ]
+}

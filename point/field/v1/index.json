@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "product": "point-field-index",
+  "version": "v1",
+  "label": "Modell · Cube",
+  "updatedAtMs": 1792745919017,
+  "latestByTier": {
+    "t1": {
+      "run": "2026102306",
+      "runAtMs": 1792735200000,
+      "builtAtMs": 1792742488001,
+      "durationMs": 65023,
+      "leads": 49
+    },
+    "t2": {
+      "run": "2026101906",
+      "runAtMs": 1792389600000,
+      "builtAtMs": 1792406875048,
+      "durationMs": 10203,
+      "leads": 24
+    },
+    "t3": {
+      "run": "2026101900",
+      "runAtMs": 1792368000000,
+      "builtAtMs": 1792404403460,
+      "durationMs": 4407,
+      "leads": 36
+    }
+  },
+  "runsByTier": {
+    "t1": [
+      "2026102306",
+      "2026101909"
+    ],
+    "t2": [
+      "2026101906",
+      "2026101900"
+    ],
+    "t3": [
+      "2026101900",
+      "2026101812"
+    ]
+  }
+}
