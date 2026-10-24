@@ -25,6 +25,27 @@
   "startedAt": "2026-10-24T19:48:38.303Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261024_2235.tar",
+      "slot": "2026-10-24T22:35:00.000Z",
+      "dwdAt": "2026-10-24T22:38:21.000Z",
+      "seenAt": "2026-10-24T22:38:27.021Z",
+      "bytes": 13148160,
+      "downloadMs": 1845,
+      "deriveMs": 9625,
+      "imgBytes": 12315662,
+      "hd250": {
+        "ms": 2826,
+        "bytes": 2500084,
+        "tiles": 13,
+        "sites": 17,
+        "missing": []
+      },
+      "pushedAt": "2026-10-24T22:38:47.773Z",
+      "pushMs": 3196,
+      "attempt": 1
+    },
+    {
       "product": "inca",
       "stamp": "20261024T2215",
       "reftime": "2026-10-24T22:15+00:00",
@@ -364,38 +385,17 @@
       "imgBytes": 142418,
       "pushedAt": "2026-10-24T22:04:31.487Z",
       "pushMs": 1144
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261024_2200.tar",
-      "slot": "2026-10-24T22:00:00.000Z",
-      "dwdAt": "2026-10-24T22:03:20.000Z",
-      "seenAt": "2026-10-24T22:03:28.243Z",
-      "bytes": 12226560,
-      "downloadMs": 1901,
-      "deriveMs": 9501,
-      "imgBytes": 11067701,
-      "hd250": {
-        "ms": 2701,
-        "bytes": 2346449,
-        "tiles": 12,
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-10-24T22:03:48.705Z",
-      "pushMs": 3124,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 174,
+    "runs": 176,
     "written": 34,
     "rejected": 0,
-    "failed": 518,
-    "lastRunAt": "2026-10-24T22:37:13.946Z",
-    "lastRunMs": 11919,
+    "failed": 521,
+    "lastRunAt": "2026-10-24T22:39:46.224Z",
+    "lastRunMs": 1550,
     "caps": {
       "de": {
         "timeEnd": "2026-10-24T22:30:00.000Z",
@@ -415,7 +415,7 @@
       {
         "id": "mtg",
         "timeIso": "2026-10-24T22:20:00.000Z",
-        "error": "HTTP 503"
+        "error": "HTTP 404"
       },
       {
         "id": "mtg",
@@ -425,5 +425,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-24T22:38:42.291Z"
+  "updatedAt": "2026-10-24T22:39:58.703Z"
 }
