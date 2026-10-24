@@ -25,6 +25,27 @@
   "startedAt": "2026-10-24T19:48:38.303Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261024_2240.tar",
+      "slot": "2026-10-24T22:40:00.000Z",
+      "dwdAt": "2026-10-24T22:43:17.000Z",
+      "seenAt": "2026-10-24T22:43:25.389Z",
+      "bytes": 13312000,
+      "downloadMs": 2315,
+      "deriveMs": 9306,
+      "imgBytes": 12202174,
+      "hd250": {
+        "ms": 2815,
+        "bytes": 2533080,
+        "tiles": 13,
+        "sites": 17,
+        "missing": []
+      },
+      "pushedAt": "2026-10-24T22:43:46.348Z",
+      "pushMs": 3239,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20261024T2235",
       "asset": "rzc262972235rl.001.h5",
@@ -374,28 +395,17 @@
       "pushedAt": "2026-10-24T22:08:54.965Z",
       "pushMs": 3106,
       "attempt": 1
-    },
-    {
-      "product": "inca",
-      "stamp": "20261024T2145",
-      "reftime": "2026-10-24T21:45+00:00",
-      "bytes": 920293,
-      "downloadMs": 1591,
-      "deriveMs": 1037,
-      "imgBytes": 342990,
-      "pushedAt": "2026-10-24T22:05:52.250Z",
-      "pushMs": 1110
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 179,
+    "runs": 180,
     "written": 35,
     "rejected": 0,
-    "failed": 533,
-    "lastRunAt": "2026-10-24T22:42:19.249Z",
-    "lastRunMs": 1649,
+    "failed": 536,
+    "lastRunAt": "2026-10-24T22:43:48.275Z",
+    "lastRunMs": 11857,
     "caps": {
       "de": {
         "timeEnd": "2026-10-24T22:35:00.000Z",
@@ -420,10 +430,10 @@
       {
         "id": "mtg",
         "timeIso": "2026-10-24T22:20:00.000Z",
-        "error": "HTTP 404"
+        "error": "HTTP 503"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-24T22:43:40.808Z"
+  "updatedAt": "2026-10-24T22:44:27.554Z"
 }
