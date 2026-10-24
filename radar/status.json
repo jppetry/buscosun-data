@@ -25,6 +25,17 @@
   "startedAt": "2026-10-24T19:48:38.303Z",
   "recent": [
     {
+      "product": "inca",
+      "stamp": "20261024T2230",
+      "reftime": "2026-10-24T22:30+00:00",
+      "bytes": 1013894,
+      "downloadMs": 1633,
+      "deriveMs": 1039,
+      "imgBytes": 470392,
+      "pushedAt": "2026-10-24T22:47:32.018Z",
+      "pushMs": 1265
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261024T224000.xml",
       "slot": "2026-10-24T22:40:00.000Z",
@@ -374,21 +385,6 @@
       "pushedAt": "2026-10-24T22:13:43.053Z",
       "pushMs": 3080,
       "attempt": 1
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20261024T220500.xml",
-      "slot": "2026-10-24T22:05:00.000Z",
-      "dwdAt": "2026-10-24T22:10:08.000Z",
-      "seenAt": "2026-10-24T22:10:11.088Z",
-      "bytes": 3891,
-      "downloadMs": 380,
-      "deriveMs": 252,
-      "imgBytes": 92,
-      "hd250": null,
-      "pushedAt": "2026-10-24T22:10:14.841Z",
-      "pushMs": 1081,
-      "attempt": 1
     }
   ],
   "lightning": {
@@ -397,7 +393,7 @@
     "runs": 184,
     "written": 36,
     "rejected": 0,
-    "failed": 545,
+    "failed": 548,
     "lastRunAt": "2026-10-24T22:47:13.755Z",
     "lastRunMs": 1643,
     "caps": {
@@ -411,16 +407,6 @@
       }
     },
     "last": [
-      {
-        "id": "de",
-        "stamp": "20261024T2240",
-        "bytes": 3864,
-        "ms": 718,
-        "active": 0,
-        "max": 0,
-        "fractionalPx": 0,
-        "ok": true
-      },
       {
         "id": "mtg",
         "timeIso": "2026-10-24T22:35:00.000Z",
@@ -439,5 +425,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-24T22:47:29.595Z"
+  "updatedAt": "2026-10-24T22:48:31.803Z"
 }
