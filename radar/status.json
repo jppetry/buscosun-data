@@ -25,6 +25,17 @@
   "startedAt": "2026-10-24T19:48:38.303Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261024T2225",
+      "asset": "rzc262972225rl.001.h5",
+      "bytes": 115679,
+      "downloadMs": 492,
+      "deriveMs": 427,
+      "imgBytes": 147300,
+      "pushedAt": "2026-10-24T22:30:20.691Z",
+      "pushMs": 1065
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261024T222500.xml",
       "slot": "2026-10-24T22:25:00.000Z",
@@ -378,39 +389,33 @@
       "pushedAt": "2026-10-24T21:55:18.883Z",
       "pushMs": 1032,
       "attempt": 1
-    },
-    {
-      "product": "rzc",
-      "stamp": "20261024T2150",
-      "asset": "rzc262972150rl.001.h5",
-      "bytes": 114439,
-      "downloadMs": 484,
-      "deriveMs": 427,
-      "imgBytes": 145280,
-      "pushedAt": "2026-10-24T21:55:04.046Z",
-      "pushMs": 1114
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 166,
-    "written": 32,
+    "runs": 169,
+    "written": 33,
     "rejected": 0,
-    "failed": 494,
-    "lastRunAt": "2026-10-24T22:29:47.331Z",
-    "lastRunMs": 1563,
+    "failed": 503,
+    "lastRunAt": "2026-10-24T22:32:23.470Z",
+    "lastRunMs": 1554,
     "caps": {
       "de": {
-        "timeEnd": "2026-10-24T22:20:00.000Z",
-        "validAtMs": 1792880400000
+        "timeEnd": "2026-10-24T22:25:00.000Z",
+        "validAtMs": 1792880700000
       },
       "mtg": {
-        "timeEnd": "2026-10-24T22:15:00.000Z",
-        "validAtMs": 1792880400000
+        "timeEnd": "2026-10-24T22:20:00.000Z",
+        "validAtMs": 1792880700000
       }
     },
     "last": [
+      {
+        "id": "mtg",
+        "timeIso": "2026-10-24T22:20:00.000Z",
+        "error": "HTTP 404"
+      },
       {
         "id": "mtg",
         "timeIso": "2026-10-24T22:15:00.000Z",
@@ -420,14 +425,9 @@
         "id": "mtg",
         "timeIso": "2026-10-24T22:10:00.000Z",
         "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-10-24T22:05:00.000Z",
-        "error": "HTTP 404"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-24T22:30:18.507Z"
+  "updatedAt": "2026-10-24T22:33:49.489Z"
 }
