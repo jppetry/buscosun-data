@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "product": "sea-status",
- "updatedAt": "2026-10-24T22:39:26.705Z",
+ "updatedAt": "2026-10-24T22:51:32.237Z",
  "killSwitch": false,
  "field": {
   "model": "cwam",
@@ -153,9 +153,9 @@
    "delayMin": 21
   }
  },
- "job": "40139448415",
+ "job": "40140296335",
  "textPass": {
-  "at": "2026-10-24T22:39:23.022Z",
+  "at": "2026-10-24T22:51:29.520Z",
   "listed": 52,
   "todo": 0,
   "added": 0,
@@ -176,7 +176,7 @@
   "bytes": 53081
  },
  "gauges": {
-  "at": "2026-10-24T22:39:26.705Z",
+  "at": "2026-10-24T22:51:32.237Z",
   "count": 136,
   "changed": false,
   "source": "https://gdi.bsh.de/ldproxy/rest/services/WaterLevelForecast"
