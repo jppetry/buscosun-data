@@ -390,32 +390,27 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 178,
+    "runs": 179,
     "written": 35,
     "rejected": 0,
-    "failed": 530,
-    "lastRunAt": "2026-10-24T22:41:24.967Z",
-    "lastRunMs": 7774,
+    "failed": 533,
+    "lastRunAt": "2026-10-24T22:42:19.249Z",
+    "lastRunMs": 1649,
     "caps": {
       "de": {
         "timeEnd": "2026-10-24T22:35:00.000Z",
         "validAtMs": 1792881300000
       },
       "mtg": {
-        "timeEnd": "2026-10-24T22:25:00.000Z",
-        "validAtMs": 1792881000000
+        "timeEnd": "2026-10-24T22:30:00.000Z",
+        "validAtMs": 1792881300000
       }
     },
     "last": [
       {
-        "id": "de",
-        "stamp": "20261024T2235",
-        "bytes": 3864,
-        "ms": 3442,
-        "active": 0,
-        "max": 0,
-        "fractionalPx": 0,
-        "ok": true
+        "id": "mtg",
+        "timeIso": "2026-10-24T22:30:00.000Z",
+        "error": "HTTP 404"
       },
       {
         "id": "mtg",
@@ -426,14 +421,9 @@
         "id": "mtg",
         "timeIso": "2026-10-24T22:20:00.000Z",
         "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-10-24T22:15:00.000Z",
-        "error": "HTTP 404"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-10-24T22:42:03.839Z"
+  "updatedAt": "2026-10-24T22:43:40.808Z"
 }
