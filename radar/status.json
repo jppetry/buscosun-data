@@ -28,6 +28,27 @@
   "startedAt": "2026-10-31T16:43:08.400Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261031_1805.tar",
+      "slot": "2026-10-31T18:05:00.000Z",
+      "dwdAt": "2026-10-31T18:08:14.000Z",
+      "seenAt": "2026-10-31T18:08:23.397Z",
+      "bytes": 1239040,
+      "downloadMs": 1083,
+      "deriveMs": 6210,
+      "imgBytes": 785801,
+      "hd250": {
+        "ms": 1431,
+        "bytes": 74419,
+        "tiles": 12,
+        "sites": 17,
+        "missing": []
+      },
+      "pushedAt": "2026-10-31T18:08:35.330Z",
+      "pushMs": 1627,
+      "attempt": 1
+    },
+    {
       "product": "inca",
       "stamp": "20261031T1745",
       "reftime": "2026-10-31T17:45+00:00",
@@ -417,38 +438,17 @@
       },
       "pushedAt": "2026-10-31T17:34:16.472Z",
       "pushMs": 1344
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261031_1730.tar",
-      "slot": "2026-10-31T17:30:00.000Z",
-      "dwdAt": "2026-10-31T17:33:12.000Z",
-      "seenAt": "2026-10-31T17:33:21.166Z",
-      "bytes": 1280000,
-      "downloadMs": 990,
-      "deriveMs": 6531,
-      "imgBytes": 823231,
-      "hd250": {
-        "ms": 1404,
-        "bytes": 81318,
-        "tiles": 11,
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-10-31T17:33:33.732Z",
-      "pushMs": 1567,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 94,
+    "runs": 95,
     "written": 17,
     "rejected": 0,
     "failed": 0,
-    "lastRunAt": "2026-10-31T18:07:03.118Z",
-    "lastRunMs": 1007,
+    "lastRunAt": "2026-10-31T18:08:36.711Z",
+    "lastRunMs": 1089,
     "caps": {
       "de": {
         "timeEnd": "2026-10-31T18:00:00.000Z",
@@ -462,5 +462,5 @@
     "last": [],
     "errors": []
   },
-  "updatedAt": "2026-10-31T18:08:33.096Z"
+  "updatedAt": "2026-10-31T18:09:30.874Z"
 }
