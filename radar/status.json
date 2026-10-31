@@ -28,6 +28,21 @@
   "startedAt": "2026-10-31T16:43:08.400Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261031T180000.xml",
+      "slot": "2026-10-31T18:00:00.000Z",
+      "dwdAt": "2026-10-31T18:04:49.000Z",
+      "seenAt": "2026-10-31T18:04:49.616Z",
+      "bytes": 3891,
+      "downloadMs": 482,
+      "deriveMs": 272,
+      "imgBytes": 92,
+      "hd250": null,
+      "pushedAt": "2026-10-31T18:04:53.083Z",
+      "pushMs": 1068,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20261031T1800",
       "asset": "rzc263041800rl.001.h5",
@@ -422,33 +437,17 @@
       "pushedAt": "2026-10-31T17:30:08.343Z",
       "pushMs": 1341,
       "attempt": 1
-    },
-    {
-      "product": "rzc",
-      "stamp": "20261031T1725",
-      "asset": "rzc263041725rl.001.h5",
-      "bytes": 23838,
-      "downloadMs": 317,
-      "deriveMs": 417,
-      "imgBytes": 1987,
-      "nc": {
-        "ms": 6317,
-        "files": 73,
-        "bytes": 161207
-      },
-      "pushedAt": "2026-10-31T17:29:53.779Z",
-      "pushMs": 1152
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 91,
+    "runs": 92,
     "written": 16,
     "rejected": 0,
     "failed": 0,
-    "lastRunAt": "2026-10-31T18:04:26.654Z",
-    "lastRunMs": 994,
+    "lastRunAt": "2026-10-31T18:05:16.731Z",
+    "lastRunMs": 2462,
     "caps": {
       "de": {
         "timeEnd": "2026-10-31T17:55:00.000Z",
@@ -462,5 +461,5 @@
     "last": [],
     "errors": []
   },
-  "updatedAt": "2026-10-31T18:04:51.310Z"
+  "updatedAt": "2026-10-31T18:06:11.494Z"
 }
