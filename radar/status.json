@@ -28,6 +28,21 @@
   "startedAt": "2026-10-31T16:43:08.400Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261031T174000.xml",
+      "slot": "2026-10-31T17:40:00.000Z",
+      "dwdAt": "2026-10-31T17:44:56.000Z",
+      "seenAt": "2026-10-31T17:45:08.036Z",
+      "bytes": 3891,
+      "downloadMs": 394,
+      "deriveMs": 258,
+      "imgBytes": 92,
+      "hd250": null,
+      "pushedAt": "2026-10-31T17:45:11.240Z",
+      "pushMs": 1059,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20261031T1740",
       "asset": "rzc263041740rl.001.h5",
@@ -422,45 +437,40 @@
       "pushedAt": "2026-10-31T17:10:22.908Z",
       "pushMs": 1738,
       "attempt": 1
-    },
-    {
-      "product": "rzc",
-      "stamp": "20261031T1705",
-      "asset": "rzc263041705rl.001.h5",
-      "bytes": 23801,
-      "downloadMs": 311,
-      "deriveMs": 419,
-      "imgBytes": 1972,
-      "nc": {
-        "ms": 6382,
-        "files": 73,
-        "bytes": 163536
-      },
-      "pushedAt": "2026-10-31T17:09:45.458Z",
-      "pushMs": 1312
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 69,
-    "written": 12,
+    "runs": 72,
+    "written": 13,
     "rejected": 0,
     "failed": 0,
-    "lastRunAt": "2026-10-31T17:44:29.231Z",
-    "lastRunMs": 1123,
+    "lastRunAt": "2026-10-31T17:46:57.410Z",
+    "lastRunMs": 3117,
     "caps": {
       "de": {
-        "timeEnd": "2026-10-31T17:35:00.000Z",
-        "validAtMs": 1793468100000
+        "timeEnd": "2026-10-31T17:40:00.000Z",
+        "validAtMs": 1793468400000
       },
       "mtg": {
         "timeEnd": "2026-10-31T05:25:00.000Z",
         "validAtMs": 1793424600000
       }
     },
-    "last": [],
+    "last": [
+      {
+        "id": "de",
+        "stamp": "20261031T1740",
+        "bytes": 3864,
+        "ms": 575,
+        "active": 0,
+        "max": 0,
+        "fractionalPx": 0,
+        "ok": true
+      }
+    ],
     "errors": []
   },
-  "updatedAt": "2026-10-31T17:45:09.625Z"
+  "updatedAt": "2026-10-31T17:47:15.393Z"
 }
