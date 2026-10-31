@@ -28,6 +28,21 @@
   "startedAt": "2026-10-31T16:43:08.400Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261031T173500.xml",
+      "slot": "2026-10-31T17:35:00.000Z",
+      "dwdAt": "2026-10-31T17:40:12.000Z",
+      "seenAt": "2026-10-31T17:40:21.244Z",
+      "bytes": 3891,
+      "downloadMs": 3391,
+      "deriveMs": 264,
+      "imgBytes": 92,
+      "hd250": null,
+      "pushedAt": "2026-10-31T17:40:27.450Z",
+      "pushMs": 1205,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20261031T1735",
       "asset": "rzc263041735rl.001.h5",
@@ -423,44 +438,40 @@
       },
       "pushedAt": "2026-10-31T17:07:03.778Z",
       "pushMs": 1504
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20261031T170000.xml",
-      "slot": "2026-10-31T17:00:00.000Z",
-      "dwdAt": "2026-10-31T17:05:03.000Z",
-      "seenAt": "2026-10-31T17:05:08.125Z",
-      "bytes": 3891,
-      "downloadMs": 407,
-      "deriveMs": 256,
-      "imgBytes": 92,
-      "hd250": null,
-      "pushedAt": "2026-10-31T17:05:11.065Z",
-      "pushMs": 988,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 64,
-    "written": 11,
+    "runs": 66,
+    "written": 12,
     "rejected": 0,
     "failed": 0,
-    "lastRunAt": "2026-10-31T17:39:35.289Z",
-    "lastRunMs": 1065,
+    "lastRunAt": "2026-10-31T17:41:17.045Z",
+    "lastRunMs": 4190,
     "caps": {
       "de": {
-        "timeEnd": "2026-10-31T17:30:00.000Z",
-        "validAtMs": 1793467800000
+        "timeEnd": "2026-10-31T17:35:00.000Z",
+        "validAtMs": 1793468100000
       },
       "mtg": {
         "timeEnd": "2026-10-31T05:25:00.000Z",
         "validAtMs": 1793424600000
       }
     },
-    "last": [],
+    "last": [
+      {
+        "id": "de",
+        "stamp": "20261031T1735",
+        "bytes": 3864,
+        "ms": 1835,
+        "active": 0,
+        "max": 0,
+        "fractionalPx": 0,
+        "ok": true
+      }
+    ],
     "errors": []
   },
-  "updatedAt": "2026-10-31T17:40:25.881Z"
+  "updatedAt": "2026-10-31T17:42:11.180Z"
 }
