@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "commit": "74f5034e359eaf84277be76d55bc78e790cfc097",
+  "commit": "16959172ec9c3a93a5dadbc2e9fe2caa593527fd",
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
   "hsurf": "hsurf-v1.png",
-  "publishedAt": "2026-10-31T16:04:15.712Z",
+  "publishedAt": "2026-10-31T17:32:49.919Z",
   "source": "Deutscher Wetterdienst, ICON-D2 (opendata.dwd.de), CC BY 4.0",
   "producer": "buscosun-web/scripts/repack-icon-d2.mjs",
   "keep": 4,
@@ -286,6 +286,16 @@
             "step": 22,
             "file": "temp-022.png",
             "bytes": 89698
+          },
+          {
+            "step": 23,
+            "file": "temp-023.png",
+            "bytes": 88849
+          },
+          {
+            "step": 24,
+            "file": "temp-024.png",
+            "bytes": 89908
           }
         ]
       },
@@ -408,6 +418,16 @@
             "step": 22,
             "file": "gust-022.png",
             "bytes": 131480
+          },
+          {
+            "step": 23,
+            "file": "gust-023.png",
+            "bytes": 130938
+          },
+          {
+            "step": 24,
+            "file": "gust-024.png",
+            "bytes": 130856
           }
         ]
       },
@@ -736,6 +756,16 @@
             "step": 22,
             "file": "snowdepth-022.png",
             "bytes": 7904
+          },
+          {
+            "step": 23,
+            "file": "snowdepth-023.png",
+            "bytes": 7930
+          },
+          {
+            "step": 24,
+            "file": "snowdepth-024.png",
+            "bytes": 7987
           }
         ]
       },
@@ -853,6 +883,16 @@
             "step": 22,
             "file": "snowfresh-022.png",
             "bytes": 9223
+          },
+          {
+            "step": 23,
+            "file": "snowfresh-023.png",
+            "bytes": 9366
+          },
+          {
+            "step": 24,
+            "file": "snowfresh-024.png",
+            "bytes": 9477
           }
         ]
       },
@@ -1023,6 +1063,36 @@
             "file": "precip-022.png",
             "bytes": 21720,
             "ref": 21
+          },
+          {
+            "step": 23,
+            "file": "precip-023.png",
+            "bytes": 23751,
+            "ref": 22
+          },
+          {
+            "step": 24,
+            "file": "precip-024.png",
+            "bytes": 24437,
+            "ref": 23
+          },
+          {
+            "step": 25,
+            "file": "precip-025.png",
+            "bytes": 24855,
+            "ref": 24
+          },
+          {
+            "step": 26,
+            "file": "precip-026.png",
+            "bytes": 24960,
+            "ref": 25
+          },
+          {
+            "step": 27,
+            "file": "precip-027.png",
+            "bytes": 25027,
+            "ref": 26
           }
         ]
       },
@@ -1170,6 +1240,31 @@
             "step": 22,
             "file": "cape-022.png",
             "bytes": 50869
+          },
+          {
+            "step": 23,
+            "file": "cape-023.png",
+            "bytes": 47072
+          },
+          {
+            "step": 24,
+            "file": "cape-024.png",
+            "bytes": 41234
+          },
+          {
+            "step": 25,
+            "file": "cape-025.png",
+            "bytes": 32897
+          },
+          {
+            "step": 26,
+            "file": "cape-026.png",
+            "bytes": 26645
+          },
+          {
+            "step": 27,
+            "file": "cape-027.png",
+            "bytes": 23171
           }
         ]
       }
