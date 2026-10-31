@@ -1,0 +1,330 @@
+{
+ "schema": 1,
+ "product": "road-fc-index",
+ "updatedAt": "2026-10-31T17:18:20.010Z",
+ "killed": false,
+ "runs": [
+  {
+   "run": "2610311717",
+   "issuedAt": "2026-10-31T17:17:07.783Z",
+   "t0Ms": 1793466000000,
+   "publishedAt": "2026-10-31T17:18:20.010Z",
+   "points": 4772,
+   "failed": 0,
+   "corridors": 212,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 14",
+    "version": 14,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2610311700",
+    "anchored": 1233,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026103115",
+     "t2": "2026103112",
+     "t3": null,
+     "stations": "2026103115",
+     "nowcast": "radvor_rv:2610311710"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    },
+    "points": "62b24997ebd9",
+    "surface": {
+     "mode": "fb1",
+     "table": "6f3d60f4e1e2",
+     "fitted": {
+      "from": "2026-10-04",
+      "to": "2026-10-25",
+      "runs": 151,
+      "pairs": 1110432,
+      "stations": 1226
+     },
+     "decay": [
+      1,
+      0.804,
+      0.666,
+      0.512,
+      0.384,
+      0.287,
+      0.206
+     ],
+     "sigma": [
+      0,
+      1.1,
+      1.36,
+      1.54,
+      1.66,
+      1.72,
+      1.73
+     ],
+     "own": 1123,
+     "clim": 3649
+    }
+   },
+   "ms": 70981
+  },
+  {
+   "run": "2610311705",
+   "issuedAt": "2026-10-31T17:05:06.945Z",
+   "t0Ms": 1793466000000,
+   "publishedAt": "2026-10-31T17:06:06.014Z",
+   "points": 4772,
+   "failed": 0,
+   "corridors": 212,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 14",
+    "version": 14,
+    "stage": "fs",
+    "anchor": "none",
+    "hourMean": true,
+    "runs": {
+     "t1": "2026103115",
+     "t2": "2026103112",
+     "t3": null,
+     "stations": "2026103115",
+     "nowcast": "radvor_rv:2610311700"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    },
+    "points": "62b24997ebd9",
+    "surface": {
+     "mode": "fb1",
+     "table": "6f3d60f4e1e2",
+     "fitted": {
+      "from": "2026-10-04",
+      "to": "2026-10-25",
+      "runs": 151,
+      "pairs": 1110432,
+      "stations": 1226
+     },
+     "decay": [
+      1,
+      0.804,
+      0.666,
+      0.512,
+      0.384,
+      0.287,
+      0.206
+     ],
+     "sigma": [
+      0,
+      1.1,
+      1.36,
+      1.54,
+      1.66,
+      1.72,
+      1.73
+     ],
+     "own": 0,
+     "clim": 4772
+    }
+   },
+   "ms": 57604
+  },
+  {
+   "run": "2610311645",
+   "issuedAt": "2026-10-31T16:45:36.779Z",
+   "t0Ms": 1793462400000,
+   "publishedAt": "2026-10-31T16:46:49.877Z",
+   "points": 4772,
+   "failed": 0,
+   "corridors": 212,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 14",
+    "version": 14,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2610311600",
+    "anchored": 1230,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026103112",
+     "t2": "2026103112",
+     "t3": null,
+     "stations": "2026103115",
+     "nowcast": "radvor_rv:2610311640"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    },
+    "points": "62b24997ebd9",
+    "surface": {
+     "mode": "fb1",
+     "table": "6f3d60f4e1e2",
+     "fitted": {
+      "from": "2026-10-04",
+      "to": "2026-10-25",
+      "runs": 151,
+      "pairs": 1110432,
+      "stations": 1226
+     },
+     "decay": [
+      1,
+      0.804,
+      0.666,
+      0.512,
+      0.384,
+      0.287,
+      0.206
+     ],
+     "sigma": [
+      0,
+      1.1,
+      1.36,
+      1.54,
+      1.66,
+      1.72,
+      1.73
+     ],
+     "own": 1119,
+     "clim": 3653
+    }
+   },
+   "ms": 71942
+  },
+  {
+   "run": "2610311617",
+   "issuedAt": "2026-10-31T16:17:15.236Z",
+   "t0Ms": 1793462400000,
+   "publishedAt": "2026-10-31T16:18:05.004Z",
+   "points": 4772,
+   "failed": 0,
+   "corridors": 212,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 14",
+    "version": 14,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2610311600",
+    "anchored": 1230,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026103112",
+     "t2": "2026103106",
+     "t3": null,
+     "stations": "2026103109",
+     "nowcast": "radvor_rv:2610311610"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    },
+    "points": "62b24997ebd9",
+    "surface": {
+     "mode": "fb1",
+     "table": "6f3d60f4e1e2",
+     "fitted": {
+      "from": "2026-10-04",
+      "to": "2026-10-25",
+      "runs": 151,
+      "pairs": 1110432,
+      "stations": 1226
+     },
+     "decay": [
+      1,
+      0.804,
+      0.666,
+      0.512,
+      0.384,
+      0.287,
+      0.206
+     ],
+     "sigma": [
+      0,
+      1.1,
+      1.36,
+      1.54,
+      1.66,
+      1.72,
+      1.73
+     ],
+     "own": 1119,
+     "clim": 3653
+    }
+   },
+   "ms": 48619
+  },
+  {
+   "run": "2610311516",
+   "issuedAt": "2026-10-31T15:16:56.306Z",
+   "t0Ms": 1793458800000,
+   "publishedAt": "2026-10-31T15:17:55.598Z",
+   "points": 4772,
+   "failed": 0,
+   "corridors": 212,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 14",
+    "version": 14,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2610311500",
+    "anchored": 1230,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026103112",
+     "t2": "2026103106",
+     "t3": null,
+     "stations": "2026103109",
+     "nowcast": "radvor_rv:2610311510"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    },
+    "points": "62b24997ebd9",
+    "surface": {
+     "mode": "fb1",
+     "table": "6f3d60f4e1e2",
+     "fitted": {
+      "from": "2026-10-04",
+      "to": "2026-10-25",
+      "runs": 151,
+      "pairs": 1110432,
+      "stations": 1226
+     },
+     "decay": [
+      1,
+      0.804,
+      0.666,
+      0.512,
+      0.384,
+      0.287,
+      0.206
+     ],
+     "sigma": [
+      0,
+      1.1,
+      1.36,
+      1.54,
+      1.66,
+      1.72,
+      1.73
+     ],
+     "own": 1120,
+     "clim": 3652
+    }
+   },
+   "ms": 58015
+  }
+ ]
+}

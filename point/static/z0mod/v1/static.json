@@ -1,0 +1,229 @@
+{
+  "product": "z0mod",
+  "version": "v1",
+  "kind": "static",
+  "what": "Rauhigkeitslänge z0 der Modelle je Quelle und Stufe (GRIB, Schritt 000), als ln(z0) auf dem Cube-Gitter.",
+  "why": "PAP 5 (zweistufige Windkorrektur) braucht z0 des MODELLS; bis AP17 stand dort eine WorldCover-Näherung (V-FI-58).",
+  "container": "BSPC wie der Cube, eigene Ebenenliste (eine Ebene je Quelle), nt = 1, gleiches Chunk-Raster.",
+  "value": "ln(z0 / 1 m), Skala 0,001 — z0 = exp(Wert).",
+  "aggregation": "ln-Blockmittel (geometrisches Mittel) der Quellpunkte je Cube-Zelle: regulär über die Zuordnung der Felder, ikosaedrisch über die gerundete Zellkoordinate; Lücken ≤ 3 Zellen aus dem nächsten Nachbarn; Domänenmaske der Quelle.",
+  "snapshot": "Schritt 000 des Laufs der Quelle. Über Land innerhalb eines Laufs konstant, zwischen zwei Läufen an 16 % der Landpunkte um > 10 % verschieden (≈ 1 % im Windfaktor); über Wasser je Schritt (Charnock) — der Schnappschuss ist benannt.",
+  "orography": "Kein Orographie-Anteil (AP17 gemessen: z0 fällt über 2 500 m auf p50 0,06 m; ICON-CH1 über 1 500 m unabhängig von SSO_STDH).",
+  "rewrite": {
+    "lnAbs": 0.5,
+    "share": 0.01,
+    "landMinM": 0.01,
+    "rule": "erster Bau, neue Spalte, neuer Monat (UTC) oder > share der Landzellen (z0 > landMinM) mit |Δ ln z0| > lnAbs; nie bei fehlender Spalte oder schrumpfender Deckung"
+  },
+  "provenanceKinds": {
+    "native": "Vom Modellbetreiber als z0 (ICON-D2) bzw. Z0 (ICON-EU, ICON global, ICON-CH1/-CH2) veröffentlicht."
+  },
+  "windSources": "Spalten ∪ `absent` je Stufe = die Quellen, die den Mittelwert des Winds tragen; `absent` nennt, warum eine davon kein z0 hat.",
+  "chunkCells": 16,
+  "timeless": "point/static/ ist von der Aufbewahrung ausgenommen (TIMELESS_PATHS).",
+  "tiers": {
+    "t1": {
+      "planes": [
+        {
+          "id": "icon_d2",
+          "provenance": "native",
+          "note": "Schritt 000 des Laufs 2026103003",
+          "unit": "ln(m)",
+          "scale": 0.001,
+          "offset": 0,
+          "hash": "4d56a985ded8cd36",
+          "covered": 48441,
+          "minM": 0.00006732,
+          "maxM": 1.499,
+          "run": "2026103003"
+        },
+        {
+          "id": "icon_ch1_eps",
+          "provenance": "native",
+          "note": "Schritt 000 des Laufs 2026103000",
+          "unit": "ln(m)",
+          "scale": 0.001,
+          "offset": 0,
+          "hash": "7a5a883a6344b4c4",
+          "covered": 23133,
+          "minM": 0.00003518,
+          "maxM": 1,
+          "run": "2026103000"
+        },
+        {
+          "id": "icon_eu",
+          "provenance": "native",
+          "note": "Schritt 000 des Laufs 2026103000",
+          "unit": "ln(m)",
+          "scale": 0.001,
+          "offset": 0,
+          "hash": "2e6c44c0e488df81",
+          "covered": 48441,
+          "minM": 0.00006732,
+          "maxM": 1.499,
+          "run": "2026103000"
+        }
+      ],
+      "chunks": 208,
+      "bytes": 206632,
+      "cy": 13,
+      "cx": 16,
+      "ny": 201,
+      "nx": 241,
+      "deg": 0.05,
+      "builtAt": "2026-10-30T04:46:38.456Z",
+      "reason": "Spalte icon_d2: 1,2 % der Landzellen um mehr als Faktor 1,65 geändert — Modell-Upgrade, externe Parameter oder Schnee",
+      "absent": {
+        "claef": "GeoSphere nwp-v2-1h-1km führt kein z0 (16 Parameter, /metadata am 2026-09-18 gelesen) — der Client nimmt die WorldCover-Näherung",
+        "ifs_hres": "ECMWF Open Data führt kein Rauhigkeitsfeld (Parameterliste 0/24/144 h, bei 0 h nur lsm/sdor/slor; V-FI-72) — der Client nimmt die WorldCover-Näherung",
+        "aifs_single": "ECMWF Open Data führt kein Rauhigkeitsfeld (V-FI-72) — der Client nimmt die WorldCover-Näherung"
+      },
+      "diffFromPrev": {
+        "builtAtPrev": "2026-10-28T10:48:36.486Z",
+        "columns": [
+          {
+            "id": "icon_d2",
+            "kind": "changed",
+            "prevHash": "20847bb1f9ab642b",
+            "hash": "4d56a985ded8cd36"
+          },
+          {
+            "id": "icon_ch1_eps",
+            "kind": "changed",
+            "prevHash": "40a6717fdb61fbe8",
+            "hash": "7a5a883a6344b4c4"
+          },
+          {
+            "id": "icon_eu",
+            "kind": "changed",
+            "prevHash": "ad98831404f01251",
+            "hash": "2e6c44c0e488df81"
+          }
+        ]
+      }
+    },
+    "t2": {
+      "planes": [
+        {
+          "id": "icon_eu",
+          "provenance": "native",
+          "note": "Schritt 000 des Laufs 2026103000",
+          "unit": "ln(m)",
+          "scale": 0.001,
+          "offset": 0,
+          "hash": "a4c49abda30b3f31",
+          "covered": 12221,
+          "minM": 0.00006732,
+          "maxM": 1.499,
+          "run": "2026103000"
+        },
+        {
+          "id": "icon_ch2_eps",
+          "provenance": "native",
+          "note": "Schritt 000 des Laufs 2026103000",
+          "unit": "ln(m)",
+          "scale": 0.001,
+          "offset": 0,
+          "hash": "8c7af24aabb9ef35",
+          "covered": 5755,
+          "minM": 0.00008256,
+          "maxM": 1,
+          "run": "2026103000"
+        },
+        {
+          "id": "icon_global",
+          "provenance": "native",
+          "note": "Schritt 000 des Laufs 2026103000",
+          "unit": "ln(m)",
+          "scale": 0.001,
+          "offset": 0,
+          "hash": "03e5f4275fbe8f67",
+          "covered": 12221,
+          "minM": 0.00006732,
+          "maxM": 1.499,
+          "run": "2026103000"
+        }
+      ],
+      "chunks": 56,
+      "bytes": 54796,
+      "cy": 7,
+      "cx": 8,
+      "ny": 101,
+      "nx": 121,
+      "deg": 0.1,
+      "builtAt": "2026-10-30T04:37:19.928Z",
+      "reason": "Spalte icon_global: 1,1 % der Landzellen um mehr als Faktor 1,65 geändert — Modell-Upgrade, externe Parameter oder Schnee",
+      "absent": {
+        "aicon": "AICON (KI-Emulator) veröffentlicht kein z0; ICON globals z0 zu unterstellen wäre eine Annahme (wie bei HSURF) — der Client nimmt die WorldCover-Näherung",
+        "ifs_hres": "ECMWF Open Data führt kein Rauhigkeitsfeld (Parameterliste 0/24/144 h, bei 0 h nur lsm/sdor/slor; V-FI-72) — der Client nimmt die WorldCover-Näherung",
+        "aifs_single": "ECMWF Open Data führt kein Rauhigkeitsfeld (V-FI-72) — der Client nimmt die WorldCover-Näherung"
+      },
+      "diffFromPrev": {
+        "builtAtPrev": "2026-10-26T22:42:48.808Z",
+        "columns": [
+          {
+            "id": "icon_eu",
+            "kind": "changed",
+            "prevHash": "320a88729d2da544",
+            "hash": "a4c49abda30b3f31"
+          },
+          {
+            "id": "icon_ch2_eps",
+            "kind": "changed",
+            "prevHash": "5c8238341a243091",
+            "hash": "8c7af24aabb9ef35"
+          },
+          {
+            "id": "icon_global",
+            "kind": "changed",
+            "prevHash": "dcfb38244d3667d9",
+            "hash": "03e5f4275fbe8f67"
+          }
+        ]
+      }
+    },
+    "t3": {
+      "planes": [
+        {
+          "id": "icon_global",
+          "provenance": "native",
+          "note": "Schritt 000 des Laufs 2026103012",
+          "unit": "ln(m)",
+          "scale": 0.001,
+          "offset": 0,
+          "hash": "6611632c9f2583df",
+          "covered": 2009,
+          "minM": 0.00006732,
+          "maxM": 1.499,
+          "run": "2026103012"
+        }
+      ],
+      "chunks": 12,
+      "bytes": 4301,
+      "cy": 3,
+      "cx": 4,
+      "ny": 41,
+      "nx": 49,
+      "deg": 0.25,
+      "builtAt": "2026-10-30T21:59:12.921Z",
+      "reason": "Spalte icon_global: 1,2 % der Landzellen um mehr als Faktor 1,65 geändert — Modell-Upgrade, externe Parameter oder Schnee",
+      "absent": {
+        "aicon": "AICON (KI-Emulator) veröffentlicht kein z0; ICON globals z0 zu unterstellen wäre eine Annahme (wie bei HSURF) — der Client nimmt die WorldCover-Näherung",
+        "ifs_hres": "ECMWF Open Data führt kein Rauhigkeitsfeld (Parameterliste 0/24/144 h, bei 0 h nur lsm/sdor/slor; V-FI-72) — der Client nimmt die WorldCover-Näherung",
+        "aifs_single": "ECMWF Open Data führt kein Rauhigkeitsfeld (V-FI-72) — der Client nimmt die WorldCover-Näherung"
+      },
+      "diffFromPrev": {
+        "builtAtPrev": "2026-10-14T21:58:59.145Z",
+        "columns": [
+          {
+            "id": "icon_global",
+            "kind": "changed",
+            "prevHash": "30223399c011aae3",
+            "hash": "6611632c9f2583df"
+          }
+        ]
+      }
+    }
+  },
+  "updatedAt": "2026-10-30T21:59:12.921Z"
+}

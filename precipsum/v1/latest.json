@@ -1,0 +1,121 @@
+{
+ "schema": 1,
+ "kind": "precipsum/past",
+ "end": "2026-10-31T16:00:00.000Z",
+ "dir": "2026103116-de-at-ch-080f0f05",
+ "grid": {
+  "w": 600,
+  "h": 512,
+  "lonMin": 5.5,
+  "lonMax": 17.4,
+  "latMin": 45.3,
+  "latMax": 55.5
+ },
+ "unitMm": 0.01,
+ "countries": {
+  "DE": {
+   "hours": 48,
+   "hasEnd": true,
+   "maxWindowH": 48
+  },
+  "AT": {
+   "hours": 48,
+   "hasEnd": true,
+   "maxWindowH": 48
+  },
+  "CH": {
+   "hours": 48,
+   "hasEnd": true,
+   "maxWindowH": 48
+  }
+ },
+ "windows": {
+  "1": {
+   "file": "sum-001h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-31T16:00:00.000Z"
+   },
+   "valid": 161873,
+   "gap": 363,
+   "wet": 5036,
+   "maxMm": 2.3
+  },
+  "3": {
+   "file": "sum-003h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-31T16:00:00.000Z"
+   },
+   "valid": 161873,
+   "gap": 363,
+   "wet": 7263,
+   "maxMm": 2.5
+  },
+  "6": {
+   "file": "sum-006h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-31T16:00:00.000Z"
+   },
+   "valid": 161873,
+   "gap": 363,
+   "wet": 8166,
+   "maxMm": 2.5
+  },
+  "12": {
+   "file": "sum-012h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-10-31T16:00:00.000Z"
+   },
+   "valid": 161873,
+   "gap": 363,
+   "wet": 8887,
+   "maxMm": 2.93
+  },
+  "24": {
+   "file": "sum-024h.png",
+   "de": {
+    "product": "SF",
+    "end": "2026-10-31T15:50:00.000Z"
+   },
+   "valid": 162037,
+   "gap": 199,
+   "wet": 9136,
+   "maxMm": 3.1
+  },
+  "48": {
+   "file": "sum-048h.png",
+   "de": {
+    "product": "SF",
+    "end": "2026-10-31T15:50:00.000Z"
+   },
+   "valid": 162037,
+   "gap": 199,
+   "wet": 11026,
+   "maxMm": 3.1
+  }
+ },
+ "sources": {
+  "DE": {
+   "id": "rw",
+   "label": "RADOLAN RW",
+   "provider": "DWD",
+   "latencyMin": 26
+  },
+  "AT": {
+   "id": "inca",
+   "label": "INCA-Analyse",
+   "provider": "GeoSphere Austria",
+   "latencyMin": 35
+  },
+  "CH": {
+   "id": "cpc",
+   "label": "CombiPrecip",
+   "provider": "MeteoSchweiz",
+   "latencyMin": 5
+  }
+ },
+ "builtAt": "2026-10-31T16:43:57.263Z"
+}

@@ -1,0 +1,418 @@
+{
+  "product": "urban",
+  "version": "v1",
+  "kind": "static",
+  "what": "Built-up share (imperv), displacement height (d0) and mean building height (bldgH) per cube cell, from JRC GHSL R2023A.",
+  "why": "PAP 5 needs imperv (urban heat island amplitude A_uhi(imperv, SVF)) and d0 (two-stage blending-height wind correction). Both were MISSING since PD-A (E-13).",
+  "container": "BSPC like the cube, own plane list (three planes), nt = 1, runHours = 0, same chunk raster.",
+  "chunkCells": 16,
+  "planes": [
+    {
+      "id": "imperv",
+      "unit": "%",
+      "scale": 1,
+      "offset": 0,
+      "range": [
+        0,
+        100
+      ],
+      "what": "Built-up surface share (GHS-BUILT-S E2020), area mean over the cell. Approximation of imperviousness: roads and pavement are NOT included."
+    },
+    {
+      "id": "d0",
+      "unit": "m",
+      "scale": 0.1,
+      "offset": 0,
+      "range": [
+        0,
+        25.5
+      ],
+      "what": "Displacement height = 0.7 × bldgH, capped at 25.5 m. The factor is a choice — bldgH carries the raw mean."
+    },
+    {
+      "id": "bldgH",
+      "unit": "m",
+      "scale": 0.1,
+      "offset": 0,
+      "range": [
+        0,
+        300
+      ],
+      "what": "Average net building height (GHS-BUILT-H ANBH E2018), area mean over all valid source cells INCLUDING unbuilt ones (which carry 0)."
+    }
+  ],
+  "aggregation": "Area mean over all 100-m source cells whose centre falls into the cell (cell = ±deg/2 around lat0 + iy·deg, the cellOf rule). Analytic Mollweide → lat/lon per source cell; no resampling. Nodata cells are excluded from the mean; a cell without any valid source cell is MISSING (−32768).",
+  "source": {
+    "provider": "European Commission, Joint Research Centre (JRC) — Global Human Settlement Layer",
+    "release": "R2023A",
+    "datasets": [
+      {
+        "key": "builtS",
+        "name": "GHS_BUILT_S_E2020_GLOBE_R2023A_54009_100",
+        "epoch": "E2020",
+        "unit": "m² built-up per 100-m cell (0…10 000)",
+        "urlPattern": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_BUILT_S_GLOBE_R2023A/GHS_BUILT_S_E2020_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_BUILT_S_E2020_GLOBE_R2023A_54009_100_V1_0_R<r>_C<c>.zip",
+        "nodata": 65535
+      },
+      {
+        "key": "anbh",
+        "name": "GHS_BUILT_H_ANBH_E2018_GLOBE_R2023A_54009_100",
+        "epoch": "E2018",
+        "unit": "m, average net building height per 100-m cell",
+        "urlPattern": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_BUILT_H_GLOBE_R2023A/GHS_BUILT_H_ANBH_E2018_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_BUILT_H_ANBH_E2018_GLOBE_R2023A_54009_100_V1_0_R<r>_C<c>.zip",
+        "nodata": 255
+      }
+    ],
+    "grid": "Mollweide (ESRI:54009), 100 m, tiles of 1 000 000 m, origin (−18 041 000, 9 000 000)",
+    "projectionRadiusM": 6378137,
+    "projectionRadiusNote": "Build used R=6378137 (esri); transect not run.",
+    "tilesUsed": [
+      "R3_C19",
+      "R3_C20",
+      "R4_C19",
+      "R4_C20"
+    ],
+    "tileExtents": {
+      "R3_C19": {
+        "builtS": {
+          "x0": -41000,
+          "y0": 7000000,
+          "x1": 959000,
+          "y1": 6000000,
+          "matchesScheme": true,
+          "approxLatLon": {
+            "ul": [
+              61.299,
+              -0.649
+            ],
+            "lr": [
+              51.214,
+              12.815
+            ]
+          }
+        },
+        "anbh": {
+          "x0": -41000,
+          "y0": 7000000,
+          "x1": 959000,
+          "y1": 6000000,
+          "matchesScheme": true,
+          "approxLatLon": {
+            "ul": [
+              61.299,
+              -0.649
+            ],
+            "lr": [
+              51.214,
+              12.815
+            ]
+          }
+        }
+      },
+      "R3_C20": {
+        "builtS": {
+          "x0": 959000,
+          "y0": 7000000,
+          "x1": 1959000,
+          "y1": 6000000,
+          "matchesScheme": true,
+          "approxLatLon": {
+            "ul": [
+              61.299,
+              15.172
+            ],
+            "lr": [
+              51.214,
+              26.178
+            ]
+          }
+        },
+        "anbh": {
+          "x0": 959000,
+          "y0": 7000000,
+          "x1": 1959000,
+          "y1": 6000000,
+          "matchesScheme": true,
+          "approxLatLon": {
+            "ul": [
+              61.299,
+              15.172
+            ],
+            "lr": [
+              51.214,
+              26.178
+            ]
+          }
+        }
+      },
+      "R4_C19": {
+        "builtS": {
+          "x0": -41000,
+          "y0": 6000000,
+          "x1": 959000,
+          "y1": 5000000,
+          "matchesScheme": true,
+          "approxLatLon": {
+            "ul": [
+              51.214,
+              -0.548
+            ],
+            "lr": [
+              41.894,
+              11.497
+            ]
+          }
+        },
+        "anbh": {
+          "x0": -41000,
+          "y0": 6000000,
+          "x1": 959000,
+          "y1": 5000000,
+          "matchesScheme": true,
+          "approxLatLon": {
+            "ul": [
+              51.214,
+              -0.548
+            ],
+            "lr": [
+              41.894,
+              11.497
+            ]
+          }
+        }
+      },
+      "R4_C20": {
+        "builtS": {
+          "x0": 959000,
+          "y0": 6000000,
+          "x1": 1959000,
+          "y1": 5000000,
+          "matchesScheme": true,
+          "approxLatLon": {
+            "ul": [
+              51.214,
+              12.815
+            ],
+            "lr": [
+              41.894,
+              23.485
+            ]
+          }
+        },
+        "anbh": {
+          "x0": 959000,
+          "y0": 6000000,
+          "x1": 1959000,
+          "y1": 5000000,
+          "matchesScheme": true,
+          "approxLatLon": {
+            "ul": [
+              51.214,
+              12.815
+            ],
+            "lr": [
+              41.894,
+              23.485
+            ]
+          }
+        }
+      }
+    },
+    "tiffFacts": {
+      "builtS": {
+        "bigTiff": true,
+        "littleEndian": true,
+        "width": 10000,
+        "height": 10000,
+        "bits": 16,
+        "sampleFormat": 1,
+        "compression": 5,
+        "predictor": 1,
+        "planar": 1,
+        "layout": "tiled",
+        "tileW": 256,
+        "tileH": 256,
+        "tiles": 1600,
+        "nodata": 65535,
+        "nodataRaw": "65535",
+        "pixelScale": [
+          100,
+          100,
+          0
+        ],
+        "tiepoint": [
+          0,
+          0,
+          0,
+          -41000,
+          7000000,
+          0
+        ],
+        "geoKeys": {
+          "1024": 32767,
+          "1025": 1,
+          "2048": 4326,
+          "2054": 9102,
+          "3076": 9001
+        },
+        "citation": "World_Mollweide",
+        "zipEntry": "GHS_BUILT_S_E2020_GLOBE_R2023A_54009_100_V1_0_R3_C19.tif",
+        "zipCompressed": 15957258,
+        "tiffBytes": 17695229,
+        "zipOthers": [
+          "GHSL_Data_Package_2023_light.pdf"
+        ]
+      },
+      "anbh": {
+        "bigTiff": true,
+        "littleEndian": true,
+        "width": 10000,
+        "height": 10000,
+        "bits": 32,
+        "sampleFormat": 3,
+        "compression": 5,
+        "predictor": 1,
+        "planar": 1,
+        "layout": "tiled",
+        "tileW": 256,
+        "tileH": 256,
+        "tiles": 1600,
+        "nodata": 255,
+        "nodataRaw": "255",
+        "pixelScale": [
+          100,
+          100,
+          0
+        ],
+        "tiepoint": [
+          0,
+          0,
+          0,
+          -41000,
+          7000000,
+          0
+        ],
+        "geoKeys": {
+          "1024": 32767,
+          "1025": 1,
+          "2048": 4326,
+          "2054": 9102,
+          "3076": 9001
+        },
+        "citation": "World_Mollweide",
+        "zipEntry": "GHS_BUILT_H_ANBH_E2018_GLOBE_R2023A_54009_100_V1_0_R3_C19.tif",
+        "zipCompressed": 18944834,
+        "tiffBytes": 20609733,
+        "zipOthers": [
+          "GHSL_Data_Package_2023_light.pdf"
+        ]
+      }
+    }
+  },
+  "licence": "CC BY 4.0",
+  "attribution": "Global Human Settlement Layer (GHSL), European Commission, Joint Research Centre — CC BY 4.0",
+  "citation": "Pesaresi, M., Schiavina, M., Politis, P., Freire, S., Krasnodębska, K., Uhl, J. H., … Kemper, T. (2024). Advances on the Global Human Settlement Layer by joint assessment of Earth Observation and population survey data. International Journal of Digital Earth, 17(1). GHSL Data Package 2023 (R2023A).",
+  "caveats": [
+    "imperv is the BUILT-UP SURFACE share (building footprints). Roads, car parks and pavement are not counted — real imperviousness is higher; by how much is NOT measured here (a sealed-surface product such as Copernicus HRL Imperviousness would be the reference).",
+    "A 5-km cell mean averages away city cores: measured 2026-09-14, the 100-m pixel at Marienplatz (Munich) carries 67 % built-up, the t1 cell around it 29 %. The value describes the cell, not the point.",
+    "Epochs differ: GHS-BUILT-S is E2020, GHS-BUILT-H ANBH is E2018. Growth between 2018 and 2020 is in imperv but not in bldgH/d0.",
+    "d0 = 0.7 × bldgH is a rule of thumb (0.5–0.8 in the literature) and is capped at 25.5 m. bldgH carries the uncapped mean so the rule can be revised without rebuilding.",
+    "bldgH averages over ALL valid source cells, including unbuilt ones (height 0). It is the grid-box mean, not the mean height of buildings; where imperv is small, bldgH is small by construction.",
+    "The projection sphere radius is measured, not assumed (see source.projectionRadiusNote)."
+  ],
+  "timeless": "point/static/ is exempt from retention (TIMELESS_PATHS).",
+  "tiers": {
+    "t1": {
+      "planes": [
+        {
+          "id": "imperv",
+          "unit": "%",
+          "scale": 1,
+          "offset": 0,
+          "range": [
+            0,
+            100
+          ],
+          "what": "Built-up surface share (GHS-BUILT-S E2020), area mean over the cell. Approximation of imperviousness: roads and pavement are NOT included.",
+          "hash": "43f21b6f8703d07e",
+          "covered": 47013,
+          "min": 0,
+          "max": 38,
+          "mean": 1.942
+        },
+        {
+          "id": "d0",
+          "unit": "m",
+          "scale": 0.1,
+          "offset": 0,
+          "range": [
+            0,
+            25.5
+          ],
+          "what": "Displacement height = 0.7 × bldgH, capped at 25.5 m. The factor is a choice — bldgH carries the raw mean.",
+          "hash": "344fa7df24273863",
+          "covered": 47013,
+          "min": 0,
+          "max": 12.7,
+          "mean": 0.422
+        },
+        {
+          "id": "bldgH",
+          "unit": "m",
+          "scale": 0.1,
+          "offset": 0,
+          "range": [
+            0,
+            300
+          ],
+          "what": "Average net building height (GHS-BUILT-H ANBH E2018), area mean over all valid source cells INCLUDING unbuilt ones (which carry 0).",
+          "hash": "a13331f4f2329f89",
+          "covered": 47013,
+          "min": 0,
+          "max": 18.1,
+          "mean": 0.603
+        }
+      ],
+      "chunks": 208,
+      "bytes": 110700,
+      "cy": 13,
+      "cx": 16,
+      "ny": 201,
+      "nx": 241,
+      "deg": 0.05,
+      "lat0": 45.5,
+      "lon0": 5.5,
+      "builtAt": "2026-09-14T20:43:39.154Z",
+      "coverage": {
+        "cells": 48441,
+        "cellsWithData": 47013,
+        "cellsMissing": 1428,
+        "meanImpervPct": 1.94,
+        "maxImpervPct": 38,
+        "cellsImpervGe50": 0,
+        "sourceCells": {
+          "builtS": {
+            "used": 92669129,
+            "nodata": 2666615
+          },
+          "anbh": {
+            "used": 92669129,
+            "nodata": 2666615
+          }
+        },
+        "sourceCellsPerGridCell": 1971.1
+      },
+      "net": {
+        "files": 8,
+        "bytes": 209513858,
+        "downloadMs": 0,
+        "fromCache": 8,
+        "decodedTiles": 3228,
+        "skippedTiles": 9572,
+        "decodeMs": 3893,
+        "aggregateMs": 1825
+      }
+    }
+  },
+  "updatedAt": "2026-09-14T20:43:39.156Z"
+}
