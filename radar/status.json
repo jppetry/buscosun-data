@@ -442,12 +442,12 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 82,
+    "runs": 83,
     "written": 15,
     "rejected": 0,
     "failed": 0,
-    "lastRunAt": "2026-10-31T17:56:44.852Z",
-    "lastRunMs": 1541,
+    "lastRunAt": "2026-10-31T17:57:36.540Z",
+    "lastRunMs": 1308,
     "caps": {
       "de": {
         "timeEnd": "2026-10-31T17:50:00.000Z",
@@ -461,5 +461,5 @@
     "last": [],
     "errors": []
   },
-  "updatedAt": "2026-10-31T17:57:11.981Z"
+  "updatedAt": "2026-10-31T17:58:30.457Z"
 }
