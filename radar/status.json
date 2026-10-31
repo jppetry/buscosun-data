@@ -459,19 +459,8 @@
         "validAtMs": 1793424600000
       }
     },
-    "last": [
-      {
-        "id": "de",
-        "stamp": "20261031T1805",
-        "bytes": 3864,
-        "ms": 2502,
-        "active": 0,
-        "max": 0,
-        "fractionalPx": 0,
-        "ok": true
-      }
-    ],
+    "last": [],
     "errors": []
   },
-  "updatedAt": "2026-10-31T18:12:12.811Z"
+  "updatedAt": "2026-10-31T18:13:23.863Z"
 }
