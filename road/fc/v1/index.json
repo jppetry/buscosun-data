@@ -1,9 +1,74 @@
 {
  "schema": 1,
  "product": "road-fc-index",
- "updatedAt": "2026-11-07T14:01:58.496Z",
+ "updatedAt": "2026-11-07T14:18:08.869Z",
  "killed": false,
  "runs": [
+  {
+   "run": "2611071417",
+   "issuedAt": "2026-11-07T14:17:13.664Z",
+   "t0Ms": 1794060000000,
+   "publishedAt": "2026-11-07T14:18:08.869Z",
+   "points": 4772,
+   "failed": 0,
+   "corridors": 212,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 14",
+    "version": 14,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2611071400",
+    "anchored": 1260,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026110712",
+     "t2": "2026110706",
+     "t3": null,
+     "stations": "2026110709",
+     "nowcast": "radvor_rv:2611071410"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    },
+    "points": "62b24997ebd9",
+    "surface": {
+     "mode": "fb1",
+     "table": "6f3d60f4e1e2",
+     "fitted": {
+      "from": "2026-10-04",
+      "to": "2026-10-25",
+      "runs": 151,
+      "pairs": 1110432,
+      "stations": 1226
+     },
+     "decay": [
+      1,
+      0.804,
+      0.666,
+      0.512,
+      0.384,
+      0.287,
+      0.206
+     ],
+     "sigma": [
+      0,
+      1.1,
+      1.36,
+      1.54,
+      1.66,
+      1.72,
+      1.73
+     ],
+     "own": 1142,
+     "clim": 3630
+    }
+   },
+   "ms": 54694
+  },
   {
    "run": "2611071400",
    "issuedAt": "2026-11-07T14:00:49.568Z",
@@ -322,71 +387,6 @@
     }
    },
    "ms": 68135
-  },
-  {
-   "run": "2611071117",
-   "issuedAt": "2026-11-07T11:17:00.476Z",
-   "t0Ms": 1794049200000,
-   "publishedAt": "2026-11-07T11:18:08.321Z",
-   "points": 4772,
-   "failed": 0,
-   "corridors": 212,
-   "states": 16,
-   "engine": {
-    "name": "buscosun Fusion 14",
-    "version": 14,
-    "stage": "fs",
-    "anchor": "swis",
-    "anchorMode": "stations",
-    "anchorSlot": "2611071100",
-    "anchored": 1262,
-    "hourMean": true,
-    "runs": {
-     "t1": "2026110709",
-     "t2": "2026110706",
-     "t3": null,
-     "stations": "2026110709",
-     "nowcast": "radvor_rv:2611071110"
-    },
-    "tables": {
-     "learned": "0714300fe2a5",
-     "stack": "9d22ff35986f",
-     "clima": "85d73cead2cb"
-    },
-    "points": "62b24997ebd9",
-    "surface": {
-     "mode": "fb1",
-     "table": "6f3d60f4e1e2",
-     "fitted": {
-      "from": "2026-10-04",
-      "to": "2026-10-25",
-      "runs": 151,
-      "pairs": 1110432,
-      "stations": 1226
-     },
-     "decay": [
-      1,
-      0.804,
-      0.666,
-      0.512,
-      0.384,
-      0.287,
-      0.206
-     ],
-     "sigma": [
-      0,
-      1.1,
-      1.36,
-      1.54,
-      1.66,
-      1.72,
-      1.73
-     ],
-     "own": 1144,
-     "clim": 3628
-    }
-   },
-   "ms": 66796
   }
  ]
 }
