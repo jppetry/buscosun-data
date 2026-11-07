@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "product": "sea-status",
- "updatedAt": "2026-11-07T14:36:36.088Z",
+ "updatedAt": "2026-11-07T14:51:00.345Z",
  "killSwitch": false,
  "field": {
   "model": "cwam",
@@ -139,11 +139,11 @@
    "delayMin": 6
   },
   "WODL45": {
-   "issue": "2611071200",
-   "issuedAt": "2026-11-07T12:00:00.000Z",
-   "dwdAt": "2026-11-07T11:45:17.000Z",
-   "fetchedAt": "2026-11-07T11:51:14.289Z",
-   "delayMin": 6
+   "issue": "2611071500",
+   "issuedAt": "2026-11-07T15:00:00.000Z",
+   "dwdAt": "2026-11-07T14:46:11.000Z",
+   "fetchedAt": "2026-11-07T14:50:51.841Z",
+   "delayMin": 5
   },
   "FXDL40": {
    "issue": "2611070000",
@@ -153,14 +153,14 @@
    "delayMin": 1
   }
  },
- "job": "42382363541",
+ "job": "42383468149",
  "textPass": {
-  "at": "2026-11-07T14:36:32.626Z",
+  "at": "2026-11-07T14:50:51.841Z",
   "listed": 52,
   "todo": 1,
-  "added": 0,
+  "added": 1,
   "rejected": 0,
-  "absent": 1
+  "absent": 0
  },
  "wind": {
   "run": "2026110700",
@@ -176,7 +176,7 @@
   "bytes": 51602
  },
  "gauges": {
-  "at": "2026-11-07T14:36:36.088Z",
+  "at": "2026-11-07T14:51:00.345Z",
   "count": 136,
   "changed": false,
   "source": "https://gdi.bsh.de/ldproxy/rest/services/WaterLevelForecast"
