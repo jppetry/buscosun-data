@@ -1,8 +1,8 @@
 {
   "schema": 6,
-  "commit": "b312182643f16d12e1b002a4d5f18e1d7ff5e7d0",
+  "commit": null,
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
-  "publishedAt": "2026-11-07T13:55:43.126Z",
+  "publishedAt": "2026-11-07T13:59:05.832Z",
   "retentionHours": 24,
   "minRuns": 2,
   "retentionByTier": {
@@ -134,6 +134,16 @@
     "dir": "point/stations-s",
     "catalog": "point/stations/catalog.json",
     "runs": [
+      {
+        "run": "2026110713",
+        "runAt": "2026-11-07T13:00:00.000Z",
+        "ageH": 0.98,
+        "path": "point/stations-s/2026110713",
+        "manifest": "point/stations-s/2026110713/stations.json",
+        "stationCount": 3071,
+        "leadHours": 240,
+        "bytes": 8469484
+      },
       {
         "run": "2026110712",
         "runAt": "2026-11-07T12:00:00.000Z",
