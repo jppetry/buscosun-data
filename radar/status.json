@@ -29,6 +29,22 @@
   "startedAt": "2026-11-07T12:06:23.882Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261107T1325",
+      "asset": "rzc263111325vl.001.h5",
+      "bytes": 27403,
+      "downloadMs": 636,
+      "deriveMs": 260,
+      "imgBytes": 2639,
+      "nc": {
+        "ms": 1319,
+        "files": 73,
+        "bytes": 130441
+      },
+      "pushedAt": "2026-11-07T13:26:09.739Z",
+      "pushMs": 1298
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261107T132000.xml",
       "slot": "2026-11-07T13:20:00.000Z",
@@ -430,36 +446,21 @@
       },
       "pushedAt": "2026-11-07T12:51:24.975Z",
       "pushMs": 1178
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20261107T124500.xml",
-      "slot": "2026-11-07T12:45:00.000Z",
-      "dwdAt": "2026-11-07T12:50:05.000Z",
-      "seenAt": "2026-11-07T12:50:16.552Z",
-      "bytes": 3891,
-      "downloadMs": 783,
-      "deriveMs": 170,
-      "imgBytes": 92,
-      "hd250": null,
-      "pushedAt": "2026-11-07T12:50:20.396Z",
-      "pushMs": 1222,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 81,
-    "written": 16,
+    "runs": 83,
+    "written": 17,
     "rejected": 0,
-    "failed": 244,
-    "lastRunAt": "2026-11-07T13:25:11.228Z",
-    "lastRunMs": 3855,
+    "failed": 247,
+    "lastRunAt": "2026-11-07T13:26:57.847Z",
+    "lastRunMs": 2926,
     "caps": {
       "de": {
-        "timeEnd": "2026-11-07T13:15:00.000Z",
-        "validAtMs": 1794057300000
+        "timeEnd": "2026-11-07T13:20:00.000Z",
+        "validAtMs": 1794057600000
       },
       "mtg": {
         "timeEnd": "2026-11-07T13:10:00.000Z",
@@ -467,6 +468,16 @@
       }
     },
     "last": [
+      {
+        "id": "de",
+        "stamp": "20261107T1320",
+        "bytes": 3864,
+        "ms": 1650,
+        "active": 0,
+        "max": 0,
+        "fractionalPx": 0,
+        "ok": true
+      },
       {
         "id": "mtg",
         "timeIso": "2026-11-07T13:10:00.000Z",
@@ -485,5 +496,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T13:26:08.052Z"
+  "updatedAt": "2026-11-07T13:27:12.701Z"
 }
