@@ -454,7 +454,7 @@
     "runs": 131,
     "written": 26,
     "rejected": 0,
-    "failed": 391,
+    "failed": 394,
     "lastRunAt": "2026-11-07T14:11:58.618Z",
     "lastRunMs": 5030,
     "caps": {
@@ -469,19 +469,9 @@
     },
     "last": [
       {
-        "id": "de",
-        "stamp": "20261107T1405",
-        "bytes": 3864,
-        "ms": 4238,
-        "active": 0,
-        "max": 0,
-        "fractionalPx": 0,
-        "ok": true
-      },
-      {
         "id": "mtg",
         "timeIso": "2026-11-07T14:00:00.000Z",
-        "error": "HTTP 503"
+        "error": "HTTP 404"
       },
       {
         "id": "mtg",
@@ -496,5 +486,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T14:12:14.216Z"
+  "updatedAt": "2026-11-07T14:13:34.247Z"
 }
