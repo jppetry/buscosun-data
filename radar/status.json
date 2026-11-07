@@ -451,17 +451,13 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 185,
+    "runs": 186,
     "written": 38,
     "rejected": 0,
-    "failed": 556,
-    "lastRunAt": "2026-11-07T15:11:12.462Z",
-    "lastRunMs": 5200,
+    "failed": 560,
+    "lastRunAt": "2026-11-07T15:12:06.809Z",
+    "lastRunMs": 11813,
     "caps": {
-      "de": {
-        "timeEnd": "2026-11-07T15:05:00.000Z",
-        "validAtMs": 1794063900000
-      },
       "mtg": {
         "timeEnd": "2026-11-07T14:55:00.000Z",
         "validAtMs": 1794063600000
@@ -470,13 +466,8 @@
     "last": [
       {
         "id": "de",
-        "stamp": "20261107T1505",
-        "bytes": 3864,
-        "ms": 1703,
-        "active": 0,
-        "max": 0,
-        "fractionalPx": 0,
-        "ok": true
+        "timeIso": null,
+        "error": "Capabilities: This operation was aborted"
       },
       {
         "id": "mtg",
@@ -496,5 +487,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T15:12:04.935Z"
+  "updatedAt": "2026-11-07T15:14:04.879Z"
 }
