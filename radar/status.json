@@ -29,6 +29,28 @@
   "startedAt": "2026-11-07T12:06:23.882Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261107_1345.tar",
+      "slot": "2026-11-07T13:45:00.000Z",
+      "dwdAt": "2026-11-07T13:48:13.000Z",
+      "seenAt": "2026-11-07T13:48:23.568Z",
+      "bytes": 1105920,
+      "downloadMs": 1726,
+      "deriveMs": 4206,
+      "imgBytes": 621279,
+      "hd250": {
+        "ms": 1942,
+        "bytes": 79619,
+        "tiles": 10,
+        "src": "hx",
+        "sites": 17,
+        "missing": []
+      },
+      "pushedAt": "2026-11-07T13:48:34.774Z",
+      "pushMs": 1691,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20261107T1345",
       "asset": "rzc263111345vl.001.h5",
@@ -424,39 +446,17 @@
       "pushedAt": "2026-11-07T13:15:06.526Z",
       "pushMs": 1134,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261107_1310.tar",
-      "slot": "2026-11-07T13:10:00.000Z",
-      "dwdAt": "2026-11-07T13:13:12.000Z",
-      "seenAt": "2026-11-07T13:13:19.599Z",
-      "bytes": 1167360,
-      "downloadMs": 1549,
-      "deriveMs": 6064,
-      "imgBytes": 687371,
-      "hd250": {
-        "ms": 2344,
-        "bytes": 90464,
-        "tiles": 10,
-        "src": "hx",
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-11-07T13:13:32.755Z",
-      "pushMs": 1600,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 104,
+    "runs": 106,
     "written": 21,
     "rejected": 0,
-    "failed": 313,
-    "lastRunAt": "2026-11-07T13:47:07.905Z",
-    "lastRunMs": 12608,
+    "failed": 319,
+    "lastRunAt": "2026-11-07T13:49:27.162Z",
+    "lastRunMs": 7225,
     "caps": {
       "de": {
         "timeEnd": "2026-11-07T13:40:00.000Z",
@@ -471,7 +471,7 @@
       {
         "id": "mtg",
         "timeIso": "2026-11-07T13:35:00.000Z",
-        "error": "HTTP 503"
+        "error": "HTTP 404"
       },
       {
         "id": "mtg",
@@ -486,5 +486,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T13:48:32.764Z"
+  "updatedAt": "2026-11-07T13:50:17.267Z"
 }
