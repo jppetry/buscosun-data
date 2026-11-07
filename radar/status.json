@@ -29,6 +29,28 @@
   "startedAt": "2026-11-07T12:06:23.882Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261107_1315.tar",
+      "slot": "2026-11-07T13:15:00.000Z",
+      "dwdAt": "2026-11-07T13:18:11.000Z",
+      "seenAt": "2026-11-07T13:18:18.886Z",
+      "bytes": 1167360,
+      "downloadMs": 1533,
+      "deriveMs": 5782,
+      "imgBytes": 685081,
+      "hd250": {
+        "ms": 1912,
+        "bytes": 90659,
+        "tiles": 9,
+        "src": "hx",
+        "sites": 17,
+        "missing": []
+      },
+      "pushedAt": "2026-11-07T13:18:31.588Z",
+      "pushMs": 1575,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20261107T1315",
       "asset": "rzc263111315vl.001.h5",
@@ -424,39 +446,17 @@
       "pushedAt": "2026-11-07T12:45:10.298Z",
       "pushMs": 1191,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261107_1240.tar",
-      "slot": "2026-11-07T12:40:00.000Z",
-      "dwdAt": "2026-11-07T12:43:20.000Z",
-      "seenAt": "2026-11-07T12:43:23.608Z",
-      "bytes": 1146880,
-      "downloadMs": 1910,
-      "deriveMs": 4669,
-      "imgBytes": 663822,
-      "hd250": {
-        "ms": 1997,
-        "bytes": 94232,
-        "tiles": 11,
-        "src": "hx",
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-11-07T12:43:35.874Z",
-      "pushMs": 1757,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 72,
+    "runs": 74,
     "written": 15,
     "rejected": 0,
-    "failed": 217,
-    "lastRunAt": "2026-11-07T13:17:06.379Z",
-    "lastRunMs": 3969,
+    "failed": 223,
+    "lastRunAt": "2026-11-07T13:19:21.917Z",
+    "lastRunMs": 2467,
     "caps": {
       "de": {
         "timeEnd": "2026-11-07T13:10:00.000Z",
@@ -468,16 +468,6 @@
       }
     },
     "last": [
-      {
-        "id": "de",
-        "stamp": "20261107T1310",
-        "bytes": 3864,
-        "ms": 583,
-        "active": 0,
-        "max": 0,
-        "fractionalPx": 0,
-        "ok": true
-      },
       {
         "id": "mtg",
         "timeIso": "2026-11-07T13:05:00.000Z",
@@ -496,5 +486,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T13:18:29.372Z"
+  "updatedAt": "2026-11-07T13:20:17.415Z"
 }
