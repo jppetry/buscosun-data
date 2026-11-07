@@ -1,0 +1,121 @@
+{
+ "schema": 1,
+ "kind": "precipsum/past",
+ "end": "2026-11-07T12:00:00.000Z",
+ "dir": "2026110712-de-at-ch-7495c3d1",
+ "grid": {
+  "w": 600,
+  "h": 512,
+  "lonMin": 5.5,
+  "lonMax": 17.4,
+  "latMin": 45.3,
+  "latMax": 55.5
+ },
+ "unitMm": 0.01,
+ "countries": {
+  "DE": {
+   "hours": 48,
+   "hasEnd": true,
+   "maxWindowH": 48
+  },
+  "AT": {
+   "hours": 48,
+   "hasEnd": true,
+   "maxWindowH": 48
+  },
+  "CH": {
+   "hours": 32,
+   "hasEnd": true,
+   "maxWindowH": 24
+  }
+ },
+ "windows": {
+  "1": {
+   "file": "sum-001h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-11-07T12:00:00.000Z"
+   },
+   "valid": 161873,
+   "gap": 363,
+   "wet": 3153,
+   "maxMm": 1.14
+  },
+  "3": {
+   "file": "sum-003h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-11-07T12:00:00.000Z"
+   },
+   "valid": 161873,
+   "gap": 363,
+   "wet": 4874,
+   "maxMm": 3.52
+  },
+  "6": {
+   "file": "sum-006h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-11-07T12:00:00.000Z"
+   },
+   "valid": 161873,
+   "gap": 363,
+   "wet": 8161,
+   "maxMm": 7.65
+  },
+  "12": {
+   "file": "sum-012h.png",
+   "de": {
+    "product": "RW",
+    "end": "2026-11-07T12:00:00.000Z"
+   },
+   "valid": 161873,
+   "gap": 363,
+   "wet": 18240,
+   "maxMm": 13.66
+  },
+  "24": {
+   "file": "sum-024h.png",
+   "de": {
+    "product": "SF",
+    "end": "2026-11-07T11:50:00.000Z"
+   },
+   "valid": 162037,
+   "gap": 199,
+   "wet": 25447,
+   "maxMm": 14.58
+  },
+  "48": {
+   "file": "sum-048h.png",
+   "de": {
+    "product": "SF",
+    "end": "2026-11-07T11:50:00.000Z"
+   },
+   "valid": 149739,
+   "gap": 12497,
+   "wet": 13328,
+   "maxMm": 13.67
+  }
+ },
+ "sources": {
+  "DE": {
+   "id": "rw",
+   "label": "RADOLAN RW",
+   "provider": "DWD",
+   "latencyMin": 26
+  },
+  "AT": {
+   "id": "inca",
+   "label": "INCA-Analyse",
+   "provider": "GeoSphere Austria",
+   "latencyMin": 35
+  },
+  "CH": {
+   "id": "cpc",
+   "label": "CombiPrecip",
+   "provider": "MeteoSchweiz",
+   "latencyMin": 5
+  }
+ },
+ "builtAt": "2026-11-07T12:43:34.244Z"
+}
