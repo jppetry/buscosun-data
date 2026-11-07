@@ -1,0 +1,18 @@
+{
+ "schema": 1,
+ "run": "2026110712",
+ "runAt": "2026-11-07T12:00:00.000Z",
+ "tiles": 525,
+ "bytes": 59624092,
+ "builtAt": "2026-11-07T13:30:19.346Z",
+ "sfcTiles": 525,
+ "sfcBytes": 42442212,
+ "foehn": true,
+ "model": "icon-d2",
+ "attribution": "Datenbasis: Deutscher Wetterdienst (ICON-D2, CC BY 4.0)",
+ "sourceFiles": 8971,
+ "sourceBytes": 6624079992,
+ "buildSeconds": 468,
+ "maxTileBytes": 132553,
+ "maxSfcTileBytes": 122696
+}
