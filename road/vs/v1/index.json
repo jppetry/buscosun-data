@@ -1,9 +1,20 @@
 {
  "schema": 1,
  "product": "road-vs-index",
- "updatedAt": "2026-11-07T10:31:40.400Z",
+ "updatedAt": "2026-11-07T13:31:21.875Z",
  "killed": false,
  "runs": [
+  {
+   "run": "2026110712",
+   "t0Ms": 1794052800000,
+   "issuedAt": "2026-11-07T13:29:35.402Z",
+   "points": 4772,
+   "coupled": 1153,
+   "coldStart": 0,
+   "corridors": 212,
+   "states": 16,
+   "ms": 105295
+  },
   {
    "run": "2026110709",
    "t0Ms": 1794042000000,
@@ -25,17 +36,6 @@
    "corridors": 212,
    "states": 16,
    "ms": 80831
-  },
-  {
-   "run": "2026110703",
-   "t0Ms": 1794020400000,
-   "issuedAt": "2026-11-07T04:31:26.732Z",
-   "points": 4772,
-   "coupled": 1052,
-   "coldStart": 0,
-   "corridors": 212,
-   "states": 16,
-   "ms": 94082
   }
  ]
 }
