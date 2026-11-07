@@ -1,8 +1,8 @@
 {
   "schema": 6,
-  "commit": "12f9ea34010498066d523f75b43f0c222decea38",
+  "commit": null,
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
-  "publishedAt": "2026-11-07T13:59:05.832Z",
+  "publishedAt": "2026-11-07T14:55:57.685Z",
   "retentionHours": 24,
   "minRuns": 2,
   "retentionByTier": {
@@ -135,6 +135,16 @@
     "catalog": "point/stations/catalog.json",
     "runs": [
       {
+        "run": "2026110714",
+        "runAt": "2026-11-07T14:00:00.000Z",
+        "ageH": 0.93,
+        "path": "point/stations-s/2026110714",
+        "manifest": "point/stations-s/2026110714/stations.json",
+        "stationCount": 3071,
+        "leadHours": 240,
+        "bytes": 8469782
+      },
+      {
         "run": "2026110713",
         "runAt": "2026-11-07T13:00:00.000Z",
         "ageH": 0.98,
@@ -183,16 +193,6 @@
         "stationCount": 3071,
         "leadHours": 240,
         "bytes": 8513165
-      },
-      {
-        "run": "2026110708",
-        "runAt": "2026-11-07T08:00:00.000Z",
-        "ageH": 0.93,
-        "path": "point/stations-s/2026110708",
-        "manifest": "point/stations-s/2026110708/stations.json",
-        "stationCount": 3071,
-        "leadHours": 240,
-        "bytes": 8508769
       }
     ],
     "source": "mosmix_s",
