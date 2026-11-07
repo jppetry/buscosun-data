@@ -29,6 +29,21 @@
   "startedAt": "2026-11-07T12:06:23.882Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261107T142000.xml",
+      "slot": "2026-11-07T14:20:00.000Z",
+      "dwdAt": "2026-11-07T14:24:48.000Z",
+      "seenAt": "2026-11-07T14:24:51.062Z",
+      "bytes": 3891,
+      "downloadMs": 620,
+      "deriveMs": 172,
+      "imgBytes": 92,
+      "hd250": null,
+      "pushedAt": "2026-11-07T14:24:56.356Z",
+      "pushMs": 1067,
+      "attempt": 2
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261107_1420.tar",
       "slot": "2026-11-07T14:20:00.000Z",
@@ -430,43 +445,21 @@
       "pushedAt": "2026-11-07T13:50:18.929Z",
       "pushMs": 1178,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261107_1345.tar",
-      "slot": "2026-11-07T13:45:00.000Z",
-      "dwdAt": "2026-11-07T13:48:13.000Z",
-      "seenAt": "2026-11-07T13:48:23.568Z",
-      "bytes": 1105920,
-      "downloadMs": 1726,
-      "deriveMs": 4206,
-      "imgBytes": 621279,
-      "hd250": {
-        "ms": 1942,
-        "bytes": 79619,
-        "tiles": 10,
-        "src": "hx",
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-11-07T13:48:34.774Z",
-      "pushMs": 1691,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 143,
-    "written": 28,
+    "runs": 144,
+    "written": 29,
     "rejected": 0,
-    "failed": 430,
-    "lastRunAt": "2026-11-07T14:24:28.594Z",
-    "lastRunMs": 3366,
+    "failed": 433,
+    "lastRunAt": "2026-11-07T14:25:20.862Z",
+    "lastRunMs": 8055,
     "caps": {
       "de": {
-        "timeEnd": "2026-11-07T14:15:00.000Z",
-        "validAtMs": 1794060900000
+        "timeEnd": "2026-11-07T14:20:00.000Z",
+        "validAtMs": 1794061200000
       },
       "mtg": {
         "timeEnd": "2026-11-07T14:10:00.000Z",
@@ -474,6 +467,16 @@
       }
     },
     "last": [
+      {
+        "id": "de",
+        "stamp": "20261107T1420",
+        "bytes": 3864,
+        "ms": 1052,
+        "active": 0,
+        "max": 0,
+        "fractionalPx": 0,
+        "ok": true
+      },
       {
         "id": "mtg",
         "timeIso": "2026-11-07T14:10:00.000Z",
@@ -492,5 +495,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T14:24:54.984Z"
+  "updatedAt": "2026-11-07T14:26:12.672Z"
 }
