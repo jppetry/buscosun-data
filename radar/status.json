@@ -29,6 +29,21 @@
   "startedAt": "2026-11-07T12:06:23.882Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261107T131000.xml",
+      "slot": "2026-11-07T13:10:00.000Z",
+      "dwdAt": "2026-11-07T13:14:49.000Z",
+      "seenAt": "2026-11-07T13:15:02.868Z",
+      "bytes": 3891,
+      "downloadMs": 764,
+      "deriveMs": 163,
+      "imgBytes": 92,
+      "hd250": null,
+      "pushedAt": "2026-11-07T13:15:06.526Z",
+      "pushMs": 1134,
+      "attempt": 1
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261107_1310.tar",
       "slot": "2026-11-07T13:10:00.000Z",
@@ -430,39 +445,17 @@
       "pushedAt": "2026-11-07T12:40:25.576Z",
       "pushMs": 1314,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261107_1235.tar",
-      "slot": "2026-11-07T12:35:00.000Z",
-      "dwdAt": "2026-11-07T12:38:17.000Z",
-      "seenAt": "2026-11-07T12:38:29.204Z",
-      "bytes": 1157120,
-      "downloadMs": 1573,
-      "deriveMs": 5410,
-      "imgBytes": 679479,
-      "hd250": {
-        "ms": 1942,
-        "bytes": 93690,
-        "tiles": 10,
-        "src": "hx",
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-11-07T12:38:41.657Z",
-      "pushMs": 1678,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 70,
+    "runs": 71,
     "written": 14,
     "rejected": 0,
-    "failed": 211,
-    "lastRunAt": "2026-11-07T13:14:22.150Z",
-    "lastRunMs": 3654,
+    "failed": 214,
+    "lastRunAt": "2026-11-07T13:15:09.708Z",
+    "lastRunMs": 2615,
     "caps": {
       "de": {
         "timeEnd": "2026-11-07T13:05:00.000Z",
@@ -492,5 +485,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T13:15:05.041Z"
+  "updatedAt": "2026-11-07T13:16:54.785Z"
 }
