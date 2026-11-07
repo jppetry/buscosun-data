@@ -1,6 +1,6 @@
 {
   "schema": 6,
-  "commit": null,
+  "commit": "4365f9d2ec16971c18457715522ce71c082ccfc1",
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
   "publishedAt": "2026-11-07T15:56:14.373Z",
   "retentionHours": 24,
