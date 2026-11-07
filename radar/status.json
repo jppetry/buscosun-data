@@ -29,6 +29,22 @@
   "startedAt": "2026-11-07T12:06:23.882Z",
   "recent": [
     {
+      "product": "inca",
+      "stamp": "20261107T1530",
+      "reftime": "2026-11-07T15:30+00:00",
+      "bytes": 912649,
+      "downloadMs": 39903,
+      "deriveMs": 681,
+      "imgBytes": 302028,
+      "nc": {
+        "ms": 1479,
+        "files": 69,
+        "bytes": 887288
+      },
+      "pushedAt": "2026-11-07T15:46:51.368Z",
+      "pushMs": 1368
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261107T154000.xml",
       "slot": "2026-11-07T15:40:00.000Z",
@@ -430,21 +446,6 @@
       },
       "pushedAt": "2026-11-07T15:11:31.502Z",
       "pushMs": 1250
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20261107T150500.xml",
-      "slot": "2026-11-07T15:05:00.000Z",
-      "dwdAt": "2026-11-07T15:09:53.000Z",
-      "seenAt": "2026-11-07T15:09:55.675Z",
-      "bytes": 3891,
-      "downloadMs": 2714,
-      "deriveMs": 174,
-      "imgBytes": 92,
-      "hd250": null,
-      "pushedAt": "2026-11-07T15:10:01.192Z",
-      "pushMs": 1119,
-      "attempt": 1
     }
   ],
   "lightning": {
@@ -485,5 +486,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T15:46:49.403Z"
+  "updatedAt": "2026-11-07T15:46:55.597Z"
 }
