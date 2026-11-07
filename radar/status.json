@@ -29,6 +29,28 @@
   "startedAt": "2026-11-07T12:06:23.882Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261107_1405.tar",
+      "slot": "2026-11-07T14:05:00.000Z",
+      "dwdAt": "2026-11-07T14:08:12.000Z",
+      "seenAt": "2026-11-07T14:08:21.040Z",
+      "bytes": 1054720,
+      "downloadMs": 1538,
+      "deriveMs": 4293,
+      "imgBytes": 569910,
+      "hd250": {
+        "ms": 1892,
+        "bytes": 66946,
+        "tiles": 12,
+        "src": "hx",
+        "sites": 17,
+        "missing": []
+      },
+      "pushedAt": "2026-11-07T14:08:31.729Z",
+      "pushMs": 1531,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20261107T1405",
       "asset": "rzc263111405vl.001.h5",
@@ -424,39 +446,17 @@
       "pushedAt": "2026-11-07T13:35:03.950Z",
       "pushMs": 1123,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261107_1330.tar",
-      "slot": "2026-11-07T13:30:00.000Z",
-      "dwdAt": "2026-11-07T13:33:22.000Z",
-      "seenAt": "2026-11-07T13:33:27.312Z",
-      "bytes": 1146880,
-      "downloadMs": 1557,
-      "deriveMs": 6122,
-      "imgBytes": 675742,
-      "hd250": {
-        "ms": 2059,
-        "bytes": 93559,
-        "tiles": 12,
-        "src": "hx",
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-11-07T13:33:40.718Z",
-      "pushMs": 1558,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 126,
+    "runs": 128,
     "written": 25,
     "rejected": 0,
-    "failed": 379,
-    "lastRunAt": "2026-11-07T14:07:45.973Z",
-    "lastRunMs": 2644,
+    "failed": 385,
+    "lastRunAt": "2026-11-07T14:09:21.351Z",
+    "lastRunMs": 3716,
     "caps": {
       "de": {
         "timeEnd": "2026-11-07T14:00:00.000Z",
@@ -486,5 +486,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T14:08:29.878Z"
+  "updatedAt": "2026-11-07T14:10:00.068Z"
 }
