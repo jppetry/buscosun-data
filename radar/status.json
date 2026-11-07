@@ -451,12 +451,12 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 98,
+    "runs": 99,
     "written": 20,
     "rejected": 0,
-    "failed": 295,
-    "lastRunAt": "2026-11-07T13:41:15.835Z",
-    "lastRunMs": 7006,
+    "failed": 298,
+    "lastRunAt": "2026-11-07T13:42:18.694Z",
+    "lastRunMs": 2197,
     "caps": {
       "de": {
         "timeEnd": "2026-11-07T13:35:00.000Z",
@@ -468,16 +468,6 @@
       }
     },
     "last": [
-      {
-        "id": "de",
-        "stamp": "20261107T1335",
-        "bytes": 3864,
-        "ms": 1895,
-        "active": 0,
-        "max": 0,
-        "fractionalPx": 0,
-        "ok": true
-      },
       {
         "id": "mtg",
         "timeIso": "2026-11-07T13:25:00.000Z",
@@ -496,5 +486,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T13:42:16.833Z"
+  "updatedAt": "2026-11-07T13:43:38.408Z"
 }
