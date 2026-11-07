@@ -29,6 +29,22 @@
   "startedAt": "2026-11-07T12:06:23.882Z",
   "recent": [
     {
+      "product": "inca",
+      "stamp": "20261107T1345",
+      "reftime": "2026-11-07T13:45+00:00",
+      "bytes": 959542,
+      "downloadMs": 2232,
+      "deriveMs": 617,
+      "imgBytes": 395084,
+      "nc": {
+        "ms": 1464,
+        "files": 69,
+        "bytes": 1169868
+      },
+      "pushedAt": "2026-11-07T14:06:25.057Z",
+      "pushMs": 1669
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261107T140000.xml",
       "slot": "2026-11-07T14:00:00.000Z",
@@ -430,36 +446,21 @@
       },
       "pushedAt": "2026-11-07T13:31:08.574Z",
       "pushMs": 1427
-    },
-    {
-      "product": "konrad3d",
-      "file": "KONRAD3D_20261107T132500.xml",
-      "slot": "2026-11-07T13:25:00.000Z",
-      "dwdAt": "2026-11-07T13:29:55.000Z",
-      "seenAt": "2026-11-07T13:30:05.384Z",
-      "bytes": 3891,
-      "downloadMs": 743,
-      "deriveMs": 161,
-      "imgBytes": 92,
-      "hd250": null,
-      "pushedAt": "2026-11-07T13:30:09.581Z",
-      "pushMs": 1460,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 123,
-    "written": 24,
+    "runs": 124,
+    "written": 25,
     "rejected": 0,
-    "failed": 370,
-    "lastRunAt": "2026-11-07T14:05:14.160Z",
-    "lastRunMs": 7441,
+    "failed": 373,
+    "lastRunAt": "2026-11-07T14:06:05.401Z",
+    "lastRunMs": 19658,
     "caps": {
       "de": {
-        "timeEnd": "2026-11-07T13:55:00.000Z",
-        "validAtMs": 1794059700000
+        "timeEnd": "2026-11-07T14:00:00.000Z",
+        "validAtMs": 1794060000000
       },
       "mtg": {
         "timeEnd": "2026-11-07T13:50:00.000Z",
@@ -467,6 +468,16 @@
       }
     },
     "last": [
+      {
+        "id": "de",
+        "stamp": "20261107T1400",
+        "bytes": 3864,
+        "ms": 910,
+        "active": 0,
+        "max": 0,
+        "fractionalPx": 0,
+        "ok": true
+      },
       {
         "id": "mtg",
         "timeIso": "2026-11-07T13:50:00.000Z",
@@ -480,10 +491,10 @@
       {
         "id": "mtg",
         "timeIso": "2026-11-07T13:40:00.000Z",
-        "error": "HTTP 404"
+        "error": "HTTP 503"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T14:06:22.998Z"
+  "updatedAt": "2026-11-07T14:06:43.144Z"
 }
