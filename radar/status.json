@@ -29,6 +29,21 @@
   "startedAt": "2026-11-07T12:06:23.882Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261107T153000.xml",
+      "slot": "2026-11-07T15:30:00.000Z",
+      "dwdAt": "2026-11-07T15:34:53.000Z",
+      "seenAt": "2026-11-07T15:34:54.252Z",
+      "bytes": 3891,
+      "downloadMs": 1647,
+      "deriveMs": 168,
+      "imgBytes": 92,
+      "hd250": null,
+      "pushedAt": "2026-11-07T15:34:59.173Z",
+      "pushMs": 1232,
+      "attempt": 1
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261107_1530.tar",
       "slot": "2026-11-07T15:30:00.000Z",
@@ -430,50 +445,43 @@
       "pushedAt": "2026-11-07T15:00:30.959Z",
       "pushMs": 1281,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261107_1455.tar",
-      "slot": "2026-11-07T14:55:00.000Z",
-      "dwdAt": "2026-11-07T14:59:15.000Z",
-      "seenAt": "2026-11-07T14:59:20.176Z",
-      "bytes": 1075200,
-      "downloadMs": 2419,
-      "deriveMs": 7901,
-      "imgBytes": 593563,
-      "hd250": {
-        "ms": 3019,
-        "bytes": 74140,
-        "tiles": 11,
-        "src": "hx",
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-11-07T14:59:36.818Z",
-      "pushMs": 1698,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 208,
-    "written": 42,
+    "runs": 209,
+    "written": 43,
     "rejected": 0,
-    "failed": 623,
-    "lastRunAt": "2026-11-07T15:34:41.937Z",
-    "lastRunMs": 8699,
+    "failed": 629,
+    "lastRunAt": "2026-11-07T15:35:45.873Z",
+    "lastRunMs": 3623,
     "caps": {
       "de": {
-        "timeEnd": "2026-11-07T15:25:00.000Z",
-        "validAtMs": 1794065100000
+        "timeEnd": "2026-11-07T15:30:00.000Z",
+        "validAtMs": 1794065400000
       },
       "mtg": {
-        "timeEnd": "2026-11-07T15:15:00.000Z",
-        "validAtMs": 1794064800000
+        "timeEnd": "2026-11-07T15:20:00.000Z",
+        "validAtMs": 1794065100000
       }
     },
     "last": [
+      {
+        "id": "de",
+        "stamp": "20261107T1530",
+        "bytes": 3864,
+        "ms": 855,
+        "active": 0,
+        "max": 0,
+        "fractionalPx": 0,
+        "ok": true
+      },
+      {
+        "id": "mtg",
+        "timeIso": "2026-11-07T15:20:00.000Z",
+        "error": "HTTP 404"
+      },
       {
         "id": "mtg",
         "timeIso": "2026-11-07T15:15:00.000Z",
@@ -483,14 +491,9 @@
         "id": "mtg",
         "timeIso": "2026-11-07T15:10:00.000Z",
         "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-11-07T15:05:00.000Z",
-        "error": "HTTP 503"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T15:34:57.368Z"
+  "updatedAt": "2026-11-07T15:36:31.932Z"
 }
