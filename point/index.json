@@ -1,8 +1,8 @@
 {
   "schema": 6,
-  "commit": "ff50da9c66431aaf9fb58a4c3dfde188c14451c3",
+  "commit": null,
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
-  "publishedAt": "2026-11-07T14:55:57.685Z",
+  "publishedAt": "2026-11-07T15:56:14.373Z",
   "retentionHours": 24,
   "minRuns": 2,
   "retentionByTier": {
@@ -114,16 +114,6 @@
         "stationCount": 3071,
         "leadHours": 247,
         "bytes": 8681704
-      },
-      {
-        "run": "2026110615",
-        "runAt": "2026-11-06T15:00:00.000Z",
-        "ageH": 1.79,
-        "path": "point/stations/2026110615",
-        "manifest": "point/stations/2026110615/stations.json",
-        "stationCount": 3071,
-        "leadHours": 247,
-        "bytes": 8801294
       }
     ],
     "source": "mosmix_l",
@@ -134,6 +124,16 @@
     "dir": "point/stations-s",
     "catalog": "point/stations/catalog.json",
     "runs": [
+      {
+        "run": "2026110715",
+        "runAt": "2026-11-07T15:00:00.000Z",
+        "ageH": 0.94,
+        "path": "point/stations-s/2026110715",
+        "manifest": "point/stations-s/2026110715/stations.json",
+        "stationCount": 3071,
+        "leadHours": 240,
+        "bytes": 8467920
+      },
       {
         "run": "2026110714",
         "runAt": "2026-11-07T14:00:00.000Z",
@@ -183,16 +183,6 @@
         "stationCount": 3071,
         "leadHours": 240,
         "bytes": 8464959
-      },
-      {
-        "run": "2026110709",
-        "runAt": "2026-11-07T09:00:00.000Z",
-        "ageH": 0.92,
-        "path": "point/stations-s/2026110709",
-        "manifest": "point/stations-s/2026110709/stations.json",
-        "stationCount": 3071,
-        "leadHours": 240,
-        "bytes": 8513165
       }
     ],
     "source": "mosmix_s",
@@ -1226,7 +1216,6 @@
       "runAt": "2026-11-07T06:00:00Z",
       "path": "point/2026110706",
       "tiers": [
-        "t1",
         "t2"
       ],
       "sources": [
@@ -1236,26 +1225,10 @@
         "icon_global",
         "aicon",
         "ifs_hres",
-        "aifs_single",
-        "icon_d2",
-        "icon_d2_eps",
-        "icon_ch1_eps",
-        "claef",
-        "claef_eps",
-        "icon_eu",
-        "ifs_hres",
         "aifs_single"
       ],
-      "bytes": 94723875,
+      "bytes": 9440779,
       "tierRuns": [
-        {
-          "id": "t1",
-          "run": "2026110706",
-          "runAt": "2026-11-07T06:00:00Z",
-          "ageH": 0,
-          "files": 208,
-          "bytes": 85233535
-        },
         {
           "id": "t2",
           "run": "2026110706",
