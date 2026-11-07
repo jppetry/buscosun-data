@@ -29,6 +29,21 @@
   "startedAt": "2026-11-07T12:06:23.882Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261107T151000.xml",
+      "slot": "2026-11-07T15:10:00.000Z",
+      "dwdAt": "2026-11-07T15:14:49.000Z",
+      "seenAt": "2026-11-07T15:14:59.368Z",
+      "bytes": 3891,
+      "downloadMs": 816,
+      "deriveMs": 164,
+      "imgBytes": 92,
+      "hd250": null,
+      "pushedAt": "2026-11-07T15:15:03.173Z",
+      "pushMs": 1197,
+      "attempt": 1
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261107_1510.tar",
       "slot": "2026-11-07T15:10:00.000Z",
@@ -430,39 +445,17 @@
       "pushedAt": "2026-11-07T14:39:52.249Z",
       "pushMs": 1194,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261107_1435.tar",
-      "slot": "2026-11-07T14:35:00.000Z",
-      "dwdAt": "2026-11-07T14:38:17.000Z",
-      "seenAt": "2026-11-07T14:38:21.758Z",
-      "bytes": 1105920,
-      "downloadMs": 1538,
-      "deriveMs": 4349,
-      "imgBytes": 638697,
-      "hd250": {
-        "ms": 1876,
-        "bytes": 73527,
-        "tiles": 11,
-        "src": "hx",
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-11-07T14:38:32.787Z",
-      "pushMs": 1653,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 187,
+    "runs": 188,
     "written": 38,
     "rejected": 0,
-    "failed": 563,
-    "lastRunAt": "2026-11-07T15:14:08.740Z",
-    "lastRunMs": 3036,
+    "failed": 566,
+    "lastRunAt": "2026-11-07T15:15:07.147Z",
+    "lastRunMs": 13564,
     "caps": {
       "de": {
         "timeEnd": "2026-11-07T15:05:00.000Z",
@@ -477,7 +470,7 @@
       {
         "id": "mtg",
         "timeIso": "2026-11-07T15:00:00.000Z",
-        "error": "HTTP 404"
+        "error": "HTTP 503"
       },
       {
         "id": "mtg",
@@ -492,5 +485,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T15:15:01.452Z"
+  "updatedAt": "2026-11-07T15:16:06.213Z"
 }
