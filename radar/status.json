@@ -29,6 +29,21 @@
   "startedAt": "2026-11-07T12:06:23.882Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261107T144000.xml",
+      "slot": "2026-11-07T14:40:00.000Z",
+      "dwdAt": "2026-11-07T14:45:13.000Z",
+      "seenAt": "2026-11-07T14:45:20.792Z",
+      "bytes": 3891,
+      "downloadMs": 600,
+      "deriveMs": 184,
+      "imgBytes": 92,
+      "hd250": null,
+      "pushedAt": "2026-11-07T14:45:24.370Z",
+      "pushMs": 1176,
+      "attempt": 1
+    },
+    {
       "product": "rv",
       "file": "composite_rv_20261107_1440.tar",
       "slot": "2026-11-07T14:40:00.000Z",
@@ -430,39 +445,17 @@
       "pushedAt": "2026-11-07T14:10:01.669Z",
       "pushMs": 1201,
       "attempt": 1
-    },
-    {
-      "product": "rv",
-      "file": "composite_rv_20261107_1405.tar",
-      "slot": "2026-11-07T14:05:00.000Z",
-      "dwdAt": "2026-11-07T14:08:12.000Z",
-      "seenAt": "2026-11-07T14:08:21.040Z",
-      "bytes": 1054720,
-      "downloadMs": 1538,
-      "deriveMs": 4293,
-      "imgBytes": 569910,
-      "hd250": {
-        "ms": 1892,
-        "bytes": 66946,
-        "tiles": 12,
-        "src": "hx",
-        "sites": 17,
-        "missing": []
-      },
-      "pushedAt": "2026-11-07T14:08:31.729Z",
-      "pushMs": 1531,
-      "attempt": 1
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 163,
+    "runs": 164,
     "written": 32,
     "rejected": 0,
-    "failed": 490,
-    "lastRunAt": "2026-11-07T14:44:31.266Z",
-    "lastRunMs": 2846,
+    "failed": 493,
+    "lastRunAt": "2026-11-07T14:45:31.603Z",
+    "lastRunMs": 15725,
     "caps": {
       "de": {
         "timeEnd": "2026-11-07T14:35:00.000Z",
@@ -477,7 +470,7 @@
       {
         "id": "mtg",
         "timeIso": "2026-11-07T14:30:00.000Z",
-        "error": "HTTP 404"
+        "error": "HTTP 503"
       },
       {
         "id": "mtg",
@@ -492,5 +485,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-07T14:45:22.910Z"
+  "updatedAt": "2026-11-07T14:46:24.490Z"
 }
