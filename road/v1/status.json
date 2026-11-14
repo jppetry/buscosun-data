@@ -3,10 +3,10 @@
  "product": "road-status",
  "job": "43564760380",
  "startedAt": "2026-11-14T06:08:16.426Z",
- "updatedAt": "2026-11-14T11:41:31.594Z",
+ "updatedAt": "2026-11-14T11:42:10.197Z",
  "killSwitch": false,
- "lastSlot": "2611141115",
- "lastPublishedSlot": "2611141115",
+ "lastSlot": "2611141130",
+ "lastPublishedSlot": "2611141130",
  "blocked": null,
  "catalog": {
   "etag": "a681a1ddc60c378a0583c3e078c9e423",
@@ -16,7 +16,7 @@
  "groups": {
   "DD-DD": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 25
   },
   "ER-TH": {
@@ -26,13 +26,13 @@
   },
   "FN-BY": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 184
   },
   "FN-NB": {
    "state": "ok",
    "ageMin": 1,
-   "stations": 352
+   "stations": 354
   },
   "HJ-HH": {
    "state": "ok",
@@ -41,7 +41,7 @@
   },
   "HL-ST": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 20
   },
   "HV-NI": {
@@ -51,12 +51,12 @@
   },
   "JA-SO": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 58
   },
   "JO-SO": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 9
   },
   "KA-NW": {
@@ -67,11 +67,11 @@
   "KK-SH": {
    "state": "ok",
    "ageMin": 0,
-   "stations": 27
+   "stations": 32
   },
   "KM-NW": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 188
   },
   "KO-RP": {
@@ -96,12 +96,12 @@
   },
   "NI-NI": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 63
   },
   "RB-SL": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 23
   },
   "RH-HE": {
@@ -121,7 +121,7 @@
   },
   "SH-SH": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 45
   },
   "SP-BB": {
@@ -136,37 +136,89 @@
   }
  },
  "balance": {
-  "values": 12067,
-  "rejected": 267,
-  "share": 0.022126460595011187,
+  "values": 12073,
+  "rejected": 264,
+  "share": 0.02186697589662884,
   "byRule": {
-   "stateNoTemp": 80,
-   "precipFill": 127,
-   "roadAir": 7,
-   "limit": 8,
+   "stateNoTemp": 78,
+   "gustBelowWind": 1,
+   "precipFill": 126,
+   "roadAir": 9,
+   "limit": 7,
    "stuck": 25,
    "dewAboveAir": 1,
    "outsideDE": 1,
-   "dewSpread": 11,
+   "dewSpread": 9,
    "gustNoWind": 1,
    "placeholder": 1
   },
   "observe": {
    "catalog": 155,
-   "roadAir": 1,
-   "neighbours": 14,
-   "cube": 5
+   "neighbours": 18,
+   "cube": 3
   },
   "flags": {
    "spread": 5
   },
   "cubeRef": {
    "run": "2611141117",
-   "step": 0,
+   "step": 1,
    "stations": 1814
   }
  },
  "recent": [
+  {
+   "slot": "2611141130",
+   "publish": true,
+   "points": 1498,
+   "values": 12073,
+   "rejected": 264,
+   "share": 0.0219,
+   "groups": 22,
+   "dwdLastAt": "2026-11-14T11:33:10.000Z",
+   "derivedAt": "2026-11-14T11:42:09.011Z",
+   "deriveMs": 1432,
+   "hz": {
+    "ok": true,
+    "publish": true,
+    "reasons": [],
+    "withLevel": 1114,
+    "unknown": 3,
+    "byHazard": {
+     "reif": 57,
+     "nass": 27,
+     "glatteis": 0,
+     "schnee": 0,
+     "aqua": 5,
+     "nebel": 114,
+     "gischt": 11,
+     "sonne": 1020,
+     "quer": 8,
+     "baum": 0,
+     "staub": 0,
+     "gewitter": 0,
+     "hagel": 0,
+     "blowup": 0,
+     "frost1": 100,
+     "sturz": 23
+    },
+    "missing": [],
+    "inputs": {
+     "obs": "2611141130",
+     "fc": {
+      "run": "2611141117",
+      "fusion": "buscosun Fusion 14"
+     },
+     "rv": "2611141135",
+     "rvMode": "max",
+     "konrad": "20261114T113500",
+     "runs": "2026111409",
+     "segments": "2026-10-14T08:51:20.507Z"
+    },
+    "bytes": 242980,
+    "ms": 1015
+   }
+  },
   {
    "slot": "2611141115",
    "publish": true,
@@ -1362,106 +1414,54 @@
     "bytes": 469833,
     "ms": 1828
    }
-  },
-  {
-   "slot": "2611140530",
-   "publish": true,
-   "points": 1498,
-   "values": 12007,
-   "rejected": 307,
-   "share": 0.0256,
-   "groups": 22,
-   "dwdLastAt": "2026-11-14T05:33:16.000Z",
-   "derivedAt": "2026-11-14T05:42:09.430Z",
-   "deriveMs": 2513,
-   "hz": {
-    "ok": true,
-    "publish": true,
-    "reasons": [],
-    "withLevel": 1521,
-    "unknown": 3,
-    "byHazard": {
-     "reif": 548,
-     "nass": 418,
-     "glatteis": 0,
-     "schnee": 15,
-     "aqua": 17,
-     "nebel": 1004,
-     "gischt": 35,
-     "sonne": 591,
-     "quer": 3,
-     "baum": 0,
-     "staub": 0,
-     "gewitter": 0,
-     "hagel": 0,
-     "blowup": 0,
-     "frost1": 783,
-     "sturz": 0
-    },
-    "missing": [],
-    "inputs": {
-     "obs": "2611140530",
-     "fc": {
-      "run": "2611140517",
-      "fusion": "buscosun Fusion 14"
-     },
-     "rv": "2611140535",
-     "rvMode": "max",
-     "konrad": "20261114T053500",
-     "runs": "2026111403",
-     "segments": "2026-10-14T08:51:20.507Z"
-    },
-    "bytes": 477758,
-    "ms": 1847
-   }
   }
  ],
  "hz": {
-  "lastSlot": "2611141115",
-  "lastPublishedSlot": "2611141115",
+  "lastSlot": "2611141130",
+  "lastPublishedSlot": "2611141130",
   "blocked": null,
   "missing": [],
   "balance": {
    "segments": 1731,
-   "withLevel": 1056,
+   "withLevel": 1114,
    "unknown": 3,
    "byHazard": {
-    "reif": 27,
-    "nass": 14,
+    "reif": 57,
+    "nass": 27,
     "glatteis": 0,
     "schnee": 0,
     "aqua": 5,
-    "nebel": 43,
-    "gischt": 10,
-    "sonne": 1011,
-    "quer": 9,
+    "nebel": 114,
+    "gischt": 11,
+    "sonne": 1020,
+    "quer": 8,
     "baum": 0,
     "staub": 0,
     "gewitter": 0,
     "hagel": 0,
     "blowup": 0,
-    "frost1": 28,
-    "sturz": 7
+    "frost1": 100,
+    "sturz": 23
    },
    "dropped": 0,
-   "bytes": 211844,
-   "ms": 877,
-   "derivedAt": "2026-11-14T11:27:11.396Z"
+   "bytes": 242980,
+   "ms": 860,
+   "derivedAt": "2026-11-14T11:42:09.011Z"
   },
   "inputs": {
-   "obs": "2611141115",
+   "obs": "2611141130",
    "fc": {
     "run": "2611141117",
     "fusion": "buscosun Fusion 14"
    },
-   "rv": "2611141120",
+   "rv": "2611141135",
    "rvMode": "max",
-   "konrad": "20261114T112000",
+   "konrad": "20261114T113500",
    "runs": "2026111409",
    "segments": "2026-10-14T08:51:20.507Z"
   },
   "observe": {
-   "shareWithLevel": 0.61,
+   "shareWithLevel": 0.644,
    "jump": {}
   }
  }
