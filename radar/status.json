@@ -29,6 +29,21 @@
   "startedAt": "2026-11-14T11:55:26.939Z",
   "recent": [
     {
+      "product": "konrad3d",
+      "file": "KONRAD3D_20261114T115000.xml",
+      "slot": "2026-11-14T11:50:00.000Z",
+      "dwdAt": "2026-11-14T11:55:29.000Z",
+      "seenAt": "2026-11-14T11:55:54.266Z",
+      "bytes": 3934,
+      "downloadMs": 723,
+      "deriveMs": 185,
+      "imgBytes": 92,
+      "hd250": null,
+      "pushedAt": "2026-11-14T11:55:57.507Z",
+      "pushMs": 1411,
+      "attempt": 1
+    },
+    {
       "product": "rzc",
       "stamp": "20261114T1155",
       "asset": "rzc263181155vl.001.h5",
@@ -48,15 +63,50 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 1,
-    "written": 0,
+    "runs": 2,
+    "written": 1,
     "rejected": 0,
-    "failed": 0,
-    "lastRunAt": "2026-11-14T11:55:42.808Z",
-    "lastRunMs": 3703,
-    "caps": {},
-    "last": [],
+    "failed": 6,
+    "lastRunAt": "2026-11-14T11:56:33.151Z",
+    "lastRunMs": 8365,
+    "caps": {
+      "de": {
+        "timeEnd": "2026-11-14T11:50:00.000Z",
+        "validAtMs": 1794657000000
+      },
+      "mtg": {
+        "timeEnd": "2026-11-14T11:40:00.000Z",
+        "validAtMs": 1794656700000
+      }
+    },
+    "last": [
+      {
+        "id": "de",
+        "stamp": "20261114T1150",
+        "bytes": 3864,
+        "ms": 1916,
+        "active": 0,
+        "max": 0,
+        "fractionalPx": 0,
+        "ok": true
+      },
+      {
+        "id": "mtg",
+        "timeIso": "2026-11-14T11:40:00.000Z",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "mtg",
+        "timeIso": "2026-11-14T11:35:00.000Z",
+        "error": "HTTP 404"
+      },
+      {
+        "id": "mtg",
+        "timeIso": "2026-11-14T11:30:00.000Z",
+        "error": "HTTP 404"
+      }
+    ],
     "errors": []
   },
-  "updatedAt": "2026-11-14T11:55:55.758Z"
+  "updatedAt": "2026-11-14T11:57:12.196Z"
 }
