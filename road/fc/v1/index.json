@@ -1,9 +1,74 @@
 {
  "schema": 1,
  "product": "road-fc-index",
- "updatedAt": "2026-11-14T11:18:16.815Z",
+ "updatedAt": "2026-11-14T12:21:13.854Z",
  "killed": false,
  "runs": [
+  {
+   "run": "2611141220",
+   "issuedAt": "2026-11-14T12:20:12.526Z",
+   "t0Ms": 1794657600000,
+   "publishedAt": "2026-11-14T12:21:13.854Z",
+   "points": 4772,
+   "failed": 0,
+   "corridors": 212,
+   "states": 16,
+   "engine": {
+    "name": "buscosun Fusion 14",
+    "version": 14,
+    "stage": "fs",
+    "anchor": "swis",
+    "anchorMode": "stations",
+    "anchorSlot": "2611141200",
+    "anchored": 1227,
+    "hourMean": true,
+    "runs": {
+     "t1": "2026111406",
+     "t2": "2026111406",
+     "t3": null,
+     "stations": "2026111409",
+     "nowcast": "radvor_rv:2611141215"
+    },
+    "tables": {
+     "learned": "0714300fe2a5",
+     "stack": "9d22ff35986f",
+     "clima": "85d73cead2cb"
+    },
+    "points": "62b24997ebd9",
+    "surface": {
+     "mode": "fb1",
+     "table": "6f3d60f4e1e2",
+     "fitted": {
+      "from": "2026-10-04",
+      "to": "2026-10-25",
+      "runs": 151,
+      "pairs": 1110432,
+      "stations": 1226
+     },
+     "decay": [
+      1,
+      0.804,
+      0.666,
+      0.512,
+      0.384,
+      0.287,
+      0.206
+     ],
+     "sigma": [
+      0,
+      1.1,
+      1.36,
+      1.54,
+      1.66,
+      1.72,
+      1.73
+     ],
+     "own": 1118,
+     "clim": 3654
+    }
+   },
+   "ms": 54906
+  },
   {
    "run": "2611141117",
    "issuedAt": "2026-11-14T11:17:05.572Z",
@@ -260,133 +325,6 @@
     }
    },
    "ms": 67374
-  },
-  {
-   "run": "2611140916",
-   "issuedAt": "2026-11-14T09:16:23.089Z",
-   "t0Ms": 1794646800000,
-   "publishedAt": "2026-11-14T09:17:35.327Z",
-   "points": 4772,
-   "failed": 0,
-   "corridors": 212,
-   "states": 16,
-   "engine": {
-    "name": "buscosun Fusion 14",
-    "version": 14,
-    "stage": "fs",
-    "anchor": "swis",
-    "anchorMode": "stations",
-    "anchorSlot": "2611140900",
-    "anchored": 1243,
-    "hourMean": true,
-    "runs": {
-     "t1": "2026111406",
-     "t2": "2026111400",
-     "t3": null,
-     "stations": "2026111403",
-     "nowcast": "radvor_rv:2611140910"
-    },
-    "tables": {
-     "learned": "0714300fe2a5",
-     "stack": "9d22ff35986f",
-     "clima": "85d73cead2cb"
-    },
-    "points": "62b24997ebd9",
-    "surface": {
-     "mode": "fb1",
-     "table": "6f3d60f4e1e2",
-     "fitted": {
-      "from": "2026-10-04",
-      "to": "2026-10-25",
-      "runs": 151,
-      "pairs": 1110432,
-      "stations": 1226
-     },
-     "decay": [
-      1,
-      0.804,
-      0.666,
-      0.512,
-      0.384,
-      0.287,
-      0.206
-     ],
-     "sigma": [
-      0,
-      1.1,
-      1.36,
-      1.54,
-      1.66,
-      1.72,
-      1.73
-     ],
-     "own": 1132,
-     "clim": 3640
-    }
-   },
-   "ms": 70794
-  },
-  {
-   "run": "2611140900",
-   "issuedAt": "2026-11-14T09:00:04.353Z",
-   "t0Ms": 1794646800000,
-   "publishedAt": "2026-11-14T09:01:16.206Z",
-   "points": 4772,
-   "failed": 0,
-   "corridors": 212,
-   "states": 16,
-   "engine": {
-    "name": "buscosun Fusion 14",
-    "version": 14,
-    "stage": "fs",
-    "anchor": "none",
-    "hourMean": true,
-    "runs": {
-     "t1": "2026111406",
-     "t2": "2026111400",
-     "t3": null,
-     "stations": "2026111403",
-     "nowcast": "radvor_rv:2611140855"
-    },
-    "tables": {
-     "learned": "0714300fe2a5",
-     "stack": "9d22ff35986f",
-     "clima": "85d73cead2cb"
-    },
-    "points": "62b24997ebd9",
-    "surface": {
-     "mode": "fb1",
-     "table": "6f3d60f4e1e2",
-     "fitted": {
-      "from": "2026-10-04",
-      "to": "2026-10-25",
-      "runs": 151,
-      "pairs": 1110432,
-      "stations": 1226
-     },
-     "decay": [
-      1,
-      0.804,
-      0.666,
-      0.512,
-      0.384,
-      0.287,
-      0.206
-     ],
-     "sigma": [
-      0,
-      1.1,
-      1.36,
-      1.54,
-      1.66,
-      1.72,
-      1.73
-     ],
-     "own": 0,
-     "clim": 4772
-    }
-   },
-   "ms": 71013
   }
  ]
 }
