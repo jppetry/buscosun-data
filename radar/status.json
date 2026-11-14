@@ -29,6 +29,22 @@
   "startedAt": "2026-11-14T11:55:26.939Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261114T1220",
+      "asset": "rzc263181220vl.001.h5",
+      "bytes": 27836,
+      "downloadMs": 621,
+      "deriveMs": 315,
+      "imgBytes": 2844,
+      "nc": {
+        "ms": 1727,
+        "files": 73,
+        "bytes": 134339
+      },
+      "pushedAt": "2026-11-14T12:21:11.155Z",
+      "pushMs": 1545
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261114T121500.xml",
       "slot": "2026-11-14T12:15:00.000Z",
@@ -354,16 +370,16 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 26,
-    "written": 5,
+    "runs": 28,
+    "written": 6,
     "rejected": 0,
-    "failed": 75,
-    "lastRunAt": "2026-11-14T12:20:54.398Z",
-    "lastRunMs": 3815,
+    "failed": 84,
+    "lastRunAt": "2026-11-14T12:22:40.569Z",
+    "lastRunMs": 4007,
     "caps": {
       "de": {
-        "timeEnd": "2026-11-14T12:10:00.000Z",
-        "validAtMs": 1794658200000
+        "timeEnd": "2026-11-14T12:15:00.000Z",
+        "validAtMs": 1794658500000
       },
       "mtg": {
         "timeEnd": "2026-11-14T12:10:00.000Z",
@@ -389,5 +405,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-14T12:21:09.236Z"
+  "updatedAt": "2026-11-14T12:24:04.893Z"
 }
