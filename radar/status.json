@@ -29,6 +29,22 @@
   "startedAt": "2026-11-14T11:55:26.939Z",
   "recent": [
     {
+      "product": "inca",
+      "stamp": "20261114T1145",
+      "reftime": "2026-11-14T11:45+00:00",
+      "bytes": 736851,
+      "downloadMs": 2419,
+      "deriveMs": 726,
+      "imgBytes": 24179,
+      "nc": {
+        "ms": 1852,
+        "files": 69,
+        "bytes": 69973
+      },
+      "pushedAt": "2026-11-14T12:07:07.556Z",
+      "pushMs": 1498
+    },
+    {
       "product": "rzc",
       "stamp": "20261114T1205",
       "asset": "rzc263181205vl.001.h5",
@@ -173,12 +189,12 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 12,
+    "runs": 13,
     "written": 3,
     "rejected": 0,
-    "failed": 36,
-    "lastRunAt": "2026-11-14T12:06:36.635Z",
-    "lastRunMs": 10078,
+    "failed": 39,
+    "lastRunAt": "2026-11-14T12:07:31.988Z",
+    "lastRunMs": 4244,
     "caps": {
       "de": {
         "timeEnd": "2026-11-14T12:00:00.000Z",
@@ -190,16 +206,6 @@
       }
     },
     "last": [
-      {
-        "id": "de",
-        "stamp": "20261114T1200",
-        "bytes": 3864,
-        "ms": 4090,
-        "active": 0,
-        "max": 0,
-        "fractionalPx": 0,
-        "ok": true
-      },
       {
         "id": "mtg",
         "timeIso": "2026-11-14T11:55:00.000Z",
@@ -218,5 +224,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-14T12:07:05.699Z"
+  "updatedAt": "2026-11-14T12:09:05.213Z"
 }
