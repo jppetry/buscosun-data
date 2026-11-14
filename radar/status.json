@@ -29,6 +29,22 @@
   "startedAt": "2026-11-14T11:55:26.939Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261114T1215",
+      "asset": "rzc263181215vl.001.h5",
+      "bytes": 28426,
+      "downloadMs": 34,
+      "deriveMs": 297,
+      "imgBytes": 3293,
+      "nc": {
+        "ms": 1716,
+        "files": 73,
+        "bytes": 140944
+      },
+      "pushedAt": "2026-11-14T12:16:08.833Z",
+      "pushMs": 1562
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261114T121000.xml",
       "slot": "2026-11-14T12:10:00.000Z",
@@ -286,7 +302,7 @@
     "runs": 21,
     "written": 4,
     "rejected": 0,
-    "failed": 60,
+    "failed": 63,
     "lastRunAt": "2026-11-14T12:15:51.051Z",
     "lastRunMs": 5613,
     "caps": {
@@ -295,11 +311,16 @@
         "validAtMs": 1794657900000
       },
       "mtg": {
-        "timeEnd": "2026-11-14T12:00:00.000Z",
-        "validAtMs": 1794657900000
+        "timeEnd": "2026-11-14T12:05:00.000Z",
+        "validAtMs": 1794658200000
       }
     },
     "last": [
+      {
+        "id": "mtg",
+        "timeIso": "2026-11-14T12:05:00.000Z",
+        "error": "HTTP 404"
+      },
       {
         "id": "mtg",
         "timeIso": "2026-11-14T12:00:00.000Z",
@@ -309,14 +330,9 @@
         "id": "mtg",
         "timeIso": "2026-11-14T11:55:00.000Z",
         "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-11-14T11:50:00.000Z",
-        "error": "HTTP 404"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-14T12:16:06.995Z"
+  "updatedAt": "2026-11-14T12:16:44.177Z"
 }
