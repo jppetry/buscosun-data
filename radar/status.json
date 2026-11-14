@@ -27,19 +27,36 @@
   "nc": true,
   "job": "43592197537",
   "startedAt": "2026-11-14T11:55:26.939Z",
-  "recent": [],
+  "recent": [
+    {
+      "product": "rzc",
+      "stamp": "20261114T1155",
+      "asset": "rzc263181155vl.001.h5",
+      "bytes": 27910,
+      "downloadMs": 614,
+      "deriveMs": 304,
+      "imgBytes": 2926,
+      "nc": {
+        "ms": 1735,
+        "files": 73,
+        "bytes": 133090
+      },
+      "pushedAt": "2026-11-14T11:55:38.093Z",
+      "pushMs": 2012
+    }
+  ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 0,
+    "runs": 1,
     "written": 0,
     "rejected": 0,
     "failed": 0,
-    "lastRunAt": null,
-    "lastRunMs": null,
+    "lastRunAt": "2026-11-14T11:55:42.808Z",
+    "lastRunMs": 3703,
     "caps": {},
     "last": [],
     "errors": []
   },
-  "updatedAt": "2026-11-14T11:55:35.798Z"
+  "updatedAt": "2026-11-14T11:55:55.758Z"
 }
