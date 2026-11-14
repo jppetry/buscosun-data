@@ -29,6 +29,30 @@
   "startedAt": "2026-11-14T11:55:26.939Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261114_1205.tar",
+      "slot": "2026-11-14T12:05:00.000Z",
+      "dwdAt": "2026-11-14T12:08:44.000Z",
+      "seenAt": "2026-11-14T12:08:54.933Z",
+      "bytes": 952320,
+      "downloadMs": 1941,
+      "deriveMs": 5453,
+      "imgBytes": 427974,
+      "hd250": {
+        "ms": 2235,
+        "bytes": 53380,
+        "tiles": 8,
+        "src": "hx",
+        "sites": 16,
+        "missing": [
+          "asb"
+        ]
+      },
+      "pushedAt": "2026-11-14T12:09:07.479Z",
+      "pushMs": 1858,
+      "attempt": 1
+    },
+    {
       "product": "inca",
       "stamp": "20261114T1145",
       "reftime": "2026-11-14T11:45+00:00",
@@ -189,12 +213,12 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 13,
+    "runs": 15,
     "written": 3,
     "rejected": 0,
-    "failed": 39,
-    "lastRunAt": "2026-11-14T12:07:31.988Z",
-    "lastRunMs": 4244,
+    "failed": 45,
+    "lastRunAt": "2026-11-14T12:09:57.612Z",
+    "lastRunMs": 2379,
     "caps": {
       "de": {
         "timeEnd": "2026-11-14T12:00:00.000Z",
@@ -224,5 +248,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-14T12:09:05.213Z"
+  "updatedAt": "2026-11-14T12:10:35.286Z"
 }
