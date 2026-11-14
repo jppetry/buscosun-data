@@ -29,6 +29,22 @@
   "startedAt": "2026-11-14T11:55:26.939Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261114T1205",
+      "asset": "rzc263181205vl.001.h5",
+      "bytes": 28198,
+      "downloadMs": 27,
+      "deriveMs": 306,
+      "imgBytes": 3046,
+      "nc": {
+        "ms": 1726,
+        "files": 73,
+        "bytes": 139278
+      },
+      "pushedAt": "2026-11-14T12:06:35.912Z",
+      "pushMs": 1625
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261114T120000.xml",
       "slot": "2026-11-14T12:00:00.000Z",
@@ -157,23 +173,38 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 11,
-    "written": 2,
+    "runs": 12,
+    "written": 3,
     "rejected": 0,
-    "failed": 33,
-    "lastRunAt": "2026-11-14T12:05:41.227Z",
-    "lastRunMs": 6901,
+    "failed": 36,
+    "lastRunAt": "2026-11-14T12:06:36.635Z",
+    "lastRunMs": 10078,
     "caps": {
       "de": {
-        "timeEnd": "2026-11-14T11:55:00.000Z",
-        "validAtMs": 1794657300000
+        "timeEnd": "2026-11-14T12:00:00.000Z",
+        "validAtMs": 1794657600000
       },
       "mtg": {
-        "timeEnd": "2026-11-14T11:50:00.000Z",
-        "validAtMs": 1794657300000
+        "timeEnd": "2026-11-14T11:55:00.000Z",
+        "validAtMs": 1794657600000
       }
     },
     "last": [
+      {
+        "id": "de",
+        "stamp": "20261114T1200",
+        "bytes": 3864,
+        "ms": 4090,
+        "active": 0,
+        "max": 0,
+        "fractionalPx": 0,
+        "ok": true
+      },
+      {
+        "id": "mtg",
+        "timeIso": "2026-11-14T11:55:00.000Z",
+        "error": "HTTP 404"
+      },
       {
         "id": "mtg",
         "timeIso": "2026-11-14T11:50:00.000Z",
@@ -183,14 +214,9 @@
         "id": "mtg",
         "timeIso": "2026-11-14T11:45:00.000Z",
         "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-11-14T11:40:00.000Z",
-        "error": "HTTP 404"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-14T12:06:34.006Z"
+  "updatedAt": "2026-11-14T12:07:05.699Z"
 }
