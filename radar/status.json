@@ -29,6 +29,22 @@
   "startedAt": "2026-11-14T11:55:26.939Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261114T1240",
+      "asset": "rzc263181240vl.001.h5",
+      "bytes": 27757,
+      "downloadMs": 651,
+      "deriveMs": 309,
+      "imgBytes": 2719,
+      "nc": {
+        "ms": 1758,
+        "files": 73,
+        "bytes": 136552
+      },
+      "pushedAt": "2026-11-14T12:41:35.619Z",
+      "pushMs": 1507
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261114T123500.xml",
       "slot": "2026-11-14T12:35:00.000Z",
@@ -444,37 +460,21 @@
       },
       "pushedAt": "2026-11-14T12:07:07.556Z",
       "pushMs": 1498
-    },
-    {
-      "product": "rzc",
-      "stamp": "20261114T1205",
-      "asset": "rzc263181205vl.001.h5",
-      "bytes": 28198,
-      "downloadMs": 27,
-      "deriveMs": 306,
-      "imgBytes": 3046,
-      "nc": {
-        "ms": 1726,
-        "files": 73,
-        "bytes": 139278
-      },
-      "pushedAt": "2026-11-14T12:06:35.912Z",
-      "pushMs": 1625
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 46,
-    "written": 9,
+    "runs": 47,
+    "written": 10,
     "rejected": 0,
-    "failed": 138,
-    "lastRunAt": "2026-11-14T12:40:49.693Z",
-    "lastRunMs": 5561,
+    "failed": 141,
+    "lastRunAt": "2026-11-14T12:41:37.185Z",
+    "lastRunMs": 3979,
     "caps": {
       "de": {
-        "timeEnd": "2026-11-14T12:30:00.000Z",
-        "validAtMs": 1794659400000
+        "timeEnd": "2026-11-14T12:35:00.000Z",
+        "validAtMs": 1794659700000
       },
       "mtg": {
         "timeEnd": "2026-11-14T12:25:00.000Z",
@@ -482,6 +482,16 @@
       }
     },
     "last": [
+      {
+        "id": "de",
+        "stamp": "20261114T1235",
+        "bytes": 3864,
+        "ms": 725,
+        "active": 0,
+        "max": 0,
+        "fractionalPx": 0,
+        "ok": true
+      },
       {
         "id": "mtg",
         "timeIso": "2026-11-14T12:25:00.000Z",
@@ -500,5 +510,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-14T12:41:33.930Z"
+  "updatedAt": "2026-11-14T12:42:09.727Z"
 }
