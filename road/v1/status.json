@@ -3,10 +3,10 @@
  "product": "road-status",
  "job": "43592197537",
  "startedAt": "2026-11-14T11:55:27.087Z",
- "updatedAt": "2026-11-14T12:25:39.727Z",
+ "updatedAt": "2026-11-14T12:27:09.551Z",
  "killSwitch": false,
- "lastSlot": "2611141200",
- "lastPublishedSlot": "2611141200",
+ "lastSlot": "2611141215",
+ "lastPublishedSlot": "2611141215",
  "blocked": null,
  "catalog": {
   "etag": "a681a1ddc60c378a0583c3e078c9e423",
@@ -21,18 +21,18 @@
   },
   "ER-TH": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 51
   },
   "FN-BY": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 184
   },
   "FN-NB": {
    "state": "ok",
-   "ageMin": 1,
-   "stations": 353
+   "ageMin": 0,
+   "stations": 352
   },
   "HJ-HH": {
    "state": "ok",
@@ -46,12 +46,12 @@
   },
   "HV-NI": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 130
   },
   "JA-SO": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 58
   },
   "JO-SO": {
@@ -66,8 +66,8 @@
   },
   "KK-SH": {
    "state": "ok",
-   "ageMin": 0,
-   "stations": 32
+   "ageMin": 1,
+   "stations": 27
   },
   "KM-NW": {
    "state": "ok",
@@ -81,12 +81,12 @@
   },
   "LH-LH": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 18
   },
   "MC-MV": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 43
   },
   "ND-BY": {
@@ -101,7 +101,7 @@
   },
   "RB-SL": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 23
   },
   "RH-HE": {
@@ -136,38 +136,89 @@
   }
  },
  "balance": {
-  "values": 12054,
-  "rejected": 261,
-  "share": 0.021652563464410156,
+  "values": 12066,
+  "rejected": 263,
+  "share": 0.02179678435272667,
   "byRule": {
-   "stateNoTemp": 79,
-   "gustBelowWind": 2,
-   "roadAir": 9,
-   "limit": 6,
+   "stateNoTemp": 80,
+   "roadAir": 7,
+   "limit": 7,
    "stuck": 25,
    "dewAboveAir": 1,
-   "fillValue": 1,
    "outsideDE": 1,
-   "dewSpread": 6,
-   "placeholder": 1,
-   "precipFill": 125
+   "dewSpread": 9,
+   "gustNoWind": 1,
+   "precipFill": 126,
+   "placeholder": 1
   },
   "observe": {
-   "catalog": 155,
+   "catalog": 154,
    "roadAir": 1,
-   "neighbours": 14,
-   "cube": 3
+   "neighbours": 11,
+   "cube": 5
   },
   "flags": {
    "spread": 5
   },
   "cubeRef": {
-   "run": "2611141117",
-   "step": 1,
+   "run": "2611141220",
+   "step": 0,
    "stations": 1814
   }
  },
  "recent": [
+  {
+   "slot": "2611141215",
+   "publish": true,
+   "points": 1491,
+   "values": 12066,
+   "rejected": 263,
+   "share": 0.0218,
+   "groups": 22,
+   "dwdLastAt": "2026-11-14T12:18:04.000Z",
+   "derivedAt": "2026-11-14T12:27:08.942Z",
+   "deriveMs": 1825,
+   "hz": {
+    "ok": true,
+    "publish": true,
+    "reasons": [],
+    "withLevel": 1150,
+    "unknown": 3,
+    "byHazard": {
+     "reif": 96,
+     "nass": 27,
+     "glatteis": 0,
+     "schnee": 0,
+     "aqua": 2,
+     "nebel": 198,
+     "gischt": 3,
+     "sonne": 1013,
+     "quer": 11,
+     "baum": 0,
+     "staub": 0,
+     "gewitter": 0,
+     "hagel": 0,
+     "blowup": 3,
+     "frost1": 126,
+     "sturz": 34
+    },
+    "missing": [],
+    "inputs": {
+     "obs": "2611141215",
+     "fc": {
+      "run": "2611141220",
+      "fusion": "buscosun Fusion 14"
+     },
+     "rv": "2611141220",
+     "rvMode": "max",
+     "konrad": "20261114T122000",
+     "runs": "2026111409",
+     "segments": "2026-10-14T08:51:20.507Z"
+    },
+    "bytes": 253343,
+    "ms": 1309
+   }
+  },
   {
    "slot": "2611141200",
    "publish": true,
@@ -1363,106 +1414,54 @@
     "bytes": 411404,
     "ms": 999
    }
-  },
-  {
-   "slot": "2611140615",
-   "publish": true,
-   "points": 1491,
-   "values": 11991,
-   "rejected": 306,
-   "share": 0.0255,
-   "groups": 22,
-   "dwdLastAt": "2026-11-14T06:18:04.000Z",
-   "derivedAt": "2026-11-14T06:27:03.005Z",
-   "deriveMs": 1439,
-   "hz": {
-    "ok": true,
-    "publish": true,
-    "reasons": [],
-    "withLevel": 1518,
-    "unknown": 3,
-    "byHazard": {
-     "reif": 543,
-     "nass": 430,
-     "glatteis": 0,
-     "schnee": 7,
-     "aqua": 14,
-     "nebel": 1040,
-     "gischt": 30,
-     "sonne": 504,
-     "quer": 3,
-     "baum": 0,
-     "staub": 0,
-     "gewitter": 0,
-     "hagel": 0,
-     "blowup": 0,
-     "frost1": 791,
-     "sturz": 0
-    },
-    "missing": [],
-    "inputs": {
-     "obs": "2611140615",
-     "fc": {
-      "run": "2611140623",
-      "fusion": "buscosun Fusion 14"
-     },
-     "rv": "2611140620",
-     "rvMode": "max",
-     "konrad": "20261114T062000",
-     "runs": "2026111403",
-     "segments": "2026-10-14T08:51:20.507Z"
-    },
-    "bytes": 472326,
-    "ms": 1035
-   }
   }
  ],
  "hz": {
-  "lastSlot": "2611141200",
-  "lastPublishedSlot": "2611141200",
+  "lastSlot": "2611141215",
+  "lastPublishedSlot": "2611141215",
   "blocked": null,
   "missing": [],
   "balance": {
    "segments": 1731,
-   "withLevel": 1103,
+   "withLevel": 1150,
    "unknown": 3,
    "byHazard": {
-    "reif": 57,
-    "nass": 21,
+    "reif": 96,
+    "nass": 27,
     "glatteis": 0,
     "schnee": 0,
-    "aqua": 6,
-    "nebel": 114,
-    "gischt": 6,
-    "sonne": 1004,
-    "quer": 8,
+    "aqua": 2,
+    "nebel": 198,
+    "gischt": 3,
+    "sonne": 1013,
+    "quer": 11,
     "baum": 0,
     "staub": 0,
     "gewitter": 0,
     "hagel": 0,
-    "blowup": 0,
-    "frost1": 100,
-    "sturz": 26
+    "blowup": 3,
+    "frost1": 126,
+    "sturz": 34
    },
    "dropped": 0,
-   "bytes": 229808,
-   "ms": 1100,
-   "derivedAt": "2026-11-14T12:12:11.442Z"
+   "bytes": 253343,
+   "ms": 1132,
+   "derivedAt": "2026-11-14T12:27:08.941Z"
   },
   "inputs": {
-   "obs": "2611141200",
+   "obs": "2611141215",
    "fc": {
-    "run": "2611141117",
+    "run": "2611141220",
     "fusion": "buscosun Fusion 14"
    },
-   "rv": "2611141205",
+   "rv": "2611141220",
    "rvMode": "max",
-   "konrad": "20261114T120500",
+   "konrad": "20261114T122000",
    "runs": "2026111409",
    "segments": "2026-10-14T08:51:20.507Z"
   },
   "observe": {
-   "shareWithLevel": 0.637,
+   "shareWithLevel": 0.664,
    "jump": {}
   }
  }
