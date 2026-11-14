@@ -29,6 +29,30 @@
   "startedAt": "2026-11-14T11:55:26.939Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261114_1155.tar",
+      "slot": "2026-11-14T11:55:00.000Z",
+      "dwdAt": "2026-11-14T11:58:40.000Z",
+      "seenAt": "2026-11-14T11:58:50.761Z",
+      "bytes": 972800,
+      "downloadMs": 1953,
+      "deriveMs": 5465,
+      "imgBytes": 448867,
+      "hd250": {
+        "ms": 2297,
+        "bytes": 56226,
+        "tiles": 9,
+        "src": "hx",
+        "sites": 16,
+        "missing": [
+          "asb"
+        ]
+      },
+      "pushedAt": "2026-11-14T11:59:04.638Z",
+      "pushMs": 2647,
+      "attempt": 1
+    },
+    {
       "product": "konrad3d",
       "file": "KONRAD3D_20261114T115000.xml",
       "slot": "2026-11-14T11:50:00.000Z",
@@ -63,12 +87,12 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 3,
+    "runs": 5,
     "written": 1,
     "rejected": 0,
-    "failed": 9,
-    "lastRunAt": "2026-11-14T11:57:26.489Z",
-    "lastRunMs": 2942,
+    "failed": 15,
+    "lastRunAt": "2026-11-14T11:59:54.346Z",
+    "lastRunMs": 4211,
     "caps": {
       "de": {
         "timeEnd": "2026-11-14T11:50:00.000Z",
@@ -98,5 +122,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-14T11:59:01.592Z"
+  "updatedAt": "2026-11-14T12:00:34.458Z"
 }
