@@ -29,6 +29,22 @@
   "startedAt": "2026-11-14T06:08:15.432Z",
   "recent": [
     {
+      "product": "rzc",
+      "stamp": "20261114T1135",
+      "asset": "rzc263181135vl.001.h5",
+      "bytes": 28526,
+      "downloadMs": 64,
+      "deriveMs": 241,
+      "imgBytes": 3448,
+      "nc": {
+        "ms": 1233,
+        "files": 73,
+        "bytes": 152512
+      },
+      "pushedAt": "2026-11-14T11:36:05.643Z",
+      "pushMs": 1457
+    },
+    {
       "product": "inca",
       "stamp": "20261114T1115",
       "reftime": "2026-11-14T11:15+00:00",
@@ -444,37 +460,21 @@
       "pushedAt": "2026-11-14T11:03:55.766Z",
       "pushMs": 1579,
       "attempt": 1
-    },
-    {
-      "product": "rzc",
-      "stamp": "20261114T1100",
-      "asset": "rzc263181100vl.001.h5",
-      "bytes": 28033,
-      "downloadMs": 59,
-      "deriveMs": 248,
-      "imgBytes": 3147,
-      "nc": {
-        "ms": 1228,
-        "files": 73,
-        "bytes": 145024
-      },
-      "pushedAt": "2026-11-14T11:01:05.143Z",
-      "pushMs": 2060
     }
   ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 314,
-    "written": 65,
+    "runs": 316,
+    "written": 66,
     "rejected": 0,
-    "failed": 933,
-    "lastRunAt": "2026-11-14T11:35:40.310Z",
-    "lastRunMs": 5297,
+    "failed": 942,
+    "lastRunAt": "2026-11-14T11:37:14.688Z",
+    "lastRunMs": 4873,
     "caps": {
       "de": {
-        "timeEnd": "2026-11-14T11:25:00.000Z",
-        "validAtMs": 1794655500000
+        "timeEnd": "2026-11-14T11:30:00.000Z",
+        "validAtMs": 1794655800000
       },
       "mtg": {
         "timeEnd": "2026-11-14T11:20:00.000Z",
@@ -485,7 +485,7 @@
       {
         "id": "mtg",
         "timeIso": "2026-11-14T11:20:00.000Z",
-        "error": "HTTP 503"
+        "error": "HTTP 404"
       },
       {
         "id": "mtg",
@@ -500,5 +500,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-14T11:36:03.976Z"
+  "updatedAt": "2026-11-14T11:38:59.828Z"
 }
