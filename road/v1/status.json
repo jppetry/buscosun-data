@@ -3,20 +3,20 @@
  "product": "road-status",
  "job": "43592197537",
  "startedAt": "2026-11-14T11:55:27.087Z",
- "updatedAt": "2026-11-14T12:56:03.105Z",
+ "updatedAt": "2026-11-14T12:57:08.784Z",
  "killSwitch": false,
- "lastSlot": "2611141230",
- "lastPublishedSlot": "2611141230",
+ "lastSlot": "2611141245",
+ "lastPublishedSlot": "2611141245",
  "blocked": null,
  "catalog": {
   "etag": "a681a1ddc60c378a0583c3e078c9e423",
   "state": "ok",
-  "checkedAt": "2026-11-13T12:54:17.435Z"
+  "checkedAt": "2026-11-14T12:54:29.460Z"
  },
  "groups": {
   "DD-DD": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 25
   },
   "ER-TH": {
@@ -26,13 +26,13 @@
   },
   "FN-BY": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 184
   },
   "FN-NB": {
    "state": "ok",
    "ageMin": 0,
-   "stations": 354
+   "stations": 352
   },
   "HJ-HH": {
    "state": "ok",
@@ -51,12 +51,12 @@
   },
   "JA-SO": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 58
   },
   "JO-SO": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 9
   },
   "KA-NW": {
@@ -67,11 +67,11 @@
   "KK-SH": {
    "state": "ok",
    "ageMin": 0,
-   "stations": 32
+   "stations": 27
   },
   "KM-NW": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 188
   },
   "KO-RP": {
@@ -81,7 +81,7 @@
   },
   "LH-LH": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 18
   },
   "MC-MV": {
@@ -101,12 +101,12 @@
   },
   "RB-SL": {
    "state": "ok",
-   "ageMin": 0,
+   "ageMin": 1,
    "stations": 23
   },
   "RH-HE": {
    "state": "ok",
-   "ageMin": 1,
+   "ageMin": 0,
    "stations": 74
   },
   "RP-RP": {
@@ -136,24 +136,25 @@
   }
  },
  "balance": {
-  "values": 12087,
-  "rejected": 264,
-  "share": 0.021841648051625712,
+  "values": 12094,
+  "rejected": 258,
+  "share": 0.021332892343310733,
   "byRule": {
-   "stateNoTemp": 81,
-   "roadAir": 8,
-   "limit": 7,
-   "stuck": 25,
+   "stateNoTemp": 79,
+   "roadAir": 9,
+   "limit": 6,
+   "stuck": 23,
    "dewAboveAir": 1,
    "outsideDE": 1,
-   "dewSpread": 9,
+   "dewSpread": 7,
    "gustNoWind": 1,
    "placeholder": 1,
    "precipFill": 125
   },
   "observe": {
    "catalog": 155,
-   "neighbours": 10,
+   "roadAir": 1,
+   "neighbours": 11,
    "cube": 5
   },
   "flags": {
@@ -166,6 +167,58 @@
   }
  },
  "recent": [
+  {
+   "slot": "2611141245",
+   "publish": true,
+   "points": 1491,
+   "values": 12094,
+   "rejected": 258,
+   "share": 0.0213,
+   "groups": 22,
+   "dwdLastAt": "2026-11-14T12:48:14.000Z",
+   "derivedAt": "2026-11-14T12:57:07.817Z",
+   "deriveMs": 1747,
+   "hz": {
+    "ok": true,
+    "publish": true,
+    "reasons": [],
+    "withLevel": 1197,
+    "unknown": 3,
+    "byHazard": {
+     "reif": 119,
+     "nass": 28,
+     "glatteis": 0,
+     "schnee": 0,
+     "aqua": 5,
+     "nebel": 266,
+     "gischt": 6,
+     "sonne": 987,
+     "quer": 10,
+     "baum": 0,
+     "staub": 0,
+     "gewitter": 0,
+     "hagel": 0,
+     "blowup": 0,
+     "frost1": 220,
+     "sturz": 81
+    },
+    "missing": [],
+    "inputs": {
+     "obs": "2611141245",
+     "fc": {
+      "run": "2611141220",
+      "fusion": "buscosun Fusion 14"
+     },
+     "rv": "2611141250",
+     "rvMode": "max",
+     "konrad": "20261114T125000",
+     "runs": "2026111409",
+     "segments": "2026-10-14T08:51:20.507Z"
+    },
+    "bytes": 281064,
+    "ms": 1261
+   }
+  },
   {
    "slot": "2611141230",
    "publish": true,
@@ -1361,106 +1414,54 @@
     "bytes": 414846,
     "ms": 1003
    }
-  },
-  {
-   "slot": "2611140645",
-   "publish": true,
-   "points": 1493,
-   "values": 12025,
-   "rejected": 298,
-   "share": 0.0248,
-   "groups": 22,
-   "dwdLastAt": "2026-11-14T06:48:23.000Z",
-   "derivedAt": "2026-11-14T06:57:01.649Z",
-   "deriveMs": 1477,
-   "hz": {
-    "ok": true,
-    "publish": true,
-    "reasons": [],
-    "withLevel": 1490,
-    "unknown": 4,
-    "byHazard": {
-     "reif": 483,
-     "nass": 405,
-     "glatteis": 0,
-     "schnee": 7,
-     "aqua": 9,
-     "nebel": 814,
-     "gischt": 26,
-     "sonne": 592,
-     "quer": 5,
-     "baum": 0,
-     "staub": 0,
-     "gewitter": 0,
-     "hagel": 0,
-     "blowup": 0,
-     "frost1": 718,
-     "sturz": 0
-    },
-    "missing": [],
-    "inputs": {
-     "obs": "2611140645",
-     "fc": {
-      "run": "2611140623",
-      "fusion": "buscosun Fusion 14"
-     },
-     "rv": "2611140650",
-     "rvMode": "max",
-     "konrad": "20261114T065000",
-     "runs": "2026111403",
-     "segments": "2026-10-14T08:51:20.507Z"
-    },
-    "bytes": 415737,
-    "ms": 1059
-   }
   }
  ],
  "hz": {
-  "lastSlot": "2611141230",
-  "lastPublishedSlot": "2611141230",
+  "lastSlot": "2611141245",
+  "lastPublishedSlot": "2611141245",
   "blocked": null,
   "missing": [],
   "balance": {
    "segments": 1731,
-   "withLevel": 1204,
+   "withLevel": 1197,
    "unknown": 3,
    "byHazard": {
     "reif": 119,
-    "nass": 30,
+    "nass": 28,
     "glatteis": 0,
     "schnee": 0,
-    "aqua": 1,
+    "aqua": 5,
     "nebel": 266,
-    "gischt": 2,
-    "sonne": 1021,
-    "quer": 8,
+    "gischt": 6,
+    "sonne": 987,
+    "quer": 10,
     "baum": 0,
     "staub": 0,
     "gewitter": 0,
     "hagel": 0,
-    "blowup": 3,
+    "blowup": 0,
     "frost1": 220,
-    "sturz": 74
+    "sturz": 81
    },
    "dropped": 0,
-   "bytes": 293219,
-   "ms": 1095,
-   "derivedAt": "2026-11-14T12:42:08.958Z"
+   "bytes": 281064,
+   "ms": 1094,
+   "derivedAt": "2026-11-14T12:57:07.817Z"
   },
   "inputs": {
-   "obs": "2611141230",
+   "obs": "2611141245",
    "fc": {
     "run": "2611141220",
     "fusion": "buscosun Fusion 14"
    },
-   "rv": "2611141235",
+   "rv": "2611141250",
    "rvMode": "max",
-   "konrad": "20261114T123500",
+   "konrad": "20261114T125000",
    "runs": "2026111409",
    "segments": "2026-10-14T08:51:20.507Z"
   },
   "observe": {
-   "shareWithLevel": 0.696,
+   "shareWithLevel": 0.692,
    "jump": {}
   }
  }
