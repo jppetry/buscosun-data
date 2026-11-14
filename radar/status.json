@@ -29,6 +29,30 @@
   "startedAt": "2026-11-14T11:55:26.939Z",
   "recent": [
     {
+      "product": "rv",
+      "file": "composite_rv_20261114_1215.tar",
+      "slot": "2026-11-14T12:15:00.000Z",
+      "dwdAt": "2026-11-14T12:18:42.000Z",
+      "seenAt": "2026-11-14T12:18:51.507Z",
+      "bytes": 942080,
+      "downloadMs": 1932,
+      "deriveMs": 5287,
+      "imgBytes": 418378,
+      "hd250": {
+        "ms": 2133,
+        "bytes": 49618,
+        "tiles": 7,
+        "src": "hx",
+        "sites": 16,
+        "missing": [
+          "asb"
+        ]
+      },
+      "pushedAt": "2026-11-14T12:19:03.621Z",
+      "pushMs": 1701,
+      "attempt": 1
+    },
+    {
       "product": "inca",
       "stamp": "20261114T1200",
       "reftime": "2026-11-14T12:00+00:00",
@@ -315,23 +339,28 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 23,
+    "runs": 25,
     "written": 5,
     "rejected": 0,
-    "failed": 69,
-    "lastRunAt": "2026-11-14T12:17:39.041Z",
-    "lastRunMs": 3685,
+    "failed": 75,
+    "lastRunAt": "2026-11-14T12:20:02.441Z",
+    "lastRunMs": 5819,
     "caps": {
       "de": {
         "timeEnd": "2026-11-14T12:10:00.000Z",
         "validAtMs": 1794658200000
       },
       "mtg": {
-        "timeEnd": "2026-11-14T12:05:00.000Z",
-        "validAtMs": 1794658200000
+        "timeEnd": "2026-11-14T12:10:00.000Z",
+        "validAtMs": 1794658500000
       }
     },
     "last": [
+      {
+        "id": "mtg",
+        "timeIso": "2026-11-14T12:10:00.000Z",
+        "error": "HTTP 404"
+      },
       {
         "id": "mtg",
         "timeIso": "2026-11-14T12:05:00.000Z",
@@ -341,14 +370,9 @@
         "id": "mtg",
         "timeIso": "2026-11-14T12:00:00.000Z",
         "error": "HTTP 404"
-      },
-      {
-        "id": "mtg",
-        "timeIso": "2026-11-14T11:55:00.000Z",
-        "error": "HTTP 404"
       }
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-14T12:19:01.520Z"
+  "updatedAt": "2026-11-14T12:20:40.005Z"
 }
