@@ -29,6 +29,22 @@
   "startedAt": "2026-11-14T11:55:26.939Z",
   "recent": [
     {
+      "product": "inca",
+      "stamp": "20261114T1200",
+      "reftime": "2026-11-14T12:00+00:00",
+      "bytes": 733781,
+      "downloadMs": 2170,
+      "deriveMs": 744,
+      "imgBytes": 16815,
+      "nc": {
+        "ms": 1849,
+        "files": 69,
+        "bytes": 48760
+      },
+      "pushedAt": "2026-11-14T12:16:46.031Z",
+      "pushMs": 1473
+    },
+    {
       "product": "rzc",
       "stamp": "20261114T1215",
       "asset": "rzc263181215vl.001.h5",
@@ -299,16 +315,16 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 21,
-    "written": 4,
+    "runs": 23,
+    "written": 5,
     "rejected": 0,
-    "failed": 63,
-    "lastRunAt": "2026-11-14T12:15:51.051Z",
-    "lastRunMs": 5613,
+    "failed": 69,
+    "lastRunAt": "2026-11-14T12:17:39.041Z",
+    "lastRunMs": 3685,
     "caps": {
       "de": {
-        "timeEnd": "2026-11-14T12:05:00.000Z",
-        "validAtMs": 1794657900000
+        "timeEnd": "2026-11-14T12:10:00.000Z",
+        "validAtMs": 1794658200000
       },
       "mtg": {
         "timeEnd": "2026-11-14T12:05:00.000Z",
@@ -334,5 +350,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-14T12:16:44.177Z"
+  "updatedAt": "2026-11-14T12:19:01.520Z"
 }
