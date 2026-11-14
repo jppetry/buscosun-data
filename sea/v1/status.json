@@ -1,0 +1,184 @@
+{
+ "schema": 1,
+ "product": "sea-status",
+ "updatedAt": "2026-11-14T11:21:32.776Z",
+ "killSwitch": false,
+ "field": {
+  "model": "cwam",
+  "lastRun": "2026111400",
+  "lastPublishedRun": "2026111400",
+  "blocked": null,
+  "recent": [
+   {
+    "run": "2026111400",
+    "at": "2026-11-14T04:14:49.195Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 211,
+    "mb": 13.33
+   },
+   {
+    "run": "2026111312",
+    "at": "2026-11-13T16:15:01.578Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 233,
+    "mb": 13.58
+   },
+   {
+    "run": "2026111300",
+    "at": "2026-11-13T04:15:20.592Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 206,
+    "mb": 13.87
+   },
+   {
+    "run": "2026111212",
+    "at": "2026-11-12T16:15:30.878Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 182,
+    "mb": 14.01
+   },
+   {
+    "run": "2026111200",
+    "at": "2026-11-12T04:15:05.361Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 241,
+    "mb": 13.92
+   },
+   {
+    "run": "2026111112",
+    "at": "2026-11-11T16:14:57.881Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 255,
+    "mb": 13.71
+   },
+   {
+    "run": "2026111100",
+    "at": "2026-11-11T04:14:57.663Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 258,
+    "mb": 13.53
+   },
+   {
+    "run": "2026111012",
+    "at": "2026-11-10T16:14:50.260Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 222,
+    "mb": 13.14
+   },
+   {
+    "run": "2026111000",
+    "at": "2026-11-10T04:14:51.872Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 232,
+    "mb": 12.71
+   },
+   {
+    "run": "2026110912",
+    "at": "2026-11-09T16:15:43.182Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 215,
+    "mb": 12.41
+   },
+   {
+    "run": "2026110900",
+    "at": "2026-11-09T04:16:55.913Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 200,
+    "mb": 12.14
+   },
+   {
+    "run": "2026110812",
+    "at": "2026-11-08T16:12:17.555Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 160,
+    "mb": 12.07
+   },
+   {
+    "run": "2026110800",
+    "at": "2026-11-08T04:14:40.001Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 156,
+    "mb": 12.16
+   },
+   {
+    "run": "2026110712",
+    "at": "2026-11-07T16:12:50.587Z",
+    "publish": true,
+    "reasons": [],
+    "buildS": 202,
+    "mb": 12.24
+   }
+  ]
+ },
+ "text": {
+  "FQDL50": {
+   "issue": "2611141100",
+   "issuedAt": "2026-11-14T11:00:00.000Z",
+   "dwdAt": "2026-11-14T11:15:09.000Z",
+   "fetchedAt": "2026-11-14T11:21:29.304Z",
+   "delayMin": 6
+  },
+  "FQDL51": {
+   "issue": "2611141100",
+   "issuedAt": "2026-11-14T11:00:00.000Z",
+   "dwdAt": "2026-11-14T11:15:09.000Z",
+   "fetchedAt": "2026-11-14T11:21:29.304Z",
+   "delayMin": 6
+  },
+  "WODL45": {
+   "issue": "2611140900",
+   "issuedAt": "2026-11-14T09:00:00.000Z",
+   "dwdAt": "2026-11-14T08:46:29.000Z",
+   "fetchedAt": "2026-11-14T08:50:38.156Z",
+   "delayMin": 4
+  },
+  "FXDL40": {
+   "issue": "2611140000",
+   "issuedAt": "2026-11-14T10:00:00.000Z",
+   "dwdAt": "2026-11-14T10:16:05.000Z",
+   "fetchedAt": "2026-11-14T10:21:21.688Z",
+   "delayMin": 5
+  }
+ },
+ "job": "43589593577",
+ "textPass": {
+  "at": "2026-11-14T11:21:29.304Z",
+  "listed": 53,
+  "todo": 2,
+  "added": 2,
+  "rejected": 0,
+  "absent": 0
+ },
+ "wind": {
+  "run": "2026111400",
+  "t1": "2026111406",
+  "path": "spots/2026111400-w2026111406.json",
+  "from": 8,
+  "engine": "buscosun Fusion 14",
+  "version": 14,
+  "computedAt": "2026-11-14T08:22:51.761Z",
+  "spots": 56,
+  "rejected": 0,
+  "buildS": 2,
+  "bytes": 51935
+ },
+ "gauges": {
+  "at": "2026-11-14T11:21:32.776Z",
+  "count": 136,
+  "changed": false,
+  "source": "https://gdi.bsh.de/ldproxy/rest/services/WaterLevelForecast"
+ }
+}

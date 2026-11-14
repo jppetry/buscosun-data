@@ -1,0 +1,182 @@
+{
+  "schema": 1,
+  "note": "Kalibrierung von buscosun Fusion. Kein Wert ohne provenance. null = unbekannt, nicht 0.",
+  "updatedAt": null,
+  "sigmaSys": {
+    "value": null,
+    "provenance": null,
+    "source": "Aus der Verifikation gegen Beobachtungen zu messen (buscosun-archiv, PA). PAP 6: „σ_div allein unterschätzt systematisch — er misst nur, worin die Modelle sich unterscheiden, nicht ihren gemeinsamen Fehler.\"",
+    "updatedAt": null,
+    "unit": "Einheit der jeweiligen Zielgröße",
+    "pap": "PAP 6"
+  },
+  "sigmaMatrix": {
+    "value": null,
+    "provenance": null,
+    "source": "Fehlerkovarianz je Quellenpaar, Variable und Vorhersagestunde. Ohne Archiv nicht messbar.",
+    "updatedAt": null,
+    "unit": "—",
+    "pap": "PAP 2"
+  },
+  "cSpread": {
+    "value": null,
+    "provenance": null,
+    "source": "Spread-Skill-Faktor je Zielgröße und Vorhersagestunde. Der Ensemble-Spread ist nicht der Fehler; c(p,f) ist der gemessene Umrechnungsfaktor.",
+    "updatedAt": null,
+    "unit": "—",
+    "pap": "PAP 6"
+  },
+  "Ld": {
+    "value": null,
+    "provenance": null,
+    "source": "Horizontale Längenskala. PAP 3: „L_d und L_h sind Kalibrierungsparameter, keine physikalischen Konstanten.\"",
+    "updatedAt": null,
+    "unit": "m",
+    "pap": "PAP 3"
+  },
+  "Lh": {
+    "value": null,
+    "provenance": null,
+    "source": "Vertikale Längenskala (Höhendifferenz zum Nachbarpunkt).",
+    "updatedAt": null,
+    "unit": "m",
+    "pap": "PAP 3"
+  },
+  "A": {
+    "value": null,
+    "provenance": null,
+    "source": "Kaltluftsee-Amplitude, regional. PAP 5 Offene Punkte: „werden an Stationsbeobachtungen gelernt, nicht gesetzt. Ob genug Stationen in Muldenlagen liegen, ist auszuzählen.\"",
+    "updatedAt": null,
+    "unit": "K",
+    "pap": "PAP 5"
+  },
+  "Auhi": {
+    "value": null,
+    "provenance": null,
+    "source": "Wärmeinsel-Amplitude als Funktion von imperv und SVF.",
+    "updatedAt": null,
+    "unit": "K",
+    "pap": "PAP 5"
+  },
+  "fRad": {
+    "a": {
+      "value": null,
+      "provenance": null,
+      "source": "Exponent von (1 − clct/100).",
+      "updatedAt": null,
+      "unit": "—",
+      "pap": "PAP 5"
+    },
+    "vRef": {
+      "value": null,
+      "provenance": null,
+      "source": "Bezugswind in exp(−v10/v_ref).",
+      "updatedAt": null,
+      "unit": "m/s",
+      "pap": "PAP 5"
+    },
+    "epsilon": {
+      "value": null,
+      "provenance": null,
+      "source": "Schwelle, unter der die Atmosphäre als durchmischt gilt.",
+      "updatedAt": null,
+      "unit": "—",
+      "pap": "PAP 5"
+    },
+    "fSaison": {
+      "value": null,
+      "provenance": null,
+      "source": "In PAP 5 verwendet, aber weder als Formel noch als Wertebereich definiert — s. §21 (6).",
+      "updatedAt": null,
+      "unit": "—",
+      "pap": "PAP 5"
+    }
+  },
+  "phi": {
+    "shape": {
+      "value": "linear",
+      "provenance": "set",
+      "source": "PAP 4: „Startform linear, kalibrierbar gegen Stationspaare in Inversionslagen.\" Bis zur Kalibrierung ist linear die Startform, ausdrücklich als Setzung markiert.",
+      "updatedAt": null,
+      "pap": "PAP 4"
+    },
+    "knots": {
+      "value": null,
+      "provenance": null,
+      "source": "Stützstellen der kalibrierten Form. φ muss monoton steigen mit φ(0)=0 und φ(1)=1.",
+      "updatedAt": null,
+      "unit": "—",
+      "pap": "PAP 4"
+    }
+  },
+  "dzMin": {
+    "value": null,
+    "provenance": null,
+    "source": "PAP 2: „∂T/∂z > 0 über ≥ Δz_min\". Ohne Kalibrierung nicht gesetzt — eine zu kleine Schwelle macht jede Messrauschspitze zur Inversion.",
+    "updatedAt": null,
+    "unit": "m",
+    "pap": "PAP 2"
+  },
+  "meltOffset": {
+    "value": null,
+    "provenance": null,
+    "source": "PAP 6: „Schneefallgrenze = T_w-Nullgradgrenze − Schmelzversatz.\"",
+    "updatedAt": null,
+    "unit": "m",
+    "pap": "PAP 6"
+  },
+  "tpiSigma": {
+    "value": null,
+    "provenance": null,
+    "source": "PAP 5 prüft „Muldenlage (TPI < −1σ)\". Das σ ist eine Eigenschaft der REGION, nicht der Zelle — aus dem Terrain-Stack auszuzählen, sobald er gebaut ist.",
+    "updatedAt": null,
+    "unit": "m",
+    "pap": "PAP 5"
+  },
+  "fixed": {
+    "dryAdiabatic": {
+      "value": 0.0098,
+      "provenance": "physical",
+      "source": "PAP 2: „∂T/∂z > 0 entspricht ∂θ/∂z > (θ/T)·g/c_p ≈ 0,0098 K/m.\" Trockenadiabatischer Gradient, keine Kalibrierung.",
+      "updatedAt": null,
+      "unit": "K/m",
+      "pap": "PAP 2"
+    },
+    "standardLapse": {
+      "value": 0.0065,
+      "provenance": "literature",
+      "source": "ICAO-Standardatmosphäre. Im Repo als STANDARD_LAPSE_RATE_PER_M in src/fusion/elevation.ts derselbe Wert — Rückfall, wenn gamma_eff fehlt.",
+      "updatedAt": null,
+      "unit": "K/m",
+      "pap": "PAP 4"
+    },
+    "gammaSign": {
+      "value": "-dT/dz",
+      "provenance": "physical",
+      "source": "PAP 4, Vorzeichenkonvention „hier verbindlich\": normale Schichtung → Γ > 0, Inversion → Γ < 0. Steht hier, damit ein Leser sie nicht aus dem Vorzeichen der Daten raten muss.",
+      "updatedAt": null,
+      "unit": "—",
+      "pap": "PAP 4"
+    },
+    "z0Table": {
+      "value": {
+        "10": 0.75,
+        "20": 0.1,
+        "30": 0.03,
+        "40": 0.1,
+        "50": 1,
+        "60": 0.005,
+        "70": 0.001,
+        "80": 0.0002,
+        "90": 0.05,
+        "95": 0.3,
+        "100": 0.03
+      },
+      "provenance": "literature",
+      "source": "Davenport/Wieringa-Klassen auf ESA WorldCover v200 (Codes 10…100). Dieselbe Tabelle rechnet der Client am Punkt (src/point/terrainPoint.ts, WORLDCOVER_Z0); hier steht sie mit Herkunft, weil PAP 5 O7 damit den Wind korrigiert. Bis PD-C4 behauptete terrainPoint.ts diesen Eintrag, ohne dass es ihn gab.",
+      "updatedAt": null,
+      "unit": "m",
+      "pap": "PAP 5"
+    }
+  }
+}
