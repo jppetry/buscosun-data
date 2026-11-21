@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "product": "road-status",
- "job": "44900867460",
- "startedAt": "2026-11-21T11:50:20.246Z",
- "updatedAt": "2026-11-21T17:35:14.342Z",
+ "job": "44930885802",
+ "startedAt": "2026-11-21T17:36:55.958Z",
+ "updatedAt": "2026-11-21T17:37:04.043Z",
  "killSwitch": false,
  "lastSlot": "2611211715",
  "lastPublishedSlot": "2611211715",
