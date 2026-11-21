@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "commit": "d627476ff71804ee659efba5be4ab3f92bec212b",
+  "commit": "c621fd8abaa3da24c29035ac3765a8df66e6923e",
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
-  "publishedAt": "2026-11-21T16:05:55.022Z",
+  "publishedAt": "2026-11-21T17:33:30.168Z",
   "runs": [
     {
       "run": "2026112115",
@@ -1071,6 +1071,24 @@
             "file": "precip-024.png",
             "bytes": 75468,
             "ref": 23
+          },
+          {
+            "step": 25,
+            "file": "precip-025.png",
+            "bytes": 75572,
+            "ref": 24
+          },
+          {
+            "step": 26,
+            "file": "precip-026.png",
+            "bytes": 73658,
+            "ref": 25
+          },
+          {
+            "step": 27,
+            "file": "precip-027.png",
+            "bytes": 71653,
+            "ref": 26
           }
         ]
       },
@@ -1228,6 +1246,21 @@
             "step": 24,
             "file": "cape-024.png",
             "bytes": 40670
+          },
+          {
+            "step": 25,
+            "file": "cape-025.png",
+            "bytes": 36980
+          },
+          {
+            "step": 26,
+            "file": "cape-026.png",
+            "bytes": 34499
+          },
+          {
+            "step": 27,
+            "file": "cape-027.png",
+            "bytes": 32673
           }
         ]
       }
