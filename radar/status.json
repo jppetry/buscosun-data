@@ -27,7 +27,24 @@
   "nc": true,
   "job": "44930885802",
   "startedAt": "2026-11-21T17:36:55.750Z",
-  "recent": [],
+  "recent": [
+    {
+      "product": "inca",
+      "stamp": "20261121T1715",
+      "reftime": "2026-11-21T17:15+00:00",
+      "bytes": 855095,
+      "downloadMs": 2012,
+      "deriveMs": 734,
+      "imgBytes": 235062,
+      "nc": {
+        "ms": 1858,
+        "files": 69,
+        "bytes": 690756
+      },
+      "pushedAt": "2026-11-21T17:37:06.238Z",
+      "pushMs": 1581
+    }
+  ],
   "lightning": {
     "enabled": true,
     "checkSec": 45,
@@ -41,5 +58,5 @@
     "last": [],
     "errors": []
   },
-  "updatedAt": "2026-11-21T17:37:04.043Z"
+  "updatedAt": "2026-11-21T17:37:10.135Z"
 }
