@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "byTier": {
+    "t3": {
+      "run": "2026112100",
+      "runAtMs": 1795219200000,
+      "durationMs": 3364,
+      "aborted": false,
+      "at": "2026-11-21T10:03:17.042Z"
+    },
+    "t2": {
+      "run": "2026112112",
+      "runAtMs": 1795262400000,
+      "durationMs": 10187,
+      "aborted": false,
+      "at": "2026-11-21T16:46:29.239Z"
+    },
+    "t1": {
+      "run": "2026112115",
+      "runAtMs": 1795273200000,
+      "durationMs": 0,
+      "aborted": true,
+      "reason": "job-time",
+      "skipped": true,
+      "at": "2026-11-21T17:05:57.323Z"
+    }
+  }
+}

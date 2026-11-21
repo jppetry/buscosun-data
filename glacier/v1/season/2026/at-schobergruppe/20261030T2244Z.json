@@ -1,0 +1,1 @@
+{"schema":1,"kind":"glacier/season","year":2026,"region":"at-schobergruppe","stand":"20261030T2244Z","builtAt":"2026-10-30T22:44:44Z","cols":["date","clear","snow","state","sla","aar","albSnow","albIce","flags"],"glaciers":{"gl_at_schober-kees-w":[["2026-09-26",0.718,0.854,1,null,null,null,null,2]]}}

@@ -1,0 +1,2 @@
+# PD-A: Punkt-Chunks sind binaer — NIE Zeilenenden anfassen.
+*.bin -text -diff
