@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "commit": "9fa256dafa08ba0ec26a89ded531c283bd877541",
+  "commit": "c49d51245638355933555821e0fbe830e7d92571",
   "base": "https://cdn.jsdelivr.net/gh/jppetry/buscosun-data",
   "hsurf": "hsurf-v1.png",
-  "publishedAt": "2026-11-28T10:05:53.661Z",
+  "publishedAt": "2026-11-28T11:33:52.076Z",
   "source": "Deutscher Wetterdienst, ICON-D2 (opendata.dwd.de), CC BY 4.0",
   "producer": "buscosun-web/scripts/repack-icon-d2.mjs",
   "keep": 4,
@@ -1222,6 +1222,24 @@
             "file": "precip-024.png",
             "bytes": 38512,
             "ref": 23
+          },
+          {
+            "step": 25,
+            "file": "precip-025.png",
+            "bytes": 38186,
+            "ref": 24
+          },
+          {
+            "step": 26,
+            "file": "precip-026.png",
+            "bytes": 38089,
+            "ref": 25
+          },
+          {
+            "step": 27,
+            "file": "precip-027.png",
+            "bytes": 38122,
+            "ref": 26
           }
         ]
       },
@@ -1379,6 +1397,21 @@
             "step": 24,
             "file": "cape-024.png",
             "bytes": 6877
+          },
+          {
+            "step": 25,
+            "file": "cape-025.png",
+            "bytes": 6509
+          },
+          {
+            "step": 26,
+            "file": "cape-026.png",
+            "bytes": 6470
+          },
+          {
+            "step": 27,
+            "file": "cape-027.png",
+            "bytes": 6880
           }
         ]
       }
