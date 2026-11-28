@@ -457,12 +457,12 @@
   "lightning": {
     "enabled": true,
     "checkSec": 45,
-    "runs": 100,
+    "runs": 101,
     "written": 19,
     "rejected": 0,
-    "failed": 312,
-    "lastRunAt": "2026-11-28T11:33:46.405Z",
-    "lastRunMs": 2225,
+    "failed": 315,
+    "lastRunAt": "2026-11-28T11:34:41.097Z",
+    "lastRunMs": 3061,
     "caps": {
       "de": {
         "timeEnd": "2026-11-28T11:25:00.000Z",
@@ -492,5 +492,5 @@
     ],
     "errors": []
   },
-  "updatedAt": "2026-11-28T11:34:38.681Z"
+  "updatedAt": "2026-11-28T11:35:17.434Z"
 }
